@@ -47,7 +47,7 @@ class TestChatEndpoint:
         assert len(data["response"]) > 0
 
     def test_chat_empty_session_id_returns_400(self, client: TestClient) -> None:
-        """空的 session_id 应该返回 400 错误。"""
+        """空的 session_id 应该返回 422 错误。"""
         response = client.post(
             "/api/v1/chat",
             json={
@@ -57,10 +57,10 @@ class TestChatEndpoint:
             },
         )
 
-        assert response.status_code == 400
+        assert response.status_code == 422
 
     def test_chat_empty_message_returns_400(self, client: TestClient) -> None:
-        """空消息应该返回 400 错误。"""
+        """空消息应该返回 422 错误。"""
         response = client.post(
             "/api/v1/chat",
             json={
@@ -70,7 +70,35 @@ class TestChatEndpoint:
             },
         )
 
-        assert response.status_code == 400
+        assert response.status_code == 422
+
+    def test_chat_parent_role_returns_parent_content(self, client: TestClient) -> None:
+        """家长角色应返回家长端补充内容。"""
+        response = client.post(
+            "/api/v1/chat",
+            json={
+                "session_id": "parent-view-1",
+                "message": "这是蒲公英吗",
+                "role": "parent",
+                "stream": False,
+            },
+        )
+
+        assert response.status_code == 200
+        assert "家长端补充" in response.json()["response"]
+
+    def test_chat_invalid_confidence_returns_422(self, client: TestClient) -> None:
+        """无效置信度应返回 422。"""
+        response = client.post(
+            "/api/v1/chat",
+            json={
+                "session_id": "conf-invalid",
+                "message": "你好",
+                "confidence": 1.2,
+                "stream": False,
+            },
+        )
+        assert response.status_code == 422
 
 
 class TestSessionEndpoint:
@@ -94,3 +122,32 @@ class TestSessionEndpoint:
         response = client.delete("/api/v1/sessions/nonexistent-session-xyz")
         assert response.status_code == 200
         assert response.json()["terminated"] is False
+
+
+class TestObservationAndRecommendationEndpoint:
+    """观察记录与推荐端点测试。"""
+
+    def test_observation_to_recommendation_flow(self, client: TestClient) -> None:
+        """应支持记录后生成推荐，覆盖主链路。"""
+        create_resp = client.post(
+            "/api/v1/observations",
+            json={
+                "session_id": "loop-1",
+                "species": "麻雀",
+                "location": "park",
+                "note": "看到三只小鸟",
+                "status": "pending",
+            },
+        )
+        assert create_resp.status_code == 200
+        assert create_resp.json()["saved"] is True
+
+        recommend_resp = client.post(
+            "/api/v1/recommendations",
+            json={"session_id": "loop-1", "season": "spring", "location": "park"},
+        )
+        assert recommend_resp.status_code == 200
+        data = recommend_resp.json()
+        assert len(data["today_species"]) > 0
+        assert len(data["today_tasks"]) > 0
+        assert len(data["rationale"]) > 0
