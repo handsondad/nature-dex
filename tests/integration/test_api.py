@@ -74,7 +74,7 @@ class TestChatEndpoint:
 
     def test_chat_parent_role_returns_parent_content(self, client: TestClient) -> None:
         """家长角色应返回家长端补充内容。"""
-        response = client.post(
+        parent_response = client.post(
             "/api/v1/chat",
             json={
                 "session_id": "parent-view-1",
@@ -84,8 +84,20 @@ class TestChatEndpoint:
             },
         )
 
-        assert response.status_code == 200
-        assert "家长端补充" in response.json()["response"]
+        child_response = client.post(
+            "/api/v1/chat",
+            json={
+                "session_id": "child-view-1",
+                "message": "这是蒲公英吗",
+                "role": "child",
+                "stream": False,
+            },
+        )
+
+        assert parent_response.status_code == 200
+        assert "家长端补充" in parent_response.json()["response"]
+        assert child_response.status_code == 200
+        assert "家长端补充" not in child_response.json()["response"]
 
     def test_chat_invalid_confidence_returns_422(self, client: TestClient) -> None:
         """无效置信度应返回 422。"""

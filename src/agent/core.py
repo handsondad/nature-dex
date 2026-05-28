@@ -111,10 +111,12 @@ class AgentCore:
                 location=location,
                 limit=2,
             )
+            recommended_names = (
+                ", ".join(item["name"] for item in recommendations["today_species"])
+                or "继续记录后生成"
+            )
             response_text = (
-                f"{summary}\n"
-                f"安全提醒：{'；'.join(reminders)}\n"
-                f"今日推荐：{', '.join(item['name'] for item in recommendations['today_species']) or '继续记录后生成'}"
+                f"{summary}\n安全提醒：{'；'.join(reminders)}\n今日推荐：{recommended_names}"
             )
             session.add_assistant_message(response_text)
             self._memory.set(session_id, "last_recommendations", recommendations)
@@ -141,7 +143,19 @@ class AgentCore:
         image_url: str | None = None,
         status: str = "confirmed",
     ) -> dict[str, Any]:
-        """创建并保存观察记录。"""
+        """创建并保存观察记录。
+
+        Args:
+            session_id: 会话标识符。
+            species: 物种名称。
+            location: 观察地点。
+            note: 可选备注。
+            image_url: 可选图片 URL。
+            status: 记录状态。
+
+        Returns:
+            创建的观察记录字典。
+        """
         observations = self.get_observations(session_id)
         record = make_observation_record(
             species=species,
@@ -155,7 +169,14 @@ class AgentCore:
         return record
 
     def get_observations(self, session_id: str) -> list[dict[str, Any]]:
-        """获取会话观察记录列表。"""
+        """获取会话观察记录列表。
+
+        Args:
+            session_id: 会话标识符。
+
+        Returns:
+            观察记录列表。
+        """
         raw = self._memory.get(session_id, "observations", default=[])
         return list(raw) if isinstance(raw, list) else []
 
@@ -167,7 +188,17 @@ class AgentCore:
         location: str | None = None,
         limit: int = 3,
     ) -> dict[str, Any]:
-        """获取推荐结果。"""
+        """获取推荐结果。
+
+        Args:
+            session_id: 会话标识符。
+            season: 可选季节标签。
+            location: 可选地点标签。
+            limit: 推荐数量上限。
+
+        Returns:
+            包含 today_species、today_tasks 和 rationale 的推荐字典。
+        """
         return build_recommendations(
             observations=self.get_observations(session_id),
             season=season,

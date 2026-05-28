@@ -5,6 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from datetime import UTC, datetime
 from typing import Any, Literal
+from uuid import uuid4
 
 RoleType = Literal["child", "parent"]
 
@@ -23,6 +24,7 @@ class SpeciesProfile:
     risk_level: str = "low"
 
 
+# 规则知识库：键为物种中文名，值为该物种在 child/parent 视图下的解释与安全信息。
 _SPECIES_PROFILES: dict[str, SpeciesProfile] = {
     "蒲公英": SpeciesProfile(
         name="蒲公英",
@@ -62,11 +64,19 @@ _SPECIES_PROFILES: dict[str, SpeciesProfile] = {
     ),
 }
 
+# 触发高风险提醒的关键词集合。
 _HIGH_RISK_KEYWORDS = ("有毒", "采摘", "食用", "蘑菇", "蛇", "流浪狗", "流浪猫", "昆虫叮咬")
 
 
 def detect_species(message: str) -> str | None:
-    """从消息中识别已知物种。"""
+    """从消息中识别已知物种。
+
+    Args:
+        message: 用户消息文本。
+
+    Returns:
+        识别到的物种名称；未识别返回 None。
+    """
     for species in _SPECIES_PROFILES:
         if species in message:
             return species
@@ -78,7 +88,16 @@ def build_safety_reminders(
     confidence: float | None,
     species: str | None,
 ) -> list[str]:
-    """生成安全提醒列表。"""
+    """生成安全提醒列表。
+
+    Args:
+        message: 用户消息文本。
+        confidence: 识别置信度（0-1）。
+        species: 识别到的物种名称。
+
+    Returns:
+        安全提醒文本列表。
+    """
     reminders: list[str] = []
     if confidence is not None and confidence < 0.75:
         reminders.append("我还不太确定当前识别结果，请继续观察关键特征再判断。")
@@ -87,8 +106,8 @@ def build_safety_reminders(
         reminders.append("涉及潜在风险场景，请在家长陪同下远距离观察，不触碰、不采食。")
 
     if species is not None:
-        profile = _SPECIES_PROFILES[species]
-        if profile.risk_level != "low" or profile.safety_notice:
+        profile = _SPECIES_PROFILES.get(species)
+        if profile is not None and (profile.risk_level != "low" or profile.safety_notice):
             reminders.append(profile.safety_notice)
 
     if not reminders:
@@ -98,7 +117,15 @@ def build_safety_reminders(
 
 
 def build_role_summary(species: str | None, role: RoleType) -> str:
-    """构建角色化解释文本。"""
+    """构建角色化解释文本。
+
+    Args:
+        species: 物种名称，允许为空。
+        role: 角色类型（child/parent）。
+
+    Returns:
+        针对角色定制的解释文本。
+    """
     if species is None:
         base = "我先根据你描述的颜色、形状和地点来猜测物种。"
         if role == "parent":
@@ -124,7 +151,17 @@ def build_recommendations(
     location: str | None,
     limit: int = 3,
 ) -> dict[str, Any]:
-    """基于观察记录生成推荐结果。"""
+    """基于观察记录生成推荐结果。
+
+    Args:
+        observations: 观察记录列表。
+        season: 季节标签。
+        location: 地点标签。
+        limit: 推荐数量上限。
+
+    Returns:
+        包含 today_species、today_tasks 和 rationale 的推荐字典。
+    """
     season_tag = (season or "").lower()
     location_tag = (location or "").lower()
 
@@ -142,7 +179,8 @@ def build_recommendations(
         if season_ok and location_ok:
             ranked.append(profile)
 
-    ranked.sort(key=lambda profile: profile.name in seen_species)
+    # 优先推荐尚未记录的物种。
+    ranked.sort(key=lambda profile: (profile.name in seen_species, profile.name))
     selected = ranked[:limit]
 
     tasks: list[str] = []
@@ -180,9 +218,20 @@ def make_observation_record(
     image_url: str | None,
     status: str,
 ) -> dict[str, Any]:
-    """创建观察记录。"""
+    """创建观察记录。
+
+    Args:
+        species: 物种名称。
+        location: 观察地点。
+        note: 备注文本。
+        image_url: 图片 URL。
+        status: 记录状态。
+
+    Returns:
+        包含 id、species、location 等字段的观察记录字典。
+    """
     return {
-        "id": f"obs-{int(datetime.now(tz=UTC).timestamp() * 1000)}",
+        "id": f"obs-{uuid4().hex}",
         "species": species,
         "location": location,
         "note": note or "",

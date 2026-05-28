@@ -45,6 +45,7 @@ jobs:
         run: make setup
 
       - name: 运行 test 门禁
+        # Makefile 的 test 目标执行 `pytest tests/ -v`，覆盖 unit + integration。
         run: make test
         env:
           PYTHONPATH: ${{ github.workspace }}
@@ -83,7 +84,7 @@ jobs:
   security:
     name: 安全扫描
     runs-on: ubuntu-latest
-    needs: lint
+    needs: test
     permissions:
       contents: read
       security-events: write

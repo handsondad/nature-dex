@@ -17,6 +17,10 @@ class TestExperienceRules:
         """应识别消息中的已知物种。"""
         assert detect_species("今天看到一朵蒲公英") == "蒲公英"
 
+    def test_detect_species_returns_none_for_unknown(self) -> None:
+        """未命中关键词时应返回 None。"""
+        assert detect_species("今天看到一种新花") is None
+
     def test_build_parent_summary_contains_parent_hint(self) -> None:
         """家长视图应包含家长补充文本。"""
         summary = build_role_summary("燕子", "parent")

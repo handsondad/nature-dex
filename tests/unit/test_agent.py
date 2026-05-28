@@ -98,6 +98,7 @@ class TestAgentCore:
 
         response = "".join(chunks)
         assert "家长端补充" in response
+        assert "Taraxacum" in response
         assert "安全提醒" in response
 
     @pytest.mark.asyncio

@@ -27,6 +27,24 @@ app = FastAPI(
 _agent = AgentCore()
 
 
+def _validate_non_blank(value: str) -> str:
+    """校验字符串字段非空白。
+
+    Args:
+        value: 待校验的字符串。
+
+    Raises:
+        ValueError: 如果字段为空白字符串。
+
+    Returns:
+        去除两端空白后的字符串。
+    """
+    stripped = value.strip()
+    if not stripped:
+        raise ValueError("字段不能为空白")
+    return stripped
+
+
 class ChatRequest(BaseModel):
     """聊天请求模型。"""
 
@@ -41,10 +59,7 @@ class ChatRequest(BaseModel):
     @field_validator("session_id", "message")
     @classmethod
     def _not_blank(cls, value: str) -> str:
-        stripped = value.strip()
-        if not stripped:
-            raise ValueError("字段不能为空白")
-        return stripped
+        return _validate_non_blank(value)
 
 
 class ChatResponse(BaseModel):
@@ -67,10 +82,7 @@ class ObservationCreateRequest(BaseModel):
     @field_validator("session_id", "species", "location")
     @classmethod
     def _strip_required_fields(cls, value: str) -> str:
-        stripped = value.strip()
-        if not stripped:
-            raise ValueError("字段不能为空白")
-        return stripped
+        return _validate_non_blank(value)
 
 
 class RecommendationRequest(BaseModel):
@@ -84,17 +96,22 @@ class RecommendationRequest(BaseModel):
     @field_validator("session_id")
     @classmethod
     def _strip_session_id(cls, value: str) -> str:
-        stripped = value.strip()
-        if not stripped:
-            raise ValueError("字段不能为空白")
-        return stripped
+        return _validate_non_blank(value)
 
 
 class RecommendationResponse(BaseModel):
     """推荐响应。"""
 
+    class SpeciesRecommendation(BaseModel):
+        """推荐物种结构。"""
+
+        name: str
+        child_summary: str
+        parent_summary: str
+        safety_notice: str
+
     session_id: str
-    today_species: list[dict[str, str]]
+    today_species: list[SpeciesRecommendation]
     today_tasks: list[str]
     rationale: list[str]
 
