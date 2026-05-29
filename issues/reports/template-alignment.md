@@ -1,8 +1,26 @@
 # issues 与 ISSUE_TEMPLATE 对齐清单
 
-- 扫描文档数：4
-- 已对齐：4
+- 扫描文档数：5
+- 已对齐：5
 - 未对齐：0
+
+## chore-repo-directory-maintenance.md — ✅ 已对齐
+
+- 模板：`task.yml`
+
+### 对齐项
+- [x] TITLE 使用 `chore: ` 前缀
+- [x] LABELS 包含模板标签：task
+- [x] 任务类型
+- [x] 背景与动机
+- [x] 任务范围
+- [x] 完成标准
+- [x] 技术说明（可选）
+- [x] 优先级
+- [x] AI 处理选项
+
+### 不对齐项
+- [x] 无
 
 ## chore-species-schema-data.md — ✅ 已对齐
 
