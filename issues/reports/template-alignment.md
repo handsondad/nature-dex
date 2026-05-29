@@ -4,7 +4,7 @@
 - 已对齐：4
 - 未对齐：0
 
-## chore-species-schema-data.md — ✅ 已对齐
+## 01-chore-species-schema-data.md — ✅ 已对齐
 
 - 模板：`task.yml`
 
@@ -22,7 +22,7 @@
 ### 不对齐项
 - [x] 无
 
-## feat-image-identify.md — ✅ 已对齐
+## 02-feat-image-identify.md — ✅ 已对齐
 
 - 模板：`feature.yml`
 
@@ -39,7 +39,7 @@
 ### 不对齐项
 - [x] 无
 
-## feat-mvp-search.md — ✅ 已对齐
+## 03-feat-mvp-search.md — ✅ 已对齐
 
 - 模板：`feature.yml`
 
@@ -56,7 +56,7 @@
 ### 不对齐项
 - [x] 无
 
-## feat-observation-record.md — ✅ 已对齐
+## 04-feat-observation-record.md — ✅ 已对齐
 
 - 模板：`feature.yml`
 
