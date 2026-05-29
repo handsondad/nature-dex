@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-import subprocess
+import importlib.util
 import sys
 from pathlib import Path
 
@@ -11,36 +11,45 @@ SCRIPT_PATH = REPO_ROOT / "scripts" / "check_issue_template_alignment.py"
 TEMPLATES_DIR = REPO_ROOT / ".github" / "ISSUE_TEMPLATE"
 
 
+def load_script_module():
+    """加载对齐检查脚本模块。"""
+
+    spec = importlib.util.spec_from_file_location("issue_template_alignment", SCRIPT_PATH)
+    assert spec is not None
+    assert spec.loader is not None
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[spec.name] = module
+    spec.loader.exec_module(module)
+    return module
+
+
 class TestIssueTemplateAlignmentScript:
     """Issue 模板对齐检查脚本测试。"""
 
     def test_repository_issue_docs_are_aligned(self, tmp_path: Path) -> None:
         """仓库内现有 issue 文档应全部通过对齐检查。"""
 
+        module = load_script_module()
         report_path = tmp_path / "report.md"
-        result = subprocess.run(  # noqa: S603
+        result = module.main(
             [
-                sys.executable,
-                str(SCRIPT_PATH),
                 "--issues-dir",
                 str(REPO_ROOT / "issues"),
                 "--templates-dir",
                 str(TEMPLATES_DIR),
                 "--report",
                 str(report_path),
-            ],
-            capture_output=True,
-            text=True,
-            check=False,
+            ]
         )
 
-        assert result.returncode == 0
+        assert result == 0
         assert report_path.exists()
         assert "未对齐：0" in report_path.read_text(encoding="utf-8")
 
     def test_script_reports_missing_template_sections(self, tmp_path: Path) -> None:
         """缺少模板字段时应写入未对齐清单。"""
 
+        module = load_script_module()
         issues_dir = tmp_path / "issues"
         issues_dir.mkdir()
         (issues_dir / "feat-missing-checklist.md").write_text(
@@ -70,22 +79,17 @@ class TestIssueTemplateAlignmentScript:
         )
         report_path = tmp_path / "report.md"
 
-        result = subprocess.run(  # noqa: S603
+        result = module.main(
             [
-                sys.executable,
-                str(SCRIPT_PATH),
                 "--issues-dir",
                 str(issues_dir),
                 "--templates-dir",
                 str(TEMPLATES_DIR),
                 "--report",
                 str(report_path),
-            ],
-            capture_output=True,
-            text=True,
-            check=False,
+            ]
         )
 
         report = report_path.read_text(encoding="utf-8")
-        assert result.returncode == 1
+        assert result == 1
         assert "缺少字段：提交前检查" in report

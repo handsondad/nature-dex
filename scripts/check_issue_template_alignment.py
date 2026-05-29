@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import ast
 import re
+import sys
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -45,7 +46,7 @@ class ValidationResult:
         return not self.misaligned_items
 
 
-def parse_args() -> argparse.Namespace:
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     """解析命令行参数。"""
 
     repo_root = Path(__file__).resolve().parent.parent
@@ -67,7 +68,7 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=repo_root / "issues" / "reports" / "template-alignment.md",
     )
-    return parser.parse_args()
+    return parser.parse_args(argv)
 
 
 def parse_template(path: Path) -> IssueTemplate:
@@ -162,9 +163,7 @@ def load_templates(templates_dir: Path) -> dict[str, IssueTemplate]:
 
     return {
         template.kind: template
-        for template in (
-            parse_template(path) for path in sorted(templates_dir.glob("*.yml"))
-        )
+        for template in (parse_template(path) for path in sorted(templates_dir.glob("*.yml")))
     }
 
 
@@ -183,7 +182,7 @@ def detect_template_kind(title: str, labels: list[str]) -> str:
         return "feature"
     if title.startswith("fix:"):
         return "bug"
-    msg = "无法根据 TITLE/LABELS 推断模板类型"
+    msg = f"无法根据 TITLE/LABELS 推断模板类型: title={title!r}, labels={labels!r}"
     raise ValueError(msg)
 
 
@@ -232,13 +231,13 @@ def validate_issue(path: Path, templates: dict[str, IssueTemplate]) -> Validatio
     title, labels, sections = parse_issue_document(path)
     template_kind = detect_template_kind(title, labels)
     template = templates[template_kind]
-    aligned_items = [
-        f"TITLE 使用 `{template.title_prefix}` 前缀",
-    ]
+    aligned_items: list[str] = []
     misaligned_items: list[str] = []
 
     if not title.startswith(template.title_prefix):
         misaligned_items.append(f"TITLE 未使用 `{template.title_prefix}` 前缀：{title}")
+    else:
+        aligned_items.append(f"TITLE 使用 `{template.title_prefix}` 前缀")
 
     missing_labels = [label for label in template.labels if label not in labels]
     if missing_labels:
@@ -331,18 +330,16 @@ def write_report(report_path: Path, content: str) -> None:
     report_path.write_text(content + "\n", encoding="utf-8")
 
 
-def main() -> int:
+def main(argv: list[str] | None = None) -> int:
     """CLI 入口。"""
 
-    args = parse_args()
+    args = parse_args(argv)
     templates = load_templates(args.templates_dir)
-    results = [
-        validate_issue(path, templates) for path in sorted(args.issues_dir.glob("*.md"))
-    ]
+    results = [validate_issue(path, templates) for path in sorted(args.issues_dir.glob("*.md"))]
     report = render_report(results)
     write_report(args.report, report)
     return 0 if all(result.is_aligned for result in results) else 1
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    raise SystemExit(main(sys.argv[1:]))
