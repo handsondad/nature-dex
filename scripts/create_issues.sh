@@ -155,14 +155,23 @@ sync_remote_to_local() {
   local failed=0
   local local_titles_file
   local issues_json_file
+  local local_files=()
 
   mkdir -p "$ISSUES_DIR"
 
   local_titles_file="$(mktemp)"
   issues_json_file="$(mktemp)"
 
-  if ! grep -h '^TITLE:[[:space:]]*' "$ISSUES_DIR"/*.md 2>/dev/null | sed 's/^TITLE:[[:space:]]*//' >"$local_titles_file"; then
-    :
+  shopt -s nullglob
+  local_files=("$ISSUES_DIR"/*.md)
+  shopt -u nullglob
+
+  if [ ${#local_files[@]} -gt 0 ]; then
+    if ! grep -h '^TITLE:[[:space:]]*' "${local_files[@]}" | sed 's/^TITLE:[[:space:]]*//' >"$local_titles_file"; then
+      echo "❌ 读取本地 issue 标题失败" >&2
+      rm -f "$local_titles_file" "$issues_json_file"
+      return 1
+    fi
   fi
 
   if ! gh issue list \
@@ -195,7 +204,8 @@ issues = json.loads(issues_json_path.read_text(encoding="utf-8"))
 
 
 def slugify(text: str) -> str:
-    slug = re.sub(r"[^a-zA-Z0-9]+", "-", text.lower()).strip("-")
+    slug = "".join(ch.lower() if ch.isalnum() else "-" for ch in text)
+    slug = re.sub(r"-{2,}", "-", slug).strip("-")
     return slug or "issue"
 
 for issue in issues:
@@ -222,6 +232,7 @@ for issue in issues:
     print(f"已写入: {file_path}")
     local_titles.add(title)
 PY
+    echo "❌ 本地 issue 写入失败" >&2
     failed=1
   fi
 
