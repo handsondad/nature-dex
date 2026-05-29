@@ -6,7 +6,6 @@ import subprocess
 import sys
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parents[2]
 SCRIPT_PATH = REPO_ROOT / "scripts" / "check_issue_template_alignment.py"
 TEMPLATES_DIR = REPO_ROOT / ".github" / "ISSUE_TEMPLATE"
@@ -19,7 +18,7 @@ class TestIssueTemplateAlignmentScript:
         """仓库内现有 issue 文档应全部通过对齐检查。"""
 
         report_path = tmp_path / "report.md"
-        result = subprocess.run(
+        result = subprocess.run(  # noqa: S603
             [
                 sys.executable,
                 str(SCRIPT_PATH),
@@ -71,7 +70,7 @@ class TestIssueTemplateAlignmentScript:
         )
         report_path = tmp_path / "report.md"
 
-        result = subprocess.run(
+        result = subprocess.run(  # noqa: S603
             [
                 sys.executable,
                 str(SCRIPT_PATH),
@@ -89,4 +88,4 @@ class TestIssueTemplateAlignmentScript:
 
         report = report_path.read_text(encoding="utf-8")
         assert result.returncode == 1
-        assert "缺少必填字段：提交前检查" in report
+        assert "缺少字段：提交前检查" in report

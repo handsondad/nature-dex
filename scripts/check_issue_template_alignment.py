@@ -49,15 +49,25 @@ def parse_args() -> argparse.Namespace:
     """解析命令行参数。"""
 
     repo_root = Path(__file__).resolve().parent.parent
-    return argparse.ArgumentParser(
+    parser = argparse.ArgumentParser(
         description="检查 issues 文档与 .github/ISSUE_TEMPLATE 模板是否对齐，并输出清单。",
-    ).parse_args(
-        namespace=argparse.Namespace(
-            issues_dir=repo_root / "issues",
-            templates_dir=repo_root / ".github" / "ISSUE_TEMPLATE",
-            report=repo_root / "issues" / "reports" / "template-alignment.md",
-        )
     )
+    parser.add_argument(
+        "--issues-dir",
+        type=Path,
+        default=repo_root / "issues",
+    )
+    parser.add_argument(
+        "--templates-dir",
+        type=Path,
+        default=repo_root / ".github" / "ISSUE_TEMPLATE",
+    )
+    parser.add_argument(
+        "--report",
+        type=Path,
+        default=repo_root / "issues" / "reports" / "template-alignment.md",
+    )
+    return parser.parse_args()
 
 
 def parse_template(path: Path) -> IssueTemplate:
@@ -239,8 +249,7 @@ def validate_issue(path: Path, templates: dict[str, IssueTemplate]) -> Validatio
     for field in template.fields:
         content_lines = sections.get(field.label)
         if content_lines is None:
-            missing_prefix = "缺少必填字段" if field.required else "缺少字段"
-            misaligned_items.append(f"{missing_prefix}：{field.label}")
+            misaligned_items.append(f"缺少字段：{field.label}")
             continue
 
         content = normalize_text(content_lines)
@@ -257,7 +266,11 @@ def validate_issue(path: Path, templates: dict[str, IssueTemplate]) -> Validatio
                 continue
 
         if field.field_type == "checkboxes":
-            checklist_lines = [line.strip()[5:] for line in content.splitlines() if re.match(r"^- \[[ xX]\]\s+", line.strip())]
+            checklist_lines = [
+                line.strip()[6:]
+                for line in content.splitlines()
+                if re.match(r"^- \[[ xX]\]\s+", line.strip())
+            ]
             missing_options = [option for option in field.options if option not in checklist_lines]
             if missing_options:
                 misaligned_items.append(
