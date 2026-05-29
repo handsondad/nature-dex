@@ -83,3 +83,54 @@ class TestAgentCore:
         with pytest.raises(RuntimeError, match="正在处理中"):
             async for _ in agent_core.chat("busy-session", "另一条消息"):
                 pass
+
+    @pytest.mark.asyncio
+    async def test_chat_supports_parent_role(self, agent_core: AgentCore) -> None:
+        """家长角色应返回家长版解释。"""
+        chunks: list[str] = []
+        async for chunk in agent_core.chat(
+            "parent-session",
+            "这是蒲公英吗？",
+            role="parent",
+            confidence=0.82,
+        ):
+            chunks.append(chunk)
+
+        response = "".join(chunks)
+        assert "家长端补充" in response
+        assert "Taraxacum" in response
+        assert "安全提醒" in response
+
+    @pytest.mark.asyncio
+    async def test_chat_adds_uncertainty_for_low_confidence(self, agent_core: AgentCore) -> None:
+        """低置信度应包含不确定性表达。"""
+        chunks: list[str] = []
+        async for chunk in agent_core.chat(
+            "uncertain-session",
+            "我看到的是不是蘑菇？",
+            confidence=0.4,
+        ):
+            chunks.append(chunk)
+
+        response = "".join(chunks)
+        assert "不太确定" in response
+        assert "家长陪同" in response or "安全提醒" in response
+
+    def test_create_observation_and_recommendations(self, agent_core: AgentCore) -> None:
+        """保存观察记录后应可生成推荐。"""
+        record = agent_core.create_observation(
+            session_id="obs-session",
+            species="麻雀",
+            location="park",
+            note="在草地边看到",
+            status="pending",
+        )
+
+        assert record["species"] == "麻雀"
+        recommendations = agent_core.get_recommendations(
+            session_id="obs-session",
+            season="spring",
+            location="park",
+        )
+        assert len(recommendations["today_species"]) > 0
+        assert len(recommendations["today_tasks"]) > 0
