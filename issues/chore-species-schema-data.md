@@ -2,7 +2,7 @@ TITLE: chore: 物种 schema 落地并录入首批 30-50 种数据
 LABELS: task,ai-ready
 ---
 ## 任务类型
-🧹 技术债务 / 基础数据建设
+🧹 技术债务 - 清理遗留问题
 
 ## 背景与动机
 缺少高质量结构化物种数据会阻塞识别和检索效果。
@@ -23,5 +23,12 @@ LABELS: task,ai-ready
 - [ ] 与现有 agent/tools 接口联通
 - [ ] 测试通过，无回归
 
+## 技术说明（可选）
+- 参考 `docs/species-schema.md` 对齐字段定义
+- 数据需兼容现有 agent/tools 检索与提示词消费方式
+
 ## 优先级
-🟠 高
+🟠 高（影响开发效率或系统稳定性）
+
+## AI 处理选项
+- [x] 这个任务适合由 AI Agent 自动处理（添加后请同时加 ai-ready 标签）
