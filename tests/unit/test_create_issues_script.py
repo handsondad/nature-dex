@@ -3,9 +3,18 @@
 from __future__ import annotations
 
 import os
+import shutil
 import stat
 import subprocess
 from pathlib import Path
+
+import pytest
+
+BASH_PATH = shutil.which("bash")
+IS_WINDOWS_WSL_LAUNCHER = BASH_PATH is not None and "system32" in {
+    part.lower() for part in Path(BASH_PATH).parts
+}
+HAS_POSIX_BASH = BASH_PATH is not None and not IS_WINDOWS_WSL_LAUNCHER
 
 
 def _write_fake_gh(fake_bin: Path, script_content: str) -> None:
@@ -14,6 +23,7 @@ def _write_fake_gh(fake_bin: Path, script_content: str) -> None:
     gh_path.chmod(gh_path.stat().st_mode | stat.S_IEXEC)
 
 
+@pytest.mark.skipif(not HAS_POSIX_BASH, reason="需要可用的 POSIX Bash 执行 shell 脚本")
 def test_write_mode_skips_duplicate_title(tmp_path: Path) -> None:
     repo_root = Path(__file__).resolve().parents[2]
     script_path = repo_root / "scripts" / "create_issues.sh"
@@ -51,7 +61,7 @@ fi
     env["REPO"] = "handsondad/nature-dex"
 
     result = subprocess.run(  # noqa: S603
-        ["/usr/bin/bash", str(script_path), str(issues_dir), "write"],
+        [BASH_PATH, str(script_path), str(issues_dir), "write"],
         cwd=repo_root,
         env=env,
         capture_output=True,
@@ -64,6 +74,7 @@ fi
     assert "unexpected-create" not in calls_file.read_text(encoding="utf-8")
 
 
+@pytest.mark.skipif(not HAS_POSIX_BASH, reason="需要可用的 POSIX Bash 执行 shell 脚本")
 def test_read_mode_exports_remote_issue_to_local_file(tmp_path: Path) -> None:
     repo_root = Path(__file__).resolve().parents[2]
     script_path = repo_root / "scripts" / "create_issues.sh"
@@ -98,7 +109,7 @@ fi
     env["REPO"] = "handsondad/nature-dex"
 
     result = subprocess.run(  # noqa: S603
-        ["/usr/bin/bash", str(script_path), str(issues_dir), "read"],
+        [BASH_PATH, str(script_path), str(issues_dir), "read"],
         cwd=repo_root,
         env=env,
         capture_output=True,

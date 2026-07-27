@@ -14,6 +14,7 @@ from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field, field_validator
 
 from src.agent.core import AgentCore
+from src.knowledge.species import AgeGroup, get_default_catalog
 
 logger = logging.getLogger(__name__)
 
@@ -69,19 +70,66 @@ class ChatResponse(BaseModel):
     response: str
 
 
+class TextIdentificationRequest(BaseModel):
+    """文字物种识别请求。"""
+
+    query: str = Field(min_length=1, max_length=500)
+    age_group: Literal["4-6", "7-9", "10+"] = "7-9"
+    location_type: str | None = Field(default=None, max_length=32)
+    season: str | None = Field(default=None, max_length=32)
+    limit: int = Field(default=3, ge=1, le=5)
+
+    @field_validator("query")
+    @classmethod
+    def _strip_query(cls, value: str) -> str:
+        return _validate_non_blank(value)
+
+
+class IdentifiedSpecies(BaseModel):
+    """候选物种的安全展示字段。"""
+
+    id: str
+    name_zh: str
+    scientific_name: str
+    kind: str
+    category: str
+
+
+class IdentificationCandidateResponse(BaseModel):
+    """可解释的文字识别候选。"""
+
+    species: IdentifiedSpecies
+    confidence: float
+    distinguishing_features: list[str]
+    child_explanation: str
+    safety_notice: str
+
+
+class TextIdentificationResponse(BaseModel):
+    """文字识别响应。"""
+
+    candidates: list[IdentificationCandidateResponse]
+    clarifying_questions: list[str]
+    is_uncertain: bool
+
+
 class ObservationCreateRequest(BaseModel):
     """观察记录创建请求。"""
 
     session_id: str = Field(min_length=1, max_length=128)
-    species: str = Field(min_length=1, max_length=64)
+    child_id: str | None = Field(default=None, min_length=1, max_length=128)
+    species_id: str | None = Field(default=None, min_length=1, max_length=128)
+    species: str | None = Field(default=None, min_length=1, max_length=64)
     location: str = Field(min_length=1, max_length=64)
     note: str | None = Field(default=None, max_length=500)
     image_url: str | None = Field(default=None, max_length=2048)
     status: Literal["confirmed", "pending"] = "confirmed"
 
-    @field_validator("session_id", "species", "location")
+    @field_validator("session_id", "child_id", "species_id", "species", "location")
     @classmethod
-    def _strip_required_fields(cls, value: str) -> str:
+    def _strip_required_fields(cls, value: str | None) -> str | None:
+        if value is None:
+            return value
         return _validate_non_blank(value)
 
 
@@ -89,13 +137,16 @@ class RecommendationRequest(BaseModel):
     """推荐请求。"""
 
     session_id: str = Field(min_length=1, max_length=128)
+    child_id: str | None = Field(default=None, min_length=1, max_length=128)
     season: str | None = Field(default=None, max_length=32)
     location: str | None = Field(default=None, max_length=64)
     limit: int = Field(default=3, ge=1, le=5)
 
-    @field_validator("session_id")
+    @field_validator("session_id", "child_id")
     @classmethod
-    def _strip_session_id(cls, value: str) -> str:
+    def _strip_session_id(cls, value: str | None) -> str | None:
+        if value is None:
+            return None
         return _validate_non_blank(value)
 
 
@@ -116,10 +167,64 @@ class RecommendationResponse(BaseModel):
     rationale: list[str]
 
 
+class ObservationRecordResponse(BaseModel):
+    """观察记录响应模型。"""
+
+    id: str
+    child_id: str
+    species_id: str | None
+    species_name: str
+    location: str
+    note: str
+    image_url: str | None
+    status: Literal["confirmed", "pending"]
+    observed_at: str
+
+
+class ObservationListResponse(BaseModel):
+    """儿童观察记录列表响应。"""
+
+    child_id: str
+    records: list[ObservationRecordResponse]
+
+
 @app.get("/health")
 async def health_check() -> dict[str, str]:
     """健康检查端点。"""
     return {"status": "ok", "active_sessions": str(_agent.active_session_count)}
+
+
+@app.post("/api/v1/identify/text", response_model=TextIdentificationResponse)
+async def identify_text(request: TextIdentificationRequest) -> TextIdentificationResponse:
+    """从文字描述中检索物种候选，不将结果伪装成确定性识别。"""
+    result = get_default_catalog().search_text(
+        request.query,
+        limit=request.limit,
+        location_type=request.location_type,
+        season=request.season,
+    )
+    age_group: AgeGroup = request.age_group
+    candidates = [
+        IdentificationCandidateResponse(
+            species=IdentifiedSpecies(
+                id=item.species.id,
+                name_zh=item.species.name_zh,
+                scientific_name=item.species.scientific_name,
+                kind=item.species.kind,
+                category=item.species.category,
+            ),
+            confidence=item.confidence,
+            distinguishing_features=list(item.distinguishing_features),
+            child_explanation=item.species.child_summary(age_group),
+            safety_notice=item.species.safety_notice,
+        )
+        for item in result.candidates
+    ]
+    return TextIdentificationResponse(
+        candidates=candidates,
+        clarifying_questions=list(result.clarifying_questions),
+        is_uncertain=result.is_uncertain,
+    )
 
 
 @app.post("/api/v1/chat", response_model=None)
@@ -225,9 +330,21 @@ async def terminate_session(session_id: str) -> dict[str, bool]:
 @app.post("/api/v1/observations")
 async def create_observation(request: ObservationCreateRequest) -> dict[str, Any]:
     """创建观察记录。"""
+    if request.species is None and request.species_id is None:
+        raise HTTPException(status_code=422, detail="必须提供 species_id 或 species")
+    species_name = request.species
+    if species_name is None and request.species_id is not None:
+        catalog_species = get_default_catalog().get_by_id(request.species_id)
+        if catalog_species is None:
+            raise HTTPException(status_code=422, detail="species_id 不存在于物种目录")
+        species_name = catalog_species.name_zh
+    if species_name is None:
+        raise HTTPException(status_code=422, detail="无法解析物种名称")
     record = _agent.create_observation(
         session_id=request.session_id,
-        species=request.species,
+        child_id=request.child_id,
+        species_id=request.species_id,
+        species=species_name,
         location=request.location,
         note=request.note,
         image_url=request.image_url,
@@ -236,11 +353,35 @@ async def create_observation(request: ObservationCreateRequest) -> dict[str, Any
     return {"saved": True, "record": record}
 
 
+@app.get(
+    "/api/v1/children/{child_id}/observations",
+    response_model=ObservationListResponse,
+)
+async def get_child_observations(
+    child_id: str,
+    limit: int = 50,
+) -> ObservationListResponse:
+    """读取儿童档案下最近保存的观察记录。"""
+    normalized_child_id = _validate_non_blank(child_id)
+    records = _agent.get_observation_records(normalized_child_id, limit=limit)
+    return ObservationListResponse(
+        child_id=normalized_child_id,
+        records=[
+            ObservationRecordResponse(
+                **record.model_dump(mode="python", exclude={"observed_at"}),
+                observed_at=record.observed_at.isoformat(),
+            )
+            for record in records
+        ],
+    )
+
+
 @app.post("/api/v1/recommendations", response_model=RecommendationResponse)
 async def get_recommendations(request: RecommendationRequest) -> RecommendationResponse:
     """获取推荐内容。"""
     result = _agent.get_recommendations(
         session_id=request.session_id,
+        child_id=request.child_id,
         season=request.season,
         location=request.location,
         limit=request.limit,

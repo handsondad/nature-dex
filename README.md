@@ -320,6 +320,14 @@ conversations (
 - **Python FastAPI** + 自定义 tool calling orchestration（MVP 首选，比重框架更稳）
 - Agent 框架可选：LangGraph / LlamaIndex / Semantic Kernel
 
+### 当前 MVP 实现
+
+- 结构化物种目录：已录入 30+ 个小区与公园常见物种，包含稳定 ID、三档儿童解释、家长补充、识别特征、澄清问题和安全提示。
+- 可解释文字识别：`POST /api/v1/identify/text` 返回排序候选、置信度、区分特征与澄清问题；信息不足时明确返回不确定结果。
+- 观察闭环：会话内支持保存已确认或待确认的观察记录，并按照地点、季节和既有记录生成推荐。
+
+详细的模块边界、数据流和后续持久化/图片识别演进方案参见 [MVP 架构](docs/mvp-architecture.md)。
+
 ### 模型层
 - 对话模型：支持 function calling 的大模型
 - 多模态模型：支持图片理解
@@ -416,33 +424,22 @@ make test
 │
 ├── docs/
 │   ├── architecture.md                # 系统架构文档
-│   ├── species-schema.md              # 物种数据结构规范
-│   └── agent-tools.md                 # Agent Tool 设计文档
+│   ├── mvp-architecture.md            # 已落地的 MVP 架构与演进方案
+│   └── adr/                           # 架构决策记录
 │
 ├── src/
-│   ├── agent/                         # Agent 编排逻辑
-│   │   ├── router.py                  # Router Agent
-│   │   ├── identify.py                # 识别 Agent
-│   │   ├── explain.py                 # 儿童讲解 Agent
-│   │   ├── observe.py                 # 观察引导 Agent
-│   │   ├── record.py                  # 记录 Agent
-│   │   └── recommend.py               # 推荐 Agent
-│   ├── tools/                         # Agent 可调用工具
-│   │   ├── species_search.py
-│   │   ├── identify_from_image.py
-│   │   ├── compare_species.py
-│   │   ├── create_observation.py
-│   │   └── safety_check.py
-│   ├── knowledge/                     # 知识库管理
-│   │   ├── species_store.py
-│   │   └── embedding.py
+│   ├── agent/                         # 对话、观察和推荐编排
+│   │   ├── core.py
+│   │   ├── experience.py
+│   │   └── session.py
+│   ├── api/                           # FastAPI 路由与请求/响应模型
+│   │   └── routes.py
+│   ├── knowledge/                     # 纯领域知识与可解释检索
+│   │   └── species.py
 │   ├── memory/                        # 用户记忆 & 会话状态
 │   │   └── store.py
-│   └── api/                           # API 路由层
-│       └── routes.py
-│
-├── data/
-│   └── species/                       # 物种知识库（结构化数据）
+│   └── tools/                         # 外部能力工具注册表
+│       └── registry.py
 │
 └── tests/
     ├── unit/

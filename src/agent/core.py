@@ -15,10 +15,12 @@ from src.agent.experience import (
     build_role_summary,
     build_safety_reminders,
     detect_species,
-    make_observation_record,
 )
 from src.agent.session import AgentSession, SessionStatus
+from src.knowledge.species import get_default_catalog
 from src.memory.store import MemoryStore
+from src.observations.models import ObservationCreate, ObservationRecord, ObservationStatus
+from src.observations.repository import InMemoryObservationRepository, ObservationRepository
 from src.tools.registry import ToolRegistry
 
 logger = logging.getLogger(__name__)
@@ -37,6 +39,7 @@ class AgentCore:
         self,
         tool_registry: ToolRegistry | None = None,
         memory_store: MemoryStore | None = None,
+        observation_repository: ObservationRepository | None = None,
         model: str | None = None,
     ) -> None:
         """初始化 AgentCore。
@@ -44,10 +47,12 @@ class AgentCore:
         Args:
             tool_registry: 工具注册中心，为 None 时使用全局注册中心
             memory_store: 记忆存储，为 None 时使用内存存储
+            observation_repository: 观察记录仓储，为 None 时使用内存实现
             model: LLM 模型名称，为 None 时从环境变量读取
         """
         self._tool_registry = tool_registry or ToolRegistry.get_global()
         self._memory = memory_store or MemoryStore()
+        self._observations = observation_repository or InMemoryObservationRepository()
         self._model = model or os.getenv("OPENAI_MODEL", "gpt-4o")
         self._sessions: dict[str, AgentSession] = {}
 
@@ -139,6 +144,8 @@ class AgentCore:
         session_id: str,
         species: str,
         location: str,
+        child_id: str | None = None,
+        species_id: str | None = None,
         note: str | None = None,
         image_url: str | None = None,
         status: str = "confirmed",
@@ -149,6 +156,8 @@ class AgentCore:
             session_id: 会话标识符。
             species: 物种名称。
             location: 观察地点。
+            child_id: 儿童档案标识；未提供时由会话 ID 派生。
+            species_id: 可选的目录物种稳定标识。
             note: 可选备注。
             image_url: 可选图片 URL。
             status: 记录状态。
@@ -156,34 +165,57 @@ class AgentCore:
         Returns:
             创建的观察记录字典。
         """
-        observations = self.get_observations(session_id)
-        record = make_observation_record(
-            species=species,
-            location=location,
-            note=note,
-            image_url=image_url,
-            status=status,
+        resolved_child_id = child_id or self._child_id_for_session(session_id)
+        resolved_species_id = species_id
+        if resolved_species_id is None and status == ObservationStatus.CONFIRMED.value:
+            known_species = get_default_catalog().get_by_name(species)
+            if known_species is None:
+                raise ValueError("已确认记录必须关联物种目录中的 species_id")
+            resolved_species_id = known_species.id
+        record = self._observations.create(
+            ObservationCreate(
+                child_id=resolved_child_id,
+                species_id=resolved_species_id,
+                species_name=species,
+                location=location,
+                note=note or "",
+                image_url=image_url,
+                status=ObservationStatus(status),
+            )
         )
-        observations.append(record)
-        self._memory.set(session_id, "observations", observations)
-        return record
+        return self._record_to_dict(record)
+
+    def get_observation_records(
+        self,
+        child_id: str,
+        *,
+        limit: int = 50,
+    ) -> list[ObservationRecord]:
+        """获取儿童档案下最近保存的观察记录。"""
+        return self._observations.list_by_child(child_id, limit=limit)
 
     def get_observations(self, session_id: str) -> list[dict[str, Any]]:
-        """获取会话观察记录列表。
+        """获取当前会话对应儿童的记录，兼容推荐规则输入。"""
+        records = self.get_observation_records(self._child_id_for_session(session_id))
+        return [self._record_to_dict(record) for record in records]
 
-        Args:
-            session_id: 会话标识符。
+    @staticmethod
+    def _child_id_for_session(session_id: str) -> str:
+        """为未登录 MVP 会话生成隔离的临时儿童档案标识。"""
+        return f"session:{session_id}"
 
-        Returns:
-            观察记录列表。
-        """
-        raw = self._memory.get(session_id, "observations", default=[])
-        return list(raw) if isinstance(raw, list) else []
+    @staticmethod
+    def _record_to_dict(record: ObservationRecord) -> dict[str, Any]:
+        """序列化领域记录，并保留旧推荐规则使用的 species 键。"""
+        payload = record.model_dump(mode="json")
+        payload["species"] = record.species_name
+        return payload
 
     def get_recommendations(
         self,
         *,
         session_id: str,
+        child_id: str | None = None,
         season: str | None = None,
         location: str | None = None,
         limit: int = 3,
@@ -192,6 +224,7 @@ class AgentCore:
 
         Args:
             session_id: 会话标识符。
+            child_id: 可选儿童档案标识；未提供时由会话 ID 派生。
             season: 可选季节标签。
             location: 可选地点标签。
             limit: 推荐数量上限。
@@ -199,8 +232,12 @@ class AgentCore:
         Returns:
             包含 today_species、today_tasks 和 rationale 的推荐字典。
         """
+        resolved_child_id = child_id or self._child_id_for_session(session_id)
         return build_recommendations(
-            observations=self.get_observations(session_id),
+            observations=[
+                self._record_to_dict(record)
+                for record in self.get_observation_records(resolved_child_id)
+            ],
             season=season,
             location=location,
             limit=limit,

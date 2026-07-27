@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import enum
-from datetime import UTC, datetime
+from datetime import datetime, timezone
 from typing import Any
 
 
@@ -23,7 +23,7 @@ class Message:
     def __init__(self, role: str, content: str) -> None:
         self.role = role
         self.content = content
-        self.created_at = datetime.now(tz=UTC)
+        self.created_at = datetime.now(tz=timezone.utc)
 
     def to_dict(self) -> dict[str, Any]:
         """转换为 OpenAI API 格式的字典。"""
@@ -47,8 +47,8 @@ class AgentSession:
         """
         self.session_id = session_id
         self.status = SessionStatus.IDLE
-        self.created_at = datetime.now(tz=UTC)
-        self.updated_at = datetime.now(tz=UTC)
+        self.created_at = datetime.now(tz=timezone.utc)
+        self.updated_at = datetime.now(tz=timezone.utc)
         self._messages: list[Message] = []
 
     def add_user_message(self, content: str) -> None:
@@ -59,7 +59,7 @@ class AgentSession:
         """
         self._messages.append(Message(role="user", content=content))
         self._truncate_history()
-        self.updated_at = datetime.now(tz=UTC)
+        self.updated_at = datetime.now(tz=timezone.utc)
 
     def add_assistant_message(self, content: str) -> None:
         """添加 Assistant 消息到对话历史。
@@ -69,7 +69,7 @@ class AgentSession:
         """
         self._messages.append(Message(role="assistant", content=content))
         self._truncate_history()
-        self.updated_at = datetime.now(tz=UTC)
+        self.updated_at = datetime.now(tz=timezone.utc)
 
     def get_messages_for_api(self) -> list[dict[str, Any]]:
         """获取适合传给 LLM API 的消息列表格式。
@@ -82,7 +82,7 @@ class AgentSession:
     def clear_history(self) -> None:
         """清空对话历史（保留会话，只清消息）。"""
         self._messages.clear()
-        self.updated_at = datetime.now(tz=UTC)
+        self.updated_at = datetime.now(tz=timezone.utc)
 
     @property
     def message_count(self) -> int:
