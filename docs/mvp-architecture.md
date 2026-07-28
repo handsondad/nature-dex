@@ -14,6 +14,9 @@ flowchart TB
     API --> Agent[agent: 对话编排、会话与闭环]
     API --> Knowledge[knowledge: 物种目录与候选检索]
     Agent --> Knowledge
+    Agent --> Discovery[discoveries: 发现台草稿状态机]
+    Discovery --> Knowledge
+    Discovery --> Observation[observations: 儿童观察记录]
     Agent --> Memory[memory: 会话期记录与推荐上下文]
     Agent --> Tools[tools: 外部能力适配器]
     Tools --> External[LLM / 图像模型 / 数据库]
@@ -26,6 +29,7 @@ flowchart TB
 - `knowledge` 是纯领域层：不依赖 FastAPI、Agent、数据库或外部模型。
 - `tools` 用端口/适配器封装外部能力，绝不反向依赖 `agent`。
 - `memory` 提供存储接口；当前为进程内实现，生产环境替换为 Redis 或数据库时不改变 Agent 调用方。
+- `discoveries` 维护可恢复的探索草稿，只依赖知识目录和观察记录仓储端口；不依赖 FastAPI 或对话会话实现。
 
 ## 核心模型
 
@@ -58,6 +62,31 @@ flowchart TB
 
 当前 `MemoryStore` 与 `InMemoryObservationRepository` 都是进程内实现，只适用于本地开发与测试；服务重启后数据会丢失，也不能横向扩展。下一步需实现 PostgreSQL 版 `ObservationRepository`，并定义 `ProfileRepository` 协议，避免业务代码绑定具体存储。
 
+## 发现台状态机
+
+发现台把“我发现了一个东西”变成不施压、可中断再继续的探索过程。`DiscoveryDraft` 保存儿童原始描述、地点、候选朋友、最多两条观察回答和当前状态；`DiscoveryDraftRepository` 是可替换仓储端口，当前使用内存实现。
+
+```mermaid
+stateDiagram-v2
+    [*] --> awaiting_evidence: 描述发现
+    awaiting_evidence --> awaiting_evidence: 第 1 条观察回答
+    awaiting_evidence --> ready_to_confirm: 第 2 条回答 / 无需再问
+    awaiting_evidence --> saved: 保存神秘发现
+    ready_to_confirm --> saved: 确认候选
+    ready_to_confirm --> saved: 保存神秘发现
+```
+
+- 每个 API 响应最多给出一个 `current_question`，总澄清轮数上限为两轮；“不知道”被当作有效回答，而非输入错误。
+- `POST /api/v1/discoveries` 创建草稿，`GET /api/v1/discoveries/{draft_id}` 可恢复草稿，`POST /api/v1/discoveries/{draft_id}/evidence` 提交一条观察回答。
+- `POST /api/v1/discoveries/{draft_id}/confirm` 只能从当前候选中确认物种，并创建带稳定 `species_id` 的确认记录。
+- `POST /api/v1/discoveries/{draft_id}/save-mystery` 在任何未保存阶段都可创建 `pending` 观察记录，只保存儿童原始描述，绝不生成虚假的物种 ID。
+
+## 今日微冒险
+
+`adventures` 是独立的儿童体验领域层。`ExplorationAdventure` 强制每项任务包含一个真实观察动作、可验证线索、安全边界、替代路线及“为什么推荐给你”的解释。`select_today_adventure()` 只按季节、探索区域和儿童已有记录选择任务：优先未探索主题，并允许客户端传入 `exclude_adventure_id` 来实现“换一个”。
+
+`POST /api/v1/adventures/today` 返回一项可跳过的任务；没有安全匹配任务时返回 `adventure=null` 与自由发现提示，而不是未完成状态或催促。当前任务目录是受控、手写的 MVP 内容；后续接入内容管理系统时必须保留上述字段和安全审查。
+
 ## 儿童安全不变量
 
 - 任何识别都必须支持不确定结果，禁止无证据的确定性命名。
@@ -67,9 +96,9 @@ flowchart TB
 
 ## 演进计划
 
-1. **完成**：结构化物种目录、可解释文字检索、带儿童档案与稳定 `species_id` 关联的内存观察/推荐闭环。
-2. **下一步**：实现 PostgreSQL 仓储、儿童档案与认证；为观察记录添加受控的更新与删除能力。
-3. **后续**：以工具适配器接入图片候选识别、上传对象存储与两轮澄清状态机。
+1. **完成**：结构化物种目录、可解释文字检索、带儿童档案与稳定 `species_id` 关联的内存观察/推荐闭环，以及可恢复的发现台草稿状态机。
+2. **下一步**：将发现台保存事件接入微冒险完成与发现页，并提供孩子自己的回看叙事。
+3. **后续**：实现 PostgreSQL 仓储、儿童档案与认证；以工具适配器接入图片候选识别和上传对象存储。
 4. **生产化**：JWT 身份认证、用户数据隔离、限流、结构化日志/Trace ID、指标与审计。
 
 任何跨层依赖、存储模型或外部模型策略变化均应新增 ADR 并同步本文档。

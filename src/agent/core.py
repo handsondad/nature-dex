@@ -10,6 +10,10 @@ import os
 from collections.abc import AsyncIterator
 from typing import Any, Literal
 
+from src.adventures.models import ExplorationAdventure
+from src.adventures.selector import select_today_adventure
+from src.discoveries.models import DiscoveryDraft
+from src.discoveries.service import DiscoveryService
 from src.agent.experience import (
     build_recommendations,
     build_role_summary,
@@ -53,6 +57,9 @@ class AgentCore:
         self._tool_registry = tool_registry or ToolRegistry.get_global()
         self._memory = memory_store or MemoryStore()
         self._observations = observation_repository or InMemoryObservationRepository()
+        self._discoveries = DiscoveryService(
+            observation_repository=self._observations,
+        )
         self._model = model or os.getenv("OPENAI_MODEL", "gpt-4o")
         self._sessions: dict[str, AgentSession] = {}
 
@@ -194,6 +201,47 @@ class AgentCore:
         """获取儿童档案下最近保存的观察记录。"""
         return self._observations.list_by_child(child_id, limit=limit)
 
+    def start_discovery(
+        self,
+        *,
+        session_id: str,
+        child_id: str | None,
+        description: str,
+        location: str,
+        season: str | None = None,
+    ) -> DiscoveryDraft:
+        """从孩子描述开始一段可恢复的发现台探索。"""
+        return self._discoveries.start(
+            session_id=session_id,
+            child_id=child_id or self._child_id_for_session(session_id),
+            description=description,
+            location=location,
+            season=season,
+        )
+
+    def get_discovery(self, draft_id: str) -> DiscoveryDraft:
+        """读取指定发现草稿。"""
+        return self._discoveries.get(draft_id)
+
+    def submit_discovery_evidence(self, draft_id: str, answer: str) -> DiscoveryDraft:
+        """记录孩子对当前观察问题的一条回答。"""
+        return self._discoveries.submit_evidence(draft_id, answer)
+
+    def confirm_discovery(
+        self,
+        draft_id: str,
+        *,
+        species_id: str | None = None,
+    ) -> dict[str, Any]:
+        """将候选朋友保存为已确认观察记录。"""
+        return self._record_to_dict(
+            self._discoveries.confirm(draft_id, species_id=species_id)
+        )
+
+    def save_discovery_as_mystery(self, draft_id: str) -> dict[str, Any]:
+        """将未知发现保存为待确认的神秘发现。"""
+        return self._record_to_dict(self._discoveries.save_as_mystery(draft_id))
+
     def get_observations(self, session_id: str) -> list[dict[str, Any]]:
         """获取当前会话对应儿童的记录，兼容推荐规则输入。"""
         records = self.get_observation_records(self._child_id_for_session(session_id))
@@ -241,6 +289,28 @@ class AgentCore:
             season=season,
             location=location,
             limit=limit,
+        )
+
+    def get_today_adventure(
+        self,
+        *,
+        session_id: str,
+        child_id: str | None = None,
+        season: str | None = None,
+        location_type: str | None = None,
+        exclude_adventure_id: str | None = None,
+    ) -> ExplorationAdventure | None:
+        """选择一项可跳过的儿童真实世界探索任务。"""
+        resolved_child_id = child_id or self._child_id_for_session(session_id)
+        observations = [
+            self._record_to_dict(record)
+            for record in self.get_observation_records(resolved_child_id)
+        ]
+        return select_today_adventure(
+            observations=observations,
+            season=season,
+            location_type=location_type,
+            exclude_adventure_id=exclude_adventure_id,
         )
 
     def terminate_session(self, session_id: str) -> bool:

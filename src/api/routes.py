@@ -14,6 +14,7 @@ from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field, field_validator
 
 from src.agent.core import AgentCore
+from src.discoveries.models import DiscoveryDraft
 from src.knowledge.species import AgeGroup, get_default_catalog
 
 logger = logging.getLogger(__name__)
@@ -167,6 +168,46 @@ class RecommendationResponse(BaseModel):
     rationale: list[str]
 
 
+class TodayAdventureRequest(BaseModel):
+    """请求一项今日微冒险。"""
+
+    session_id: str = Field(min_length=1, max_length=128)
+    child_id: str | None = Field(default=None, min_length=1, max_length=128)
+    season: str | None = Field(default=None, max_length=32)
+    location_type: str | None = Field(default=None, max_length=32)
+    exclude_adventure_id: str | None = Field(default=None, max_length=128)
+
+    @field_validator("session_id", "child_id", "exclude_adventure_id")
+    @classmethod
+    def _strip_identifiers(cls, value: str | None) -> str | None:
+        if value is None:
+            return None
+        return _validate_non_blank(value)
+
+
+class TodayAdventure(BaseModel):
+    """首页展示的儿童微冒险。"""
+
+    id: str
+    title: str
+    kind: Literal["discover", "revisit", "listen"]
+    prompt: str
+    action: str
+    evidence_hint: str
+    safety_notice: str
+    fallback_prompt: str
+    rationale: str
+    target_species_ids: list[str]
+    is_skippable: bool
+
+
+class TodayAdventureResponse(BaseModel):
+    """今日微冒险响应，允许安全地没有匹配任务。"""
+
+    adventure: TodayAdventure | None
+    empty_state_message: str | None = None
+
+
 class ObservationRecordResponse(BaseModel):
     """观察记录响应模型。"""
 
@@ -188,10 +229,114 @@ class ObservationListResponse(BaseModel):
     records: list[ObservationRecordResponse]
 
 
+class DiscoveryStartRequest(BaseModel):
+    """从儿童描述创建发现台草稿。"""
+
+    session_id: str = Field(min_length=1, max_length=128)
+    child_id: str | None = Field(default=None, min_length=1, max_length=128)
+    description: str = Field(min_length=1, max_length=500)
+    location: str = Field(min_length=1, max_length=64)
+    season: str | None = Field(default=None, max_length=32)
+
+    @field_validator("session_id", "child_id", "description", "location")
+    @classmethod
+    def _strip_discovery_fields(cls, value: str | None) -> str | None:
+        if value is None:
+            return None
+        return _validate_non_blank(value)
+
+
+class DiscoveryEvidenceRequest(BaseModel):
+    """孩子对当前一个观察问题的回答。"""
+
+    answer: str = Field(min_length=1, max_length=500)
+
+    @field_validator("answer")
+    @classmethod
+    def _strip_answer(cls, value: str) -> str:
+        return _validate_non_blank(value)
+
+
+class DiscoveryConfirmRequest(BaseModel):
+    """可选地选择候选朋友；缺省时使用首个候选。"""
+
+    species_id: str | None = Field(default=None, min_length=1, max_length=128)
+
+    @field_validator("species_id")
+    @classmethod
+    def _strip_species_id(cls, value: str | None) -> str | None:
+        if value is None:
+            return None
+        return _validate_non_blank(value)
+
+
+class DiscoveryCandidateResponse(BaseModel):
+    """发现台的候选朋友。"""
+
+    species_id: str
+    name_zh: str
+    confidence: float
+    distinguishing_features: list[str]
+
+
+class DiscoveryDraftResponse(BaseModel):
+    """可恢复的发现台草稿响应。"""
+
+    id: str
+    session_id: str
+    child_id: str
+    description: str
+    location: str
+    season: str | None
+    candidates: list[DiscoveryCandidateResponse]
+    evidence_round: int
+    current_question: str | None
+    status: Literal["awaiting_evidence", "ready_to_confirm", "saved"]
+
+
+class DiscoverySavedResponse(BaseModel):
+    """发现台保存观察记录的响应。"""
+
+    saved: bool = True
+    record: dict[str, Any]
+
+
 @app.get("/health")
 async def health_check() -> dict[str, str]:
     """健康检查端点。"""
     return {"status": "ok", "active_sessions": str(_agent.active_session_count)}
+
+
+@app.post("/api/v1/adventures/today", response_model=TodayAdventureResponse)
+async def get_today_adventure(request: TodayAdventureRequest) -> TodayAdventureResponse:
+    """返回一项可跳过的今日微冒险，或自由发现提示。"""
+    adventure = _agent.get_today_adventure(
+        session_id=request.session_id,
+        child_id=request.child_id,
+        season=request.season,
+        location_type=request.location_type,
+        exclude_adventure_id=request.exclude_adventure_id,
+    )
+    if adventure is None:
+        return TodayAdventureResponse(
+            adventure=None,
+            empty_state_message="今天没有安排任务。带着好奇心自由发现，也可以先记下一样让你好奇的东西。",
+        )
+    return TodayAdventureResponse(
+        adventure=TodayAdventure(
+            id=adventure.id,
+            title=adventure.title,
+            kind=adventure.kind,
+            prompt=adventure.prompt,
+            action=adventure.action,
+            evidence_hint=adventure.evidence_hint,
+            safety_notice=adventure.safety_notice,
+            fallback_prompt=adventure.fallback_prompt,
+            rationale=adventure.rationale,
+            target_species_ids=list(adventure.target_species_ids),
+            is_skippable=adventure.is_skippable,
+        )
+    )
 
 
 @app.post("/api/v1/identify/text", response_model=TextIdentificationResponse)
@@ -225,6 +370,102 @@ async def identify_text(request: TextIdentificationRequest) -> TextIdentificatio
         clarifying_questions=list(result.clarifying_questions),
         is_uncertain=result.is_uncertain,
     )
+
+
+def _discovery_response(draft: DiscoveryDraft) -> DiscoveryDraftResponse:
+    """将发现草稿转换成稳定的 API 响应。"""
+    return DiscoveryDraftResponse(
+        id=draft.id,
+        session_id=draft.session_id,
+        child_id=draft.child_id,
+        description=draft.description,
+        location=draft.location,
+        season=draft.season,
+        candidates=[
+            DiscoveryCandidateResponse(
+                species_id=candidate.species_id,
+                name_zh=candidate.name_zh,
+                confidence=candidate.confidence,
+                distinguishing_features=list(candidate.distinguishing_features),
+            )
+            for candidate in draft.candidates
+        ],
+        evidence_round=draft.evidence_round,
+        current_question=draft.current_question,
+        status=draft.status.value,
+    )
+
+
+@app.post("/api/v1/discoveries", response_model=DiscoveryDraftResponse)
+async def start_discovery(request: DiscoveryStartRequest) -> DiscoveryDraftResponse:
+    """开始发现台：先展示候选，再一次只问一个观察问题。"""
+    return _discovery_response(
+        _agent.start_discovery(
+            session_id=request.session_id,
+            child_id=request.child_id,
+            description=request.description,
+            location=request.location,
+            season=request.season,
+        )
+    )
+
+
+@app.get("/api/v1/discoveries/{draft_id}", response_model=DiscoveryDraftResponse)
+async def get_discovery(draft_id: str) -> DiscoveryDraftResponse:
+    """恢复一段未完成的发现台探索。"""
+    try:
+        return _discovery_response(_agent.get_discovery(draft_id))
+    except ValueError as error:
+        raise HTTPException(status_code=404, detail=str(error)) from error
+
+
+@app.post(
+    "/api/v1/discoveries/{draft_id}/evidence",
+    response_model=DiscoveryDraftResponse,
+)
+async def submit_discovery_evidence(
+    draft_id: str,
+    request: DiscoveryEvidenceRequest,
+) -> DiscoveryDraftResponse:
+    """记录当前证据；“不知道”也是可接受回答。"""
+    try:
+        return _discovery_response(
+            _agent.submit_discovery_evidence(draft_id, request.answer)
+        )
+    except ValueError as error:
+        raise HTTPException(status_code=409, detail=str(error)) from error
+
+
+@app.post(
+    "/api/v1/discoveries/{draft_id}/confirm",
+    response_model=DiscoverySavedResponse,
+)
+async def confirm_discovery(
+    draft_id: str,
+    request: DiscoveryConfirmRequest | None = None,
+) -> DiscoverySavedResponse:
+    """确认候选朋友并创建一条已确认观察记录。"""
+    try:
+        return DiscoverySavedResponse(
+            record=_agent.confirm_discovery(
+                draft_id,
+                species_id=request.species_id if request else None,
+            )
+        )
+    except ValueError as error:
+        raise HTTPException(status_code=409, detail=str(error)) from error
+
+
+@app.post(
+    "/api/v1/discoveries/{draft_id}/save-mystery",
+    response_model=DiscoverySavedResponse,
+)
+async def save_discovery_as_mystery(draft_id: str) -> DiscoverySavedResponse:
+    """保存神秘发现，不把不确定结果装作已识别物种。"""
+    try:
+        return DiscoverySavedResponse(record=_agent.save_discovery_as_mystery(draft_id))
+    except ValueError as error:
+        raise HTTPException(status_code=409, detail=str(error)) from error
 
 
 @app.post("/api/v1/chat", response_model=None)
