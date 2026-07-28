@@ -12,8 +12,6 @@ from typing import Any, Literal
 
 from src.adventures.models import ExplorationAdventure
 from src.adventures.selector import select_today_adventure
-from src.discoveries.models import DiscoveryDraft
-from src.discoveries.service import DiscoveryService
 from src.agent.experience import (
     build_recommendations,
     build_role_summary,
@@ -21,6 +19,8 @@ from src.agent.experience import (
     detect_species,
 )
 from src.agent.session import AgentSession, SessionStatus
+from src.discoveries.models import DiscoveryDraft
+from src.discoveries.service import DiscoveryService
 from src.knowledge.species import get_default_catalog
 from src.memory.store import MemoryStore
 from src.observations.models import ObservationCreate, ObservationRecord, ObservationStatus
@@ -234,9 +234,7 @@ class AgentCore:
         species_id: str | None = None,
     ) -> dict[str, Any]:
         """将候选朋友保存为已确认观察记录。"""
-        return self._record_to_dict(
-            self._discoveries.confirm(draft_id, species_id=species_id)
-        )
+        return self._record_to_dict(self._discoveries.confirm(draft_id, species_id=species_id))
 
     def save_discovery_as_mystery(self, draft_id: str) -> dict[str, Any]:
         """将未知发现保存为待确认的神秘发现。"""

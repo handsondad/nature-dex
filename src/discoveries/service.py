@@ -64,9 +64,7 @@ class DiscoveryService:
             ),
             questions=questions,
             status=(
-                DiscoveryStatus.AWAITING_EVIDENCE
-                if questions
-                else DiscoveryStatus.READY_TO_CONFIRM
+                DiscoveryStatus.AWAITING_EVIDENCE if questions else DiscoveryStatus.READY_TO_CONFIRM
             ),
         )
         return self._drafts.create(draft)

@@ -429,9 +429,7 @@ async def submit_discovery_evidence(
 ) -> DiscoveryDraftResponse:
     """记录当前证据；“不知道”也是可接受回答。"""
     try:
-        return _discovery_response(
-            _agent.submit_discovery_evidence(draft_id, request.answer)
-        )
+        return _discovery_response(_agent.submit_discovery_evidence(draft_id, request.answer))
     except ValueError as error:
         raise HTTPException(status_code=409, detail=str(error)) from error
 

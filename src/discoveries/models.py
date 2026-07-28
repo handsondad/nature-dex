@@ -6,7 +6,7 @@ from datetime import UTC, datetime
 from enum import StrEnum
 from uuid import uuid4
 
-from pydantic import BaseModel, Field, computed_field
+from pydantic import BaseModel, Field
 
 
 class DiscoveryStatus(StrEnum):
@@ -46,7 +46,6 @@ class DiscoveryDraft(BaseModel):
         """返回已完成的澄清轮数。"""
         return len(self.evidence_answers)
 
-    @computed_field
     @property
     def current_question(self) -> str | None:
         """返回当前唯一需要回答的观察问题。"""
