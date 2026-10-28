@@ -4,7 +4,7 @@
 
 nature-dex 是面向儿童自然观察的知识陪伴服务。MVP 交付一个可靠闭环：**文字描述 → 候选物种 → 儿童化讲解与安全提示 → 观察记录 → 基础推荐**。
 
-当前版本刻意不把规则检索伪装成视觉识别或通用 LLM 推理。文字候选必须有可复核的特征证据；证据不足时返回不确定状态和澄清问题。图片识别、持久化和 LLM 工具调用是后续可替换的适配器，不应污染领域层。
+当前版本刻意不把规则检索伪装成视觉识别或通用 LLM 推理。文字候选必须有可复核的特征证据；证据不足时返回不确定状态和澄清问题。观察、寻找清单和图鉴使用本地 SQLite 持久化；图片识别和 LLM 工具调用仍是后续适配器，不应污染领域层。
 
 ## 分层与依赖
 
@@ -18,6 +18,9 @@ flowchart TB
     Discovery --> Knowledge
     Discovery --> Observation[observations: 儿童观察记录]
     Agent --> Memory[memory: 会话期记录与推荐上下文]
+    Agent --> Notebook[notebook: 寻找清单与图鉴]
+    Notebook --> LocalDB[SQLite: 本地持久化]
+    Observation --> LocalDB
     Agent --> Tools[tools: 外部能力适配器]
     Tools --> External[LLM / 图像模型 / 数据库]
 ```
@@ -28,7 +31,7 @@ flowchart TB
 - `agent` 编排用户流程，依赖 `knowledge`、`memory` 和 `tools`。
 - `knowledge` 是纯领域层：不依赖 FastAPI、Agent、数据库或外部模型。
 - `tools` 用端口/适配器封装外部能力，绝不反向依赖 `agent`。
-- `memory` 提供存储接口；当前为进程内实现，生产环境替换为 Redis 或数据库时不改变 Agent 调用方。
+- `memory` 中的 `MemoryStore` 提供进程内会话记忆，`SQLiteDatabase` 提供本地数据库事务边界。
 - `discoveries` 维护可恢复的探索草稿，只依赖知识目录和观察记录仓储端口；不依赖 FastAPI 或对话会话实现。
 
 ## 核心模型
@@ -50,17 +53,35 @@ flowchart TB
 
 ## 观察与推荐闭环
 
-观察记录由 `ObservationRepository` 端口管理，当前的 `InMemoryObservationRepository` 仅用于本地开发与测试。记录以 `child_id` 隔离，并在已确认时关联目录中的稳定 `species_id`；待确认记录可以保留儿童的原始物种描述而不伪造物种 ID。`AgentCore` 基于目录的季节、地点和已观察物种生成推荐。
+观察记录由 `ObservationRepository` 端口管理。HTTP 服务默认使用 `SQLiteObservationRepository`；独立创建 `AgentCore` 时仍默认使用内存仓储，便于领域测试。记录以 `child_id` 分组，并在已确认时关联目录中的稳定 `species_id`；待确认记录可以保留儿童的原始物种描述而不伪造物种 ID。`AgentCore` 基于目录的季节、地点和已观察物种生成推荐。
 
 对外 API 有：
 
-- `POST /api/v1/chat`：轻量对话与安全提醒；不承担结构化识别响应。
+- `POST /api/v1/chat`：兼容已有文字/SSE 响应，改为使用目录学习答复，保留安全提示与今日推荐；新增 `age_group`。多行正文按 SSE 的多条 `data:` 行编码。
 - `POST /api/v1/identify/text`：结构化文字候选。
 - `POST /api/v1/observations`：保存已确认或待确认的观察记录，可提供 `child_id` 和 `species_id`。
 - `GET /api/v1/children/{child_id}/observations`：读取儿童档案下最近保存的记录。
 - `POST /api/v1/recommendations`：根据会话或显式 `child_id` 的记录返回下一步观察建议。
 
-当前 `MemoryStore` 与 `InMemoryObservationRepository` 都是进程内实现，只适用于本地开发与测试；服务重启后数据会丢失，也不能横向扩展。下一步需实现 PostgreSQL 版 `ObservationRepository`，并定义 `ProfileRepository` 协议，避免业务代码绑定具体存储。
+`SQLiteDatabase` 在每次操作中打开、提交/回滚并关闭连接。文件路径来自 `NATURE_DEX_DB_PATH`，默认 `.data/nature-dex.sqlite3`。现有同步观察仓储端口由 API 线程池调用，新图鉴仓储内部通过 `asyncio.to_thread` 执行 I/O，避免阻塞事件循环。线程池调用发现台的状态变更由进程内锁保护，防止同一草稿被并发保存两次。
+
+`MemoryStore`、学习对话话题和发现草稿仍是进程内实现；重启仅保留已保存的观察、心愿和图鉴，不保留未完成对话。SQLite 仅为单机开发方案，生产仍需档案认证、授权和数据库部署设计。
+
+## 学习到图鉴的后端闭环
+
+`api/learning_routes.py → AgentCore / NatureNotebook → knowledge、observations、notebook`。API 不直接操作数据库。
+
+- **学习**：`LearningService` 只从目录的分龄解释、特征、分类标签、季节、环境和安全字段生成答复。`POST /api/v1/learning/chat` 返回 `status`、`answer`、`cards` 和 `evidence_fields`，不把学习某物种当成已在野外确认它。资料来源标为内置样本而非伪造的权威引文。
+- **追问**：每个会话保留最多两个物种话题，支持“它在哪里”等明确指代。无话题、比较缺少另一物种时返回 `needs_topic`；机制、食性等无直接资料时返回 `knowledge_gap`。结束会话清除话题。
+- **浏览**：`GET /api/v1/learning/species` 支持 `kind`、`category` 和 `age_group`；现有标签混合了分类和形态信息，不作为完整的界门纲目科属种树。
+- **想见**：`POST/GET /api/v1/children/{child_id}/wishes` 保存、列出寻找清单，`DELETE .../wishes/{species_id}` 移除。数据库以儿童和物种联合唯一，重复添加保留原始时间。寻找卡包含季节、环境、线索和安全边界，不保证一定遇见。
+- **制作**：`POST /api/v1/children/{child_id}/guide/pages` 要求 `observation_id`、`title`，可选 `child_text`。只能引用该儿童已保存的真实观察；同一观察重复制作返回原页，不覆盖后续编辑。
+- **回看**：`GET /api/v1/children/{child_id}/guide?age_group=7-9&limit=50` 返回图鉴页与独立的知识卡。未知观察不附确认知识，不会自动变成已识别物种。`PUT/DELETE .../guide/pages/{page_id}` 只编辑标题/儿童表达或删除图鉴页，不能更改证据、确认状态或发布。
+- **原话**：发现台将最初描述和最多两轮回答保存在观察备注。图鉴保存原始观察快照，儿童表达单独存储；系统不虚构观察经历。
+
+三个本地表由 `CREATE TABLE IF NOT EXISTS` 初始化：`observations`、`wishes`、`guide_pages`。内容由 Pydantic 模型序列化，SQL 查询均参数化。测试用独立临时文件，并通过重建 Agent 验证重启恢复。
+
+**发布限制**：尚无账号鉴权，儿童 ID 分组及误引用校验不是访问控制。`visibility=private` 仅意味着没有公开发布功能。服务仅允许在可信本地环境试用，不能向公网开放或保存真实儿童的多人数据。公开分享、家长授权、导出、完整分类树、可信知识来源及真正的 LLM/RAG 均未实现。
 
 ## 发现台状态机
 
@@ -98,7 +119,8 @@ stateDiagram-v2
 
 1. **完成**：结构化物种目录、可解释文字检索、带儿童档案与稳定 `species_id` 关联的内存观察/推荐闭环，以及可恢复的发现台草稿状态机。
 2. **下一步**：将发现台保存事件接入微冒险完成与发现页，并提供孩子自己的回看叙事。
-3. **后续**：实现 PostgreSQL 仓储、儿童档案与认证；以工具适配器接入图片候选识别和上传对象存储。
-4. **生产化**：JWT 身份认证、用户数据隔离、限流、结构化日志/Trace ID、指标与审计。
+3. **完成本地基线**：SQLite 观察持久化、目录学习问答、寻找清单和可编辑个人图鉴；尚无前端页面。
+4. **后续**：实现 PostgreSQL 仓储、儿童档案与认证；审核知识来源，以工具适配器接入 LLM/RAG、图片候选识别和上传对象存储。
+5. **生产化**：JWT 身份认证、用户数据隔离、限流、结构化日志/Trace ID、指标与审计。
 
 任何跨层依赖、存储模型或外部模型策略变化均应新增 ADR 并同步本文档。

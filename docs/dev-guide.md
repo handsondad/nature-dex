@@ -38,10 +38,24 @@ make test
 
 | 变量名 | 必填 | 说明 |
 |--------|------|------|
-| `OPENAI_API_KEY` | ✅ | OpenAI API Key |
+| `OPENAI_API_KEY` | ❌ | 当前目录问答不调用外部模型；后续接入 LLM 时使用 |
 | `OPENAI_BASE_URL` | ❌ | 自定义 API 端点（默认：OpenAI 官方） |
 | `LOG_LEVEL` | ❌ | 日志级别（默认：INFO） |
 | `MAX_CONCURRENT_SESSIONS` | ❌ | 最大并发会话数（默认：10） |
+| `NATURE_DEX_DB_PATH` | ❌ | 本地观察、寻找清单和图鉴的 SQLite 文件，默认 `.data/nature-dex.sqlite3` |
+| `HOST` | ❌ | `make dev` 默认仅监听 `127.0.0.1`；尚无账号鉴权，不要向公网开放 |
+
+SQLite 文件自动初始化，不需要额外依赖。测试使用临时数据库，不读取或修改开发数据库。重启后保留观察、心愿与图鉴；聊天话题、会话和未保存发现草稿不保留。当前规则问答无需 API Key，也不承诺能回答目录未覆盖的问题。
+
+启动后在 `http://127.0.0.1:8000/docs` 可操作整个后端流程：
+
+1. `POST /api/v1/learning/chat`：`{"session_id":"demo","message":"介绍蒲公英","age_group":"7-9"}`。
+2. `POST /api/v1/children/demo/wishes`：`{"species_id":"plant-dandelion"}`。
+3. `POST /api/v1/observations`：`{"session_id":"demo","child_id":"demo","species_id":"plant-dandelion","location":"park","note":"我看到叶子贴着地面"}`。也可使用发现台流程保存观察。
+4. 复制上一步 `record.id`，调用 `POST /api/v1/children/demo/guide/pages`：`{"observation_id":"<record.id>","title":"我的小太阳","child_text":"这是我自己找到的"}`。
+5. `GET /api/v1/children/demo/guide` 回看，再重启服务确认成果仍在。`PUT .../guide/pages/{page_id}` 可修改标题和儿童原话。
+
+这里只使用虚构的 `demo` 档案进行本地演示。儿童 ID 不是身份认证；不应写入真实儿童的姓名、精确地点或私密照片。知识卡来源是内置样本，不是已审核的科学资料库。
 
 ## 日常开发命令
 

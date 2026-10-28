@@ -30,10 +30,10 @@ class ObservationCreate(BaseModel):
     )
     species_name: str | None = Field(
         default=None,
-        max_length=64,
+        max_length=500,
         description="待确认观察保留的原始物种描述",
     )
-    note: str = Field(default="", max_length=500, description="儿童或家长填写的观察备注")
+    note: str = Field(default="", max_length=2000, description="儿童原话和最多两轮观察证据")
     image_url: str | None = Field(default=None, max_length=2048, description="可选图片地址")
     status: ObservationStatus = Field(
         default=ObservationStatus.CONFIRMED,

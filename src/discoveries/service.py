@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from threading import RLock
+
 from src.discoveries.models import DiscoveryCandidate, DiscoveryDraft, DiscoveryStatus
 from src.discoveries.repository import (
     DiscoveryDraftRepository,
@@ -26,6 +28,7 @@ class DiscoveryService:
     ) -> None:
         """创建发现台服务。"""
         self._catalog = catalog or get_default_catalog()
+        self._lock = RLock()
         self._drafts = draft_repository or InMemoryDiscoveryDraftRepository()
         self._observations = observation_repository or InMemoryObservationRepository(
             catalog=self._catalog
@@ -78,6 +81,10 @@ class DiscoveryService:
 
     def submit_evidence(self, draft_id: str, answer: str) -> DiscoveryDraft:
         """记录一条孩子证据；回答“不知道”同样是有效进展。"""
+        with self._lock:
+            return self._submit_evidence(draft_id, answer)
+
+    def _submit_evidence(self, draft_id: str, answer: str) -> DiscoveryDraft:
         normalized_answer = answer.strip()
         if not normalized_answer:
             raise ValueError("观察回答不能为空白")
@@ -103,6 +110,10 @@ class DiscoveryService:
         species_id: str | None = None,
     ) -> ObservationRecord:
         """把选择的候选朋友保存为已确认观察记录。"""
+        with self._lock:
+            return self._confirm(draft_id, species_id=species_id)
+
+    def _confirm(self, draft_id: str, *, species_id: str | None) -> ObservationRecord:
         draft = self.get(draft_id)
         if draft.status is not DiscoveryStatus.READY_TO_CONFIRM:
             raise ValueError("请先完成当前观察问题，或保存为神秘发现")
@@ -129,6 +140,10 @@ class DiscoveryService:
 
     def save_as_mystery(self, draft_id: str) -> ObservationRecord:
         """把未确认的真实发现保存为神秘发现，不伪造物种标识。"""
+        with self._lock:
+            return self._save_as_mystery(draft_id)
+
+    def _save_as_mystery(self, draft_id: str) -> ObservationRecord:
         draft = self.get(draft_id)
         if draft.status is DiscoveryStatus.SAVED:
             raise ValueError("此发现草稿已经保存")
@@ -148,6 +163,6 @@ class DiscoveryService:
     def _build_note(draft: DiscoveryDraft) -> str:
         """将证据保存在观察备注中，方便未来回看与再识别。"""
         if not draft.evidence_answers:
-            return "发现台记录：等待下次一起再看看。"
+            return f"我的发现：{draft.description}\n发现台记录：等待下次一起再看看。"
         answers = "；".join(draft.evidence_answers)
-        return f"发现台证据：{answers}"
+        return f"我的发现：{draft.description}\n发现台证据：{answers}"

@@ -6,16 +6,22 @@
 from __future__ import annotations
 
 import logging
+import os
 from collections.abc import AsyncIterator
 from typing import Any, Literal
 
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field, field_validator
+from starlette.concurrency import run_in_threadpool
 
 from src.agent.core import AgentCore
+from src.api.learning_routes import build_learning_router
 from src.discoveries.models import DiscoveryDraft
 from src.knowledge.species import AgeGroup, get_default_catalog
+from src.memory.database import SQLiteDatabase
+from src.notebook.repository import NotebookRepository
+from src.observations.sqlite_repository import SQLiteObservationRepository
 
 logger = logging.getLogger(__name__)
 
@@ -26,7 +32,12 @@ app = FastAPI(
 )
 
 # 全局 Agent 实例（生产环境可使用依赖注入管理）
-_agent = AgentCore()
+_database = SQLiteDatabase(os.getenv("NATURE_DEX_DB_PATH", ".data/nature-dex.sqlite3"))
+_agent = AgentCore(
+    observation_repository=SQLiteObservationRepository(_database),
+    notebook_repository=NotebookRepository(_database),
+)
+app.include_router(build_learning_router(lambda: _agent))
 
 
 def _validate_non_blank(value: str) -> str:
@@ -57,6 +68,7 @@ class ChatRequest(BaseModel):
     confidence: float | None = Field(default=None, ge=0.0, le=1.0)
     season: str | None = Field(default=None, max_length=32)
     location: str | None = Field(default=None, max_length=64)
+    age_group: Literal["4-6", "7-9", "10+"] = "7-9"
 
     @field_validator("session_id", "message")
     @classmethod
@@ -310,7 +322,8 @@ async def health_check() -> dict[str, str]:
 @app.post("/api/v1/adventures/today", response_model=TodayAdventureResponse)
 async def get_today_adventure(request: TodayAdventureRequest) -> TodayAdventureResponse:
     """返回一项可跳过的今日微冒险，或自由发现提示。"""
-    adventure = _agent.get_today_adventure(
+    adventure = await run_in_threadpool(
+        _agent.get_today_adventure,
         session_id=request.session_id,
         child_id=request.child_id,
         season=request.season,
@@ -400,7 +413,8 @@ def _discovery_response(draft: DiscoveryDraft) -> DiscoveryDraftResponse:
 async def start_discovery(request: DiscoveryStartRequest) -> DiscoveryDraftResponse:
     """开始发现台：先展示候选，再一次只问一个观察问题。"""
     return _discovery_response(
-        _agent.start_discovery(
+        await run_in_threadpool(
+            _agent.start_discovery,
             session_id=request.session_id,
             child_id=request.child_id,
             description=request.description,
@@ -414,7 +428,7 @@ async def start_discovery(request: DiscoveryStartRequest) -> DiscoveryDraftRespo
 async def get_discovery(draft_id: str) -> DiscoveryDraftResponse:
     """恢复一段未完成的发现台探索。"""
     try:
-        return _discovery_response(_agent.get_discovery(draft_id))
+        return _discovery_response(await run_in_threadpool(_agent.get_discovery, draft_id))
     except ValueError as error:
         raise HTTPException(status_code=404, detail=str(error)) from error
 
@@ -429,7 +443,9 @@ async def submit_discovery_evidence(
 ) -> DiscoveryDraftResponse:
     """记录当前证据；“不知道”也是可接受回答。"""
     try:
-        return _discovery_response(_agent.submit_discovery_evidence(draft_id, request.answer))
+        return _discovery_response(
+            await run_in_threadpool(_agent.submit_discovery_evidence, draft_id, request.answer)
+        )
     except ValueError as error:
         raise HTTPException(status_code=409, detail=str(error)) from error
 
@@ -445,7 +461,8 @@ async def confirm_discovery(
     """确认候选朋友并创建一条已确认观察记录。"""
     try:
         return DiscoverySavedResponse(
-            record=_agent.confirm_discovery(
+            record=await run_in_threadpool(
+                _agent.confirm_discovery,
                 draft_id,
                 species_id=request.species_id if request else None,
             )
@@ -461,7 +478,9 @@ async def confirm_discovery(
 async def save_discovery_as_mystery(draft_id: str) -> DiscoverySavedResponse:
     """保存神秘发现，不把不确定结果装作已识别物种。"""
     try:
-        return DiscoverySavedResponse(record=_agent.save_discovery_as_mystery(draft_id))
+        return DiscoverySavedResponse(
+            record=await run_in_threadpool(_agent.save_discovery_as_mystery, draft_id)
+        )
     except ValueError as error:
         raise HTTPException(status_code=409, detail=str(error)) from error
 
@@ -501,6 +520,7 @@ async def chat(request: ChatRequest) -> StreamingResponse | ChatResponse:
                     confidence=request.confidence,
                     season=request.season,
                     location=request.location,
+                    age_group=request.age_group,
                 ),
                 media_type="text/event-stream",
             )
@@ -513,6 +533,7 @@ async def chat(request: ChatRequest) -> StreamingResponse | ChatResponse:
                 confidence=request.confidence,
                 season=request.season,
                 location=request.location,
+                age_group=request.age_group,
             ):
                 chunks.append(chunk)
             return ChatResponse(
@@ -537,6 +558,7 @@ async def _stream_chat(
     confidence: float | None,
     season: str | None,
     location: str | None,
+    age_group: AgeGroup,
 ) -> AsyncIterator[str]:
     """生成流式响应的异步迭代器。"""
     async for chunk in _agent.chat(
@@ -546,8 +568,11 @@ async def _stream_chat(
         confidence=confidence,
         season=season,
         location=location,
+        age_group=age_group,
     ):
-        yield f"data: {chunk}\n\n"
+        for line in chunk.splitlines():
+            yield f"data: {line}\n"
+        yield "\n"
     yield "data: [DONE]\n\n"
 
 
@@ -579,16 +604,20 @@ async def create_observation(request: ObservationCreateRequest) -> dict[str, Any
         species_name = catalog_species.name_zh
     if species_name is None:
         raise HTTPException(status_code=422, detail="无法解析物种名称")
-    record = _agent.create_observation(
-        session_id=request.session_id,
-        child_id=request.child_id,
-        species_id=request.species_id,
-        species=species_name,
-        location=request.location,
-        note=request.note,
-        image_url=request.image_url,
-        status=request.status,
-    )
+    try:
+        record = await run_in_threadpool(
+            _agent.create_observation,
+            session_id=request.session_id,
+            child_id=request.child_id,
+            species_id=request.species_id,
+            species=species_name,
+            location=request.location,
+            note=request.note,
+            image_url=request.image_url,
+            status=request.status,
+        )
+    except ValueError as error:
+        raise HTTPException(status_code=422, detail=str(error)) from error
     return {"saved": True, "record": record}
 
 
@@ -602,7 +631,9 @@ async def get_child_observations(
 ) -> ObservationListResponse:
     """读取儿童档案下最近保存的观察记录。"""
     normalized_child_id = _validate_non_blank(child_id)
-    records = _agent.get_observation_records(normalized_child_id, limit=limit)
+    records = await run_in_threadpool(
+        _agent.get_observation_records, normalized_child_id, limit=limit
+    )
     return ObservationListResponse(
         child_id=normalized_child_id,
         records=[
@@ -618,7 +649,8 @@ async def get_child_observations(
 @app.post("/api/v1/recommendations", response_model=RecommendationResponse)
 async def get_recommendations(request: RecommendationRequest) -> RecommendationResponse:
     """获取推荐内容。"""
-    result = _agent.get_recommendations(
+    result = await run_in_threadpool(
+        _agent.get_recommendations,
         session_id=request.session_id,
         child_id=request.child_id,
         season=request.season,

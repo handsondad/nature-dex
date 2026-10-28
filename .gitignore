@@ -69,6 +69,7 @@ dmypy.json
 logs/
 
 # 运行时数据
+.data/
 *.pid
 *.seed
 *.pid.lock
