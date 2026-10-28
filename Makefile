@@ -54,7 +54,7 @@ clean:
 
 dev:
 	@echo "🚀 启动开发服务器..."
-	python -m uvicorn src.api.routes:app --reload --host 0.0.0.0 --port 8000
+	python -m uvicorn src.api.routes:app --reload --host "$${HOST:-127.0.0.1}" --port 8000
 
 # ─────────────────────────────────────────────
 # 测试

@@ -7,22 +7,22 @@ from __future__ import annotations
 
 import logging
 import os
+from asyncio import to_thread
 from collections.abc import AsyncIterator
 from typing import Any, Literal
 
 from src.adventures.models import ExplorationAdventure
 from src.adventures.selector import select_today_adventure
-from src.agent.experience import (
-    build_recommendations,
-    build_role_summary,
-    build_safety_reminders,
-    detect_species,
-)
+from src.agent.experience import build_recommendations
+from src.agent.learning import LearningCard, LearningReply, LearningService, build_learning_card
+from src.agent.notebook import NatureNotebook
 from src.agent.session import AgentSession, SessionStatus
 from src.discoveries.models import DiscoveryDraft
 from src.discoveries.service import DiscoveryService
-from src.knowledge.species import get_default_catalog
+from src.knowledge.species import AgeGroup, get_default_catalog
+from src.memory.database import SQLiteDatabase
 from src.memory.store import MemoryStore
+from src.notebook.repository import NotebookRepository
 from src.observations.models import ObservationCreate, ObservationRecord, ObservationStatus
 from src.observations.repository import InMemoryObservationRepository, ObservationRepository
 from src.tools.registry import ToolRegistry
@@ -44,6 +44,7 @@ class AgentCore:
         tool_registry: ToolRegistry | None = None,
         memory_store: MemoryStore | None = None,
         observation_repository: ObservationRepository | None = None,
+        notebook_repository: NotebookRepository | None = None,
         model: str | None = None,
     ) -> None:
         """初始化 AgentCore。
@@ -52,11 +53,21 @@ class AgentCore:
             tool_registry: 工具注册中心，为 None 时使用全局注册中心
             memory_store: 记忆存储，为 None 时使用内存存储
             observation_repository: 观察记录仓储，为 None 时使用内存实现
+            notebook_repository: 寻找清单与图鉴仓储；默认使用本地 SQLite
             model: LLM 模型名称，为 None 时从环境变量读取
         """
         self._tool_registry = tool_registry or ToolRegistry.get_global()
         self._memory = memory_store or MemoryStore()
         self._observations = observation_repository or InMemoryObservationRepository()
+        self._learning = LearningService()
+        self.notebook = NatureNotebook(
+            self._observations,
+            notebook_repository
+            or NotebookRepository(
+                SQLiteDatabase(os.getenv("NATURE_DEX_DB_PATH", ".data/nature-dex.sqlite3"))
+            ),
+        )
+        self._learning_topics: dict[str, tuple[str, ...]] = {}
         self._discoveries = DiscoveryService(
             observation_repository=self._observations,
         )
@@ -87,6 +98,7 @@ class AgentCore:
         confidence: float | None = None,
         season: str | None = None,
         location: str | None = None,
+        age_group: AgeGroup = "7-9",
     ) -> AsyncIterator[str]:
         """处理用户消息并流式返回 Agent 响应。
 
@@ -100,6 +112,44 @@ class AgentCore:
         Raises:
             RuntimeError: 如果会话处于非法状态
         """
+        reply = await self.learn(
+            session_id=session_id,
+            message=message,
+            role=role,
+            confidence=confidence,
+            age_group=age_group,
+        )
+        session = self.get_or_create_session(session_id)
+        session.status = SessionStatus.PROCESSING
+        try:
+            recommendations = await to_thread(
+                self.get_recommendations,
+                session_id=session_id,
+                season=season,
+                location=location,
+                limit=2,
+            )
+            self._memory.set(session_id, "last_recommendations", recommendations)
+            names = ", ".join(item["name"] for item in recommendations["today_species"])
+            yield f"{reply.answer}\n今日推荐：{names or '继续记录后生成'}"
+        except Exception:
+            logger.exception("聊天响应失败", extra={"session_id": session_id})
+            session.status = SessionStatus.ERROR
+            raise
+        finally:
+            if session.status is SessionStatus.PROCESSING:
+                session.status = SessionStatus.IDLE
+
+    async def learn(
+        self,
+        *,
+        session_id: str,
+        message: str,
+        age_group: AgeGroup = "7-9",
+        role: Literal["child", "parent"] = "child",
+        confidence: float | None = None,
+    ) -> LearningReply:
+        """生成有目录依据的学习答复，并保留本会话的指代话题。"""
         session = self.get_or_create_session(session_id)
 
         if session.status == SessionStatus.PROCESSING:
@@ -114,26 +164,16 @@ class AgentCore:
         )
 
         try:
-            species = detect_species(message)
-            summary = build_role_summary(species, role)
-            reminders = build_safety_reminders(message, confidence, species)
-            recommendations = build_recommendations(
-                observations=self.get_observations(session_id),
-                season=season,
-                location=location,
-                limit=2,
+            reply = self._learning.answer(
+                session_id=session_id,
+                message=message,
+                age_group=age_group,
+                role=role,
+                confidence=confidence,
+                topic_ids=self._learning_topics.get(session_id, ()),
             )
-            recommended_names = (
-                ", ".join(item["name"] for item in recommendations["today_species"])
-                or "继续记录后生成"
-            )
-            response_text = (
-                f"{summary}\n安全提醒：{'；'.join(reminders)}\n今日推荐：{recommended_names}"
-            )
-            session.add_assistant_message(response_text)
-            self._memory.set(session_id, "last_recommendations", recommendations)
-
-            yield response_text
+            self._learning_topics[session_id] = tuple(card.species_id for card in reply.cards)
+            session.add_assistant_message(reply.answer)
 
         except Exception as e:
             logger.error(
@@ -144,6 +184,7 @@ class AgentCore:
             raise
         else:
             session.status = SessionStatus.IDLE
+        return reply
 
     def create_observation(
         self,
@@ -200,6 +241,17 @@ class AgentCore:
     ) -> list[ObservationRecord]:
         """获取儿童档案下最近保存的观察记录。"""
         return self._observations.list_by_child(child_id, limit=limit)
+
+    def list_learning_species(
+        self, age_group: AgeGroup, kind: str | None = None, category: str | None = None
+    ) -> list[LearningCard]:
+        """按类型和现有分类标签提供学习卡，分类不代表个人收集进度。"""
+        return [
+            build_learning_card(item, age_group)
+            for item in get_default_catalog().list_species()
+            if (kind is None or item.kind == kind)
+            and (category is None or item.category == category)
+        ]
 
     def start_discovery(
         self,
@@ -322,6 +374,7 @@ class AgentCore:
         """
         if session_id in self._sessions:
             del self._sessions[session_id]
+            self._learning_topics.pop(session_id, None)
             logger.info("会话已终止", extra={"session_id": session_id})
             return True
         return False

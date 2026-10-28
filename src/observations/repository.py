@@ -18,6 +18,27 @@ class ObservationRepository(Protocol):
     def list_by_child(self, child_id: str, *, limit: int = 50) -> list[ObservationRecord]:
         """按儿童档案读取最近的观察记录。"""
 
+    def get(self, child_id: str, observation_id: str) -> ObservationRecord | None:
+        """按所属儿童与 ID 读取观察记录。"""
+
+
+def build_observation_record(
+    observation: ObservationCreate, catalog: SpeciesCatalog
+) -> ObservationRecord:
+    """统一校验目录引用并规范化展示名，供各仓储实现复用。"""
+    species_name = observation.species_name
+    if observation.species_id is not None:
+        species = catalog.get_by_id(observation.species_id)
+        if species is None:
+            raise ValueError("species_id 不存在于物种目录")
+        species_name = species.name_zh
+    if species_name is None:
+        raise ValueError("观察记录缺少物种名称")
+    return ObservationRecord(
+        **observation.model_dump(exclude={"species_name"}),
+        species_name=species_name,
+    )
+
 
 class InMemoryObservationRepository:
     """用于本地开发和测试的进程内观察记录仓储。"""
@@ -33,25 +54,7 @@ class InMemoryObservationRepository:
 
     def create(self, observation: ObservationCreate) -> ObservationRecord:
         """保存观察记录，并验证目录物种引用。"""
-        species_name = observation.species_name
-        if observation.species_id is not None:
-            species = self._catalog.get_by_id(observation.species_id)
-            if species is None:
-                raise ValueError("species_id 不存在于物种目录")
-            species_name = species.name_zh
-
-        if species_name is None:
-            raise ValueError("观察记录缺少物种名称")
-
-        record = ObservationRecord(
-            child_id=observation.child_id,
-            species_id=observation.species_id,
-            species_name=species_name,
-            location=observation.location,
-            note=observation.note,
-            image_url=observation.image_url,
-            status=observation.status,
-        )
+        record = build_observation_record(observation, self._catalog)
         self._records_by_child[record.child_id].append(record)
         return record
 
@@ -60,3 +63,14 @@ class InMemoryObservationRepository:
         if limit < 1:
             return []
         return list(reversed(self._records_by_child.get(child_id, [])))[:limit]
+
+    def get(self, child_id: str, observation_id: str) -> ObservationRecord | None:
+        """按所属儿童查找，不跨儿童引用记录。"""
+        return next(
+            (
+                item
+                for item in self._records_by_child.get(child_id, [])
+                if item.id == observation_id
+            ),
+            None,
+        )
