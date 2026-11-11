@@ -1,0 +1,63 @@
+{
+  "query": "Cryptotympana atrata",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 5867671,
+    "scientificName": "Cryptotympana atrata (Fabricius, 1775)",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Arthropoda"
+      },
+      {
+        "rank": "class",
+        "name": "Insecta"
+      },
+      {
+        "rank": "order",
+        "name": "Hemiptera"
+      },
+      {
+        "rank": "family",
+        "name": "Cicadidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Cryptotympana"
+      },
+      {
+        "rank": "species",
+        "name": "Cryptotympana atrata"
+      }
+    ]
+  },
+  "inat": {
+    "id": 319989,
+    "name": "Cryptotympana atrata",
+    "commonName": "黑蚱蝉",
+    "url": "https://www.inaturalist.org/taxa/319989"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 0,
+      "2": 2,
+      "3": 2,
+      "4": 5,
+      "5": 8,
+      "6": 206,
+      "7": 748,
+      "8": 357,
+      "9": 40,
+      "10": 19,
+      "11": 4,
+      "12": 2
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=319989&place_id=6903&quality_grade=research"
+  }
+}

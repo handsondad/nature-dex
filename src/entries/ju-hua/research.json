@@ -1,0 +1,97 @@
+{
+  "query": "Chrysanthemum × morifolium",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 3150767,
+    "scientificName": "Chrysanthemum × morifolium Ramat. ex Hemsl.",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Asterales"
+      },
+      {
+        "rank": "family",
+        "name": "Asteraceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Chrysanthemum"
+      },
+      {
+        "rank": "species",
+        "name": "Chrysanthemum morifolium"
+      }
+    ]
+  },
+  "inat": {
+    "id": 53806,
+    "name": "Chrysanthemum × morifolium",
+    "commonName": "菊花",
+    "url": "https://www.inaturalist.org/taxa/53806",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/杭白菊"
+  },
+  "wiki": {
+    "title": "菊花",
+    "extract": "菊花 是菊科菊属多年生草本植物，为野菊等菊属植物杂交的栽培种。别名黄花、黄华、秋菊、陶菊、寿客等。在中国古典文学中及文化中，菊花有着重要的地位，其与梅、兰、竹合称四君子。菊，花之隐逸者也，相传是晋朝诗人陶渊明的独爱。",
+    "url": "https://zh.wikipedia.org/wiki/%E8%8F%8A%E8%8A%B1"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 1,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "flowering": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=53806&place_id=6903&quality_grade=research"
+  }
+}

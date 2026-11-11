@@ -1,0 +1,74 @@
+{
+  "cover": {
+    "src": "photos/he-hua/cover.webp",
+    "thumb": "photos/he-hua/cover.thumb.webp",
+    "w": 1024,
+    "h": 676,
+    "credit": {
+      "author": "Karen (with occasional help from Mike)",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/49037159",
+      "source": "iNaturalist"
+    }
+  },
+  "leaf-flower": {
+    "src": "photos/he-hua/leaf-flower.webp",
+    "thumb": "photos/he-hua/leaf-flower.thumb.webp",
+    "w": 1024,
+    "h": 678,
+    "credit": {
+      "author": "Karen (with occasional help from Mike)",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/49037163",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bloom": {
+    "src": "photos/he-hua/step-bloom.webp",
+    "thumb": "photos/he-hua/step-bloom.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Jiao Sun (孙娇)",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/399434639",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bud": {
+    "src": "photos/he-hua/step-bud.webp",
+    "thumb": "photos/he-hua/step-bud.thumb.webp",
+    "w": 1024,
+    "h": 471,
+    "credit": {
+      "author": "Ong Jyh Seng",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/52131355",
+      "source": "iNaturalist"
+    }
+  },
+  "step-pod": {
+    "src": "photos/he-hua/step-pod.webp",
+    "thumb": "photos/he-hua/step-pod.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Jiao Sun (孙娇)",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/399434655",
+      "source": "iNaturalist"
+    }
+  },
+  "step-seed": {
+    "src": "photos/he-hua/step-seed.webp",
+    "thumb": "photos/he-hua/step-seed.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "TonyT",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/295507588",
+      "source": "iNaturalist"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "query": "Sciurus vulgaris",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 8211070,
+    "scientificName": "Sciurus vulgaris Linnaeus, 1758",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Mammalia"
+      },
+      {
+        "rank": "order",
+        "name": "Rodentia"
+      },
+      {
+        "rank": "family",
+        "name": "Sciuridae"
+      },
+      {
+        "rank": "genus",
+        "name": "Sciurus"
+      },
+      {
+        "rank": "species",
+        "name": "Sciurus vulgaris"
+      }
+    ]
+  },
+  "inat": {
+    "id": 46001,
+    "name": "Sciurus vulgaris",
+    "commonName": "欧亚红松鼠",
+    "url": "https://www.inaturalist.org/taxa/46001"
+  },
+  "wiki": {
+    "title": "歐亞紅松鼠",
+    "extract": "欧亚红松鼠 是松鼠族下的一个物种，属于一种居于树上的杂食性啮齿动物，在欧亚大陆等地均十分常见。虽然如此，但在英国它们的数目却不断下降，主因是作为入侵物种的灰松鼠 有更强的适应性及觅食能力。",
+    "url": "https://zh.wikipedia.org/wiki/%E6%AD%90%E4%BA%9E%E7%B4%85%E6%9D%BE%E9%BC%A0"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 39,
+      "2": 35,
+      "3": 58,
+      "4": 60,
+      "5": 65,
+      "6": 65,
+      "7": 47,
+      "8": 60,
+      "9": 118,
+      "10": 116,
+      "11": 66,
+      "12": 46
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=46001&place_id=6903&quality_grade=research"
+  }
+}

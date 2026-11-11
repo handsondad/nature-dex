@@ -1,0 +1,96 @@
+{
+  "query": "Taraxacum mongolicum",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 5394645,
+    "scientificName": "Taraxacum mongolicum Hand.-Mazz.",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Asterales"
+      },
+      {
+        "rank": "family",
+        "name": "Asteraceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Taraxacum"
+      },
+      {
+        "rank": "species",
+        "name": "Taraxacum mongolicum"
+      }
+    ]
+  },
+  "inat": {
+    "id": 538131,
+    "name": "Taraxacum mongolicum",
+    "commonName": "蒲公英",
+    "url": "https://www.inaturalist.org/taxa/538131"
+  },
+  "wiki": {
+    "title": "蒲公英",
+    "extract": "蒲公英属 植物通称蒲公英、黄花地丁、华花郎、蒲公草、西洋蒲公英、乳草、奶汁草、残飞坠、卜地蜈蚣、鬼灯笼、婆婆丁，为菊目菊科的一属，是温带至亚热带常见的一种植物。蒲公英中很多种采孤雌生殖，叶边的形状像狮子的尖牙。其英文名字Dandelion来自法语dent-de-lion，正是狮子牙齿之意，蒲公英花语为“我在远处为你的幸福而祈祷”。属名Taraxacum源于波斯语tarashqun，即是蒲公英。",
+    "url": "https://zh.wikipedia.org/wiki/%E8%92%B2%E5%85%AC%E8%8B%B1"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 2,
+      "2": 8,
+      "3": 33,
+      "4": 34,
+      "5": 11,
+      "6": 1,
+      "7": 4,
+      "8": 0,
+      "9": 4,
+      "10": 4,
+      "11": 1,
+      "12": 1
+    },
+    "flowering": {
+      "1": 0,
+      "2": 1,
+      "3": 5,
+      "4": 12,
+      "5": 1,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 1,
+      "11": 0,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 1,
+      "5": 4,
+      "6": 0,
+      "7": 1,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=538131&place_id=6903&quality_grade=research"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "cover": {
+    "src": "photos/xi-fu-hai-tang/cover.webp",
+    "thumb": "photos/xi-fu-hai-tang/cover.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/61427371",
+      "source": "iNaturalist"
+    }
+  },
+  "flower-branch": {
+    "src": "photos/xi-fu-hai-tang/flower-branch.webp",
+    "thumb": "photos/xi-fu-hai-tang/flower-branch.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/61384899",
+      "source": "iNaturalist"
+    }
+  },
+  "same-flower": {
+    "src": "photos/xi-fu-hai-tang/same-flower.webp",
+    "thumb": "photos/xi-fu-hai-tang/same-flower.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Jiao Sun (孙娇)",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/397974679",
+      "source": "iNaturalist"
+    }
+  },
+  "same-fruit": {
+    "src": "photos/xi-fu-hai-tang/same-fruit.webp",
+    "thumb": "photos/xi-fu-hai-tang/same-fruit.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/430026082",
+      "source": "iNaturalist"
+    }
+  }
+}

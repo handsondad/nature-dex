@@ -1,0 +1,50 @@
+{
+  "cover": {
+    "src": "photos/zao-kai-jin-cai/cover.webp",
+    "thumb": "photos/zao-kai-jin-cai/cover.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/633050539",
+      "source": "iNaturalist"
+    }
+  },
+  "look-zhdd": {
+    "src": "photos/zao-kai-jin-cai/look-zhdd.webp",
+    "thumb": "photos/zao-kai-jin-cai/look-zhdd.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/65156975",
+      "source": "iNaturalist"
+    }
+  },
+  "look-zkjc": {
+    "src": "photos/zao-kai-jin-cai/look-zkjc.webp",
+    "thumb": "photos/zao-kai-jin-cai/look-zkjc.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/633050539",
+      "source": "iNaturalist"
+    }
+  },
+  "whole-plant": {
+    "src": "photos/zao-kai-jin-cai/whole-plant.webp",
+    "thumb": "photos/zao-kai-jin-cai/whole-plant.thumb.webp",
+    "w": 1024,
+    "h": 577,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/61639593",
+      "source": "iNaturalist"
+    }
+  }
+}

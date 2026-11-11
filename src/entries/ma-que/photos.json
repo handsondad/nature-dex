@@ -1,0 +1,26 @@
+{
+  "cover": {
+    "src": "photos/ma-que/cover.webp",
+    "thumb": "photos/ma-que/cover.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Radu Teodoreanu",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/608112754",
+      "source": "iNaturalist"
+    }
+  },
+  "face": {
+    "src": "photos/ma-que/face.webp",
+    "thumb": "photos/ma-que/face.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Jiao Sun (孙娇)",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/414835575",
+      "source": "iNaturalist"
+    }
+  }
+}

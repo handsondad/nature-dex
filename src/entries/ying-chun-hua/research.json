@@ -1,0 +1,97 @@
+{
+  "query": "Jasminum nudiflorum",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 3172266,
+    "scientificName": "Jasminum nudiflorum Lindl.",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Lamiales"
+      },
+      {
+        "rank": "family",
+        "name": "Oleaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Jasminum"
+      },
+      {
+        "rank": "species",
+        "name": "Jasminum nudiflorum"
+      }
+    ]
+  },
+  "inat": {
+    "id": 164232,
+    "name": "Jasminum nudiflorum",
+    "commonName": "迎春花",
+    "url": "https://www.inaturalist.org/taxa/164232",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/迎春花"
+  },
+  "wiki": {
+    "title": "迎春花",
+    "extract": "迎春 是木樨科素馨属的多年生灌木，又称金腰带、重瓣迎春，香港俗称串串金，是木犀科素馨属的植物。早春先于叶子开放出黄色鲜艳的小花，给人们带来春意，所以花名曰迎春。",
+    "url": "https://zh.wikipedia.org/wiki/%E8%BF%8E%E6%98%A5%E8%8A%B1"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 10,
+      "2": 17,
+      "3": 43,
+      "4": 8,
+      "5": 2,
+      "6": 3,
+      "7": 0,
+      "8": 2,
+      "9": 1,
+      "10": 4,
+      "11": 2,
+      "12": 3
+    },
+    "flowering": {
+      "1": 0,
+      "2": 1,
+      "3": 4,
+      "4": 0,
+      "5": 1,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=164232&place_id=6903&quality_grade=research"
+  }
+}

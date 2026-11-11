@@ -1,0 +1,74 @@
+{
+  "branch-pods": {
+    "src": "photos/guo-huai/branch-pods.webp",
+    "thumb": "photos/guo-huai/branch-pods.thumb.webp",
+    "w": 769,
+    "h": 1024,
+    "credit": {
+      "author": "Iehllmore",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/414214868",
+      "source": "iNaturalist"
+    }
+  },
+  "cover": {
+    "src": "photos/guo-huai/cover.webp",
+    "thumb": "photos/guo-huai/cover.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Stan Rullman",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/149969280",
+      "source": "iNaturalist"
+    }
+  },
+  "look-ci-huai": {
+    "src": "photos/guo-huai/look-ci-huai.webp",
+    "thumb": "photos/guo-huai/look-ci-huai.thumb.webp",
+    "w": 1024,
+    "h": 678,
+    "credit": {
+      "author": "Jay Pruett",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/346934804",
+      "source": "iNaturalist"
+    }
+  },
+  "look-guo-huai": {
+    "src": "photos/guo-huai/look-guo-huai.webp",
+    "thumb": "photos/guo-huai/look-guo-huai.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Stan Rullman",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/149969280",
+      "source": "iNaturalist"
+    }
+  },
+  "same-flower": {
+    "src": "photos/guo-huai/same-flower.webp",
+    "thumb": "photos/guo-huai/same-flower.thumb.webp",
+    "w": 769,
+    "h": 1024,
+    "credit": {
+      "author": "Iehllmore",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/414214920",
+      "source": "iNaturalist"
+    }
+  },
+  "same-pods": {
+    "src": "photos/guo-huai/same-pods.webp",
+    "thumb": "photos/guo-huai/same-pods.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Douglas Mainhart",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/513378563",
+      "source": "iNaturalist"
+    }
+  }
+}

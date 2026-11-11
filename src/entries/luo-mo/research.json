@@ -1,0 +1,91 @@
+{
+  "query": "Cynanchum rostellatum",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 9500699,
+    "scientificName": "Cynanchum rostellatum (Turcz.) Liede & Khanum",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Gentianales"
+      },
+      {
+        "rank": "family",
+        "name": "Apocynaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Cynanchum"
+      },
+      {
+        "rank": "species",
+        "name": "Cynanchum rostellatum"
+      }
+    ]
+  },
+  "inat": {
+    "id": 1036899,
+    "name": "Cynanchum rostellatum",
+    "commonName": "萝藦",
+    "url": "https://www.inaturalist.org/taxa/1036899"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 22,
+      "2": 21,
+      "3": 20,
+      "4": 53,
+      "5": 149,
+      "6": 110,
+      "7": 123,
+      "8": 250,
+      "9": 155,
+      "10": 108,
+      "11": 44,
+      "12": 17
+    },
+    "flowering": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 5,
+      "7": 14,
+      "8": 51,
+      "9": 13,
+      "10": 1,
+      "11": 1,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 4,
+      "2": 6,
+      "3": 8,
+      "4": 5,
+      "5": 2,
+      "6": 0,
+      "7": 0,
+      "8": 9,
+      "9": 17,
+      "10": 5,
+      "11": 6,
+      "12": 3
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=1036899&place_id=6903&quality_grade=research"
+  }
+}

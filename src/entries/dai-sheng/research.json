@@ -1,0 +1,69 @@
+{
+  "query": "Upupa epops",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 2498415,
+    "scientificName": "Upupa epops Linnaeus, 1758",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Aves"
+      },
+      {
+        "rank": "order",
+        "name": "Bucerotiformes"
+      },
+      {
+        "rank": "family",
+        "name": "Upupidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Upupa"
+      },
+      {
+        "rank": "species",
+        "name": "Upupa epops"
+      }
+    ]
+  },
+  "inat": {
+    "id": 20969,
+    "name": "Upupa epops",
+    "commonName": "戴胜",
+    "url": "https://www.inaturalist.org/taxa/20969",
+    "wikipediaUrl": "https://zh.wikipedia.org/zh-cn/戴胜"
+  },
+  "wiki": {
+    "title": "戴胜",
+    "extract": "戴胜，俗称臭姑姑、墓崆鸡、冢崆鸟、香香鸡，是犀鸟目戴胜科戴胜属的一种鸟类。戴胜头有冠，五色如方胜，故而得名。戴胜有许多异名，如：戴任﹑戴纴、墓圹鸟 、鶝、鴔鵖、鵖鴔等。",
+    "url": "https://zh.wikipedia.org/wiki/%E6%88%B4%E8%83%9C"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 203,
+      "2": 143,
+      "3": 210,
+      "4": 229,
+      "5": 233,
+      "6": 184,
+      "7": 188,
+      "8": 185,
+      "9": 201,
+      "10": 188,
+      "11": 156,
+      "12": 182
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=20969&place_id=6903&quality_grade=research"
+  }
+}

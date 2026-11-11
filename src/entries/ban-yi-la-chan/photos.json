@@ -1,0 +1,74 @@
+{
+  "adult-rest": {
+    "src": "photos/ban-yi-la-chan/adult-rest.webp",
+    "thumb": "photos/ban-yi-la-chan/adult-rest.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Paul Hoekman",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/46728956",
+      "source": "iNaturalist"
+    }
+  },
+  "cover": {
+    "src": "photos/ban-yi-la-chan/cover.webp",
+    "thumb": "photos/ban-yi-la-chan/cover.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Josie Graydon",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/502472461",
+      "source": "iNaturalist"
+    }
+  },
+  "step-adult": {
+    "src": "photos/ban-yi-la-chan/step-adult.webp",
+    "thumb": "photos/ban-yi-la-chan/step-adult.thumb.webp",
+    "w": 1024,
+    "h": 809,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/318722897",
+      "source": "iNaturalist"
+    }
+  },
+  "step-black": {
+    "src": "photos/ban-yi-la-chan/step-black.webp",
+    "thumb": "photos/ban-yi-la-chan/step-black.thumb.webp",
+    "w": 1024,
+    "h": 711,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/139621016",
+      "source": "iNaturalist"
+    }
+  },
+  "step-eggs": {
+    "src": "photos/ban-yi-la-chan/step-eggs.webp",
+    "thumb": "photos/ban-yi-la-chan/step-eggs.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Paul Hoekman",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/46728969",
+      "source": "iNaturalist"
+    }
+  },
+  "step-red": {
+    "src": "photos/ban-yi-la-chan/step-red.webp",
+    "thumb": "photos/ban-yi-la-chan/step-red.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/318722889",
+      "source": "iNaturalist"
+    }
+  }
+}

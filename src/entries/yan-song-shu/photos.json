@@ -1,0 +1,62 @@
+{
+  "cover": {
+    "src": "photos/yan-song-shu/cover.webp",
+    "thumb": "photos/yan-song-shu/cover.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "夏仲归",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/611673759",
+      "source": "iNaturalist"
+    }
+  },
+  "look-hw": {
+    "src": "photos/yan-song-shu/look-hw.webp",
+    "thumb": "photos/yan-song-shu/look-hw.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Wang.QG",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/119802635",
+      "source": "iNaturalist"
+    }
+  },
+  "look-sv": {
+    "src": "photos/yan-song-shu/look-sv.webp",
+    "thumb": "photos/yan-song-shu/look-sv.thumb.webp",
+    "w": 899,
+    "h": 1024,
+    "credit": {
+      "author": "bloodlesshunting",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/398080265",
+      "source": "iNaturalist"
+    }
+  },
+  "look-ys": {
+    "src": "photos/yan-song-shu/look-ys.webp",
+    "thumb": "photos/yan-song-shu/look-ys.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "夏仲归",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/706212761",
+      "source": "iNaturalist"
+    }
+  },
+  "side-rock": {
+    "src": "photos/yan-song-shu/side-rock.webp",
+    "thumb": "photos/yan-song-shu/side-rock.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "夏仲归",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/611673772",
+      "source": "iNaturalist"
+    }
+  }
+}

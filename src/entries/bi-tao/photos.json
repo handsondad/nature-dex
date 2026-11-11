@@ -1,0 +1,50 @@
+{
+  "cover": {
+    "src": "photos/bi-tao/cover.webp",
+    "thumb": "photos/bi-tao/cover.thumb.webp",
+    "w": 909,
+    "h": 1024,
+    "credit": {
+      "author": "Andrew Tree",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/118955545",
+      "source": "iNaturalist"
+    }
+  },
+  "flower-branch": {
+    "src": "photos/bi-tao/flower-branch.webp",
+    "thumb": "photos/bi-tao/flower-branch.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Evan M. Raskin",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/6882160",
+      "source": "iNaturalist"
+    }
+  },
+  "look-bi-tao": {
+    "src": "photos/bi-tao/look-bi-tao.webp",
+    "thumb": "photos/bi-tao/look-bi-tao.thumb.webp",
+    "w": 909,
+    "h": 1024,
+    "credit": {
+      "author": "Andrew Tree",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/118955545",
+      "source": "iNaturalist"
+    }
+  },
+  "look-shan-tao": {
+    "src": "photos/bi-tao/look-shan-tao.webp",
+    "thumb": "photos/bi-tao/look-shan-tao.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/623854716",
+      "source": "iNaturalist"
+    }
+  }
+}

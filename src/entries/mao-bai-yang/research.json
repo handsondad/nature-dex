@@ -1,0 +1,96 @@
+{
+  "query": "Populus tomentosa",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 3040195,
+    "scientificName": "Populus × tomentosa Carrière",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Malpighiales"
+      },
+      {
+        "rank": "family",
+        "name": "Salicaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Populus"
+      },
+      {
+        "rank": "species",
+        "name": "Populus tomentosa"
+      }
+    ]
+  },
+  "inat": {
+    "id": 1505266,
+    "name": "Populus × tomentosa",
+    "commonName": "毛白杨",
+    "url": "https://www.inaturalist.org/taxa/1505266"
+  },
+  "wiki": {
+    "title": "毛白杨",
+    "extract": "毛白杨 是杨柳科杨属植物，为中国特有植物。",
+    "url": "https://zh.wikipedia.org/wiki/%E6%AF%9B%E7%99%BD%E6%9D%A8"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 1,
+      "2": 4,
+      "3": 3,
+      "4": 1,
+      "5": 3,
+      "6": 4,
+      "7": 2,
+      "8": 6,
+      "9": 1,
+      "10": 2,
+      "11": 1,
+      "12": 0
+    },
+    "flowering": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=1505266&place_id=6903&quality_grade=research"
+  }
+}

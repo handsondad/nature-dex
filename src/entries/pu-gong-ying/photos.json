@@ -1,0 +1,158 @@
+{
+  "cover": {
+    "src": "photos/pu-gong-ying/cover.webp",
+    "thumb": "photos/pu-gong-ying/cover.thumb.webp",
+    "w": 1024,
+    "h": 640,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/640689894",
+      "source": "iNaturalist"
+    }
+  },
+  "look-hac": {
+    "src": "photos/pu-gong-ying/look-hac.webp",
+    "thumb": "photos/pu-gong-ying/look-hac.thumb.webp",
+    "w": 1024,
+    "h": 678,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/192107254",
+      "source": "iNaturalist"
+    }
+  },
+  "look-kjc": {
+    "src": "photos/pu-gong-ying/look-kjc.webp",
+    "thumb": "photos/pu-gong-ying/look-kjc.thumb.webp",
+    "w": 1024,
+    "h": 691,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/139622563",
+      "source": "iNaturalist"
+    }
+  },
+  "look-pgy": {
+    "src": "photos/pu-gong-ying/look-pgy.webp",
+    "thumb": "photos/pu-gong-ying/look-pgy.thumb.webp",
+    "w": 1024,
+    "h": 640,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/640689894",
+      "source": "iNaturalist"
+    }
+  },
+  "same-white": {
+    "src": "photos/pu-gong-ying/same-white.webp",
+    "thumb": "photos/pu-gong-ying/same-white.thumb.webp",
+    "w": 576,
+    "h": 1024,
+    "credit": {
+      "author": "Urgamal Magsar",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/325939988",
+      "source": "iNaturalist"
+    }
+  },
+  "same-yellow": {
+    "src": "photos/pu-gong-ying/same-yellow.webp",
+    "thumb": "photos/pu-gong-ying/same-yellow.thumb.webp",
+    "w": 576,
+    "h": 1024,
+    "credit": {
+      "author": "Urgamal Magsar",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/325939991",
+      "source": "iNaturalist"
+    }
+  },
+  "seed-macro": {
+    "src": "photos/pu-gong-ying/seed-macro.webp",
+    "thumb": "photos/pu-gong-ying/seed-macro.thumb.webp",
+    "w": 1024,
+    "h": 576,
+    "credit": {
+      "author": "Urgamal Magsar",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/294865421",
+      "source": "iNaturalist"
+    }
+  },
+  "step-ball": {
+    "src": "photos/pu-gong-ying/step-ball.webp",
+    "thumb": "photos/pu-gong-ying/step-ball.thumb.webp",
+    "w": 930,
+    "h": 1024,
+    "credit": {
+      "author": "Urgamal Magsar",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/682498146",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bloom": {
+    "src": "photos/pu-gong-ying/step-bloom.webp",
+    "thumb": "photos/pu-gong-ying/step-bloom.thumb.webp",
+    "w": 1024,
+    "h": 999,
+    "credit": {
+      "author": "Urgamal Magsar",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/570442827",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bud": {
+    "src": "photos/pu-gong-ying/step-bud.webp",
+    "thumb": "photos/pu-gong-ying/step-bud.thumb.webp",
+    "w": 940,
+    "h": 1024,
+    "credit": {
+      "author": "Urgamal Magsar",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/570442788",
+      "source": "iNaturalist"
+    }
+  },
+  "step-closed": {
+    "src": "photos/pu-gong-ying/step-closed.webp",
+    "thumb": "photos/pu-gong-ying/step-closed.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Urgamal Magsar",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/536468950",
+      "source": "iNaturalist"
+    }
+  },
+  "step-gone": {
+    "src": "photos/pu-gong-ying/step-gone.webp",
+    "thumb": "photos/pu-gong-ying/step-gone.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Urgamal Magsar",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/379961758",
+      "source": "iNaturalist"
+    }
+  },
+  "whole-plant": {
+    "src": "photos/pu-gong-ying/whole-plant.webp",
+    "thumb": "photos/pu-gong-ying/whole-plant.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Urgamal Magsar",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/392721543",
+      "source": "iNaturalist"
+    }
+  }
+}

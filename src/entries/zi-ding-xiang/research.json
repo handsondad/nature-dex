@@ -1,0 +1,96 @@
+{
+  "query": "Syringa oblata",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 6433171,
+    "scientificName": "Syringa oblata Lindl.",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Lamiales"
+      },
+      {
+        "rank": "family",
+        "name": "Oleaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Syringa"
+      },
+      {
+        "rank": "species",
+        "name": "Syringa oblata"
+      }
+    ]
+  },
+  "inat": {
+    "id": 493500,
+    "name": "Syringa oblata",
+    "commonName": "紫丁香",
+    "url": "https://www.inaturalist.org/taxa/493500"
+  },
+  "wiki": {
+    "title": "紫丁香",
+    "extract": "紫丁香 亦称华北紫丁香、丁香花､ 百结花，是木犀科丁香属的一个种，分布于甘肃、河北、河南、吉林、辽宁、内蒙古、宁夏、青海、陕西、山西、山东、四川以及朝鲜半岛。除了紫丁香原变型外，还有白丁香变型。",
+    "url": "https://zh.wikipedia.org/wiki/%E7%B4%AB%E4%B8%81%E9%A6%99"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 0,
+      "2": 0,
+      "3": 3,
+      "4": 0,
+      "5": 2,
+      "6": 1,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "flowering": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=493500&place_id=6903&quality_grade=research"
+  }
+}

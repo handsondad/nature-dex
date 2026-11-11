@@ -1,0 +1,68 @@
+{
+  "query": "Apis mellifera",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 1341976,
+    "scientificName": "Apis mellifera Linnaeus, 1758",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Arthropoda"
+      },
+      {
+        "rank": "class",
+        "name": "Insecta"
+      },
+      {
+        "rank": "order",
+        "name": "Hymenoptera"
+      },
+      {
+        "rank": "family",
+        "name": "Apidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Apis"
+      },
+      {
+        "rank": "species",
+        "name": "Apis mellifera"
+      }
+    ]
+  },
+  "inat": {
+    "id": 47219,
+    "name": "Apis mellifera",
+    "commonName": "西方蜜蜂",
+    "url": "https://www.inaturalist.org/taxa/47219"
+  },
+  "wiki": {
+    "title": "西方蜜蜂",
+    "extract": "西方蜜蜂，西洋蜜蜂，或欧洲蜜蜂 是全世界 7-12 种蜜蜂中最常见的一种。其 Apis 是拉丁文的蜜蜂，种小名 mellifera 为“带有蜜糖”。卡尔·林奈 后来发现蜜糖其实是蜜蜂制造的，故曾想更正其种小名为mellifica，即“制造蜜糖”的意思。不过根据《国际动物命名法规》，首先命名的学名才是有效的。\n与所有蜜蜂物种一样，西方蜜蜂是群居性的，它们会形成由单一可育雌性（或“蜂王”）、许多通常不具有生殖能力的雌性或“工蜂”以及一小部分可育雄性或“雄蜂”组成的蜂群。单一蜂群可容纳数万只蜜蜂。群体活动是透过个体之间透过信息素和舞蹈语言进行的复杂交流来组织的。\n西部蜜蜂是最早驯化的昆虫之一，也是养蜂人至今维持的主要物种，用于生产蜂蜜和授粉活动。在人类的帮助下，西方蜜蜂现在已占领除南极洲以外的所有大陆；但有迹象表明，该物种在欧洲的野外即使没有灭绝，也是稀有物种。\n西方蜜蜂是科学研究中重要的模式生物，特别是在社会演化、学习和记忆领域；它们也用于农药毒性研究，特别是透过花粉的毒性研究，以评估商业农药的非目标影响。此外，西方蜜蜂的基因组于2006年被定序与分析，成为第四种完成基因组定序的昆虫。",
+    "url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E6%96%B9%E8%9C%9C%E8%9C%82"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 8,
+      "2": 31,
+      "3": 89,
+      "4": 204,
+      "5": 297,
+      "6": 143,
+      "7": 118,
+      "8": 76,
+      "9": 117,
+      "10": 155,
+      "11": 45,
+      "12": 11
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=47219&place_id=6903&quality_grade=research"
+  }
+}

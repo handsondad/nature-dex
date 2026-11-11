@@ -1,0 +1,38 @@
+{
+  "cover": {
+    "src": "photos/er-yue-lan/cover.webp",
+    "thumb": "photos/er-yue-lan/cover.thumb.webp",
+    "w": 1024,
+    "h": 685,
+    "credit": {
+      "author": "WATANABE Hitoshi 渡辺仁",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/633672531",
+      "source": "iNaturalist"
+    }
+  },
+  "flower-macro": {
+    "src": "photos/er-yue-lan/flower-macro.webp",
+    "thumb": "photos/er-yue-lan/flower-macro.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Marco Mussita",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/477443906",
+      "source": "iNaturalist"
+    }
+  },
+  "flower-stem": {
+    "src": "photos/er-yue-lan/flower-stem.webp",
+    "thumb": "photos/er-yue-lan/flower-stem.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/107058877",
+      "source": "iNaturalist"
+    }
+  }
+}

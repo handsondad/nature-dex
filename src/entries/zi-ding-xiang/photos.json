@@ -1,0 +1,38 @@
+{
+  "cover": {
+    "src": "photos/zi-ding-xiang/cover.webp",
+    "thumb": "photos/zi-ding-xiang/cover.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Urgamal Magsar",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/511787511",
+      "source": "iNaturalist"
+    }
+  },
+  "flower-branch": {
+    "src": "photos/zi-ding-xiang/flower-branch.webp",
+    "thumb": "photos/zi-ding-xiang/flower-branch.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Urgamal Magsar",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/510173343",
+      "source": "iNaturalist"
+    }
+  },
+  "flower-macro": {
+    "src": "photos/zi-ding-xiang/flower-macro.webp",
+    "thumb": "photos/zi-ding-xiang/flower-macro.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Urgamal Magsar",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/515388435",
+      "source": "iNaturalist"
+    }
+  }
+}

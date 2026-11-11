@@ -1,0 +1,92 @@
+{
+  "query": "Setaria viridis",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 5289684,
+    "scientificName": "Setaria viridis (L.) P.Beauv.",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Liliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Poales"
+      },
+      {
+        "rank": "family",
+        "name": "Poaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Setaria"
+      },
+      {
+        "rank": "species",
+        "name": "Setaria viridis"
+      }
+    ]
+  },
+  "inat": {
+    "id": 79070,
+    "name": "Setaria viridis",
+    "commonName": "狗尾草",
+    "url": "https://www.inaturalist.org/taxa/79070",
+    "wikipediaUrl": "https://zh.wikipedia.org/zh-tw/狗尾草"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 8,
+      "2": 3,
+      "3": 4,
+      "4": 8,
+      "5": 7,
+      "6": 31,
+      "7": 46,
+      "8": 39,
+      "9": 34,
+      "10": 24,
+      "11": 12,
+      "12": 5
+    },
+    "flowering": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 2,
+      "7": 6,
+      "8": 2,
+      "9": 2,
+      "10": 0,
+      "11": 1,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 3,
+      "5": 0,
+      "6": 3,
+      "7": 4,
+      "8": 4,
+      "9": 4,
+      "10": 7,
+      "11": 5,
+      "12": 1
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=79070&place_id=6903&quality_grade=research"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "branch": {
+    "src": "photos/gou-shu/branch.webp",
+    "thumb": "photos/gou-shu/branch.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "許慶棠Ray",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/428164460",
+      "source": "iNaturalist"
+    }
+  },
+  "cover": {
+    "src": "photos/gou-shu/cover.webp",
+    "thumb": "photos/gou-shu/cover.thumb.webp",
+    "w": 1024,
+    "h": 686,
+    "credit": {
+      "author": "Douglas Goldman",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/339698946",
+      "source": "iNaturalist"
+    }
+  },
+  "fruit-macro": {
+    "src": "photos/gou-shu/fruit-macro.webp",
+    "thumb": "photos/gou-shu/fruit-macro.thumb.webp",
+    "w": 1024,
+    "h": 658,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/120173792",
+      "source": "iNaturalist"
+    }
+  }
+}

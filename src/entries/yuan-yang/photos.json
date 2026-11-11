@@ -1,0 +1,50 @@
+{
+  "cover": {
+    "src": "photos/yuan-yang/cover.webp",
+    "thumb": "photos/yuan-yang/cover.thumb.webp",
+    "w": 1024,
+    "h": 770,
+    "credit": {
+      "author": "Blake Ross",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/170995013",
+      "source": "iNaturalist"
+    }
+  },
+  "male-side": {
+    "src": "photos/yuan-yang/male-side.webp",
+    "thumb": "photos/yuan-yang/male-side.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Jiao Sun (孙娇)",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/635926044",
+      "source": "iNaturalist"
+    }
+  },
+  "same-female": {
+    "src": "photos/yuan-yang/same-female.webp",
+    "thumb": "photos/yuan-yang/same-female.thumb.webp",
+    "w": 1024,
+    "h": 679,
+    "credit": {
+      "author": "Jay Pruett",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/347259493",
+      "source": "iNaturalist"
+    }
+  },
+  "same-male": {
+    "src": "photos/yuan-yang/same-male.webp",
+    "thumb": "photos/yuan-yang/same-male.thumb.webp",
+    "w": 819,
+    "h": 1024,
+    "credit": {
+      "author": "Sunny Zhang 张迎新",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/598919248",
+      "source": "iNaturalist"
+    }
+  }
+}

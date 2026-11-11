@@ -1,0 +1,74 @@
+{
+  "cover": {
+    "src": "photos/lian-qiao/cover.webp",
+    "thumb": "photos/lian-qiao/cover.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "littlespacecase",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/336198180",
+      "source": "iNaturalist"
+    }
+  },
+  "flower-branch": {
+    "src": "photos/lian-qiao/flower-branch.webp",
+    "thumb": "photos/lian-qiao/flower-branch.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jay Pruett",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/260060959",
+      "source": "iNaturalist"
+    }
+  },
+  "flower-center": {
+    "src": "photos/lian-qiao/flower-center.webp",
+    "thumb": "photos/lian-qiao/flower-center.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jay Pruett",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/260061019",
+      "source": "iNaturalist"
+    }
+  },
+  "look-jzh": {
+    "src": "photos/lian-qiao/look-jzh.webp",
+    "thumb": "photos/lian-qiao/look-jzh.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Alicia Ballard",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/355687870",
+      "source": "iNaturalist"
+    }
+  },
+  "look-lq": {
+    "src": "photos/lian-qiao/look-lq.webp",
+    "thumb": "photos/lian-qiao/look-lq.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "littlespacecase",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/336198180",
+      "source": "iNaturalist"
+    }
+  },
+  "look-yc": {
+    "src": "photos/lian-qiao/look-yc.webp",
+    "thumb": "photos/lian-qiao/look-yc.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "rmjb",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/103478831",
+      "source": "iNaturalist"
+    }
+  }
+}

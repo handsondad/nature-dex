@@ -1,0 +1,69 @@
+{
+  "query": "Bufo gargarizans",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 5217144,
+    "scientificName": "Bufo gargarizans Cantor, 1842",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Amphibia"
+      },
+      {
+        "rank": "order",
+        "name": "Anura"
+      },
+      {
+        "rank": "family",
+        "name": "Bufonidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Bufo"
+      },
+      {
+        "rank": "species",
+        "name": "Bufo gargarizans"
+      }
+    ]
+  },
+  "inat": {
+    "id": 134932,
+    "name": "Bufo gargarizans",
+    "commonName": "中华蟾蜍",
+    "url": "https://www.inaturalist.org/taxa/134932",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/中华蟾蜍"
+  },
+  "wiki": {
+    "title": "中华蟾蜍",
+    "extract": "中华蟾蜍 为蟾蜍科蟾蜍属的两栖动物，俗名癞肚子、癞疙疱、癞蛤蟆。分布于中国的河北、山西、黑龙江、辽宁、吉林、江苏、浙江、安徽、福建、江西、河南、湖北、湖南、四川、贵州、云南、陕西、甘肃、宁夏、青海等地，另外也分布于日本的宫古岛上和俄罗斯远东。一般生活于阴湿的草丛中、土洞里以及砖石下等。该物种的模式产地在浙江舟山群岛。",
+    "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E8%9F%BE%E8%9C%8D"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 40,
+      "2": 120,
+      "3": 255,
+      "4": 536,
+      "5": 900,
+      "6": 894,
+      "7": 1074,
+      "8": 789,
+      "9": 525,
+      "10": 366,
+      "11": 60,
+      "12": 50
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=134932&place_id=6903&quality_grade=research"
+  }
+}

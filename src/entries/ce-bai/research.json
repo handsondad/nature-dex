@@ -1,0 +1,64 @@
+{
+  "query": "Platycladus orientalis",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 2684855,
+    "scientificName": "Platycladus orientalis (L.) Franco",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Pinopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Pinales"
+      },
+      {
+        "rank": "family",
+        "name": "Cupressaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Platycladus"
+      },
+      {
+        "rank": "species",
+        "name": "Platycladus orientalis"
+      }
+    ]
+  },
+  "inat": {
+    "id": 135659,
+    "name": "Platycladus orientalis",
+    "commonName": "侧柏",
+    "url": "https://www.inaturalist.org/taxa/135659",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/侧柏"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 9,
+      "2": 21,
+      "3": 17,
+      "4": 16,
+      "5": 17,
+      "6": 20,
+      "7": 23,
+      "8": 16,
+      "9": 24,
+      "10": 32,
+      "11": 12,
+      "12": 6
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=135659&place_id=6903&quality_grade=research"
+  }
+}

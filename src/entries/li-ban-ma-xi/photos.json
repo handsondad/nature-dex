@@ -1,0 +1,26 @@
+{
+  "cover": {
+    "src": "photos/li-ban-ma-xi/cover.webp",
+    "thumb": "photos/li-ban-ma-xi/cover.thumb.webp",
+    "w": 1000,
+    "h": 563,
+    "credit": {
+      "author": "Kim",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/2801164",
+      "source": "iNaturalist"
+    }
+  },
+  "dorsal": {
+    "src": "photos/li-ban-ma-xi/dorsal.webp",
+    "thumb": "photos/li-ban-ma-xi/dorsal.thumb.webp",
+    "w": 1000,
+    "h": 563,
+    "credit": {
+      "author": "Kim",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/2801165",
+      "source": "iNaturalist"
+    }
+  }
+}

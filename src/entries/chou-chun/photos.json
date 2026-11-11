@@ -1,0 +1,62 @@
+{
+  "compound-leaf": {
+    "src": "photos/chou-chun/compound-leaf.webp",
+    "thumb": "photos/chou-chun/compound-leaf.thumb.webp",
+    "w": 683,
+    "h": 1024,
+    "credit": {
+      "author": "Maheva B Laursen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/19529412",
+      "source": "iNaturalist"
+    }
+  },
+  "cover": {
+    "src": "photos/chou-chun/cover.webp",
+    "thumb": "photos/chou-chun/cover.thumb.webp",
+    "w": 683,
+    "h": 1024,
+    "credit": {
+      "author": "Matthew Blissett",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/436515462",
+      "source": "iNaturalist"
+    }
+  },
+  "leaflet-gland": {
+    "src": "photos/chou-chun/leaflet-gland.webp",
+    "thumb": "photos/chou-chun/leaflet-gland.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Manuel R Popp",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/531143118",
+      "source": "iNaturalist"
+    }
+  },
+  "look-chou-chun": {
+    "src": "photos/chou-chun/look-chou-chun.webp",
+    "thumb": "photos/chou-chun/look-chou-chun.thumb.webp",
+    "w": 683,
+    "h": 1024,
+    "credit": {
+      "author": "Matthew Blissett",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/436515462",
+      "source": "iNaturalist"
+    }
+  },
+  "look-xiang-chun": {
+    "src": "photos/chou-chun/look-xiang-chun.webp",
+    "thumb": "photos/chou-chun/look-xiang-chun.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Andrew Conboy",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/104662805",
+      "source": "iNaturalist"
+    }
+  }
+}

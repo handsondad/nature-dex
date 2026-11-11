@@ -1,0 +1,69 @@
+{
+  "query": "Pinus tabuliformis",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 5285359,
+    "scientificName": "Pinus tabuliformis Carrière",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Pinopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Pinales"
+      },
+      {
+        "rank": "family",
+        "name": "Pinaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Pinus"
+      },
+      {
+        "rank": "species",
+        "name": "Pinus tabuliformis"
+      }
+    ]
+  },
+  "inat": {
+    "id": 135667,
+    "name": "Pinus tabuliformis",
+    "commonName": "油松",
+    "url": "https://www.inaturalist.org/taxa/135667",
+    "wikipediaUrl": "http://zh.wikipedia.org/wiki/油松"
+  },
+  "wiki": {
+    "title": "油松",
+    "extract": "油松，属松科松属，别名短叶松、短叶马尾松、红皮松、东北黑松等，是原产于中国北部的一种松树，从辽宁西部到内蒙古和甘肃， 南到山东，河南和山西，以及朝鲜半岛北部。在以前的一些教科书中学名被拼写为“Pinus tabulaeformis”。",
+    "url": "https://zh.wikipedia.org/wiki/%E6%B2%B9%E6%9D%BE"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 12,
+      "2": 22,
+      "3": 20,
+      "4": 36,
+      "5": 22,
+      "6": 21,
+      "7": 7,
+      "8": 15,
+      "9": 6,
+      "10": 14,
+      "11": 20,
+      "12": 7
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=135667&place_id=6903&quality_grade=research"
+  }
+}

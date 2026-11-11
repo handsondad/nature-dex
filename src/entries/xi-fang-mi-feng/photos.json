@@ -1,0 +1,62 @@
+{
+  "cover": {
+    "src": "photos/xi-fang-mi-feng/cover.webp",
+    "thumb": "photos/xi-fang-mi-feng/cover.thumb.webp",
+    "w": 1024,
+    "h": 696,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/182312685",
+      "source": "iNaturalist"
+    }
+  },
+  "look-cwgyy": {
+    "src": "photos/xi-fang-mi-feng/look-cwgyy.webp",
+    "thumb": "photos/xi-fang-mi-feng/look-cwgyy.thumb.webp",
+    "w": 1024,
+    "h": 638,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/192107096",
+      "source": "iNaturalist"
+    }
+  },
+  "look-xfmf": {
+    "src": "photos/xi-fang-mi-feng/look-xfmf.webp",
+    "thumb": "photos/xi-fang-mi-feng/look-xfmf.thumb.webp",
+    "w": 1024,
+    "h": 696,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/182312685",
+      "source": "iNaturalist"
+    }
+  },
+  "look-zhmf": {
+    "src": "photos/xi-fang-mi-feng/look-zhmf.webp",
+    "thumb": "photos/xi-fang-mi-feng/look-zhmf.thumb.webp",
+    "w": 1024,
+    "h": 701,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/401535050",
+      "source": "iNaturalist"
+    }
+  },
+  "on-flower": {
+    "src": "photos/xi-fang-mi-feng/on-flower.webp",
+    "thumb": "photos/xi-fang-mi-feng/on-flower.thumb.webp",
+    "w": 1024,
+    "h": 725,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/279697593",
+      "source": "iNaturalist"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "query": "Ailanthus altissima",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 3190653,
+    "scientificName": "Ailanthus altissima (Mill.) Swingle",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Sapindales"
+      },
+      {
+        "rank": "family",
+        "name": "Simaroubaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Ailanthus"
+      },
+      {
+        "rank": "species",
+        "name": "Ailanthus altissima"
+      }
+    ]
+  },
+  "inat": {
+    "id": 57278,
+    "name": "Ailanthus altissima",
+    "commonName": "臭椿",
+    "url": "https://www.inaturalist.org/taxa/57278",
+    "wikipediaUrl": "http://zh.wikipedia.org/wiki/臭椿"
+  },
+  "wiki": {
+    "title": "臭椿",
+    "extract": "臭椿 原名樗，又名大眼桐、姑姑翅、臭桐，属于苦木科，是一种落叶树。它原产于东亚北部与中部。与臭椿属其他成员不同，它生长在气候温和的地带而不是热带地区。这种树木生长迅速，适应环境能力强，可以在25年内达到15米（50英尺）的高度。然而此物种寿命较短，极少生存超过50年。",
+    "url": "https://zh.wikipedia.org/wiki/%E8%87%AD%E6%A4%BF"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 12,
+      "2": 6,
+      "3": 13,
+      "4": 39,
+      "5": 60,
+      "6": 114,
+      "7": 92,
+      "8": 70,
+      "9": 39,
+      "10": 61,
+      "11": 19,
+      "12": 10
+    },
+    "flowering": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 2,
+      "6": 6,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 2,
+      "2": 0,
+      "3": 1,
+      "4": 2,
+      "5": 1,
+      "6": 15,
+      "7": 7,
+      "8": 6,
+      "9": 2,
+      "10": 3,
+      "11": 3,
+      "12": 3
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=57278&place_id=6903&quality_grade=research"
+  }
+}

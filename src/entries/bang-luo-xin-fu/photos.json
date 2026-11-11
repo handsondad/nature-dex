@@ -1,0 +1,38 @@
+{
+  "cover": {
+    "src": "photos/bang-luo-xin-fu/cover.webp",
+    "thumb": "photos/bang-luo-xin-fu/cover.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "CScott",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/157248449",
+      "source": "iNaturalist"
+    }
+  },
+  "female-web": {
+    "src": "photos/bang-luo-xin-fu/female-web.webp",
+    "thumb": "photos/bang-luo-xin-fu/female-web.thumb.webp",
+    "w": 1024,
+    "h": 682,
+    "credit": {
+      "author": "Wang.QG",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/226590849",
+      "source": "iNaturalist"
+    }
+  },
+  "web-gold": {
+    "src": "photos/bang-luo-xin-fu/web-gold.webp",
+    "thumb": "photos/bang-luo-xin-fu/web-gold.thumb.webp",
+    "w": 1005,
+    "h": 670,
+    "credit": {
+      "author": "Wang.QG",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/226590858",
+      "source": "iNaturalist"
+    }
+  }
+}

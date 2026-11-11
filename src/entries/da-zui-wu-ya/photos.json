@@ -1,0 +1,26 @@
+{
+  "cover": {
+    "src": "photos/da-zui-wu-ya/cover.webp",
+    "thumb": "photos/da-zui-wu-ya/cover.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Yves Bas",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/108226129",
+      "source": "iNaturalist"
+    }
+  },
+  "side-head": {
+    "src": "photos/da-zui-wu-ya/side-head.webp",
+    "thumb": "photos/da-zui-wu-ya/side-head.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Yves Bas",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/108226114",
+      "source": "iNaturalist"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "query": "Salix babylonica",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 5372639,
+    "scientificName": "Salix babylonica L.",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Malpighiales"
+      },
+      {
+        "rank": "family",
+        "name": "Salicaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Salix"
+      },
+      {
+        "rank": "species",
+        "name": "Salix babylonica"
+      }
+    ]
+  },
+  "inat": {
+    "id": 58316,
+    "name": "Salix babylonica",
+    "commonName": "垂柳",
+    "url": "https://www.inaturalist.org/taxa/58316",
+    "wikipediaUrl": "http://zh.wikipedia.org/wiki/垂柳"
+  },
+  "wiki": {
+    "title": "垂柳",
+    "extract": "垂柳 是杨柳科柳属的植物。别名“垂枝柳”、“倒挂柳”、“倒插杨柳”。原产于中国北方，后沿着丝绸之路传到欧洲和亚洲其他地区。",
+    "url": "https://zh.wikipedia.org/wiki/%E5%9E%82%E6%9F%B3"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 3,
+      "2": 4,
+      "3": 14,
+      "4": 16,
+      "5": 20,
+      "6": 9,
+      "7": 11,
+      "8": 20,
+      "9": 15,
+      "10": 20,
+      "11": 9,
+      "12": 2
+    },
+    "flowering": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=58316&place_id=6903&quality_grade=research"
+  }
+}

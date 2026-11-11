@@ -1,0 +1,50 @@
+{
+  "cover": {
+    "src": "photos/lu-wei/cover.webp",
+    "thumb": "photos/lu-wei/cover.thumb.webp",
+    "w": 683,
+    "h": 1024,
+    "credit": {
+      "author": "王天明",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/605316579",
+      "source": "iNaturalist"
+    }
+  },
+  "look-lu-wei": {
+    "src": "photos/lu-wei/look-lu-wei.webp",
+    "thumb": "photos/lu-wei/look-lu-wei.thumb.webp",
+    "w": 767,
+    "h": 1024,
+    "credit": {
+      "author": "Felix Puff",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/578747458",
+      "source": "iNaturalist"
+    }
+  },
+  "look-xiang-pu": {
+    "src": "photos/lu-wei/look-xiang-pu.webp",
+    "thumb": "photos/lu-wei/look-xiang-pu.thumb.webp",
+    "w": 1024,
+    "h": 576,
+    "credit": {
+      "author": "Halema J",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/271945722",
+      "source": "iNaturalist"
+    }
+  },
+  "whole-plant": {
+    "src": "photos/lu-wei/whole-plant.webp",
+    "thumb": "photos/lu-wei/whole-plant.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "王天明",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/605318193",
+      "source": "iNaturalist"
+    }
+  }
+}

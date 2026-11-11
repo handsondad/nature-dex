@@ -1,0 +1,69 @@
+{
+  "query": "Gallinula chloropus",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 5228199,
+    "scientificName": "Gallinula chloropus (Linnaeus, 1758)",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Aves"
+      },
+      {
+        "rank": "order",
+        "name": "Gruiformes"
+      },
+      {
+        "rank": "family",
+        "name": "Rallidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Gallinula"
+      },
+      {
+        "rank": "species",
+        "name": "Gallinula chloropus"
+      }
+    ]
+  },
+  "inat": {
+    "id": 201282,
+    "name": "Gallinula chloropus",
+    "commonName": "黑水鸡",
+    "url": "https://www.inaturalist.org/taxa/201282",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/黑水鸡"
+  },
+  "wiki": {
+    "title": "黑水鸡",
+    "extract": "黑水鸡 为秧鸡科黑水鸡属的鸟类，又名红冠水鸡、水䴔鸰 、乌水鸡 、田鸡仔。分布在古北界的许多地区，从非洲到欧洲和亚洲。该物种遍布世界各地，模式产地在英格兰。",
+    "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E6%B0%B4%E9%B8%A1"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 479,
+      "2": 540,
+      "3": 512,
+      "4": 400,
+      "5": 569,
+      "6": 467,
+      "7": 394,
+      "8": 335,
+      "9": 350,
+      "10": 379,
+      "11": 339,
+      "12": 356
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=201282&place_id=6903&quality_grade=research"
+  }
+}

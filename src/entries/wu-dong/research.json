@@ -1,0 +1,64 @@
+{
+  "query": "Turdus mandarinus",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 7852114,
+    "scientificName": "Turdus mandarinus Bonaparte, 1850",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Aves"
+      },
+      {
+        "rank": "order",
+        "name": "Passeriformes"
+      },
+      {
+        "rank": "family",
+        "name": "Turdidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Turdus"
+      },
+      {
+        "rank": "species",
+        "name": "Turdus mandarinus"
+      }
+    ]
+  },
+  "inat": {
+    "id": 472778,
+    "name": "Turdus mandarinus",
+    "commonName": "乌鸫",
+    "url": "https://www.inaturalist.org/taxa/472778",
+    "wikipediaUrl": "https://zh.wikipedia.org/zh-cn/中國黑鶇"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 589,
+      "2": 627,
+      "3": 778,
+      "4": 864,
+      "5": 1093,
+      "6": 729,
+      "7": 452,
+      "8": 295,
+      "9": 297,
+      "10": 293,
+      "11": 275,
+      "12": 417
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=472778&place_id=6903&quality_grade=research"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "query": "Diospyros kaki",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 3032984,
+    "scientificName": "Diospyros kaki L.f.",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Ericales"
+      },
+      {
+        "rank": "family",
+        "name": "Ebenaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Diospyros"
+      },
+      {
+        "rank": "species",
+        "name": "Diospyros kaki"
+      }
+    ]
+  },
+  "inat": {
+    "id": 83468,
+    "name": "Diospyros kaki",
+    "commonName": "柿",
+    "url": "https://www.inaturalist.org/taxa/83468",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/林柿"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 6,
+      "2": 1,
+      "3": 2,
+      "4": 11,
+      "5": 25,
+      "6": 23,
+      "7": 10,
+      "8": 9,
+      "9": 19,
+      "10": 37,
+      "11": 24,
+      "12": 12
+    },
+    "flowering": {
+      "1": 0,
+      "2": 1,
+      "3": 0,
+      "4": 2,
+      "5": 3,
+      "6": 3,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 3,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 3,
+      "6": 6,
+      "7": 4,
+      "8": 4,
+      "9": 15,
+      "10": 19,
+      "11": 15,
+      "12": 9
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=83468&place_id=6903&quality_grade=research"
+  }
+}

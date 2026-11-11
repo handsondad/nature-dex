@@ -1,0 +1,74 @@
+{
+  "cover": {
+    "src": "photos/luo-mo/cover.webp",
+    "thumb": "photos/luo-mo/cover.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "mami_t_t",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/421908461",
+      "source": "iNaturalist"
+    }
+  },
+  "step-flower": {
+    "src": "photos/luo-mo/step-flower.webp",
+    "thumb": "photos/luo-mo/step-flower.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "賴碧珠",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/699248425",
+      "source": "iNaturalist"
+    }
+  },
+  "step-fruit": {
+    "src": "photos/luo-mo/step-fruit.webp",
+    "thumb": "photos/luo-mo/step-fruit.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "賴碧珠",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/699248495",
+      "source": "iNaturalist"
+    }
+  },
+  "step-open": {
+    "src": "photos/luo-mo/step-open.webp",
+    "thumb": "photos/luo-mo/step-open.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Alex Abair",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/305999027",
+      "source": "iNaturalist"
+    }
+  },
+  "step-seed": {
+    "src": "photos/luo-mo/step-seed.webp",
+    "thumb": "photos/luo-mo/step-seed.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Alex Abair",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/305999172",
+      "source": "iNaturalist"
+    }
+  },
+  "vine-flower": {
+    "src": "photos/luo-mo/vine-flower.webp",
+    "thumb": "photos/luo-mo/vine-flower.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/410847922",
+      "source": "iNaturalist"
+    }
+  }
+}

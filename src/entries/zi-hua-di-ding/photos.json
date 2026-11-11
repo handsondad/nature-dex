@@ -1,0 +1,50 @@
+{
+  "cover": {
+    "src": "photos/zi-hua-di-ding/cover.webp",
+    "thumb": "photos/zi-hua-di-ding/cover.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/66233571",
+      "source": "iNaturalist"
+    }
+  },
+  "look-zhdd": {
+    "src": "photos/zi-hua-di-ding/look-zhdd.webp",
+    "thumb": "photos/zi-hua-di-ding/look-zhdd.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Jens-Christian Svenning",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/78931740",
+      "source": "iNaturalist"
+    }
+  },
+  "look-zkjc": {
+    "src": "photos/zi-hua-di-ding/look-zkjc.webp",
+    "thumb": "photos/zi-hua-di-ding/look-zkjc.thumb.webp",
+    "w": 1024,
+    "h": 577,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/61639593",
+      "source": "iNaturalist"
+    }
+  },
+  "whole-plant": {
+    "src": "photos/zi-hua-di-ding/whole-plant.webp",
+    "thumb": "photos/zi-hua-di-ding/whole-plant.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Jens-Christian Svenning",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/73535532",
+      "source": "iNaturalist"
+    }
+  }
+}

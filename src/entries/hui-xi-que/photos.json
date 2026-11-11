@@ -1,0 +1,50 @@
+{
+  "cover": {
+    "src": "photos/hui-xi-que/cover.webp",
+    "thumb": "photos/hui-xi-que/cover.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Валерия Ковалева",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/449120466",
+      "source": "iNaturalist"
+    }
+  },
+  "look-hui-xi-que": {
+    "src": "photos/hui-xi-que/look-hui-xi-que.webp",
+    "thumb": "photos/hui-xi-que/look-hui-xi-que.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Валерия Ковалева",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/449120466",
+      "source": "iNaturalist"
+    }
+  },
+  "look-xi-que": {
+    "src": "photos/hui-xi-que/look-xi-que.webp",
+    "thumb": "photos/hui-xi-que/look-xi-que.thumb.webp",
+    "w": 1024,
+    "h": 682,
+    "credit": {
+      "author": "Bren Zo",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/457593050",
+      "source": "iNaturalist"
+    }
+  },
+  "side-view": {
+    "src": "photos/hui-xi-que/side-view.webp",
+    "thumb": "photos/hui-xi-que/side-view.thumb.webp",
+    "w": 1024,
+    "h": 764,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/107880023",
+      "source": "iNaturalist"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "query": "Passer montanus",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 5231198,
+    "scientificName": "Passer montanus (Linnaeus, 1758)",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Aves"
+      },
+      {
+        "rank": "order",
+        "name": "Passeriformes"
+      },
+      {
+        "rank": "family",
+        "name": "Passeridae"
+      },
+      {
+        "rank": "genus",
+        "name": "Passer"
+      },
+      {
+        "rank": "species",
+        "name": "Passer montanus"
+      }
+    ]
+  },
+  "inat": {
+    "id": 13851,
+    "name": "Passer montanus",
+    "commonName": "麻雀",
+    "url": "https://www.inaturalist.org/taxa/13851",
+    "wikipediaUrl": "http://zh.wikipedia.org/wiki/麻雀"
+  },
+  "wiki": {
+    "title": "麻雀",
+    "extract": "麻雀，是麻雀属下泛分布于古北界的温带地区和东南亚，英文称为树麻雀。本种也被引入其他地区，包括美国，那里它被称为欧亚树麻雀 或德国麻雀，以区别于美国本土的美洲树麻雀，两者实际上并无关联。尽管已有多个亚种被认可，但这种鸟在其广泛的分布区域中外观变化不大。",
+    "url": "https://zh.wikipedia.org/wiki/%E9%BA%BB%E9%9B%80"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 532,
+      "2": 568,
+      "3": 556,
+      "4": 669,
+      "5": 949,
+      "6": 771,
+      "7": 814,
+      "8": 624,
+      "9": 479,
+      "10": 557,
+      "11": 463,
+      "12": 471
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=13851&place_id=6903&quality_grade=research"
+  }
+}

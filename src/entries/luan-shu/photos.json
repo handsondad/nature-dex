@@ -1,0 +1,62 @@
+{
+  "branch-fruit": {
+    "src": "photos/luan-shu/branch-fruit.webp",
+    "thumb": "photos/luan-shu/branch-fruit.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/411304511",
+      "source": "iNaturalist"
+    }
+  },
+  "cover": {
+    "src": "photos/luan-shu/cover.webp",
+    "thumb": "photos/luan-shu/cover.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "M. Whitson",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/315377405",
+      "source": "iNaturalist"
+    }
+  },
+  "flower-macro": {
+    "src": "photos/luan-shu/flower-macro.webp",
+    "thumb": "photos/luan-shu/flower-macro.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/440287366",
+      "source": "iNaturalist"
+    }
+  },
+  "same-green": {
+    "src": "photos/luan-shu/same-green.webp",
+    "thumb": "photos/luan-shu/same-green.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Jens-Christian Svenning",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/78450802",
+      "source": "iNaturalist"
+    }
+  },
+  "same-orange": {
+    "src": "photos/luan-shu/same-orange.webp",
+    "thumb": "photos/luan-shu/same-orange.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Marc Riera",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/532072004",
+      "source": "iNaturalist"
+    }
+  }
+}

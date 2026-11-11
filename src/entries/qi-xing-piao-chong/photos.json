@@ -1,0 +1,50 @@
+{
+  "adult-top": {
+    "src": "photos/qi-xing-piao-chong/adult-top.webp",
+    "thumb": "photos/qi-xing-piao-chong/adult-top.thumb.webp",
+    "w": 1024,
+    "h": 707,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/192775121",
+      "source": "iNaturalist"
+    }
+  },
+  "cover": {
+    "src": "photos/qi-xing-piao-chong/cover.webp",
+    "thumb": "photos/qi-xing-piao-chong/cover.thumb.webp",
+    "w": 1024,
+    "h": 712,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/333354347",
+      "source": "iNaturalist"
+    }
+  },
+  "look-qxpc": {
+    "src": "photos/qi-xing-piao-chong/look-qxpc.webp",
+    "thumb": "photos/qi-xing-piao-chong/look-qxpc.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Niklas Wahlberg",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/361519954",
+      "source": "iNaturalist"
+    }
+  },
+  "look-yspc": {
+    "src": "photos/qi-xing-piao-chong/look-yspc.webp",
+    "thumb": "photos/qi-xing-piao-chong/look-yspc.thumb.webp",
+    "w": 1024,
+    "h": 663,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/224148009",
+      "source": "iNaturalist"
+    }
+  }
+}

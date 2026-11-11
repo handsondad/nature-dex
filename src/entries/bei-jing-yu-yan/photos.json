@@ -1,0 +1,50 @@
+{
+  "cover": {
+    "src": "photos/bei-jing-yu-yan/cover.webp",
+    "thumb": "photos/bei-jing-yu-yan/cover.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Kudaibergen Amirekul",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/262827790",
+      "source": "iNaturalist"
+    }
+  },
+  "in-flight": {
+    "src": "photos/bei-jing-yu-yan/in-flight.webp",
+    "thumb": "photos/bei-jing-yu-yan/in-flight.thumb.webp",
+    "w": 1024,
+    "h": 684,
+    "credit": {
+      "author": "Kudaibergen Amirekul",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/262827806",
+      "source": "iNaturalist"
+    }
+  },
+  "look-jia-yan": {
+    "src": "photos/bei-jing-yu-yan/look-jia-yan.webp",
+    "thumb": "photos/bei-jing-yu-yan/look-jia-yan.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Wang.QG",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/508727777",
+      "source": "iNaturalist"
+    }
+  },
+  "look-yu-yan": {
+    "src": "photos/bei-jing-yu-yan/look-yu-yan.webp",
+    "thumb": "photos/bei-jing-yu-yan/look-yu-yan.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Kudaibergen Amirekul",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/262827790",
+      "source": "iNaturalist"
+    }
+  }
+}

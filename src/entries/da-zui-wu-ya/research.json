@@ -1,0 +1,69 @@
+{
+  "query": "Corvus macrorhynchos",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 2482487,
+    "scientificName": "Corvus macrorhynchos Wagler, 1827",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Aves"
+      },
+      {
+        "rank": "order",
+        "name": "Passeriformes"
+      },
+      {
+        "rank": "family",
+        "name": "Corvidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Corvus"
+      },
+      {
+        "rank": "species",
+        "name": "Corvus macrorhynchos"
+      }
+    ]
+  },
+  "inat": {
+    "id": 8026,
+    "name": "Corvus macrorhynchos",
+    "commonName": "大嘴乌鸦",
+    "url": "https://www.inaturalist.org/taxa/8026",
+    "wikipediaUrl": "http://zh.wikipedia.org/wiki/大嘴乌鸦"
+  },
+  "wiki": {
+    "title": "大嘴乌鸦",
+    "extract": "大嘴乌鸦 又名巨嘴鸦，为鸦科鸦属的一种。俗称老鸦、老鸹，通称乌鸦。",
+    "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%98%B4%E4%B9%8C%E9%B8%A6"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 103,
+      "2": 105,
+      "3": 93,
+      "4": 86,
+      "5": 133,
+      "6": 91,
+      "7": 113,
+      "8": 63,
+      "9": 74,
+      "10": 145,
+      "11": 101,
+      "12": 92
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=8026&place_id=6903&quality_grade=research"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "query": "Trichonephila clavata",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 10670284,
+    "scientificName": "Trichonephila clavata (L.Koch, 1878)",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Arthropoda"
+      },
+      {
+        "rank": "class",
+        "name": "Arachnida"
+      },
+      {
+        "rank": "order",
+        "name": "Araneae"
+      },
+      {
+        "rank": "family",
+        "name": "Araneidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Trichonephila"
+      },
+      {
+        "rank": "species",
+        "name": "Trichonephila clavata"
+      }
+    ]
+  },
+  "inat": {
+    "id": 904334,
+    "name": "Trichonephila clavata",
+    "commonName": "棒络新妇",
+    "url": "https://www.inaturalist.org/taxa/904334"
+  },
+  "wiki": {
+    "title": "棒络新妇",
+    "extract": "棒络新妇 又称络新妇、横带人面蜘蛛、女郎蜘蛛，为金蛛科蜘蛛。",
+    "url": "https://zh.wikipedia.org/wiki/%E6%A3%92%E7%BB%9C%E6%96%B0%E5%A6%87"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 13,
+      "2": 7,
+      "3": 2,
+      "4": 0,
+      "5": 1,
+      "6": 35,
+      "7": 155,
+      "8": 446,
+      "9": 537,
+      "10": 552,
+      "11": 132,
+      "12": 45
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=904334&place_id=6903&quality_grade=research"
+  }
+}

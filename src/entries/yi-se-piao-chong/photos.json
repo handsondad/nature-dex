@@ -1,0 +1,98 @@
+{
+  "adult-top": {
+    "src": "photos/yi-se-piao-chong/adult-top.webp",
+    "thumb": "photos/yi-se-piao-chong/adult-top.thumb.webp",
+    "w": 1024,
+    "h": 663,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/224148009",
+      "source": "iNaturalist"
+    }
+  },
+  "cover": {
+    "src": "photos/yi-se-piao-chong/cover.webp",
+    "thumb": "photos/yi-se-piao-chong/cover.thumb.webp",
+    "w": 1024,
+    "h": 678,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/126661890",
+      "source": "iNaturalist"
+    }
+  },
+  "look-qxpc": {
+    "src": "photos/yi-se-piao-chong/look-qxpc.webp",
+    "thumb": "photos/yi-se-piao-chong/look-qxpc.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Hugo Innes",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/450776021",
+      "source": "iNaturalist"
+    }
+  },
+  "look-ysp": {
+    "src": "photos/yi-se-piao-chong/look-ysp.webp",
+    "thumb": "photos/yi-se-piao-chong/look-ysp.thumb.webp",
+    "w": 1024,
+    "h": 678,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/126661890",
+      "source": "iNaturalist"
+    }
+  },
+  "step-adult": {
+    "src": "photos/yi-se-piao-chong/step-adult.webp",
+    "thumb": "photos/yi-se-piao-chong/step-adult.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/117769758",
+      "source": "iNaturalist"
+    }
+  },
+  "step-egg": {
+    "src": "photos/yi-se-piao-chong/step-egg.webp",
+    "thumb": "photos/yi-se-piao-chong/step-egg.thumb.webp",
+    "w": 1024,
+    "h": 680,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/224147947",
+      "source": "iNaturalist"
+    }
+  },
+  "step-larva": {
+    "src": "photos/yi-se-piao-chong/step-larva.webp",
+    "thumb": "photos/yi-se-piao-chong/step-larva.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/244495231",
+      "source": "iNaturalist"
+    }
+  },
+  "step-pupa": {
+    "src": "photos/yi-se-piao-chong/step-pupa.webp",
+    "thumb": "photos/yi-se-piao-chong/step-pupa.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/240960293",
+      "source": "iNaturalist"
+    }
+  }
+}

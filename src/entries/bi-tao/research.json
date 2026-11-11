@@ -1,0 +1,97 @@
+{
+  "query": "Prunus persica",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 8149923,
+    "scientificName": "Prunus persica (L.) Stokes",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Rosales"
+      },
+      {
+        "rank": "family",
+        "name": "Rosaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Prunus"
+      },
+      {
+        "rank": "species",
+        "name": "Prunus persica"
+      }
+    ]
+  },
+  "inat": {
+    "id": 78755,
+    "name": "Prunus persica",
+    "commonName": "桃",
+    "url": "https://www.inaturalist.org/taxa/78755",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/桃"
+  },
+  "wiki": {
+    "title": "桃",
+    "extract": "桃 是源自中国，蔷薇科李属的一种植物，花可以观赏，果实多汁，作为水果，可以生食或制桃脯、罐头等，核仁也可以食用。",
+    "url": "https://zh.wikipedia.org/wiki/%E6%A1%83"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 2,
+      "2": 20,
+      "3": 94,
+      "4": 42,
+      "5": 42,
+      "6": 16,
+      "7": 16,
+      "8": 5,
+      "9": 6,
+      "10": 9,
+      "11": 3,
+      "12": 0
+    },
+    "flowering": {
+      "1": 1,
+      "2": 4,
+      "3": 14,
+      "4": 11,
+      "5": 5,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 9,
+      "6": 2,
+      "7": 1,
+      "8": 1,
+      "9": 0,
+      "10": 1,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=78755&place_id=6903&quality_grade=research"
+  }
+}

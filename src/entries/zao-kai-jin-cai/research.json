@@ -1,0 +1,96 @@
+{
+  "query": "Viola prionantha",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 7296610,
+    "scientificName": "Viola prionantha Bunge",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Malpighiales"
+      },
+      {
+        "rank": "family",
+        "name": "Violaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Viola"
+      },
+      {
+        "rank": "species",
+        "name": "Viola prionantha"
+      }
+    ]
+  },
+  "inat": {
+    "id": 500891,
+    "name": "Viola prionantha",
+    "commonName": "早开堇菜",
+    "url": "https://www.inaturalist.org/taxa/500891"
+  },
+  "wiki": {
+    "title": "早开堇菜",
+    "extract": "早开堇菜 是堇菜科堇菜属的植物。分布在俄罗斯、朝鲜以及中国大陆的黑龙江、辽宁、甘肃、江苏、吉林、宁夏、山东、云南、内蒙古、山西、湖北、陕西、河南、河北等地，多生长在山坡草地、沟边或宅旁等向阳处。",
+    "url": "https://zh.wikipedia.org/wiki/%E6%97%A9%E5%BC%80%E5%A0%87%E8%8F%9C"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 0,
+      "2": 4,
+      "3": 257,
+      "4": 156,
+      "5": 27,
+      "6": 17,
+      "7": 23,
+      "8": 22,
+      "9": 29,
+      "10": 63,
+      "11": 17,
+      "12": 1
+    },
+    "flowering": {
+      "1": 0,
+      "2": 2,
+      "3": 113,
+      "4": 55,
+      "5": 2,
+      "6": 0,
+      "7": 2,
+      "8": 1,
+      "9": 5,
+      "10": 17,
+      "11": 6,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 3,
+      "5": 3,
+      "6": 1,
+      "7": 1,
+      "8": 2,
+      "9": 4,
+      "10": 6,
+      "11": 1,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=500891&place_id=6903&quality_grade=research"
+  }
+}

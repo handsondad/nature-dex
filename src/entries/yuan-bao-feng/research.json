@@ -1,0 +1,97 @@
+{
+  "query": "Acer truncatum",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 7263012,
+    "scientificName": "Acer truncatum Bunge",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Sapindales"
+      },
+      {
+        "rank": "family",
+        "name": "Sapindaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Acer"
+      },
+      {
+        "rank": "species",
+        "name": "Acer truncatum"
+      }
+    ]
+  },
+  "inat": {
+    "id": 461754,
+    "name": "Acer truncatum",
+    "commonName": "元宝枫",
+    "url": "https://www.inaturalist.org/taxa/461754",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/元宝枫"
+  },
+  "wiki": {
+    "title": "元宝枫",
+    "extract": "元宝枫 为无患子科枫属下的一个种。",
+    "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E5%AE%9D%E6%9E%AB"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 1,
+      "2": 3,
+      "3": 8,
+      "4": 57,
+      "5": 32,
+      "6": 40,
+      "7": 18,
+      "8": 18,
+      "9": 18,
+      "10": 25,
+      "11": 13,
+      "12": 3
+    },
+    "flowering": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 9,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 3,
+      "6": 3,
+      "7": 0,
+      "8": 2,
+      "9": 1,
+      "10": 2,
+      "11": 1,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=461754&place_id=6903&quality_grade=research"
+  }
+}

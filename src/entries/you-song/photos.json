@@ -1,0 +1,38 @@
+{
+  "cone-macro": {
+    "src": "photos/you-song/cone-macro.webp",
+    "thumb": "photos/you-song/cone-macro.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Jens-Christian Svenning",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/77871815",
+      "source": "iNaturalist"
+    }
+  },
+  "cover": {
+    "src": "photos/you-song/cover.webp",
+    "thumb": "photos/you-song/cover.thumb.webp",
+    "w": 478,
+    "h": 1024,
+    "credit": {
+      "author": "froggymum",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/501779550",
+      "source": "iNaturalist"
+    }
+  },
+  "needles-cone": {
+    "src": "photos/you-song/needles-cone.webp",
+    "thumb": "photos/you-song/needles-cone.thumb.webp",
+    "w": 1024,
+    "h": 478,
+    "credit": {
+      "author": "froggymum",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/501779478",
+      "source": "iNaturalist"
+    }
+  }
+}

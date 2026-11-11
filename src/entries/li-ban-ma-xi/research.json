@@ -1,0 +1,65 @@
+{
+  "query": "Eremias argus",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 2468903,
+    "scientificName": "Eremias argus Peters, 1869",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Squamata"
+      },
+      {
+        "rank": "family",
+        "name": "Lacertidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Eremias"
+      },
+      {
+        "rank": "species",
+        "name": "Eremias argus"
+      }
+    ]
+  },
+  "inat": {
+    "id": 53523,
+    "name": "Eremias argus",
+    "commonName": "丽斑麻蜥",
+    "url": "https://www.inaturalist.org/taxa/53523",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/丽斑麻蜥"
+  },
+  "wiki": {
+    "title": "丽斑麻蜥",
+    "extract": "丽斑麻蜥 为蜥蜴科麻蜥属的爬行动物。分布于俄罗斯、蒙古、朝鲜以及中国大陆的黑龙江、吉林、辽宁、内蒙古、河北、北京、山西、陕西、宁夏、甘肃、山东、河南、江苏、浙江,、安徽、湖南等地，一般生活于平原、丘陵、草原低山和农区等环境以及常活动于灌丛或芨芨草周围。该物种的模式产地在山东烟台。",
+    "url": "https://zh.wikipedia.org/wiki/%E4%B8%BD%E6%96%91%E9%BA%BB%E8%9C%A5"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 0,
+      "2": 1,
+      "3": 0,
+      "4": 6,
+      "5": 8,
+      "6": 8,
+      "7": 10,
+      "8": 9,
+      "9": 0,
+      "10": 7,
+      "11": 2,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=53523&place_id=6903&quality_grade=research"
+  }
+}

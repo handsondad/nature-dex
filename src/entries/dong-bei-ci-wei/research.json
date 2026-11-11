@@ -1,0 +1,68 @@
+{
+  "query": "Erinaceus amurensis",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 5219617,
+    "scientificName": "Erinaceus amurensis Schrenk, 1859",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Mammalia"
+      },
+      {
+        "rank": "order",
+        "name": "Erinaceomorpha"
+      },
+      {
+        "rank": "family",
+        "name": "Erinaceidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Erinaceus"
+      },
+      {
+        "rank": "species",
+        "name": "Erinaceus amurensis"
+      }
+    ]
+  },
+  "inat": {
+    "id": 43047,
+    "name": "Erinaceus amurensis",
+    "commonName": "东北刺猬",
+    "url": "https://www.inaturalist.org/taxa/43047"
+  },
+  "wiki": {
+    "title": "東北刺蝟",
+    "extract": "东北刺猬，又称黑龙江刺猬、远东刺猬，是猬属的四种物种之一，外形与同属的西欧刺猬相似但颜色稍浅，分布于俄罗斯阿穆尔州与滨海边疆区、中国东北、华北与华中（北纬29°以北地区）以及朝鲜半岛等地。本种较为常见，被IUCN列为无危物种。",
+    "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E5%8C%97%E5%88%BA%E8%9D%9F"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 2,
+      "2": 3,
+      "3": 32,
+      "4": 103,
+      "5": 179,
+      "6": 183,
+      "7": 134,
+      "8": 108,
+      "9": 109,
+      "10": 112,
+      "11": 53,
+      "12": 11
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=43047&place_id=6903&quality_grade=research"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "query": "Tachybaptus ruficollis",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 2482048,
+    "scientificName": "Tachybaptus ruficollis (Pallas, 1764)",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Aves"
+      },
+      {
+        "rank": "order",
+        "name": "Podicipediformes"
+      },
+      {
+        "rank": "family",
+        "name": "Podicipedidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Tachybaptus"
+      },
+      {
+        "rank": "species",
+        "name": "Tachybaptus ruficollis"
+      }
+    ]
+  },
+  "inat": {
+    "id": 4237,
+    "name": "Tachybaptus ruficollis",
+    "commonName": "小䴙䴘",
+    "url": "https://www.inaturalist.org/taxa/4237",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/小鷿鷈"
+  },
+  "wiki": {
+    "title": "小鸊鷉",
+    "extract": "小䴙䴘，俗称水葫芦、王八鸭子、油葫芦、油鸭、水避仔，是䴙䴘科小䴙䴘属下的一种鸟类。它们分布在欧洲、亚洲和非洲的湿地、沼泽、湖泊和水塘等水域环境中。它们相当善于潜入水中觅食，主要食用水生昆虫、蝌蚪、小鱼和甲壳类等水中生物。目前有7个亚种，并与三色小䴙䴘、黑喉小䴙䴘和已灭绝的德氏小䴙䴘相当亲近。",
+    "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E9%B8%8A%E9%B7%89"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 592,
+      "2": 596,
+      "3": 518,
+      "4": 410,
+      "5": 430,
+      "6": 369,
+      "7": 315,
+      "8": 261,
+      "9": 385,
+      "10": 529,
+      "11": 458,
+      "12": 517
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=4237&place_id=6903&quality_grade=research"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "bark": {
+    "src": "photos/shan-tao/bark.webp",
+    "thumb": "photos/shan-tao/bark.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/623854565",
+      "source": "iNaturalist"
+    }
+  },
+  "cover": {
+    "src": "photos/shan-tao/cover.webp",
+    "thumb": "photos/shan-tao/cover.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/623854716",
+      "source": "iNaturalist"
+    }
+  },
+  "flower-branch": {
+    "src": "photos/shan-tao/flower-branch.webp",
+    "thumb": "photos/shan-tao/flower-branch.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/390250742",
+      "source": "iNaturalist"
+    }
+  },
+  "look-st": {
+    "src": "photos/shan-tao/look-st.webp",
+    "thumb": "photos/shan-tao/look-st.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/623854716",
+      "source": "iNaturalist"
+    }
+  },
+  "look-sx": {
+    "src": "photos/shan-tao/look-sx.webp",
+    "thumb": "photos/shan-tao/look-sx.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "zhangshen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/119566544",
+      "source": "iNaturalist"
+    }
+  },
+  "look-yym": {
+    "src": "photos/shan-tao/look-yym.webp",
+    "thumb": "photos/shan-tao/look-yym.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/368901118",
+      "source": "iNaturalist"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "cover": {
+    "src": "photos/ye-ju/cover.webp",
+    "thumb": "photos/ye-ju/cover.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Marco Mussita",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/585177081",
+      "source": "iNaturalist"
+    }
+  },
+  "look-ju-hua": {
+    "src": "photos/ye-ju/look-ju-hua.webp",
+    "thumb": "photos/ye-ju/look-ju-hua.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Irving Ríos",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/245380475",
+      "source": "iNaturalist"
+    }
+  },
+  "look-ye-ju": {
+    "src": "photos/ye-ju/look-ye-ju.webp",
+    "thumb": "photos/ye-ju/look-ye-ju.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "黄彦豪",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/452628626",
+      "source": "iNaturalist"
+    }
+  },
+  "whole-plant": {
+    "src": "photos/ye-ju/whole-plant.webp",
+    "thumb": "photos/ye-ju/whole-plant.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Scott Edmunds",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/327795165",
+      "source": "iNaturalist"
+    }
+  }
+}

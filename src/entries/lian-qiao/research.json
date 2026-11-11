@@ -1,0 +1,97 @@
+{
+  "query": "Forsythia suspensa",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 5415056,
+    "scientificName": "Forsythia suspensa (Thunb.) Vahl",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Lamiales"
+      },
+      {
+        "rank": "family",
+        "name": "Oleaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Forsythia"
+      },
+      {
+        "rank": "species",
+        "name": "Forsythia suspensa"
+      }
+    ]
+  },
+  "inat": {
+    "id": 163058,
+    "name": "Forsythia suspensa",
+    "commonName": "连翘",
+    "url": "https://www.inaturalist.org/taxa/163058",
+    "wikipediaUrl": "https://zh.wikipedia.org/zh-cn/连翘"
+  },
+  "wiki": {
+    "title": "连翘",
+    "extract": "连翘，香港俗称一串金，是木犀科连翘属植物。",
+    "url": "https://zh.wikipedia.org/wiki/%E8%BF%9E%E7%BF%98"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 0,
+      "2": 0,
+      "3": 6,
+      "4": 12,
+      "5": 1,
+      "6": 0,
+      "7": 0,
+      "8": 14,
+      "9": 2,
+      "10": 3,
+      "11": 2,
+      "12": 0
+    },
+    "flowering": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=163058&place_id=6903&quality_grade=research"
+  }
+}

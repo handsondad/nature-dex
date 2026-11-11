@@ -1,0 +1,26 @@
+{
+  "cover": {
+    "src": "photos/yin-wen-hua-song-shu/cover.webp",
+    "thumb": "photos/yin-wen-hua-song-shu/cover.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Wang.QG",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/119802635",
+      "source": "iNaturalist"
+    }
+  },
+  "side-branch": {
+    "src": "photos/yin-wen-hua-song-shu/side-branch.webp",
+    "thumb": "photos/yin-wen-hua-song-shu/side-branch.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Wang.QG",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/119802642",
+      "source": "iNaturalist"
+    }
+  }
+}

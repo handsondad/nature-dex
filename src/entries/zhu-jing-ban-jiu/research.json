@@ -1,0 +1,69 @@
+{
+  "query": "Spilopelia chinensis",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 6101224,
+    "scientificName": "Spilopelia chinensis (Scopoli, 1786)",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Aves"
+      },
+      {
+        "rank": "order",
+        "name": "Columbiformes"
+      },
+      {
+        "rank": "family",
+        "name": "Columbidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Spilopelia"
+      },
+      {
+        "rank": "species",
+        "name": "Spilopelia chinensis"
+      }
+    ]
+  },
+  "inat": {
+    "id": 1455918,
+    "name": "Spilopelia chinensis",
+    "commonName": "珠颈斑鸠",
+    "url": "https://www.inaturalist.org/taxa/1455918",
+    "wikipediaUrl": "https://zh.wikipedia.org/zh-tw/珠颈斑鸠"
+  },
+  "wiki": {
+    "title": "珠颈斑鸠",
+    "extract": "珠颈斑鸠，又名鸪雕、鸪鸟、中斑、花斑鸠、花脖斑鸠、珍珠鸠、斑颈鸠、珠颈鸽、斑鸽 、鹁鸪 、咕姑固（粤语）、古菇顾、核突颈鸠，是分布在南亚、东南亚地区以及中国南方广大地区的一种常见的鸠鸽科副斑鸠属物种。",
+    "url": "https://zh.wikipedia.org/wiki/%E7%8F%A0%E9%A2%88%E6%96%91%E9%B8%A0"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 702,
+      "2": 603,
+      "3": 687,
+      "4": 732,
+      "5": 668,
+      "6": 473,
+      "7": 497,
+      "8": 441,
+      "9": 608,
+      "10": 608,
+      "11": 482,
+      "12": 523
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=1455918&place_id=6903&quality_grade=research"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "query": "Harmonia axyridis",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 4989904,
+    "scientificName": "Harmonia axyridis (Pallas, 1773)",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Arthropoda"
+      },
+      {
+        "rank": "class",
+        "name": "Insecta"
+      },
+      {
+        "rank": "order",
+        "name": "Coleoptera"
+      },
+      {
+        "rank": "family",
+        "name": "Coccinellidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Harmonia"
+      },
+      {
+        "rank": "species",
+        "name": "Harmonia axyridis"
+      }
+    ]
+  },
+  "inat": {
+    "id": 48484,
+    "name": "Harmonia axyridis",
+    "commonName": "异色瓢虫",
+    "url": "https://www.inaturalist.org/taxa/48484",
+    "wikipediaUrl": "https://zh.wikipedia.org/zh-cn/異色瓢蟲"
+  },
+  "wiki": {
+    "title": "異色瓢蟲",
+    "extract": "异色瓢虫 是原生于亚洲东部的瓢虫，有着许多种体色，有黑底红斑的，也有红底黑斑的，体长7mm，名气虽不及七星瓢虫，但捕食蚜虫的效率更胜一筹。",
+    "url": "https://zh.wikipedia.org/wiki/%E7%95%B0%E8%89%B2%E7%93%A2%E8%9F%B2"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 29,
+      "2": 26,
+      "3": 127,
+      "4": 402,
+      "5": 898,
+      "6": 670,
+      "7": 430,
+      "8": 404,
+      "9": 303,
+      "10": 421,
+      "11": 280,
+      "12": 63
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=48484&place_id=6903&quality_grade=research"
+  }
+}

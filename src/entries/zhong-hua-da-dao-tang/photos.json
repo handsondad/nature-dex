@@ -1,0 +1,98 @@
+{
+  "adult-side": {
+    "src": "photos/zhong-hua-da-dao-tang/adult-side.webp",
+    "thumb": "photos/zhong-hua-da-dao-tang/adult-side.thumb.webp",
+    "w": 1024,
+    "h": 713,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/162821240",
+      "source": "iNaturalist"
+    }
+  },
+  "cover": {
+    "src": "photos/zhong-hua-da-dao-tang/cover.webp",
+    "thumb": "photos/zhong-hua-da-dao-tang/cover.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "angryphyco",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/565313994",
+      "source": "iNaturalist"
+    }
+  },
+  "look-btt": {
+    "src": "photos/zhong-hua-da-dao-tang/look-btt.webp",
+    "thumb": "photos/zhong-hua-da-dao-tang/look-btt.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Atalay Karakuş",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/444477998",
+      "source": "iNaturalist"
+    }
+  },
+  "look-zhddt": {
+    "src": "photos/zhong-hua-da-dao-tang/look-zhddt.webp",
+    "thumb": "photos/zhong-hua-da-dao-tang/look-zhddt.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "angryphyco",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/565313994",
+      "source": "iNaturalist"
+    }
+  },
+  "step-adult": {
+    "src": "photos/zhong-hua-da-dao-tang/step-adult.webp",
+    "thumb": "photos/zhong-hua-da-dao-tang/step-adult.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "observe-syz",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/595263345",
+      "source": "iNaturalist"
+    }
+  },
+  "step-hatch": {
+    "src": "photos/zhong-hua-da-dao-tang/step-hatch.webp",
+    "thumb": "photos/zhong-hua-da-dao-tang/step-hatch.thumb.webp",
+    "w": 1024,
+    "h": 686,
+    "credit": {
+      "author": "Andy Kleinhesselink",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/24395418",
+      "source": "iNaturalist"
+    }
+  },
+  "step-nymph": {
+    "src": "photos/zhong-hua-da-dao-tang/step-nymph.webp",
+    "thumb": "photos/zhong-hua-da-dao-tang/step-nymph.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "observe-syz",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/595263437",
+      "source": "iNaturalist"
+    }
+  },
+  "step-ootheca": {
+    "src": "photos/zhong-hua-da-dao-tang/step-ootheca.webp",
+    "thumb": "photos/zhong-hua-da-dao-tang/step-ootheca.thumb.webp",
+    "w": 1024,
+    "h": 673,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/162821247",
+      "source": "iNaturalist"
+    }
+  }
+}

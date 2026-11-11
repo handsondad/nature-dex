@@ -1,0 +1,74 @@
+{
+  "cover": {
+    "src": "photos/bai-wei-hui-qing/cover.webp",
+    "thumb": "photos/bai-wei-hui-qing/cover.thumb.webp",
+    "w": 1024,
+    "h": 576,
+    "credit": {
+      "author": "Вячеслав Юсупов",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/28211097",
+      "source": "iNaturalist"
+    }
+  },
+  "male-top": {
+    "src": "photos/bai-wei-hui-qing/male-top.webp",
+    "thumb": "photos/bai-wei-hui-qing/male-top.thumb.webp",
+    "w": 1024,
+    "h": 670,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/219659229",
+      "source": "iNaturalist"
+    }
+  },
+  "step-emerge": {
+    "src": "photos/bai-wei-hui-qing/step-emerge.webp",
+    "thumb": "photos/bai-wei-hui-qing/step-emerge.thumb.webp",
+    "w": 1024,
+    "h": 693,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/228402450",
+      "source": "iNaturalist"
+    }
+  },
+  "step-nymph": {
+    "src": "photos/bai-wei-hui-qing/step-nymph.webp",
+    "thumb": "photos/bai-wei-hui-qing/step-nymph.thumb.webp",
+    "w": 1024,
+    "h": 695,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/219659206",
+      "source": "iNaturalist"
+    }
+  },
+  "step-out": {
+    "src": "photos/bai-wei-hui-qing/step-out.webp",
+    "thumb": "photos/bai-wei-hui-qing/step-out.thumb.webp",
+    "w": 1024,
+    "h": 707,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/317879408",
+      "source": "iNaturalist"
+    }
+  },
+  "step-shell": {
+    "src": "photos/bai-wei-hui-qing/step-shell.webp",
+    "thumb": "photos/bai-wei-hui-qing/step-shell.thumb.webp",
+    "w": 1024,
+    "h": 676,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/121452631",
+      "source": "iNaturalist"
+    }
+  }
+}

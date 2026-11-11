@@ -1,0 +1,50 @@
+{
+  "branch-fruit": {
+    "src": "photos/shi-shu/branch-fruit.webp",
+    "thumb": "photos/shi-shu/branch-fruit.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Kim",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/4549057",
+      "source": "iNaturalist"
+    }
+  },
+  "cover": {
+    "src": "photos/shi-shu/cover.webp",
+    "thumb": "photos/shi-shu/cover.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Kim",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/12613539",
+      "source": "iNaturalist"
+    }
+  },
+  "same-green": {
+    "src": "photos/shi-shu/same-green.webp",
+    "thumb": "photos/shi-shu/same-green.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "張家瑜",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/327395811",
+      "source": "iNaturalist"
+    }
+  },
+  "same-orange": {
+    "src": "photos/shi-shu/same-orange.webp",
+    "thumb": "photos/shi-shu/same-orange.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "張家瑜",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/327395832",
+      "source": "iNaturalist"
+    }
+  }
+}

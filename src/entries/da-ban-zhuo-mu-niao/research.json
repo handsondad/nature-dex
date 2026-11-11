@@ -1,0 +1,69 @@
+{
+  "query": "Dendrocopos major",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 2477968,
+    "scientificName": "Dendrocopos major (Linnaeus, 1758)",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Aves"
+      },
+      {
+        "rank": "order",
+        "name": "Piciformes"
+      },
+      {
+        "rank": "family",
+        "name": "Picidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Dendrocopos"
+      },
+      {
+        "rank": "species",
+        "name": "Dendrocopos major"
+      }
+    ]
+  },
+  "inat": {
+    "id": 17871,
+    "name": "Dendrocopos major",
+    "commonName": "大斑啄木鸟",
+    "url": "https://www.inaturalist.org/taxa/17871",
+    "wikipediaUrl": "https://zh.wikipedia.org/zh-cn/大斑啄木鸟"
+  },
+  "wiki": {
+    "title": "大斑啄木鸟",
+    "extract": "大斑啄木鸟 又名赤䴕、臭奔得儿木、花奔得儿木、花啄木、白花啄木鸟、啄木冠、叼木冠。",
+    "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%96%91%E5%95%84%E6%9C%A8%E9%B8%9F"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 153,
+      "2": 159,
+      "3": 136,
+      "4": 124,
+      "5": 145,
+      "6": 134,
+      "7": 55,
+      "8": 45,
+      "9": 98,
+      "10": 106,
+      "11": 102,
+      "12": 123
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=17871&place_id=6903&quality_grade=research"
+  }
+}

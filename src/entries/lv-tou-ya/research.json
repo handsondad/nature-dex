@@ -1,0 +1,68 @@
+{
+  "query": "Anas platyrhynchos",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 9761484,
+    "scientificName": "Anas platyrhynchos Linnaeus, 1758",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Aves"
+      },
+      {
+        "rank": "order",
+        "name": "Anseriformes"
+      },
+      {
+        "rank": "family",
+        "name": "Anatidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Anas"
+      },
+      {
+        "rank": "species",
+        "name": "Anas platyrhynchos"
+      }
+    ]
+  },
+  "inat": {
+    "id": 6930,
+    "name": "Anas platyrhynchos",
+    "commonName": "绿头鸭",
+    "url": "https://www.inaturalist.org/taxa/6930"
+  },
+  "wiki": {
+    "title": "绿头鸭",
+    "extract": "绿头鸭 又名大头绿（雄）、蒲鸭（雌）、野鸭，古称凫，是一种水鸭，在温带和亚热带的美洲、欧亚大陆和北非繁殖。它被引进到新西兰、澳大利亚、秘鲁、巴西、乌拉圭、阿根廷、智利、哥伦比亚、福克兰群岛和南非。这种鸭属于鸭亚科的雁形目鸭科。雄鸭（公鸭）有绿色头部，而雌鸭（母鸭）主要有棕色斑点羽毛。两性翅膀上都有一片称为翼镜羽的白边黑色或虹彩紫色或蓝色羽毛区域；雄鸭尤其倾向于有蓝色翼镜羽。",
+    "url": "https://zh.wikipedia.org/wiki/%E7%BB%BF%E5%A4%B4%E9%B8%AD"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 460,
+      "2": 427,
+      "3": 414,
+      "4": 474,
+      "5": 471,
+      "6": 344,
+      "7": 319,
+      "8": 232,
+      "9": 198,
+      "10": 320,
+      "11": 398,
+      "12": 376
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=6930&place_id=6903&quality_grade=research"
+  }
+}

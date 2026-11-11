@@ -1,0 +1,68 @@
+{
+  "query": "Lycorma delicatula",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 5157899,
+    "scientificName": "Lycorma delicatula (White, 1845)",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Arthropoda"
+      },
+      {
+        "rank": "class",
+        "name": "Insecta"
+      },
+      {
+        "rank": "order",
+        "name": "Hemiptera"
+      },
+      {
+        "rank": "family",
+        "name": "Fulgoridae"
+      },
+      {
+        "rank": "genus",
+        "name": "Lycorma"
+      },
+      {
+        "rank": "species",
+        "name": "Lycorma delicatula"
+      }
+    ]
+  },
+  "inat": {
+    "id": 324726,
+    "name": "Lycorma delicatula",
+    "commonName": "斑衣蜡蝉",
+    "url": "https://www.inaturalist.org/taxa/324726"
+  },
+  "wiki": {
+    "title": "斑衣蜡蝉",
+    "extract": "斑衣蜡蝉 是半翅目蜡蝉科斑衣蜡蝉属的一个种，原产于中国，现已侵入至日本、韩国、美国和加拿大。",
+    "url": "https://zh.wikipedia.org/wiki/%E6%96%91%E8%A1%A3%E8%9C%A1%E8%9D%89"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 12,
+      "2": 11,
+      "3": 18,
+      "4": 88,
+      "5": 184,
+      "6": 424,
+      "7": 607,
+      "8": 400,
+      "9": 522,
+      "10": 314,
+      "11": 49,
+      "12": 7
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=324726&place_id=6903&quality_grade=research"
+  }
+}

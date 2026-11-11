@@ -1,0 +1,26 @@
+{
+  "cover": {
+    "src": "photos/huang-you/cover.webp",
+    "thumb": "photos/huang-you/cover.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "夏仲归",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/706215194",
+      "source": "iNaturalist"
+    }
+  },
+  "side-view": {
+    "src": "photos/huang-you/side-view.webp",
+    "thumb": "photos/huang-you/side-view.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Wang.QG",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/203783677",
+      "source": "iNaturalist"
+    }
+  }
+}

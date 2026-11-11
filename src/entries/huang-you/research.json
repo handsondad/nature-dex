@@ -1,0 +1,69 @@
+{
+  "query": "Mustela sibirica",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 5218972,
+    "scientificName": "Mustela sibirica Pallas, 1773",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Mammalia"
+      },
+      {
+        "rank": "order",
+        "name": "Carnivora"
+      },
+      {
+        "rank": "family",
+        "name": "Mustelidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Mustela"
+      },
+      {
+        "rank": "species",
+        "name": "Mustela sibirica"
+      }
+    ]
+  },
+  "inat": {
+    "id": 41813,
+    "name": "Mustela sibirica",
+    "commonName": "黄鼬",
+    "url": "https://www.inaturalist.org/taxa/41813",
+    "wikipediaUrl": "http://zh.wikipedia.org/wiki/黄鼬"
+  },
+  "wiki": {
+    "title": "黄鼬",
+    "extract": "黄鼬 古名鼪、鼶、鼠狼，俗名黄鼠狼、黄皮子，也叫喜马拉雅鼬或者西伯利亚鼬，属于鼬科鼬属，是一种小型的食肉动物。其种加词“sibirica”意为“西伯利亚的”。",
+    "url": "https://zh.wikipedia.org/wiki/%E9%BB%84%E9%BC%AC"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 45,
+      "2": 26,
+      "3": 48,
+      "4": 40,
+      "5": 50,
+      "6": 52,
+      "7": 59,
+      "8": 54,
+      "9": 63,
+      "10": 46,
+      "11": 43,
+      "12": 23
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=41813&place_id=6903&quality_grade=research"
+  }
+}

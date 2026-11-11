@@ -1,0 +1,65 @@
+{
+  "query": "Gekko swinhonis",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 2447351,
+    "scientificName": "Gekko swinhonis Günther, 1864",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Squamata"
+      },
+      {
+        "rank": "family",
+        "name": "Gekkonidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Gekko"
+      },
+      {
+        "rank": "species",
+        "name": "Gekko swinhonis"
+      }
+    ]
+  },
+  "inat": {
+    "id": 34600,
+    "name": "Gekko swinhonis",
+    "commonName": "无蹼壁虎",
+    "url": "https://www.inaturalist.org/taxa/34600",
+    "wikipediaUrl": "https://zh.wikipedia.org/zh-cn/无蹼壁虎"
+  },
+  "wiki": {
+    "title": "无蹼壁虎",
+    "extract": "无蹼壁虎 为壁虎科壁虎属的爬行动物，是中国的特有物种。分布于辽宁、河北、陕西、山西、甘肃、河南、山东、江苏、安徽、浙江等地，常见于暖温带以及栖息在建筑物的缝隙、岩缝、石下及树上。该物种的模式产地在中国北部。",
+    "url": "https://zh.wikipedia.org/wiki/%E6%97%A0%E8%B9%BC%E5%A3%81%E8%99%8E"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 2,
+      "2": 18,
+      "3": 32,
+      "4": 78,
+      "5": 91,
+      "6": 89,
+      "7": 135,
+      "8": 219,
+      "9": 127,
+      "10": 61,
+      "11": 20,
+      "12": 1
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=34600&place_id=6903&quality_grade=research"
+  }
+}

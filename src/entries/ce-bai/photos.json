@@ -1,0 +1,74 @@
+{
+  "cover": {
+    "src": "photos/ce-bai/cover.webp",
+    "thumb": "photos/ce-bai/cover.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Mark Clarke",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/758608632",
+      "source": "iNaturalist"
+    }
+  },
+  "look-ce-bai": {
+    "src": "photos/ce-bai/look-ce-bai.webp",
+    "thumb": "photos/ce-bai/look-ce-bai.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Mark Clarke",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/758608632",
+      "source": "iNaturalist"
+    }
+  },
+  "look-yuan-bai": {
+    "src": "photos/ce-bai/look-yuan-bai.webp",
+    "thumb": "photos/ce-bai/look-yuan-bai.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/115937273",
+      "source": "iNaturalist"
+    }
+  },
+  "same-blue": {
+    "src": "photos/ce-bai/same-blue.webp",
+    "thumb": "photos/ce-bai/same-blue.thumb.webp",
+    "w": 1024,
+    "h": 576,
+    "credit": {
+      "author": "Ben Sims",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/521998113",
+      "source": "iNaturalist"
+    }
+  },
+  "same-brown": {
+    "src": "photos/ce-bai/same-brown.webp",
+    "thumb": "photos/ce-bai/same-brown.thumb.webp",
+    "w": 1024,
+    "h": 576,
+    "credit": {
+      "author": "Ben Sims",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/521998694",
+      "source": "iNaturalist"
+    }
+  },
+  "spray": {
+    "src": "photos/ce-bai/spray.webp",
+    "thumb": "photos/ce-bai/spray.thumb.webp",
+    "w": 617,
+    "h": 1024,
+    "credit": {
+      "author": "nebrooks",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/627550085",
+      "source": "iNaturalist"
+    }
+  }
+}

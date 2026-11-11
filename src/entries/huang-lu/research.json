@@ -1,0 +1,97 @@
+{
+  "query": "Cotinus coggygria",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 3190522,
+    "scientificName": "Cotinus coggygria Scop.",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Sapindales"
+      },
+      {
+        "rank": "family",
+        "name": "Anacardiaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Cotinus"
+      },
+      {
+        "rank": "species",
+        "name": "Cotinus coggygria"
+      }
+    ]
+  },
+  "inat": {
+    "id": 133366,
+    "name": "Cotinus coggygria",
+    "commonName": "黄栌",
+    "url": "https://www.inaturalist.org/taxa/133366",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/黄栌"
+  },
+  "wiki": {
+    "title": "黄栌",
+    "extract": "黄栌，又名红叶树、烟树、皇家紫树，是漆树科黄栌属的一种植物。其木材可入药，果实可煮制木蜡。",
+    "url": "https://zh.wikipedia.org/wiki/%E9%BB%84%E6%A0%8C"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 1,
+      "2": 0,
+      "3": 3,
+      "4": 46,
+      "5": 47,
+      "6": 28,
+      "7": 16,
+      "8": 28,
+      "9": 19,
+      "10": 33,
+      "11": 15,
+      "12": 0
+    },
+    "flowering": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 8,
+      "5": 1,
+      "6": 0,
+      "7": 1,
+      "8": 2,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 3,
+      "5": 8,
+      "6": 4,
+      "7": 0,
+      "8": 3,
+      "9": 1,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=133366&place_id=6903&quality_grade=research"
+  }
+}

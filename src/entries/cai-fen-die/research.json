@@ -1,0 +1,69 @@
+{
+  "query": "Pieris rapae",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 1920496,
+    "scientificName": "Pieris rapae (Linnaeus, 1758)",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Arthropoda"
+      },
+      {
+        "rank": "class",
+        "name": "Insecta"
+      },
+      {
+        "rank": "order",
+        "name": "Lepidoptera"
+      },
+      {
+        "rank": "family",
+        "name": "Pieridae"
+      },
+      {
+        "rank": "genus",
+        "name": "Pieris"
+      },
+      {
+        "rank": "species",
+        "name": "Pieris rapae"
+      }
+    ]
+  },
+  "inat": {
+    "id": 55626,
+    "name": "Pieris rapae",
+    "commonName": "菜粉蝶",
+    "url": "https://www.inaturalist.org/taxa/55626",
+    "wikipediaUrl": "http://zh.wikipedia.org/wiki/菜粉蝶"
+  },
+  "wiki": {
+    "title": "菜粉蝶",
+    "extract": "菜粉蝶（学名：Pieris rapae，英文俗名：Small White, Small Cabbage White，别名：纹白蝶、日本纹白蝶、白纹蝶、菜白蝶，俗称菜虫)在台湾又名缘点白粉蝶，是属于粉蝶科的一种蝴蝶，是粉蝶属的一种。广泛分布于欧亚大陆大部分地区，并已入侵并立足于北美、北非、澳洲、新西兰等地低至高海拔地区。模式产地为瑞典。",
+    "url": "https://zh.wikipedia.org/wiki/%E8%8F%9C%E7%B2%89%E8%9D%B6"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 37,
+      "2": 64,
+      "3": 125,
+      "4": 130,
+      "5": 300,
+      "6": 294,
+      "7": 195,
+      "8": 128,
+      "9": 148,
+      "10": 124,
+      "11": 55,
+      "12": 21
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=55626&place_id=6903&quality_grade=research"
+  }
+}

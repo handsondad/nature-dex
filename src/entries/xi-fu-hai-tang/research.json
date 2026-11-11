@@ -1,0 +1,96 @@
+{
+  "query": "Malus micromalus",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 7516557,
+    "scientificName": "Malus × kaido (Wenz.) Pardé",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Rosales"
+      },
+      {
+        "rank": "family",
+        "name": "Rosaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Malus"
+      },
+      {
+        "rank": "species",
+        "name": "Malus kaido"
+      }
+    ]
+  },
+  "inat": {
+    "id": 1456986,
+    "name": "Malus × kaido",
+    "commonName": "西府海棠",
+    "url": "https://www.inaturalist.org/taxa/1456986"
+  },
+  "wiki": {
+    "title": "西府海棠",
+    "extract": "西府海棠 为蔷薇科苹果属的植物，为中国的特有植物。分布在中国大陆的云南、甘肃、陕西、山东、山西、河北、辽宁等地，生长于海拔100米至2,400米的地区，目前已由人工引种栽培。在北方干燥地带生长良好，喜光，耐寒，耐干旱，忌水湿。是绿化工程中较受欢迎的产品，是华中华北最常见的“海棠”。西府海棠因生长于西府（今陕西省宝鸡市）而得名,2009年4月24日被选为其市花。",
+    "url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E5%BA%9C%E6%B5%B7%E6%A3%A0"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "flowering": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=1456986&place_id=6903&quality_grade=research"
+  }
+}

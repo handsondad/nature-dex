@@ -1,0 +1,62 @@
+{
+  "cover": {
+    "src": "photos/yuan-bao-feng/cover.webp",
+    "thumb": "photos/yuan-bao-feng/cover.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/427450101",
+      "source": "iNaturalist"
+    }
+  },
+  "fruit-macro": {
+    "src": "photos/yuan-bao-feng/fruit-macro.webp",
+    "thumb": "photos/yuan-bao-feng/fruit-macro.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/409530325",
+      "source": "iNaturalist"
+    }
+  },
+  "leaf-fruit": {
+    "src": "photos/yuan-bao-feng/leaf-fruit.webp",
+    "thumb": "photos/yuan-bao-feng/leaf-fruit.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/409530284",
+      "source": "iNaturalist"
+    }
+  },
+  "same-green": {
+    "src": "photos/yuan-bao-feng/same-green.webp",
+    "thumb": "photos/yuan-bao-feng/same-green.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/410896251",
+      "source": "iNaturalist"
+    }
+  },
+  "same-red": {
+    "src": "photos/yuan-bao-feng/same-red.webp",
+    "thumb": "photos/yuan-bao-feng/same-red.thumb.webp",
+    "w": 1024,
+    "h": 727,
+    "credit": {
+      "author": "nebrooks",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/627555085",
+      "source": "iNaturalist"
+    }
+  }
+}

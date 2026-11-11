@@ -1,0 +1,50 @@
+{
+  "branch-leaf": {
+    "src": "photos/chui-liu/branch-leaf.webp",
+    "thumb": "photos/chui-liu/branch-leaf.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Mark Clarke",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/758637107",
+      "source": "iNaturalist"
+    }
+  },
+  "cover": {
+    "src": "photos/chui-liu/cover.webp",
+    "thumb": "photos/chui-liu/cover.thumb.webp",
+    "w": 759,
+    "h": 1024,
+    "credit": {
+      "author": "jbsaborido",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/758283215",
+      "source": "iNaturalist"
+    }
+  },
+  "look-chui-liu": {
+    "src": "photos/chui-liu/look-chui-liu.webp",
+    "thumb": "photos/chui-liu/look-chui-liu.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Mark Clarke",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/758628926",
+      "source": "iNaturalist"
+    }
+  },
+  "look-han-liu": {
+    "src": "photos/chui-liu/look-han-liu.webp",
+    "thumb": "photos/chui-liu/look-han-liu.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/493919712",
+      "source": "iNaturalist"
+    }
+  }
+}

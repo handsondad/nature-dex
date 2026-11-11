@@ -1,0 +1,68 @@
+{
+  "query": "Pelophylax nigromaculatus",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 2426634,
+    "scientificName": "Pelophylax nigromaculatus (Hallowell, 1861)",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Amphibia"
+      },
+      {
+        "rank": "order",
+        "name": "Anura"
+      },
+      {
+        "rank": "family",
+        "name": "Ranidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Pelophylax"
+      },
+      {
+        "rank": "species",
+        "name": "Pelophylax nigromaculatus"
+      }
+    ]
+  },
+  "inat": {
+    "id": 66330,
+    "name": "Pelophylax nigromaculatus",
+    "commonName": "黑斑侧褶蛙",
+    "url": "https://www.inaturalist.org/taxa/66330"
+  },
+  "wiki": {
+    "title": "黑斑侧褶蛙",
+    "extract": "黑斑侧褶蛙 为蛙科侧褶蛙属的两栖动物，也叫黑斑蛙，俗称青蛙、青鸡、青头蛤蟆、田鸡。生活在平原或丘陵的水田、池塘、湖沼区及海拔2200米以下的山地。分布于东亚，包括中国大陆几乎所有省区、朝鲜半岛、日本以及俄罗斯远东地区，模式产地在日本。新疆、西藏、海南和台湾无此种分布。",
+    "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E6%96%91%E4%BE%A7%E8%A4%B6%E8%9B%99"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 6,
+      "2": 9,
+      "3": 48,
+      "4": 176,
+      "5": 410,
+      "6": 583,
+      "7": 349,
+      "8": 263,
+      "9": 152,
+      "10": 67,
+      "11": 14,
+      "12": 7
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=66330&place_id=6903&quality_grade=research"
+  }
+}

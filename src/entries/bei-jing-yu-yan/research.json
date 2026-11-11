@@ -1,0 +1,63 @@
+{
+  "query": "Apus apus pekinensis",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 5228678,
+    "scientificName": "Apus apus pekinensis (Swinhoe, 1870)",
+    "rank": "SUBSPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Aves"
+      },
+      {
+        "rank": "order",
+        "name": "Apodiformes"
+      },
+      {
+        "rank": "family",
+        "name": "Apodidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Apus"
+      },
+      {
+        "rank": "species",
+        "name": "Apus apus"
+      }
+    ]
+  },
+  "inat": {
+    "id": 697810,
+    "name": "Apus apus pekinensis",
+    "commonName": "北京雨燕",
+    "url": "https://www.inaturalist.org/taxa/697810"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 6,
+      "5": 11,
+      "6": 22,
+      "7": 7,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=697810&place_id=6903&quality_grade=research"
+  }
+}

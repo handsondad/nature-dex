@@ -1,0 +1,62 @@
+{
+  "cover": {
+    "src": "photos/yin-xing/cover.webp",
+    "thumb": "photos/yin-xing/cover.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Samuele Papeschi",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/250082860",
+      "source": "iNaturalist"
+    }
+  },
+  "leaf-veins": {
+    "src": "photos/yin-xing/leaf-veins.webp",
+    "thumb": "photos/yin-xing/leaf-veins.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Summit Metro Parks",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/27163508",
+      "source": "iNaturalist"
+    }
+  },
+  "same-green": {
+    "src": "photos/yin-xing/same-green.webp",
+    "thumb": "photos/yin-xing/same-green.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Matt Schultz",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/161263816",
+      "source": "iNaturalist"
+    }
+  },
+  "same-yellow": {
+    "src": "photos/yin-xing/same-yellow.webp",
+    "thumb": "photos/yin-xing/same-yellow.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Samuele Papeschi",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/250082860",
+      "source": "iNaturalist"
+    }
+  },
+  "short-shoot": {
+    "src": "photos/yin-xing/short-shoot.webp",
+    "thumb": "photos/yin-xing/short-shoot.thumb.webp",
+    "w": 686,
+    "h": 1024,
+    "credit": {
+      "author": "Douglas Goldman",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/343546021",
+      "source": "iNaturalist"
+    }
+  }
+}

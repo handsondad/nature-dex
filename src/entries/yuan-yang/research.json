@@ -1,0 +1,69 @@
+{
+  "query": "Aix galericulata",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 2498388,
+    "scientificName": "Aix galericulata (Linnaeus, 1758)",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Aves"
+      },
+      {
+        "rank": "order",
+        "name": "Anseriformes"
+      },
+      {
+        "rank": "family",
+        "name": "Anatidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Aix"
+      },
+      {
+        "rank": "species",
+        "name": "Aix galericulata"
+      }
+    ]
+  },
+  "inat": {
+    "id": 7106,
+    "name": "Aix galericulata",
+    "commonName": "鸳鸯",
+    "url": "https://www.inaturalist.org/taxa/7106",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/鸳鸯"
+  },
+  "wiki": {
+    "title": "鸳鸯",
+    "extract": "鸳鸯，又称㶉（xī）𫛶（chì）、匹鸟、邓木鸟或紫鸳鸯，是雁形目鸭科鸳鸯属的一种水鸟。亦经常出现在中国古代文学作品和神话传说中。其中鸳指雄鸟，鸯指雌鸟。",
+    "url": "https://zh.wikipedia.org/wiki/%E9%B8%B3%E9%B8%AF"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 175,
+      "2": 186,
+      "3": 261,
+      "4": 274,
+      "5": 241,
+      "6": 168,
+      "7": 127,
+      "8": 93,
+      "9": 127,
+      "10": 192,
+      "11": 153,
+      "12": 158
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=7106&place_id=6903&quality_grade=research"
+  }
+}

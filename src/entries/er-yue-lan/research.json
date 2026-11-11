@@ -1,0 +1,97 @@
+{
+  "query": "Orychophragmus violaceus",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 3041285,
+    "scientificName": "Orychophragmus violaceus (L.) O.E.Schulz",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Brassicales"
+      },
+      {
+        "rank": "family",
+        "name": "Brassicaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Orychophragmus"
+      },
+      {
+        "rank": "species",
+        "name": "Orychophragmus violaceus"
+      }
+    ]
+  },
+  "inat": {
+    "id": 359576,
+    "name": "Orychophragmus violaceus",
+    "commonName": "诸葛菜",
+    "url": "https://www.inaturalist.org/taxa/359576",
+    "wikipediaUrl": "https://zh.wikipedia.org/zh-cn/诸葛菜"
+  },
+  "wiki": {
+    "title": "诸葛菜",
+    "extract": "诸葛菜，又名二月蓝、二月兰、紫金草，在日本被称为大紫羅欄花，为十字花科诸葛菜属植物。\n生态环境：二月兰系一种一二年生草本植物，生长于林下阴暗处，对土壤光照等条件要求较低，耐寒旱，生命力顽强。\n分布地域：二月兰原产于中国东部，常见于东北、华北等地区，分布于辽宁、河北、河南、山东、山西、陕西、甘肃、安徽、江苏、浙江、江西、湖北、四川、上海等省份。由于本物种在部分地区由人工引种作为观赏植物栽培，因而一定程度上扩大了本物种的分布范围。\n特征：二月兰为一二年生草本植物，植株高度在10－50厘米左右，茎直立且仅有单一茎；基生叶和下部茎生叶羽状深裂，叶基心形，叶缘有钝齿；上部茎生叶长圆形或窄卵形，叶基抱茎呈耳状，叶缘有不整齐的锯齿状结构；总状花序顶生，花瓣中有幼细的脉纹，色蓝紫，随着花期的延续，花色逐渐转淡，最终变为白色；花瓣4枚，具长爪，爪长约3－6毫米，花瓣长度约1-2厘米；雄蕊6枚，花丝白色，花药黄色；花萼细长呈筒状，色蓝紫，萼片长3毫米左右；果实为长角果，角果的顶端有细长的喙，果实具有四条楞，内有大量细小的黑褐色种子，果实成熟后会自然开裂，弹出种子。\n繁殖：二月兰花期始于每年的2－3月间，可延续至当年的6月，期间陆续开花不绝，果实在5－6月间陆续成熟，成熟后的果实自动弹开将内涵的种子广泛散布",
+    "url": "https://zh.wikipedia.org/wiki/%E8%AF%B8%E8%91%9B%E8%8F%9C"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 12,
+      "2": 79,
+      "3": 572,
+      "4": 524,
+      "5": 192,
+      "6": 32,
+      "7": 11,
+      "8": 14,
+      "9": 22,
+      "10": 18,
+      "11": 10,
+      "12": 8
+    },
+    "flowering": {
+      "1": 0,
+      "2": 5,
+      "3": 73,
+      "4": 107,
+      "5": 47,
+      "6": 7,
+      "7": 1,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 0,
+      "2": 0,
+      "3": 2,
+      "4": 6,
+      "5": 14,
+      "6": 1,
+      "7": 1,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=359576&place_id=6903&quality_grade=research"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "cover": {
+    "src": "photos/yue-ji/cover.webp",
+    "thumb": "photos/yue-ji/cover.thumb.webp",
+    "w": 766,
+    "h": 1024,
+    "credit": {
+      "author": "Artem Abdukakharov",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/678900050",
+      "source": "iNaturalist"
+    }
+  },
+  "flower-stem": {
+    "src": "photos/yue-ji/flower-stem.webp",
+    "thumb": "photos/yue-ji/flower-stem.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Wallace Carneiro Almeida",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/742932371",
+      "source": "iNaturalist"
+    }
+  }
+}

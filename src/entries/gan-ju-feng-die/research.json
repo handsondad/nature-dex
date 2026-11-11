@@ -1,0 +1,69 @@
+{
+  "query": "Papilio xuthus",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 1937819,
+    "scientificName": "Papilio xuthus Linnaeus, 1767",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Arthropoda"
+      },
+      {
+        "rank": "class",
+        "name": "Insecta"
+      },
+      {
+        "rank": "order",
+        "name": "Lepidoptera"
+      },
+      {
+        "rank": "family",
+        "name": "Papilionidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Papilio"
+      },
+      {
+        "rank": "species",
+        "name": "Papilio xuthus"
+      }
+    ]
+  },
+  "inat": {
+    "id": 145586,
+    "name": "Papilio xuthus",
+    "commonName": "柑橘凤蝶",
+    "url": "https://www.inaturalist.org/taxa/145586",
+    "wikipediaUrl": "http://zh.wikipedia.org/wiki/柑橘鳳蝶"
+  },
+  "wiki": {
+    "title": "柑橘鳳蝶",
+    "extract": "柑橘凤蝶 是属于凤蝶科的一种蝴蝶，是凤蝶属的一种，并演化出4个亚种。广泛分布于亚洲远东地区，北至俄罗斯远东地区、日韩及中国东至北部，南至华南、台湾及菲律宾，远至太平洋岛屿如夏威夷等。模式产地为中国广东。",
+    "url": "https://zh.wikipedia.org/wiki/%E6%9F%91%E6%A9%98%E9%B3%B3%E8%9D%B6"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 9,
+      "2": 20,
+      "3": 211,
+      "4": 312,
+      "5": 182,
+      "6": 206,
+      "7": 331,
+      "8": 473,
+      "9": 425,
+      "10": 241,
+      "11": 25,
+      "12": 7
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=145586&place_id=6903&quality_grade=research"
+  }
+}

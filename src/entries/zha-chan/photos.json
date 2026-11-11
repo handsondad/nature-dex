@@ -1,0 +1,86 @@
+{
+  "back-view": {
+    "src": "photos/zha-chan/back-view.webp",
+    "thumb": "photos/zha-chan/back-view.thumb.webp",
+    "w": 1024,
+    "h": 694,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/319062667",
+      "source": "iNaturalist"
+    }
+  },
+  "cover": {
+    "src": "photos/zha-chan/cover.webp",
+    "thumb": "photos/zha-chan/cover.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "chiuluan",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/134585922",
+      "source": "iNaturalist"
+    }
+  },
+  "step-climb": {
+    "src": "photos/zha-chan/step-climb.webp",
+    "thumb": "photos/zha-chan/step-climb.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Modest_Reindeer",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/709455606",
+      "source": "iNaturalist"
+    }
+  },
+  "step-eggs": {
+    "src": "photos/zha-chan/step-eggs.webp",
+    "thumb": "photos/zha-chan/step-eggs.thumb.webp",
+    "w": 1024,
+    "h": 658,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/219663297",
+      "source": "iNaturalist"
+    }
+  },
+  "step-hole": {
+    "src": "photos/zha-chan/step-hole.webp",
+    "thumb": "photos/zha-chan/step-hole.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Wang.QG",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/213020872",
+      "source": "iNaturalist"
+    }
+  },
+  "step-molt": {
+    "src": "photos/zha-chan/step-molt.webp",
+    "thumb": "photos/zha-chan/step-molt.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "PampaSorro",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/680138182",
+      "source": "iNaturalist"
+    }
+  },
+  "step-shell": {
+    "src": "photos/zha-chan/step-shell.webp",
+    "thumb": "photos/zha-chan/step-shell.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "carbapple",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/549573105",
+      "source": "iNaturalist"
+    }
+  }
+}

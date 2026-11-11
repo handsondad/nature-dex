@@ -1,0 +1,97 @@
+{
+  "query": "Typha orientalis",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 5289521,
+    "scientificName": "Typha orientalis C.Presl",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Liliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Poales"
+      },
+      {
+        "rank": "family",
+        "name": "Typhaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Typha"
+      },
+      {
+        "rank": "species",
+        "name": "Typha orientalis"
+      }
+    ]
+  },
+  "inat": {
+    "id": 341639,
+    "name": "Typha orientalis",
+    "commonName": "香蒲",
+    "url": "https://www.inaturalist.org/taxa/341639",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/香蒲"
+  },
+  "wiki": {
+    "title": "香蒲",
+    "extract": "香蒲 是香蒲科香蒲属植物，其种加词“orientalis”意为“东方的”。",
+    "url": "https://zh.wikipedia.org/wiki/%E9%A6%99%E8%92%B2"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 2,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 1,
+      "7": 3,
+      "8": 2,
+      "9": 1,
+      "10": 0,
+      "11": 1,
+      "12": 0
+    },
+    "flowering": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=341639&place_id=6903&quality_grade=research"
+  }
+}

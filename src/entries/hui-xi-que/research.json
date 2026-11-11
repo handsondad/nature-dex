@@ -1,0 +1,69 @@
+{
+  "query": "Cyanopica cyanus",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 7341881,
+    "scientificName": "Cyanopica cyanus (Pallas, 1776)",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Aves"
+      },
+      {
+        "rank": "order",
+        "name": "Passeriformes"
+      },
+      {
+        "rank": "family",
+        "name": "Corvidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Cyanopica"
+      },
+      {
+        "rank": "species",
+        "name": "Cyanopica cyanus"
+      }
+    ]
+  },
+  "inat": {
+    "id": 72785,
+    "name": "Cyanopica cyanus",
+    "commonName": "灰喜鹊",
+    "url": "https://www.inaturalist.org/taxa/72785",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/灰喜鹊"
+  },
+  "wiki": {
+    "title": "灰喜鹊",
+    "extract": "灰喜鹊，俗称蓝鹊、灰鹊、马尾鹊、羊乌鹊、山喜鹊或蓝膀喜鹊。",
+    "url": "https://zh.wikipedia.org/wiki/%E7%81%B0%E5%96%9C%E9%B9%8A"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 303,
+      "2": 318,
+      "3": 297,
+      "4": 346,
+      "5": 538,
+      "6": 540,
+      "7": 412,
+      "8": 290,
+      "9": 334,
+      "10": 482,
+      "11": 340,
+      "12": 316
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=72785&place_id=6903&quality_grade=research"
+  }
+}

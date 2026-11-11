@@ -1,0 +1,62 @@
+{
+  "cover": {
+    "src": "photos/ou-ya-hong-song-shu/cover.webp",
+    "thumb": "photos/ou-ya-hong-song-shu/cover.thumb.webp",
+    "w": 872,
+    "h": 1024,
+    "credit": {
+      "author": "Sunny Zhang 张迎新",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/634071875",
+      "source": "iNaturalist"
+    }
+  },
+  "look-hs": {
+    "src": "photos/ou-ya-hong-song-shu/look-hs.webp",
+    "thumb": "photos/ou-ya-hong-song-shu/look-hs.thumb.webp",
+    "w": 1024,
+    "h": 650,
+    "credit": {
+      "author": "Bob",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/431668573",
+      "source": "iNaturalist"
+    }
+  },
+  "look-sv": {
+    "src": "photos/ou-ya-hong-song-shu/look-sv.webp",
+    "thumb": "photos/ou-ya-hong-song-shu/look-sv.thumb.webp",
+    "w": 872,
+    "h": 1024,
+    "credit": {
+      "author": "Sunny Zhang 张迎新",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/634071875",
+      "source": "iNaturalist"
+    }
+  },
+  "look-ys": {
+    "src": "photos/ou-ya-hong-song-shu/look-ys.webp",
+    "thumb": "photos/ou-ya-hong-song-shu/look-ys.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "夏仲归",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/706212761",
+      "source": "iNaturalist"
+    }
+  },
+  "sitting": {
+    "src": "photos/ou-ya-hong-song-shu/sitting.webp",
+    "thumb": "photos/ou-ya-hong-song-shu/sitting.thumb.webp",
+    "w": 899,
+    "h": 1024,
+    "credit": {
+      "author": "bloodlesshunting",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/398080265",
+      "source": "iNaturalist"
+    }
+  }
+}

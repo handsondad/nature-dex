@@ -1,0 +1,92 @@
+{
+  "query": "Viola philippica",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 7296732,
+    "scientificName": "Viola philippica Cav.",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Malpighiales"
+      },
+      {
+        "rank": "family",
+        "name": "Violaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Viola"
+      },
+      {
+        "rank": "species",
+        "name": "Viola philippica"
+      }
+    ]
+  },
+  "inat": {
+    "id": 491262,
+    "name": "Viola philippica",
+    "commonName": "紫花地丁",
+    "url": "https://www.inaturalist.org/taxa/491262",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/紫花地丁"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 6,
+      "2": 17,
+      "3": 118,
+      "4": 113,
+      "5": 16,
+      "6": 5,
+      "7": 3,
+      "8": 0,
+      "9": 3,
+      "10": 7,
+      "11": 11,
+      "12": 3
+    },
+    "flowering": {
+      "1": 2,
+      "2": 0,
+      "3": 18,
+      "4": 26,
+      "5": 0,
+      "6": 2,
+      "7": 1,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 3,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 0,
+      "5": 4,
+      "6": 1,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=491262&place_id=6903&quality_grade=research"
+  }
+}

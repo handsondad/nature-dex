@@ -1,0 +1,26 @@
+{
+  "cover": {
+    "src": "photos/dai-sheng/cover.webp",
+    "thumb": "photos/dai-sheng/cover.thumb.webp",
+    "w": 1024,
+    "h": 790,
+    "credit": {
+      "author": "Yurii Basov",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/493600525",
+      "source": "iNaturalist"
+    }
+  },
+  "side-crest": {
+    "src": "photos/dai-sheng/side-crest.webp",
+    "thumb": "photos/dai-sheng/side-crest.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Pavel Smirnov",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/614190064",
+      "source": "iNaturalist"
+    }
+  }
+}

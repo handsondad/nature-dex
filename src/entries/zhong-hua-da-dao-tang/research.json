@@ -1,0 +1,69 @@
+{
+  "query": "Tenodera sinensis",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 5887934,
+    "scientificName": "Tenodera sinensis Saussure, 1871",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Arthropoda"
+      },
+      {
+        "rank": "class",
+        "name": "Insecta"
+      },
+      {
+        "rank": "order",
+        "name": "Mantodea"
+      },
+      {
+        "rank": "family",
+        "name": "Mantidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Tenodera"
+      },
+      {
+        "rank": "species",
+        "name": "Tenodera sinensis"
+      }
+    ]
+  },
+  "inat": {
+    "id": 71034,
+    "name": "Tenodera sinensis",
+    "commonName": "中华大刀螳",
+    "url": "https://www.inaturalist.org/taxa/71034",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/中华大刀螳"
+  },
+  "wiki": {
+    "title": "中华大刀螳",
+    "extract": "中华大刀螳 是螳科大刀螳属的一个物种，为亚洲东北部、东部至南部常见的大型螳螂。其种加词“sinensis”意为“中华的”。",
+    "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E5%A4%A7%E5%88%80%E8%9E%B3"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 24,
+      "2": 28,
+      "3": 14,
+      "4": 18,
+      "5": 22,
+      "6": 84,
+      "7": 181,
+      "8": 436,
+      "9": 389,
+      "10": 276,
+      "11": 50,
+      "12": 10
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=71034&place_id=6903&quality_grade=research"
+  }
+}

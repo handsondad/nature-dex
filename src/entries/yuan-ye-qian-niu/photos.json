@@ -1,0 +1,62 @@
+{
+  "cover": {
+    "src": "photos/yuan-ye-qian-niu/cover.webp",
+    "thumb": "photos/yuan-ye-qian-niu/cover.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Marco Mussita",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/569808260",
+      "source": "iNaturalist"
+    }
+  },
+  "look-da-wan-hua": {
+    "src": "photos/yuan-ye-qian-niu/look-da-wan-hua.webp",
+    "thumb": "photos/yuan-ye-qian-niu/look-da-wan-hua.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "振远 王",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/740916694",
+      "source": "iNaturalist"
+    }
+  },
+  "look-qian-niu": {
+    "src": "photos/yuan-ye-qian-niu/look-qian-niu.webp",
+    "thumb": "photos/yuan-ye-qian-niu/look-qian-niu.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Richard Fuller",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/327517326",
+      "source": "iNaturalist"
+    }
+  },
+  "look-yuan-ye": {
+    "src": "photos/yuan-ye-qian-niu/look-yuan-ye.webp",
+    "thumb": "photos/yuan-ye-qian-niu/look-yuan-ye.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Marco Mussita",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/569808260",
+      "source": "iNaturalist"
+    }
+  },
+  "vine": {
+    "src": "photos/yuan-ye-qian-niu/vine.webp",
+    "thumb": "photos/yuan-ye-qian-niu/vine.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "TonyT",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/567646575",
+      "source": "iNaturalist"
+    }
+  }
+}

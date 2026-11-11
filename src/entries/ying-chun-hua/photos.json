@@ -1,0 +1,50 @@
+{
+  "cover": {
+    "src": "photos/ying-chun-hua/cover.webp",
+    "thumb": "photos/ying-chun-hua/cover.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "rmjb",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/103478831",
+      "source": "iNaturalist"
+    }
+  },
+  "flower-branch": {
+    "src": "photos/ying-chun-hua/flower-branch.webp",
+    "thumb": "photos/ying-chun-hua/flower-branch.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Andrew Fielding",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/613606349",
+      "source": "iNaturalist"
+    }
+  },
+  "look-lq": {
+    "src": "photos/ying-chun-hua/look-lq.webp",
+    "thumb": "photos/ying-chun-hua/look-lq.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "littlespacecase",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/336198180",
+      "source": "iNaturalist"
+    }
+  },
+  "look-yc": {
+    "src": "photos/ying-chun-hua/look-yc.webp",
+    "thumb": "photos/ying-chun-hua/look-yc.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "rmjb",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/103478831",
+      "source": "iNaturalist"
+    }
+  }
+}

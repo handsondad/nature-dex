@@ -1,0 +1,98 @@
+{
+  "adult-open": {
+    "src": "photos/cai-fen-die/adult-open.webp",
+    "thumb": "photos/cai-fen-die/adult-open.thumb.webp",
+    "w": 1024,
+    "h": 678,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/132860804",
+      "source": "iNaturalist"
+    }
+  },
+  "cover": {
+    "src": "photos/cai-fen-die/cover.webp",
+    "thumb": "photos/cai-fen-die/cover.thumb.webp",
+    "w": 727,
+    "h": 809,
+    "credit": {
+      "author": "Lihai Song",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/687621601",
+      "source": "iNaturalist"
+    }
+  },
+  "look-cfd": {
+    "src": "photos/cai-fen-die/look-cfd.webp",
+    "thumb": "photos/cai-fen-die/look-cfd.thumb.webp",
+    "w": 727,
+    "h": 809,
+    "credit": {
+      "author": "Lihai Song",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/687621601",
+      "source": "iNaturalist"
+    }
+  },
+  "look-yfd": {
+    "src": "photos/cai-fen-die/look-yfd.webp",
+    "thumb": "photos/cai-fen-die/look-yfd.thumb.webp",
+    "w": 1024,
+    "h": 915,
+    "credit": {
+      "author": "bloodlesshunting",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/411213584",
+      "source": "iNaturalist"
+    }
+  },
+  "step-adult": {
+    "src": "photos/cai-fen-die/step-adult.webp",
+    "thumb": "photos/cai-fen-die/step-adult.thumb.webp",
+    "w": 1024,
+    "h": 686,
+    "credit": {
+      "author": "Andy Kleinhesselink",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/24394778",
+      "source": "iNaturalist"
+    }
+  },
+  "step-egg": {
+    "src": "photos/cai-fen-die/step-egg.webp",
+    "thumb": "photos/cai-fen-die/step-egg.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Mark Clarke",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/758628785",
+      "source": "iNaturalist"
+    }
+  },
+  "step-larva": {
+    "src": "photos/cai-fen-die/step-larva.webp",
+    "thumb": "photos/cai-fen-die/step-larva.thumb.webp",
+    "w": 1024,
+    "h": 743,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/325734482",
+      "source": "iNaturalist"
+    }
+  },
+  "step-pupa": {
+    "src": "photos/cai-fen-die/step-pupa.webp",
+    "thumb": "photos/cai-fen-die/step-pupa.thumb.webp",
+    "w": 1024,
+    "h": 687,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/114616389",
+      "source": "iNaturalist"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "query": "Orthetrum albistylum",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 1428595,
+    "scientificName": "Orthetrum albistylum (Selys, 1848)",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Arthropoda"
+      },
+      {
+        "rank": "class",
+        "name": "Insecta"
+      },
+      {
+        "rank": "order",
+        "name": "Odonata"
+      },
+      {
+        "rank": "family",
+        "name": "Libellulidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Orthetrum"
+      },
+      {
+        "rank": "species",
+        "name": "Orthetrum albistylum"
+      }
+    ]
+  },
+  "inat": {
+    "id": 107942,
+    "name": "Orthetrum albistylum",
+    "commonName": "白尾灰蜻",
+    "url": "https://www.inaturalist.org/taxa/107942",
+    "wikipediaUrl": "https://zh.wikipedia.org/zh-tw/白尾灰蜻"
+  },
+  "wiki": {
+    "title": "白尾灰蜻",
+    "extract": "白尾灰蜻 是蜻蜓科下的一种蜻蜓，见于南欧到中国、日本的亚欧地区，分布不均匀，但在大多数地区都很常见。21世纪初开始向波兰的波罗的海沿岸扩展。",
+    "url": "https://zh.wikipedia.org/wiki/%E7%99%BD%E5%B0%BE%E7%81%B0%E8%9C%BB"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 2,
+      "2": 4,
+      "3": 0,
+      "4": 141,
+      "5": 210,
+      "6": 206,
+      "7": 298,
+      "8": 228,
+      "9": 90,
+      "10": 14,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=107942&place_id=6903&quality_grade=research"
+  }
+}

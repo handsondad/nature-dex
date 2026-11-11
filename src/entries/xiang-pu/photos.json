@@ -1,0 +1,50 @@
+{
+  "cover": {
+    "src": "photos/xiang-pu/cover.webp",
+    "thumb": "photos/xiang-pu/cover.thumb.webp",
+    "w": 1024,
+    "h": 576,
+    "credit": {
+      "author": "Halema J",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/271945722",
+      "source": "iNaturalist"
+    }
+  },
+  "look-lu-wei": {
+    "src": "photos/xiang-pu/look-lu-wei.webp",
+    "thumb": "photos/xiang-pu/look-lu-wei.thumb.webp",
+    "w": 683,
+    "h": 1024,
+    "credit": {
+      "author": "王天明",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/605316579",
+      "source": "iNaturalist"
+    }
+  },
+  "look-xiang-pu": {
+    "src": "photos/xiang-pu/look-xiang-pu.webp",
+    "thumb": "photos/xiang-pu/look-xiang-pu.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Christopher Stephens",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/686423153",
+      "source": "iNaturalist"
+    }
+  },
+  "spike": {
+    "src": "photos/xiang-pu/spike.webp",
+    "thumb": "photos/xiang-pu/spike.thumb.webp",
+    "w": 576,
+    "h": 1024,
+    "credit": {
+      "author": "Halema J",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/271945803",
+      "source": "iNaturalist"
+    }
+  }
+}

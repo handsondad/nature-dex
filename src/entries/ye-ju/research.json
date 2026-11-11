@@ -1,0 +1,97 @@
+{
+  "query": "Chrysanthemum indicum",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 3150814,
+    "scientificName": "Chrysanthemum indicum L.",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Asterales"
+      },
+      {
+        "rank": "family",
+        "name": "Asteraceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Chrysanthemum"
+      },
+      {
+        "rank": "species",
+        "name": "Chrysanthemum indicum"
+      }
+    ]
+  },
+  "inat": {
+    "id": 346848,
+    "name": "Chrysanthemum indicum",
+    "commonName": "野菊",
+    "url": "https://www.inaturalist.org/taxa/346848",
+    "wikipediaUrl": "https://zh.wikipedia.org/zh-cn/野菊"
+  },
+  "wiki": {
+    "title": "野菊",
+    "extract": "野菊，又称作油菊、疟疾草（江苏）、苦薏、路边黄、山菊花（福建）、黄菊仔（广西）、菊花脑（南京）、路边菊（广东），是菊花的一种，亦是菊属的模式种。野菊花的茎和叶在南京被用作夏日蔬菜所食用。",
+    "url": "https://zh.wikipedia.org/wiki/%E9%87%8E%E8%8F%8A"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 4,
+      "2": 3,
+      "3": 5,
+      "4": 3,
+      "5": 5,
+      "6": 5,
+      "7": 2,
+      "8": 3,
+      "9": 8,
+      "10": 90,
+      "11": 85,
+      "12": 15
+    },
+    "flowering": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 1,
+      "10": 63,
+      "11": 49,
+      "12": 1
+    },
+    "fruiting": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 5,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=346848&place_id=6903&quality_grade=research"
+  }
+}

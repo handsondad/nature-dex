@@ -1,0 +1,69 @@
+{
+  "query": "Pycnonotus sinensis",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 2486150,
+    "scientificName": "Pycnonotus sinensis (Gmelin, 1789)",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Aves"
+      },
+      {
+        "rank": "order",
+        "name": "Passeriformes"
+      },
+      {
+        "rank": "family",
+        "name": "Pycnonotidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Pycnonotus"
+      },
+      {
+        "rank": "species",
+        "name": "Pycnonotus sinensis"
+      }
+    ]
+  },
+  "inat": {
+    "id": 14621,
+    "name": "Pycnonotus sinensis",
+    "commonName": "白头鹎",
+    "url": "https://www.inaturalist.org/taxa/14621",
+    "wikipediaUrl": "http://zh.wikipedia.org/wiki/白頭鵯"
+  },
+  "wiki": {
+    "title": "白頭鵯",
+    "extract": "白头鹎，又名白头翁、白头鹄仔，是鹎属小型鸣禽，冬季北方鸟南迁为候鸟，台湾亚种为留鸟，平均寿命约10到15年。白头鹎常见于东亚，台湾西半部与东北部低海拔地区，中国大陆则是在长江南部的大多地区，以及香港、琉球群岛（八重山群岛、冲绳等），性格活泼，不甚畏人。吃昆虫，种子和水果，属杂食性，雄鸟胸部灰色较深，雌鸟浅淡，雄鸟枕部（后头部）白色极为清晰醒目。",
+    "url": "https://zh.wikipedia.org/wiki/%E7%99%BD%E9%A0%AD%E9%B5%AF"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 767,
+      "2": 758,
+      "3": 928,
+      "4": 1150,
+      "5": 1332,
+      "6": 944,
+      "7": 818,
+      "8": 594,
+      "9": 552,
+      "10": 673,
+      "11": 565,
+      "12": 682
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=14621&place_id=6903&quality_grade=research"
+  }
+}

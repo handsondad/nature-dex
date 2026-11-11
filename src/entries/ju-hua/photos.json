@@ -1,0 +1,50 @@
+{
+  "cover": {
+    "src": "photos/ju-hua/cover.webp",
+    "thumb": "photos/ju-hua/cover.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "ringedinlaurel",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/659799003",
+      "source": "iNaturalist"
+    }
+  },
+  "flower-head": {
+    "src": "photos/ju-hua/flower-head.webp",
+    "thumb": "photos/ju-hua/flower-head.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "dianelmt",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/441999014",
+      "source": "iNaturalist"
+    }
+  },
+  "look-ju-hua": {
+    "src": "photos/ju-hua/look-ju-hua.webp",
+    "thumb": "photos/ju-hua/look-ju-hua.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "ringedinlaurel",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/659799003",
+      "source": "iNaturalist"
+    }
+  },
+  "look-ye-ju": {
+    "src": "photos/ju-hua/look-ye-ju.webp",
+    "thumb": "photos/ju-hua/look-ye-ju.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "黄彦豪",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/452628626",
+      "source": "iNaturalist"
+    }
+  }
+}

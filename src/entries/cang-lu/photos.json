@@ -1,0 +1,26 @@
+{
+  "cover": {
+    "src": "photos/cang-lu/cover.webp",
+    "thumb": "photos/cang-lu/cover.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "卢江离",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/166606119",
+      "source": "iNaturalist"
+    }
+  },
+  "side-stand": {
+    "src": "photos/cang-lu/side-stand.webp",
+    "thumb": "photos/cang-lu/side-stand.thumb.webp",
+    "w": 1024,
+    "h": 680,
+    "credit": {
+      "author": "Pavel Smirnov",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/614675447",
+      "source": "iNaturalist"
+    }
+  }
+}
