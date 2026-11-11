@@ -2,13 +2,44 @@
 
 ## 这是什么
 
-「我们的自然图鉴」：把一家人在身边真实遇见的植物和动物，做成一篇篇图文并茂、可以互动的图鉴，按第一次遇见的日子夹在首页的晾衣绳上。发布到 GitHub Pages。
+「小念的自然图鉴」：把一家人在身边真实遇见的植物和动物，做成一篇篇图文并茂、可以互动的图鉴，按第一次遇见的日子夹在首页的晾衣绳上。发布到 GitHub Pages。
 
 没有后端，没有 AI 生图。图鉴是 `src/entries/` 里的 TypeScript 数据，页面由 `src/blocks/` 的组件按数据画出来；照片是我们自己拍的，知识有出处。和「小念家的漫画书」（storyverse）是同一个系列，结构也一样。
 
 技术栈：React 18 + TypeScript（strict）+ Vite 5。Hash 路由，相对路径资源。工具脚本是 Node（.mjs），用 sharp 处理照片、exifr 读拍摄日期、puppeteer-core 截图，联网查 GBIF / iNaturalist / 维基百科。
 
 **做图鉴之前，先读 `skills/naturedex-field-guide/SKILL.md`。**
+
+## 怎么做一篇图鉴
+
+人负责出门、拍照、说话和点头；代码助手照着 skill 写 `entry.ts`、跑工具。大致流程：
+
+```bash
+npm run entry:new -- pu-gong-ying 蒲公英 Taraxacum mongolicum
+npm run taxon -- pu-gong-ying "Taraxacum mongolicum"
+npm run photos -- pu-gong-ying raw/pu-gong-ying/                 # 自己的照片（压缩 webp、去定位）
+npm run refphoto -- pu-gong-ying "Sonchus oleraceus" --as look-kjc --list
+# 写 src/entries/pu-gong-ying/entry.ts
+npm run check -- pu-gong-ying
+npm run snapshot -- pu-gong-ying --mobile
+```
+
+照片规格见 `tools/lib.mjs` 的 `PHOTO`；改参数后 `npm run photos:recompress`。
+
+## 图鉴里能放什么
+
+| 块 | 做什么 |
+|---|---|
+| 我们的记录 | 哪天、在哪儿、看到了什么、孩子说了什么，配我们的照片 |
+| 认识它 | 在照片上点出识别特征 |
+| 凑近看 | 放大镜看细节 |
+| 变化 | 拖动分界线对比同一个东西的两个时刻 |
+| 一步一步 | 一组照片串起生长或变化的过程 |
+| 它的一年 | 12 个月：在中国每月被拍到多少次，钉上我们遇见它的月份 |
+| 容易认错 | 几个长得像的放一起，先猜哪张是它 |
+| 你知道吗 | 翻面小卡，一个有出处的「哇」 |
+
+块的详细用法见 `skills/naturedex-field-guide/blocks.md`。
 
 ## 命令
 
@@ -20,8 +51,8 @@
 | `npm run entry:new -- <id> [中文名] [学名]` | 新建一篇图鉴 |
 | `npm run taxon -- <id> "<学名或中文名>"` | 查分类、中文名、每月观察数，写 `research.json` |
 | `npm run photos -- <id> <照片或文件夹> [--as 名字]` | 处理自己的照片：去 EXIF/定位、**压缩成小 webp**、缩略图，写 `photos.json` |
-| `npm run photos:recompress [-- <id>]` | 按当前规格把 `public/photos/` 再压一遍（改参数或发现大图时用） |
-| `npm run refphoto -- <id> "<学名>" --as <名字> [--list \| --pick N]` | 找可转载的 iNaturalist 照片做对照（同样走压缩） |
+| `npm run photos:recompress [-- <id>]` | 按当前规格把 `public/photos/` 再压一遍 |
+| `npm run refphoto -- <id> "<学名>" --as <名字> [--list \| --pick N]` | 找可转载的 iNaturalist 照片做对照 |
 | `npm run check [-- <id>]` | 检查内容，列出待拍清单 |
 | `npm run snapshot -- <id\|line> [--mobile]` | 截长图并切段，放 `snapshots/` |
 | `npm run typecheck` / `npm test` / `npm run build` | 类型检查 / 测试 / 生产构建 |
@@ -44,7 +75,7 @@
 - `src/blocks/`：每种块一个组件；`BlockView.tsx` 分发
 - `src/render/`：照片、引用角标、滚动出现
 - `public/photos/<id>/`：**只放工具压过的小 webp**（进仓库）；原图放 `raw/`（不进仓库）
-- `tools/lib.mjs` 里的 `PHOTO`：长边、质量、缩略图尺寸的唯一来源；`photos` / `refphoto` / `photos:recompress` 都读它
+- `tools/lib.mjs` 里的 `PHOTO`：长边、质量、缩略图尺寸的唯一来源
 - `tools/rules.mjs`：内容规矩（纯函数，测试共用）
 - `skills/naturedex-field-guide/`：做图鉴的流程（SKILL.md）、块的用法（blocks.md）、写法和资料来源（writing.md）
 
