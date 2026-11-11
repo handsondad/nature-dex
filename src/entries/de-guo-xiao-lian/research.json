@@ -1,0 +1,69 @@
+{
+  "query": "Blattella germanica",
+  "fetchedAt": "2026-11-11",
+  "gbif": {
+    "key": 1997215,
+    "scientificName": "Blattella germanica (Linnaeus, 1767)",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Arthropoda"
+      },
+      {
+        "rank": "class",
+        "name": "Insecta"
+      },
+      {
+        "rank": "order",
+        "name": "Blattodea"
+      },
+      {
+        "rank": "family",
+        "name": "Ectobiidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Blattella"
+      },
+      {
+        "rank": "species",
+        "name": "Blattella germanica"
+      }
+    ]
+  },
+  "inat": {
+    "id": 121237,
+    "name": "Blattella germanica",
+    "commonName": "德国小蠊",
+    "url": "https://www.inaturalist.org/taxa/121237",
+    "wikipediaUrl": "http://zh.wikipedia.org/wiki/德國蟑螂"
+  },
+  "wiki": {
+    "title": "德國姬蠊",
+    "extract": "德国小蠊，俗称德国蟑螂，是蟑螂的一种，身长多为1.0到1.6cm，比美洲大蠊小。颜色有浅棕色至深棕色，而且在其前胸有两条由头部至翅膀末端的直纹。飞行距离不长，只在受干扰时才会飞行。",
+    "url": "https://zh.wikipedia.org/wiki/%E5%BE%B7%E5%9C%8B%E5%A7%AC%E8%A0%8A"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 1,
+      "2": 3,
+      "3": 1,
+      "4": 2,
+      "5": 6,
+      "6": 1,
+      "7": 8,
+      "8": 7,
+      "9": 6,
+      "10": 3,
+      "11": 8,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=121237&place_id=6903&quality_grade=research"
+  }
+}

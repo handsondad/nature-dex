@@ -1,0 +1,74 @@
+{
+  "adult-dorsal": {
+    "src": "photos/de-guo-xiao-lian/adult-dorsal.webp",
+    "thumb": "photos/de-guo-xiao-lian/adult-dorsal.thumb.webp",
+    "w": 1024,
+    "h": 575,
+    "credit": {
+      "author": "0959kedi",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/465310001",
+      "source": "iNaturalist"
+    }
+  },
+  "cover": {
+    "src": "photos/de-guo-xiao-lian/cover.webp",
+    "thumb": "photos/de-guo-xiao-lian/cover.thumb.webp",
+    "w": 1024,
+    "h": 575,
+    "credit": {
+      "author": "0959kedi",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/465309827",
+      "source": "iNaturalist"
+    }
+  },
+  "look-dgxl": {
+    "src": "photos/de-guo-xiao-lian/look-dgxl.webp",
+    "thumb": "photos/de-guo-xiao-lian/look-dgxl.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Ruben Ciantia",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/102793770",
+      "source": "iNaturalist"
+    }
+  },
+  "look-mei-zhou": {
+    "src": "photos/de-guo-xiao-lian/look-mei-zhou.webp",
+    "thumb": "photos/de-guo-xiao-lian/look-mei-zhou.thumb.webp",
+    "w": 1024,
+    "h": 696,
+    "credit": {
+      "author": "Steve Kerr",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/28767889",
+      "source": "iNaturalist"
+    }
+  },
+  "step-adult": {
+    "src": "photos/de-guo-xiao-lian/step-adult.webp",
+    "thumb": "photos/de-guo-xiao-lian/step-adult.thumb.webp",
+    "w": 1024,
+    "h": 727,
+    "credit": {
+      "author": "Carrie Seltzer",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/184262331",
+      "source": "iNaturalist"
+    }
+  },
+  "step-nymph": {
+    "src": "photos/de-guo-xiao-lian/step-nymph.webp",
+    "thumb": "photos/de-guo-xiao-lian/step-nymph.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Julia Elissalde",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/418563868",
+      "source": "iNaturalist"
+    }
+  }
+}
