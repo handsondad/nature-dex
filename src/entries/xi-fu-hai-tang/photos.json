@@ -38,12 +38,12 @@
   "same-fruit": {
     "src": "photos/xi-fu-hai-tang/same-fruit.webp",
     "thumb": "photos/xi-fu-hai-tang/same-fruit.thumb.webp",
-    "w": 768,
-    "h": 1024,
+    "w": 1024,
+    "h": 683,
     "credit": {
-      "author": "Jane Charlen",
+      "author": "Yi CHEN",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/430026082",
+      "url": "https://www.inaturalist.org/photos/61426401",
       "source": "iNaturalist"
     }
   }

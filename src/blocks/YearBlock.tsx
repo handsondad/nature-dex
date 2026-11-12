@@ -74,13 +74,19 @@ export function YearBlock({ text, cite }: { text: string; cite?: readonly string
       </div>
       <div className="year-side">
         {months ? (
-          <p className="year-pick">
-            <strong>{pick}月</strong>：中国的自然观察者拍到它 <b>{months.all[pick] ?? 0}</b> 次
-            {bloomLabel && months.flowering && ((months.flowering[pick] ?? 0) > 0
-              ? <>，其中 <b className="flower">{months.flowering[pick]}</b> 次标注了正在{bloomLabel}</>
-              : <>，还没有人标注它在{bloomLabel}</>)}
-            。{ours.has(pick) && <span className="ours-chip">我们这个月见过它</span>}
-          </p>
+          total > 0 ? (
+            <p className="year-pick">
+              <strong>{pick}月</strong>：中国的自然观察者拍到它 <b>{months.all[pick] ?? 0}</b> 次
+              {bloomLabel && months.flowering && ((months.flowering[pick] ?? 0) > 0
+                ? <>，其中 <b className="flower">{months.flowering[pick]}</b> 次标注了正在{bloomLabel}</>
+                : <>，还没有人标注它在{bloomLabel}</>)}
+              。{ours.has(pick) && <span className="ours-chip">我们这个月见过它</span>}
+            </p>
+          ) : (
+            <p className="year-pick">
+              它在公园和路边多是人工栽种的，iNaturalist 上还没有中国境内的野生研究级记录。等我们遇见它，就把那个月钉在环上！
+            </p>
+          )
         ) : (
           <p className="year-pick todo">还没查资料：运行 <code>npm run taxon -- {entry.id} "{entry.scientific}"</code></p>
         )}
@@ -88,12 +94,12 @@ export function YearBlock({ text, cite }: { text: string; cite?: readonly string
         <ul className="legend">
           <li><span className="sw bar" />每月被拍到的次数</li>
           {bloomLabel && months?.flowering && <li><span className="sw flower" />标注正在{bloomLabel}</li>}
-          <li><span className="sw ours" />我们遇见它的月份</li>
+          <li><span className="sw ours" />我们遇见它的月份{ours.size === 0 && <span className="muted">（待遇见）</span>}</li>
         </ul>
         {months && (
           <p className="data-note">
             数据：<a href={months.url} target="_blank" rel="noreferrer">iNaturalist</a> {months.place}研究级观察共 {total} 条（{research?.fetchedAt} 查询）。
-            拍到的次数多，也和那个月出门观察的人多有关。
+            {total > 0 && "拍到的次数多，也和那个月出门观察的人多有关。"}
           </p>
         )}
       </div>

@@ -65,7 +65,6 @@ const entry: Entry = {
     { id: "foc-phragmites", title: "Phragmites 芦苇属", by: "Flora of China", url: "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=125116" },
     { id: "foc-xp", title: "Typha orientalis 东方香蒲", by: "Flora of China", url: "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200024681" },
     { id: "wiki-en", title: "Phragmites australis", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Phragmites_australis" },
-    { id: "wiki-zh", title: "芦苇", by: "维基百科", url: "https://zh.wikipedia.org/wiki/%E8%8A%A6%E8%8B%87" },
   ],
   by: ["kid", "dad"],
 };

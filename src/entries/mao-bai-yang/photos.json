@@ -3,41 +3,29 @@
     "src": "photos/mao-bai-yang/cover.webp",
     "thumb": "photos/mao-bai-yang/cover.thumb.webp",
     "w": 1024,
-    "h": 717,
+    "h": 768,
     "credit": {
-      "author": "Zinogre",
-      "license": "cc-by-sa",
-      "url": "https://www.inaturalist.org/photos/113964066",
+      "author": "Marc Riera",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/532396180",
       "source": "iNaturalist"
     }
   },
   "leaf": {
     "src": "photos/mao-bai-yang/leaf.webp",
     "thumb": "photos/mao-bai-yang/leaf.thumb.webp",
-    "w": 1024,
-    "h": 678,
+    "w": 577,
+    "h": 1024,
     "credit": {
-      "author": "Zinogre",
-      "license": "cc-by-sa",
-      "url": "https://www.inaturalist.org/photos/113964063",
+      "author": "snail_hiker",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/236128862",
       "source": "iNaturalist"
     }
   },
   "step-catkin": {
     "src": "photos/mao-bai-yang/step-catkin.webp",
     "thumb": "photos/mao-bai-yang/step-catkin.thumb.webp",
-    "w": 577,
-    "h": 1024,
-    "credit": {
-      "author": "snail_hiker",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/236128800",
-      "source": "iNaturalist"
-    }
-  },
-  "step-fluff": {
-    "src": "photos/mao-bai-yang/step-fluff.webp",
-    "thumb": "photos/mao-bai-yang/step-fluff.thumb.webp",
     "w": 1024,
     "h": 717,
     "credit": {
@@ -50,24 +38,12 @@
   "step-fruit": {
     "src": "photos/mao-bai-yang/step-fruit.webp",
     "thumb": "photos/mao-bai-yang/step-fruit.thumb.webp",
-    "w": 577,
-    "h": 1024,
+    "w": 1024,
+    "h": 683,
     "credit": {
-      "author": "snail_hiker",
+      "author": "Yi CHEN",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/236128862",
-      "source": "iNaturalist"
-    }
-  },
-  "step-open": {
-    "src": "photos/mao-bai-yang/step-open.webp",
-    "thumb": "photos/mao-bai-yang/step-open.thumb.webp",
-    "w": 577,
-    "h": 1024,
-    "credit": {
-      "author": "snail_hiker",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/236128862",
+      "url": "https://www.inaturalist.org/photos/185204712",
       "source": "iNaturalist"
     }
   }

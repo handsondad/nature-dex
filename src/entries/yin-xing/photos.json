@@ -38,12 +38,12 @@
   "same-yellow": {
     "src": "photos/yin-xing/same-yellow.webp",
     "thumb": "photos/yin-xing/same-yellow.thumb.webp",
-    "w": 1024,
-    "h": 768,
+    "w": 768,
+    "h": 1024,
     "credit": {
-      "author": "Samuele Papeschi",
+      "author": "jonsense",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/250082860",
+      "url": "https://www.inaturalist.org/photos/449232164",
       "source": "iNaturalist"
     }
   },

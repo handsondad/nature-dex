@@ -78,7 +78,6 @@ const entry: Entry = {
     { id: "ncsu", title: "Biology and Behavior of the German Cockroach", by: "NC State Extension", url: "https://content.ces.ncsu.edu/biology-behavior-of-the-german-cockroach" },
     { id: "adw", title: "Blattella germanica", by: "Animal Diversity Web", url: "https://animaldiversity.org/accounts/Blattella_germanica/" },
     { id: "wiki-zh", title: "德国小蠊", by: "维基百科", url: "https://zh.wikipedia.org/wiki/%E5%BE%B7%E5%9C%8B%E5%A7%AC%E8%A0%8A" },
-    { id: "wiki-en", title: "German cockroach", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/German_cockroach" },
     { id: "wiki-en-pa", title: "American cockroach", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/American_cockroach" },
   ],
   by: ["kid", "dad"],

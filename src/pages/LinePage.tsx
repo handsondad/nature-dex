@@ -143,6 +143,11 @@ export function LinePage() {
     document.getElementById(`slot-${next}`)?.focus();
   };
 
+  const pickOrOpen = (key: string, entry: Entry) => {
+    if (chosen === key) location.hash = `#/entry/${entry.id}`;
+    else setPicked(key);
+  };
+
   const slotProps = (key: string) => ({
     id: `slot-${key}`,
     role: "option",
@@ -203,7 +208,7 @@ export function LinePage() {
                 const top = LINE.top + y;
                 if (slot.kind === "card") {
                   return <Card key={key} {...slotProps(key)} style={at(x, LINE.cardW, top - 12)} tilt={tilt}
-                    entry={slot.entry} sub={cardTaxa(slot.entry, slot.parent)} onClick={() => setPicked(key)} />;
+                    entry={slot.entry} sub={cardTaxa(slot.entry, slot.parent)} onClick={() => pickOrOpen(key, slot.entry)} />;
                 }
                 const g = slot.group;
                 if (slot.kind === "bundle") return (
@@ -243,14 +248,14 @@ export function LinePage() {
                 </span>
               ) : (
                 <Card key={`e:${it.entry.id}`} {...slotProps(`e:${it.entry.id}`)} style={at(it.x, LINE.cardW, LINE.top + it.y - 12)} tilt={it.tilt}
-                  entry={it.entry} sub={`${monthDay(it.entry.when.date)}${it.entry.draft ? " · 待补" : ""}`}
-                  onClick={() => setPicked(`e:${it.entry.id}`)} />
+                  entry={it.entry} sub={it.entry.draft ? `${it.entry.taxonomy?.[4] ?? monthDay(it.entry.when.date)} · 待遇见` : monthDay(it.entry.when.date)}
+                  onClick={() => pickOrOpen(`e:${it.entry.id}`, it.entry)} />
               ))}
             </div>
           </div>
         </div>
         <p className="line-hint">
-          {mode === "tree" ? "按住绳子左右拖 · 点分类牌打开，点旗子收起 · 双击照片翻开图鉴" : "按住绳子左右拖 · 左边更早，右边最近 · 双击照片翻开图鉴"}
+          {mode === "tree" ? "按住绳子左右拖 · 点分类牌层层展开 · 点照片看简介，再点翻开图鉴" : "按住绳子左右拖 · 左边更早，右边最近 · 点照片看简介，再点翻开图鉴"}
         </p>
       </section>
 
@@ -341,9 +346,9 @@ function Preview({ entry }: { entry: Entry }) {
       <div className="preview-info">
         {entry.taxonomy && <p className="lineage">{entry.taxonomy.join(" › ")}</p>}
         <p className="when">
-          {fullDate(entry.when.date)}
-          {entry.when.label && <span className="chip">{entry.when.label}</span>}
-          <span className="ago">{ago(entry.when.date, new Date())}</span>
+          {entry.draft ? "建档于 " : "第一次遇见："}{fullDate(entry.when.date)}
+          {entry.draft ? <span className="draft-chip">草稿 · 待遇见</span> : entry.when.label && <span className="chip">{entry.when.label}</span>}
+          {!entry.draft && <span className="ago">{ago(entry.when.date, new Date())}</span>}
         </p>
         <h2>{entry.name} <i className="sci">{entry.scientific}</i></h2>
         <p className="hello">{entry.hello}</p>

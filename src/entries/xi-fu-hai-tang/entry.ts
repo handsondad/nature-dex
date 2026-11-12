@@ -30,7 +30,7 @@ const entry: Entry = {
       type: "compare",
       title: "同一棵，开花和结果",
       before: { photo: "same-flower", label: "春花", caption: "粉红的花", shoot: "4～5 月选一棵好找的西府海棠，记住位置，先拍开花的样子" },
-      after: { photo: "same-fruit", label: "秋果", caption: "红色的小果", shoot: "8～9 月回到同一棵、同一个角度，再拍一张" },
+      after: { photo: "same-fruit", label: "夏秋果", caption: "圆圆的小果", shoot: "8～9 月回到同一棵、同一个角度，再拍一张" },
       text: "春天开粉红花，秋天结红色小果，直径大约只有 1～1.5 厘米。",
       cite: ["foc-xfht"],
     },
@@ -56,7 +56,6 @@ const entry: Entry = {
   sources: [
     { id: "foc-xfht", title: "Malus × micromalus 西府海棠", by: "Flora of China", url: "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=242411229" },
     { id: "wiki-zh", title: "西府海棠", by: "维基百科", url: "https://zh.wikipedia.org/wiki/%E8%A5%BF%E5%BA%9C%E6%B5%B7%E6%A3%A0" },
-    { id: "wiki-en", title: "Malus micromalus", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Malus_micromalus" },
   ],
   by: ["kid", "dad"],
 };

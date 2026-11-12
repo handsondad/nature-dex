@@ -55,7 +55,6 @@ const entry: Entry = {
     { id: "foc-hl", title: "Cotinus coggygria 黄栌", by: "Flora of China", url: "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200012683" },
     { id: "foc-cotinus", title: "Cotinus 黄栌属", by: "Flora of China", url: "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=108168" },
     { id: "wiki-en", title: "Cotinus coggygria", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Cotinus_coggygria" },
-    { id: "wiki-zh", title: "黄栌", by: "维基百科", url: "https://zh.wikipedia.org/wiki/%E9%BB%84%E6%A0%8C" },
     { id: "bj-xiangshan", title: "金代已为诗人墨客所称道的香山红叶", by: "北京市公园管理中心", url: "https://gygl.beijing.gov.cn/whgy/whgy_wsgc/201912/t20191206_885638.html" },
     { id: "bj-qiuye", title: "绚丽多彩的秋色叶", by: "北京市公园管理中心", url: "https://gygl.beijing.gov.cn/ylkj/ylkj_kjkp/202010/t20201030_2125907.html" },
   ],

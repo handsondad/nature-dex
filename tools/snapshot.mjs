@@ -85,6 +85,7 @@ try {
 /** 长图缩小后看不清字，再切成一段一段（-1、-2…），一段一屏多一点 */
 async function slice(path, scale) {
   const sharp = (await import("sharp")).default;
+  sharp.cache(false);
   const { width, height } = await sharp(path).metadata();
   const step = 1300 * scale;
   if (height <= step * 1.3) return [];

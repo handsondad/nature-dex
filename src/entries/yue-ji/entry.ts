@@ -48,7 +48,6 @@ const entry: Entry = {
   sources: [
     { id: "foc-yj", title: "Rosa chinensis 月季花", by: "Flora of China", url: "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200011233" },
     { id: "wiki-zh", title: "月季 (物种)", by: "维基百科", url: "https://zh.wikipedia.org/wiki/%E6%9C%88%E5%AD%A3_(%E7%89%A9%E7%A7%8D)" },
-    { id: "wiki-en", title: "Rosa chinensis", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Rosa_chinensis" },
     { id: "bj-trees", title: "穿越时空，说说30年前的市花市树评选", by: "北京市园林绿化局", url: "https://yllhj.beijing.gov.cn/ztxx/bjhx/hsdt/202106/t20210621_2417197.shtml" },
     { id: "bj-yueji", title: "花开锦绣映京城（一朵花读懂一座城）", by: "北京市园林绿化局", url: "https://yllhj.beijing.gov.cn/ztxx/jcyyshj/djsh/202506/t20250603_4104755.shtml" },
   ],

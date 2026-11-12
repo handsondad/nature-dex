@@ -38,12 +38,12 @@
   "same-male": {
     "src": "photos/yuan-yang/same-male.webp",
     "thumb": "photos/yuan-yang/same-male.thumb.webp",
-    "w": 819,
-    "h": 1024,
+    "w": 1024,
+    "h": 683,
     "credit": {
-      "author": "Sunny Zhang 张迎新",
-      "license": "cc0",
-      "url": "https://www.inaturalist.org/photos/598919248",
+      "author": "Diego González Dopico",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/361382505",
       "source": "iNaturalist"
     }
   }

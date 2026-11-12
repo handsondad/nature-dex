@@ -56,7 +56,6 @@ const entry: Entry = {
   sources: [
     { id: "foc-ys", title: "Pinus tabuliformis 油松", by: "Flora of China", url: "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=210001654" },
     { id: "wiki-en", title: "Pinus tabuliformis", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Pinus_tabuliformis" },
-    { id: "wiki-zh", title: "油松", by: "维基百科", url: "https://zh.wikipedia.org/wiki/%E6%B2%B9%E6%9D%BE" },
     { id: "bj-ys", title: "浅谈密云地区油松大苗移植技术与管理", by: "北京市园林绿化局", url: "https://yllhj.beijing.gov.cn/ztxx/lhysh/st/202302/t20230221_2920928.shtml" },
   ],
   by: ["kid", "dad"],

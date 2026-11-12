@@ -67,7 +67,6 @@ const entry: Entry = {
     { id: "foc-yeju", title: "Chrysanthemum indicum 野菊", by: "Flora of China", url: "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=220002857" },
     { id: "foc-chrys", title: "Chrysanthemum 菊属", by: "Flora of China", url: "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=106957" },
     { id: "wiki-zh", title: "野菊", by: "维基百科", url: "https://zh.wikipedia.org/wiki/%E9%87%8E%E8%8F%8A" },
-    { id: "wiki-en", title: "Chrysanthemum indicum", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Chrysanthemum_indicum" },
   ],
   by: ["kid", "dad"],
 };

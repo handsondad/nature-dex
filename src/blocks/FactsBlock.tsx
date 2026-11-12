@@ -12,7 +12,7 @@ export function FactsBlock({ cards }: { cards: readonly Card[] }) {
     return next;
   });
   return (
-    <ul className="facts">
+    <ul className={cards.length === 4 ? "facts four" : "facts"}>
       {cards.map((c, i) => (
         <li key={c.q} className={open.has(i) ? "fact open" : "fact"}>
           <button type="button" className="fact-face" onClick={() => flip(i)} aria-expanded={open.has(i)}>

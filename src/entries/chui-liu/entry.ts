@@ -67,7 +67,6 @@ const entry: Entry = {
     { id: "foc-cl", title: "Salix babylonica 垂柳", by: "Flora of China", url: "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200005760" },
     { id: "foc-hl", title: "Salix matsudana 旱柳", by: "Flora of China", url: "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200005705" },
     { id: "wiki-zh", title: "垂柳", by: "维基百科", url: "https://zh.wikipedia.org/wiki/%E5%9E%82%E6%9F%B3" },
-    { id: "wiki-en", title: "Salix babylonica", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Salix_babylonica" },
   ],
   by: ["kid", "dad"],
 };
