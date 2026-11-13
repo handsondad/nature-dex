@@ -32,6 +32,33 @@ const entry: Entry = {
       text: "在中国，大家 7、8 月拍到它最多。12 月和 1 月几乎拍不到，那时它在冬眠。我们是哪个月遇见它的？",
     },
     {
+      type: "lookalike",
+      title: "壁虎还是麻蜥？",
+      quiz: true,
+      items: [
+        {
+          name: "丽斑麻蜥",
+          scientific: "Eremias argus",
+          shot: { photo: "look-ma-xi", caption: "丽斑麻蜥" },
+          tells: [
+            "白天在草地、沙地或石块上晒太阳活动，背上有一排排圆圈眼斑",
+            "脚趾细长有尖爪，眼睛有能眨动的眼睑",
+          ],
+        },
+        {
+          name: "无蹼壁虎",
+          scientific: "Gekko swinhonis",
+          self: true,
+          shot: { photo: "look-bi-hu", caption: "无蹼壁虎" },
+          tells: [
+            "夏夜常在墙上、灯旁活动等小虫",
+            "脚趾尖膨大有攀瓣能贴墙，没有能动的眼皮",
+          ],
+        },
+      ],
+      cite: ["sp2000-gs", "sy-gs", "rdb-ea", "wiki-ea"],
+    },
+    {
       type: "facts",
       title: "你知道吗",
       cards: [
@@ -51,6 +78,8 @@ const entry: Entry = {
     { id: "kepu-lizard", title: "蜥蜴亚目", by: "科普中国·科学百科", url: "https://www.kepuchina.cn/article/articleinfo?ar_id=356248&business_type=100" },
     { id: "imech-gecko", title: "人类从“飞檐走壁”的壁虎学到了什么？", by: "中国科学院力学研究所", url: "https://imech.cas.cn/science/lxyd/kp/202609/t20260910_8280617.html" },
     { id: "rdb-gs", title: "Gekko swinhonis", by: "The Reptile Database", url: "https://reptile-database.reptarium.cz/species?genus=Gekko&species=swinhonis" },
+    { id: "rdb-ea", title: "Eremias argus", by: "The Reptile Database", url: "https://reptile-database.reptarium.cz/species?genus=Eremias&species=argus" },
+    { id: "wiki-ea", title: "Eremias argus", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Eremias_argus" },
   ],
   by: ["kid", "dad"],
 };

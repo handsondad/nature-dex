@@ -1,0 +1,97 @@
+{
+  "query": "Trifolium repens",
+  "fetchedAt": "2026-11-13",
+  "gbif": {
+    "key": 5358748,
+    "scientificName": "Trifolium repens L.",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Fabales"
+      },
+      {
+        "rank": "family",
+        "name": "Fabaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Trifolium"
+      },
+      {
+        "rank": "species",
+        "name": "Trifolium repens"
+      }
+    ]
+  },
+  "inat": {
+    "id": 55745,
+    "name": "Trifolium repens",
+    "commonName": "白车轴草",
+    "url": "https://www.inaturalist.org/taxa/55745",
+    "wikipediaUrl": "http://zh.wikipedia.org/wiki/白三葉草"
+  },
+  "wiki": {
+    "title": "白三葉草",
+    "extract": "白三叶草，又名白花三叶草、白三叶、菽草、白车轴草或白花苜蓿，是一种产自欧洲、北非及西亚的三叶草。它们广泛的引进世界各地，尤其是北美洲的草地甚为普遍，中国南北各地均有分布。",
+    "url": "https://zh.wikipedia.org/wiki/%E7%99%BD%E4%B8%89%E8%91%89%E8%8D%89"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 26,
+      "2": 72,
+      "3": 230,
+      "4": 259,
+      "5": 292,
+      "6": 177,
+      "7": 144,
+      "8": 100,
+      "9": 121,
+      "10": 64,
+      "11": 109,
+      "12": 91
+    },
+    "flowering": {
+      "1": 0,
+      "2": 3,
+      "3": 4,
+      "4": 22,
+      "5": 33,
+      "6": 12,
+      "7": 6,
+      "8": 11,
+      "9": 2,
+      "10": 11,
+      "11": 7,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=55745&place_id=6903&quality_grade=research"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "query": "Lycoperdon perlatum",
+  "fetchedAt": "2026-11-13",
+  "gbif": {
+    "key": 5243258,
+    "scientificName": "Lycoperdon perlatum Pers.",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Fungi"
+      },
+      {
+        "rank": "phylum",
+        "name": "Basidiomycota"
+      },
+      {
+        "rank": "class",
+        "name": "Agaricomycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Agaricales"
+      },
+      {
+        "rank": "family",
+        "name": "Lycoperdaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Lycoperdon"
+      },
+      {
+        "rank": "species",
+        "name": "Lycoperdon perlatum"
+      }
+    ]
+  },
+  "inat": {
+    "id": 48443,
+    "name": "Lycoperdon perlatum",
+    "commonName": "网纹马勃",
+    "url": "https://www.inaturalist.org/taxa/48443"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 2,
+      "6": 0,
+      "7": 1,
+      "8": 6,
+      "9": 3,
+      "10": 5,
+      "11": 0,
+      "12": 1
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=48443&place_id=6903&quality_grade=research"
+  }
+}

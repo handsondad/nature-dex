@@ -167,7 +167,7 @@ export function LinePage() {
     <div className="app" data-snap>
       <header className="hero">
         <h1>小念的自然图鉴</h1>
-        <p>在身边遇见的植物和动物，夹在晾衣绳上：按分类一层层打开，或者按遇见的日子看</p>
+        <p>在身边遇见的动物、植物和蘑菇，夹在晾衣绳上：按分类一层层打开，或者按遇见的日子看</p>
       </header>
 
       <section className="line" aria-label="图鉴晾衣绳">

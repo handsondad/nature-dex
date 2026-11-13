@@ -34,6 +34,33 @@ const entry: Entry = {
       cite: ["bj-list"],
     },
     {
+      type: "lookalike",
+      title: "北京冬天的乌鸦，谁是谁？",
+      quiz: true,
+      items: [
+        {
+          name: "秃鼻乌鸦",
+          scientific: "Corvus frugilegus",
+          shot: { photo: "look-tu-bi", caption: "成鸟嘴基露白皮的秃鼻乌鸦" },
+          tells: [
+            "成鸟嘴基有一圈灰白色的裸皮，嘴巴更细更尖",
+            "在北京是冬候鸟和旅鸟，冬天常成群来越冬",
+          ],
+        },
+        {
+          name: "大嘴乌鸦",
+          scientific: "Corvus macrorhynchos",
+          self: true,
+          shot: { photo: "look-da-zui", caption: "大嘴乌鸦" },
+          tells: [
+            "嘴巴又厚又拱，嘴基盖着黑羽、不露白皮",
+            "在北京是留鸟，一年四季都在北京",
+          ],
+        },
+      ],
+      cite: ["wiki-en", "wiki-rook", "bj-list"],
+    },
+    {
       type: "facts",
       title: "你知道吗",
       cards: [
@@ -49,6 +76,7 @@ const entry: Entry = {
   nextTime: "下次听一听：它叫起来是「啊——」还是更粗的「嘎——」？",
   sources: [
     { id: "wiki-en", title: "Large-billed crow", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Large-billed_crow" },
+    { id: "wiki-rook", title: "Rook (bird)", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Rook_(bird)" },
     { id: "bj-list", title: "北京陆生野生动物名录—鸟类", by: "北京市园林绿化局", url: "https://yllhj.beijing.gov.cn/ztxx/ysdw/ml/202504/t20250422_4071634.shtml" },
   ],
   by: ["kid", "dad"],

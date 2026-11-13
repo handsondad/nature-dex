@@ -1,0 +1,62 @@
+{
+  "cover": {
+    "src": "photos/che-qian/cover.webp",
+    "thumb": "photos/che-qian/cover.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Trilius Ngian",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/91970565",
+      "source": "iNaturalist"
+    }
+  },
+  "look-cq": {
+    "src": "photos/che-qian/look-cq.webp",
+    "thumb": "photos/che-qian/look-cq.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "koala0090",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/131484065",
+      "source": "iNaturalist"
+    }
+  },
+  "look-pcq": {
+    "src": "photos/che-qian/look-pcq.webp",
+    "thumb": "photos/che-qian/look-pcq.thumb.webp",
+    "w": 576,
+    "h": 1024,
+    "credit": {
+      "author": "Urgamal Magsar",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/315633281",
+      "source": "iNaturalist"
+    }
+  },
+  "rosette-spike": {
+    "src": "photos/che-qian/rosette-spike.webp",
+    "thumb": "photos/che-qian/rosette-spike.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/195213949",
+      "source": "iNaturalist"
+    }
+  },
+  "spike-macro": {
+    "src": "photos/che-qian/spike-macro.webp",
+    "thumb": "photos/che-qian/spike-macro.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Lihai Song",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/740996704",
+      "source": "iNaturalist"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "body-full": {
+    "src": "photos/chi-zi-ai-sheng-yin/body-full.webp",
+    "thumb": "photos/chi-zi-ai-sheng-yin/body-full.thumb.webp",
+    "w": 1024,
+    "h": 859,
+    "credit": {
+      "author": "Jonas V.",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/602110162",
+      "source": "iNaturalist"
+    }
+  },
+  "cover": {
+    "src": "photos/chi-zi-ai-sheng-yin/cover.webp",
+    "thumb": "photos/chi-zi-ai-sheng-yin/cover.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Cricket Raspet",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/112862680",
+      "source": "iNaturalist"
+    }
+  },
+  "look-czas": {
+    "src": "photos/chi-zi-ai-sheng-yin/look-czas.webp",
+    "thumb": "photos/chi-zi-ai-sheng-yin/look-czas.thumb.webp",
+    "w": 1024,
+    "h": 576,
+    "credit": {
+      "author": "Svend Hansen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/169235820",
+      "source": "iNaturalist"
+    }
+  },
+  "look-malu": {
+    "src": "photos/chi-zi-ai-sheng-yin/look-malu.webp",
+    "thumb": "photos/chi-zi-ai-sheng-yin/look-malu.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Ross Mounce",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/315441788",
+      "source": "iNaturalist"
+    }
+  },
+  "ring-macro": {
+    "src": "photos/chi-zi-ai-sheng-yin/ring-macro.webp",
+    "thumb": "photos/chi-zi-ai-sheng-yin/ring-macro.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Mark Richman",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/362398634",
+      "source": "iNaturalist"
+    }
+  }
+}

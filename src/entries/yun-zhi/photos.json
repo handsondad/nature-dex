@@ -1,0 +1,74 @@
+{
+  "caps-stump": {
+    "src": "photos/yun-zhi/caps-stump.webp",
+    "thumb": "photos/yun-zhi/caps-stump.thumb.webp",
+    "w": 576,
+    "h": 1024,
+    "credit": {
+      "author": "Robert M Hallock",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/54561897",
+      "source": "iNaturalist"
+    }
+  },
+  "cover": {
+    "src": "photos/yun-zhi/cover.webp",
+    "thumb": "photos/yun-zhi/cover.thumb.webp",
+    "w": 1024,
+    "h": 819,
+    "credit": {
+      "author": "Christine Young",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/160331967",
+      "source": "iNaturalist"
+    }
+  },
+  "look-so": {
+    "src": "photos/yun-zhi/look-so.webp",
+    "thumb": "photos/yun-zhi/look-so.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Peter de Lange",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/10038821",
+      "source": "iNaturalist"
+    }
+  },
+  "look-th": {
+    "src": "photos/yun-zhi/look-th.webp",
+    "thumb": "photos/yun-zhi/look-th.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Alexis Tinker-Tsavalas",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/61945673",
+      "source": "iNaturalist"
+    }
+  },
+  "look-yz": {
+    "src": "photos/yun-zhi/look-yz.webp",
+    "thumb": "photos/yun-zhi/look-yz.thumb.webp",
+    "w": 956,
+    "h": 1024,
+    "credit": {
+      "author": "Ken Kneidel",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/27005174",
+      "source": "iNaturalist"
+    }
+  },
+  "pores-under": {
+    "src": "photos/yun-zhi/pores-under.webp",
+    "thumb": "photos/yun-zhi/pores-under.thumb.webp",
+    "w": 1024,
+    "h": 620,
+    "credit": {
+      "author": "Christine Young",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/160332042",
+      "source": "iNaturalist"
+    }
+  }
+}

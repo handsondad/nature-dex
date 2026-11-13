@@ -30,7 +30,36 @@ const entry: Entry = {
     {
       type: "year",
       title: "什么时候能见到它",
-      text: "在中国，每个月都有人拍到它，7、8 月拍到的少很多。我们是哪个月遇见它的？",
+      text: "在中国，每个月都有人拍到它，7、8 月拍到的少很多。北京名录里它是「留鸟」：一年四季都住在北京。我们是哪个月遇见它的？",
+      cite: ["bj-list"],
+    },
+    {
+      type: "lookalike",
+      title: "北京树干上的黑白啄木鸟",
+      quiz: true,
+      items: [
+        {
+          // 维基与 iNaturalist 归入 Yungipicus canicapillus，北京名录记作 Dendrocopos canicapillus
+          name: "星头啄木鸟",
+          scientific: "Yungipicus scintilliceps",
+          shot: { photo: "look-xing-tou", caption: "星头啄木鸟" },
+          tells: [
+            "个子比大斑啄木鸟小一圈",
+            "背上是一道道黑白横斑，肩部没有两大块白斑，尾巴下面也不红",
+          ],
+        },
+        {
+          name: "大斑啄木鸟",
+          scientific: "Dendrocopos major",
+          self: true,
+          shot: { photo: "look-da-ban", caption: "大斑啄木鸟" },
+          tells: [
+            "黑色的背两边，肩上各有一大块醒目的白斑",
+            "肚子下半截和尾巴下面是鲜红色的",
+          ],
+        },
+      ],
+      cite: ["wiki-en", "wiki-gcpw", "bj-list"],
     },
     {
       type: "facts",
@@ -48,6 +77,8 @@ const entry: Entry = {
   nextTime: "下次去松树多的地方，找找树缝里有没有卡着被啄碎的松果？那可能是啄木鸟的「砧板」。",
   sources: [
     { id: "wiki-en", title: "Great spotted woodpecker", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Great_spotted_woodpecker" },
+    { id: "wiki-gcpw", title: "Grey-capped pygmy woodpecker", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Grey-capped_pygmy_woodpecker" },
+    { id: "bj-list", title: "北京陆生野生动物名录—鸟类", by: "北京市园林绿化局", url: "https://yllhj.beijing.gov.cn/ztxx/ysdw/ml/202504/t20250422_4071634.shtml" },
   ],
   by: ["kid", "dad"],
 };

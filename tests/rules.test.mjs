@@ -85,3 +85,10 @@ test("容易认错要有且只有一个主角", () => {
 test("说生物「故意」会被提醒", () => {
   assert.match(run(base({ hello: "花朵故意把虫子骗过来。" })).warnings.join(), /故意/);
 });
+
+test("分类链必须是 6 级且界名与 kind 一致；学名与 GBIF 不一致会提醒", () => {
+  assert.match(run(base({ taxonomy: ["植物界", "维管植物门", "木兰纲"] })).errors.join(), /6 级中文分类链/);
+  assert.match(run(base({ kind: "fungus", care: "只看不碰，不采也不吃。", taxonomy: ["植物界", "担子菌门", "伞菌纲", "伞菌目", "鬼伞科", "鬼伞属"] })).errors.join(), /真菌界/);
+  const gbif = { key: 1, scientificName: "Otherus nameus L.", rank: "SPECIES", status: "ACCEPTED", path: [{ rank: "species", name: "Otherus nameus" }] };
+  assert.match(run(base(), { cover: ours }, { gbif }).warnings.join(), /GBIF 接受种名/);
+});

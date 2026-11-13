@@ -11,6 +11,30 @@
       "source": "iNaturalist"
     }
   },
+  "plumage-summer": {
+    "src": "photos/xiao-pi-ti/plumage-summer.webp",
+    "thumb": "photos/xiao-pi-ti/plumage-summer.thumb.webp",
+    "w": 1024,
+    "h": 663,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/114411966",
+      "source": "iNaturalist"
+    }
+  },
+  "plumage-winter": {
+    "src": "photos/xiao-pi-ti/plumage-winter.webp",
+    "thumb": "photos/xiao-pi-ti/plumage-winter.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Людмила Алимова",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/113692687",
+      "source": "iNaturalist"
+    }
+  },
   "side-water": {
     "src": "photos/xiao-pi-ti/side-water.webp",
     "thumb": "photos/xiao-pi-ti/side-water.thumb.webp",

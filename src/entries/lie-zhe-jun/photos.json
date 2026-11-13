@@ -1,0 +1,74 @@
+{
+  "cover": {
+    "src": "photos/lie-zhe-jun/cover.webp",
+    "thumb": "photos/lie-zhe-jun/cover.thumb.webp",
+    "w": 1024,
+    "h": 640,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/581208368",
+      "source": "iNaturalist"
+    }
+  },
+  "fans-wood": {
+    "src": "photos/lie-zhe-jun/fans-wood.webp",
+    "thumb": "photos/lie-zhe-jun/fans-wood.thumb.webp",
+    "w": 1024,
+    "h": 759,
+    "credit": {
+      "author": "jonnas___",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/561542875",
+      "source": "iNaturalist"
+    }
+  },
+  "look-ac": {
+    "src": "photos/lie-zhe-jun/look-ac.webp",
+    "thumb": "photos/lie-zhe-jun/look-ac.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Jacqui Geux",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/164355260",
+      "source": "iNaturalist"
+    }
+  },
+  "look-lzj": {
+    "src": "photos/lie-zhe-jun/look-lzj.webp",
+    "thumb": "photos/lie-zhe-jun/look-lzj.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Kurt Miller",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/464797128",
+      "source": "iNaturalist"
+    }
+  },
+  "look-th": {
+    "src": "photos/lie-zhe-jun/look-th.webp",
+    "thumb": "photos/lie-zhe-jun/look-th.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Alexis Tinker-Tsavalas",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/61945673",
+      "source": "iNaturalist"
+    }
+  },
+  "split-gills": {
+    "src": "photos/lie-zhe-jun/split-gills.webp",
+    "thumb": "photos/lie-zhe-jun/split-gills.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "卢江离",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/242162919",
+      "source": "iNaturalist"
+    }
+  }
+}

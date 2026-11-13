@@ -1,0 +1,62 @@
+{
+  "adult-crawl": {
+    "src": "photos/tong-xing-ba-wo-niu/adult-crawl.webp",
+    "thumb": "photos/tong-xing-ba-wo-niu/adult-crawl.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "TonyT",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/299805963",
+      "source": "iNaturalist"
+    }
+  },
+  "cover": {
+    "src": "photos/tong-xing-ba-wo-niu/cover.webp",
+    "thumb": "photos/tong-xing-ba-wo-niu/cover.thumb.webp",
+    "w": 1024,
+    "h": 877,
+    "credit": {
+      "author": "portioid",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/9244250",
+      "source": "iNaturalist"
+    }
+  },
+  "look-kuoyu": {
+    "src": "photos/tong-xing-ba-wo-niu/look-kuoyu.webp",
+    "thumb": "photos/tong-xing-ba-wo-niu/look-kuoyu.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "rashidchan",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/440007150",
+      "source": "iNaturalist"
+    }
+  },
+  "look-txbwn": {
+    "src": "photos/tong-xing-ba-wo-niu/look-txbwn.webp",
+    "thumb": "photos/tong-xing-ba-wo-niu/look-txbwn.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "TonyT",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/133502629",
+      "source": "iNaturalist"
+    }
+  },
+  "shell-macro": {
+    "src": "photos/tong-xing-ba-wo-niu/shell-macro.webp",
+    "thumb": "photos/tong-xing-ba-wo-niu/shell-macro.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Thomas Mesaglio",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/110089179",
+      "source": "iNaturalist"
+    }
+  }
+}

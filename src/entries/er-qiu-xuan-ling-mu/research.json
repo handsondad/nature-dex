@@ -1,0 +1,97 @@
+{
+  "query": "Platanus × hispanica",
+  "fetchedAt": "2026-11-13",
+  "gbif": {
+    "key": 7400250,
+    "scientificName": "Platanus × hispanica Mill. ex Münchh.",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Proteales"
+      },
+      {
+        "rank": "family",
+        "name": "Platanaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Platanus"
+      },
+      {
+        "rank": "species",
+        "name": "Platanus hispanica"
+      }
+    ]
+  },
+  "inat": {
+    "id": 552449,
+    "name": "Platanus × hispanica",
+    "commonName": "二球悬铃木",
+    "url": "https://www.inaturalist.org/taxa/552449",
+    "wikipediaUrl": "http://zh.wikipedia.org/wiki/英桐"
+  },
+  "wiki": {
+    "title": "英桐",
+    "extract": "英桐，又称二球悬铃木，是一种欧洲人培育成的杂交种，是由原产于欧亚大陆的法桐和原产于北美洲的美桐杂交培育而成。有的植物学家认为是单纯由法桐驯化培育成的可能根据不大。由于是在上海法租界首先引入这个树种作为行道树，所以在中国被俗称为法国梧桐，但并非原产于法国，亦与梧桐没有亲属关系。",
+    "url": "https://zh.wikipedia.org/wiki/%E8%8B%B1%E6%A1%90"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 1,
+      "10": 4,
+      "11": 1,
+      "12": 0
+    },
+    "flowering": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=552449&place_id=6903&quality_grade=research"
+  }
+}

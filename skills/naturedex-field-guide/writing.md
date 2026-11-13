@@ -15,24 +15,25 @@
 
 ## 事实从哪来
 
-按可靠程度从高到低。正文里的每个知识点都用 `cite` 指到其中一条。
+按可靠程度从高到低。正文里的每个知识点都用 `cite` 指到其中一条（`npm run taxon` 运行后会直接打印该物种对应的检索 URL）：
 
-| 资料 | 用来查 | 网址 |
+| 门类 / 用途 | 权威资料 | 网址与无验证抓取办法 |
 |---|---|---|
-| Flora of China（英文版中国植物志） | 植物形态、大小、花期 | `http://www.efloras.org/`，搜学名，`flora_id=2` |
-| 中国植物志 / iPlant | 植物中文描述 | `https://www.iplant.cn/info/<学名>`（靠 JS 加载，取不到原文就别引） |
-| Birds of the World | 鸟的简介、习性（Introduction 免费） | `https://birdsoftheworld.org/bow/species/<代码>/cur/introduction` |
-| Animal Diversity Web | 动物的形态、习性、生活史 | `https://animaldiversity.org/accounts/<学名_用下划线>/`（不少种只有分类、没有正文） |
-| Reptile Database | 蜥蜴、蛇、龟 | `https://reptile-database.reptarium.cz/species?genus=<属>&species=<种>` |
-| 政府和公园网页 | 北京本地的事（市树市花、北京雨燕、本地物种） | 北京市园林绿化局、北京市公园管理中心等，用原网址 |
-| GBIF | 学名是否被接受、分类 | `https://www.gbif.org/species/<key>`（taxon 工具已查） |
-| iNaturalist | 中文名、每月观察（taxon 工具已查）、对照照片 | `https://www.inaturalist.org/taxa/<id>` |
-| 学术论文 | 「哇」的发现（比如蒲公英小伞的涡环） | 用 `https://doi.org/<DOI>`，可在 Crossref 核对标题 |
-| 维基百科 | 线索、词源、有引用的段落 | 最好跟到它引用的原始文献 |
+| 学名与 6 级分类链 | GBIF Backbone + iNaturalist + 中国生物物种名录 | `npm run taxon` 自动查 GBIF（`https://www.gbif.org/species/<key>`）与 iNat；国内定名可查 `http://www.sp2000.org.cn/` |
+| 植物形态、尺寸、花果期 | Flora of China（英文版中国植物志） | 先抓 `http://www.efloras.org/browse.aspx?flora_id=2&name_str=<Genus+species>` 拿 `taxon_id`，再抓 `http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=<id>` |
+| 植物中文描述 | 中国植物志 / iPlant | `https://www.iplant.cn/info/<学名>`（靠 JS 渲染，纯 `fetch` 取不到正文就改引 Flora of China） |
+| 鸟类习性与识别 | Birds of the World | `https://birdsoftheworld.org/bow/species/<代码>/cur/introduction` |
+| 兽类、鸟类、昆虫与无脊椎 | Animal Diversity Web / AntWiki 等专科库 | `https://animaldiversity.org/accounts/<Genus_species>/`（先确认页面有正文而非仅分类空壳）；蚂蚁可查 `https://www.antwiki.org/wiki/<Genus_species>` |
+| 爬行类（蜥蜴、蛇、龟） | The Reptile Database | `https://reptile-database.reptarium.cz/species?genus=<Genus>&species=<species>` |
+| 两栖类（蛙、蟾蜍） | 中国两栖类信息系统（昆明动物所） | `https://www.amphibiachina.org/`（搜索物种页，如 `/species/416`） |
+| 真菌（蘑菇） | MycoBank / MushroomExpert / 真菌学论文 | `https://www.mycobank.org/`、`https://www.mushroomexpert.com/` 及 Crossref 检索的真菌学 DOI 论文 |
+| 北京本地分布与保护级别 | 北京市园林绿化局 / 市公园管理中心 / 国家自然博物馆 | 鸟类 `t20250422_4071634.shtml`、兽类 `t20250422_4071627.shtml`、两爬 `t20250422_4071636.shtml`（均在 `https://yllhj.beijing.gov.cn/ztxx/ysdw/ml/202504/` 下），以及市树市花和公园科普原网页 |
+| 「哇」的机制与实验数据 | 同行评审学术论文（Crossref 核对） | 用 `https://api.crossref.org/works?rows=5&query=<关键词+学名>` 查证真实标题、年份与 DOI，引用写 `https://doi.org/<DOI>` |
+| 线索、词源、文献顺藤摸瓜 | 维基百科（中 / 英） | 英文用 `https://en.wikipedia.org/w/index.php?title=<Title>&action=raw` 取源码（遇 `#REDIRECT [[…]]` 换目标标题再取），优先顺着源码里的 `<ref>` 核实原始文献；中文摘要可查 `https://zh.wikipedia.org/api/rest_v1/page/summary/<词条>` |
 
-查证的办法：用 `Invoke-WebRequest` 或 `fetch` 取页面原文，找到对应句子再写。查不到就不写。维基用 `https://en.wikipedia.org/w/index.php?title=<标题>&action=raw` 取原文，开头是 `#REDIRECT [[…]]` 就换成里面的标题再取。eBird、AmphibiaWeb 有人机验证，脚本取不到。
+查证的办法：用 Node `fetch` / `WebFetch` / `Invoke-WebRequest` 先取页面原文，找到对应句子和数字再写进 `entry.ts`。查不到就不写。注意 eBird、AmphibiaWeb 有人机验证，脚本直接抓不到。
 
-**不要**：凭记忆写数字；把维基摘要直接抄进图鉴；编造或猜测资料网址。
+**不要**：凭记忆写尺寸或数量；把维基摘要直接抄进图鉴；编造或猜测 `taxon_id` / `DOI` / 网址；留未在正文引用的 `sources`（`check` 会提醒）。
 
 ## 守护提醒（care）怎么写
 
@@ -47,6 +48,8 @@
 | 鸟 | 远远看，不追；看到鸟窝不靠近；捡到雏鸟先告诉大人 |
 | 蜘蛛 | 只看不碰，不弄破网 |
 | 蛙、蟾蜍、蜥蜴 | 不抓不摸；碰到了马上洗手；有毒腺的说出部位 |
+| 蜗牛、蛞蝓 | 只看不摸；野生螺类可能带寄生虫，碰到了务必用肥皂和流动水洗手 |
+| 蚯蚓、鼠妇等土边小动物 | 不捏不踩；若和大人用树叶把困在烫路面的蚯蚓送回湿土，回家要洗手 |
 | 松鼠、刺猬等野生小兽 | 远远看，不摸、不喂、不带回家 |
 | 水边 | 和大人一起，不下水 |
 | 流浪动物 | 不摸、不喂，远远看 |

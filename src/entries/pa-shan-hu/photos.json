@@ -1,0 +1,86 @@
+{
+  "cover": {
+    "src": "photos/pa-shan-hu/cover.webp",
+    "thumb": "photos/pa-shan-hu/cover.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Jens-Christian Svenning",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/47325696",
+      "source": "iNaturalist"
+    }
+  },
+  "leaf-berry": {
+    "src": "photos/pa-shan-hu/leaf-berry.webp",
+    "thumb": "photos/pa-shan-hu/leaf-berry.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "zebedeugalinha",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/456923012",
+      "source": "iNaturalist"
+    }
+  },
+  "look-psh": {
+    "src": "photos/pa-shan-hu/look-psh.webp",
+    "thumb": "photos/pa-shan-hu/look-psh.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Sandy Wolkenberg",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/165676955",
+      "source": "iNaturalist"
+    }
+  },
+  "look-wydj": {
+    "src": "photos/pa-shan-hu/look-wydj.webp",
+    "thumb": "photos/pa-shan-hu/look-wydj.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "nasua",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/106887786",
+      "source": "iNaturalist"
+    }
+  },
+  "pad-macro": {
+    "src": "photos/pa-shan-hu/pad-macro.webp",
+    "thumb": "photos/pa-shan-hu/pad-macro.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "SAR Supergroup enthusiasts",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/595384712",
+      "source": "iNaturalist"
+    }
+  },
+  "same-green": {
+    "src": "photos/pa-shan-hu/same-green.webp",
+    "thumb": "photos/pa-shan-hu/same-green.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Sandy Wolkenberg",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/234820981",
+      "source": "iNaturalist"
+    }
+  },
+  "same-red": {
+    "src": "photos/pa-shan-hu/same-red.webp",
+    "thumb": "photos/pa-shan-hu/same-red.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Sandy Wolkenberg",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/27541394",
+      "source": "iNaturalist"
+    }
+  }
+}

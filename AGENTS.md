@@ -26,6 +26,25 @@ npm run snapshot -- pu-gong-ying --mobile
 
 照片规格见 `tools/lib.mjs` 的 `PHOTO`；改参数后 `npm run photos:recompress`。
 
+## 学名、分类链与权威资料
+
+任何新增或扩充图鉴的 Agent 必须遵守以下分类与信源规范（`taxon` 与 `check` 会自动辅助和校验）：
+
+1. **GBIF 学名与 6 级分类链**：
+   - 先跑 `npm run taxon -- <id> "<学名>"` 写入 `research.json`。
+   - `scientific` 一律采用 **GBIF ACCEPTED（接受名）**（杂交种保留 `×`，亚种保留三名法；若与《中国植物志》同义名不同，以 GBIF 为准并在代码注释注明异名）。未定到种时写 `<Genus> sp.` 并标 `certainty: "unsure"`。
+   - `taxonomy` 固定为 **6 级中文分类链** `["界", "门", "纲", "目", "科", "属"]`（直接粘贴 `taxon` 输出），且首项必须与 `kind` 严格对应：`animal`↔`动物界`、`plant`↔`植物界`、`fungus`↔`真菌界`（`new-entry` 模板默认 `"plant"`，写动物或蘑菇时务必改对）。
+   - 首页分类晾衣绳按 `界(0) › 纲(2) › 目(3)` 自动折叠，卡片副标题取 `科(4)`。若引入新「纲」，同步在 `src/pages/tree.ts` 的 `GROUP_LOOK` 补上图标、拉丁名和一句话简介。
+
+2. **各门类权威资料库（先抓原文查证，再写数字与 `cite`）**：
+   - **学名与分类阶元**：GBIF Backbone Taxonomy（`api.gbif.org` / `gbif.org/species/<key>`）、iNaturalist、中国生物物种名录（Species 2000 中国节点 `sp2000.org.cn`）
+   - **植物**：*Flora of China*（`efloras.org`，`flora_id=2`）核实尺寸、叶片花果特征与花果期
+   - **鸟 / 兽 / 两爬 / 无脊椎动物**：Birds of the World、Animal Diversity Web（`animaldiversity.org`，须有正文才引）、The Reptile Database（`reptile-database.reptarium.cz`）、中国两栖类信息系统（`amphibiachina.org`）、AntWiki 等专科库
+   - **真菌（蘑菇）**：MycoBank、MushroomExpert 及真菌学论文
+   - **北京本地分布与保护级别**：北京市园林绿化局（《北京陆生野生动物名录》、市树市花）、北京市公园管理中心、国家自然博物馆科普文章
+   - **机制与冷知识论文**：用 Crossref API（`https://api.crossref.org/works?query=...`）核实论文标题与 DOI，引用写成 `https://doi.org/<DOI>`
+   - **维基百科**：仅作线索、词源或核对有明确文献支撑的段落（用 `action=raw` 读源码，顺着 `<ref>` 找原始文献），不直接照抄摘要。具体抓取方法见 `skills/naturedex-field-guide/writing.md`。
+
 ## 图鉴里能放什么
 
 | 块 | 做什么 |
@@ -66,6 +85,7 @@ npm run snapshot -- pu-gong-ying --mobile
 | `#/` | 首页晾衣绳（位置在 `src/pages/line.ts`） | `src/pages/LinePage.tsx` |
 | `#/entry/<id>` | 一篇图鉴 | `src/pages/EntryPage.tsx` |
 
+- `src/pages/tree.ts`：首页「按分类」树与各纲的图标/简介（`GROUP_LOOK`，新增「纲」时在这里补一行）
 - `src/entry/types.ts`：图鉴数据的类型（`Entry`、`Block`、`Shot`……），写图鉴前先读
 - `src/entries/<id>/entry.ts`：一篇图鉴（agent 写这个）
 - `src/entries/<id>/notes.md`：现场笔记和孩子原话，不进页面

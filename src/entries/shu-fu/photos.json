@@ -1,0 +1,74 @@
+{
+  "adult-top": {
+    "src": "photos/shu-fu/adult-top.webp",
+    "thumb": "photos/shu-fu/adult-top.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "vrose96",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/521615676",
+      "source": "iNaturalist"
+    }
+  },
+  "cover": {
+    "src": "photos/shu-fu/cover.webp",
+    "thumb": "photos/shu-fu/cover.thumb.webp",
+    "w": 1024,
+    "h": 640,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/489681685",
+      "source": "iNaturalist"
+    }
+  },
+  "look-ps": {
+    "src": "photos/shu-fu/look-ps.webp",
+    "thumb": "photos/shu-fu/look-ps.thumb.webp",
+    "w": 1024,
+    "h": 682,
+    "credit": {
+      "author": "Saryu Mae 前 朝琉",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/512388318",
+      "source": "iNaturalist"
+    }
+  },
+  "look-sf": {
+    "src": "photos/shu-fu/look-sf.webp",
+    "thumb": "photos/shu-fu/look-sf.thumb.webp",
+    "w": 1024,
+    "h": 576,
+    "credit": {
+      "author": "Mateus Godinho",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/356556226",
+      "source": "iNaturalist"
+    }
+  },
+  "state-ball": {
+    "src": "photos/shu-fu/state-ball.webp",
+    "thumb": "photos/shu-fu/state-ball.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Emanuele Santarelli",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/578508918",
+      "source": "iNaturalist"
+    }
+  },
+  "state-walk": {
+    "src": "photos/shu-fu/state-walk.webp",
+    "thumb": "photos/shu-fu/state-walk.thumb.webp",
+    "w": 1024,
+    "h": 642,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/443553782",
+      "source": "iNaturalist"
+    }
+  }
+}

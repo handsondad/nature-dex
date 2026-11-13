@@ -22,5 +22,29 @@
       "url": "https://www.inaturalist.org/photos/414835575",
       "source": "iNaturalist"
     }
+  },
+  "look-jia-ma-que": {
+    "src": "photos/ma-que/look-jia-ma-que.webp",
+    "thumb": "photos/ma-que/look-jia-ma-que.thumb.webp",
+    "w": 1024,
+    "h": 769,
+    "credit": {
+      "author": "Esteban Poveda",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/136543105",
+      "source": "iNaturalist"
+    }
+  },
+  "look-ma-que": {
+    "src": "photos/ma-que/look-ma-que.webp",
+    "thumb": "photos/ma-que/look-ma-que.thumb.webp",
+    "w": 1024,
+    "h": 710,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/172657135",
+      "source": "iNaturalist"
+    }
   }
 }

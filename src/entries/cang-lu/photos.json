@@ -11,6 +11,30 @@
       "source": "iNaturalist"
     }
   },
+  "look-cang-lu": {
+    "src": "photos/cang-lu/look-cang-lu.webp",
+    "thumb": "photos/cang-lu/look-cang-lu.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Marco Mussita",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/596372577",
+      "source": "iNaturalist"
+    }
+  },
+  "look-da-bai-lu": {
+    "src": "photos/cang-lu/look-da-bai-lu.webp",
+    "thumb": "photos/cang-lu/look-da-bai-lu.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Toby Y",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/330488878",
+      "source": "iNaturalist"
+    }
+  },
   "side-stand": {
     "src": "photos/cang-lu/side-stand.webp",
     "thumb": "photos/cang-lu/side-stand.thumb.webp",

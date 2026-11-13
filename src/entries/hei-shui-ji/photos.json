@@ -11,6 +11,30 @@
       "source": "iNaturalist"
     }
   },
+  "look-bai-gu-ding": {
+    "src": "photos/hei-shui-ji/look-bai-gu-ding.webp",
+    "thumb": "photos/hei-shui-ji/look-bai-gu-ding.thumb.webp",
+    "w": 1024,
+    "h": 647,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/182192444",
+      "source": "iNaturalist"
+    }
+  },
+  "look-hei-shui-ji": {
+    "src": "photos/hei-shui-ji/look-hei-shui-ji.webp",
+    "thumb": "photos/hei-shui-ji/look-hei-shui-ji.thumb.webp",
+    "w": 1024,
+    "h": 707,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/288818455",
+      "source": "iNaturalist"
+    }
+  },
   "side-view": {
     "src": "photos/hei-shui-ji/side-view.webp",
     "thumb": "photos/hei-shui-ji/side-view.thumb.webp",

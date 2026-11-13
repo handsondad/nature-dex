@@ -1,0 +1,86 @@
+{
+  "cover": {
+    "src": "photos/mao-tou-gui-san/cover.webp",
+    "thumb": "photos/mao-tou-gui-san/cover.thumb.webp",
+    "w": 1024,
+    "h": 695,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/165553047",
+      "source": "iNaturalist"
+    }
+  },
+  "look-mjgs": {
+    "src": "photos/mao-tou-gui-san/look-mjgs.webp",
+    "thumb": "photos/mao-tou-gui-san/look-mjgs.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Vincent B.",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/751297716",
+      "source": "iNaturalist"
+    }
+  },
+  "look-mtgs": {
+    "src": "photos/mao-tou-gui-san/look-mtgs.webp",
+    "thumb": "photos/mao-tou-gui-san/look-mtgs.thumb.webp",
+    "w": 1024,
+    "h": 679,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/165552876",
+      "source": "iNaturalist"
+    }
+  },
+  "look-qzhs": {
+    "src": "photos/mao-tou-gui-san/look-qzhs.webp",
+    "thumb": "photos/mao-tou-gui-san/look-qzhs.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Denis Zabin",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/625775792",
+      "source": "iNaturalist"
+    }
+  },
+  "mature-ink": {
+    "src": "photos/mao-tou-gui-san/mature-ink.webp",
+    "thumb": "photos/mao-tou-gui-san/mature-ink.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Thomas Mesaglio",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/379222802",
+      "source": "iNaturalist"
+    }
+  },
+  "whole-fungus": {
+    "src": "photos/mao-tou-gui-san/whole-fungus.webp",
+    "thumb": "photos/mao-tou-gui-san/whole-fungus.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Cecile from Earth",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/470722904",
+      "source": "iNaturalist"
+    }
+  },
+  "young-white": {
+    "src": "photos/mao-tou-gui-san/young-white.webp",
+    "thumb": "photos/mao-tou-gui-san/young-white.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/240960224",
+      "source": "iNaturalist"
+    }
+  }
+}

@@ -33,6 +33,33 @@ const entry: Entry = {
       text: "在中国，大家 5、6 月拍到它最多。11 月到第二年 2 月很少，那时它多半在冬眠。我们是哪个月遇见它的？",
     },
     {
+      type: "lookalike",
+      title: "青蛙还是蟾蜍？",
+      quiz: true,
+      items: [
+        {
+          name: "中华蟾蜍",
+          scientific: "Bufo gargarizans",
+          shot: { photo: "look-chan-chu", caption: "中华蟾蜍" },
+          tells: [
+            "皮肤粗糙，满背都是圆鼓鼓的疙瘩（瘰疣）",
+            "眼睛后面有一对大大的耳后腺鼓包，背上没有背侧褶",
+          ],
+        },
+        {
+          name: "黑斑侧褶蛙",
+          scientific: "Pelophylax nigromaculatus",
+          self: true,
+          shot: { photo: "look-ce-zhou-wa", caption: "黑斑侧褶蛙" },
+          tells: [
+            "背上两边各有一道长长的背侧褶",
+            "皮肤相对湿滑，背上有大小不一的黑斑，常有一条浅色脊线",
+          ],
+        },
+      ],
+      cite: ["ac", "wiki-en", "wiki-toad", "ac-toad"],
+    },
+    {
       type: "facts",
       title: "你知道吗",
       cards: [
@@ -48,7 +75,9 @@ const entry: Entry = {
   nextTime: "下次看它的背：两边那两道长棱，是不是比中间的斑更鼓、更亮？",
   sources: [
     { id: "ac", title: "黑斑侧褶蛙 Pelophylax nigromaculatus", by: "中国两栖类信息系统（中国科学院昆明动物研究所）", url: "https://www.amphibiachina.org/species/416" },
+    { id: "ac-toad", title: "中华蟾蜍 Bufo gargarizans", by: "中国两栖类信息系统（中国科学院昆明动物研究所）", url: "https://www.amphibiachina.org/species/289" },
     { id: "wiki-en", title: "Pelophylax nigromaculatus", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Pelophylax_nigromaculatus" },
+    { id: "wiki-toad", title: "Asiatic toad", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Asiatic_toad" },
     { id: "bj-list", title: "北京陆生野生动物名录—两栖爬行类", by: "北京市园林绿化局", url: "https://yllhj.beijing.gov.cn/ztxx/ysdw/ml/202504/t20250422_4071636.shtml" },
   ],
   by: ["kid", "dad"],

@@ -1,0 +1,64 @@
+{
+  "query": "Armadillidium vulgare",
+  "fetchedAt": "2026-11-13",
+  "gbif": {
+    "key": 2203611,
+    "scientificName": "Armadillidium vulgare (Latreille, 1804)",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Arthropoda"
+      },
+      {
+        "rank": "class",
+        "name": "Malacostraca"
+      },
+      {
+        "rank": "order",
+        "name": "Isopoda"
+      },
+      {
+        "rank": "family",
+        "name": "Armadillidiidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Armadillidium"
+      },
+      {
+        "rank": "species",
+        "name": "Armadillidium vulgare"
+      }
+    ]
+  },
+  "inat": {
+    "id": 56083,
+    "name": "Armadillidium vulgare",
+    "commonName": "普通卷甲虫",
+    "url": "https://www.inaturalist.org/taxa/56083",
+    "wikipediaUrl": "http://zh.wikipedia.org/wiki/鼠婦"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 24,
+      "2": 27,
+      "3": 106,
+      "4": 158,
+      "5": 146,
+      "6": 153,
+      "7": 153,
+      "8": 113,
+      "9": 92,
+      "10": 116,
+      "11": 47,
+      "12": 6
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=56083&place_id=6903&quality_grade=research"
+  }
+}

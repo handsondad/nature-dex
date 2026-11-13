@@ -11,6 +11,30 @@
       "source": "iNaturalist"
     }
   },
+  "look-da-ban": {
+    "src": "photos/da-ban-zhuo-mu-niao/look-da-ban.webp",
+    "thumb": "photos/da-ban-zhuo-mu-niao/look-da-ban.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Marco Mussita",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/521677645",
+      "source": "iNaturalist"
+    }
+  },
+  "look-xing-tou": {
+    "src": "photos/da-ban-zhuo-mu-niao/look-xing-tou.webp",
+    "thumb": "photos/da-ban-zhuo-mu-niao/look-xing-tou.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Jiao Sun (孙娇)",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/402805205",
+      "source": "iNaturalist"
+    }
+  },
   "on-trunk": {
     "src": "photos/da-ban-zhuo-mu-niao/on-trunk.webp",
     "thumb": "photos/da-ban-zhuo-mu-niao/on-trunk.thumb.webp",

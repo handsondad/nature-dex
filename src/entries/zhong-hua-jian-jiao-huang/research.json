@@ -1,0 +1,68 @@
+{
+  "query": "Acrida cinerea",
+  "fetchedAt": "2026-11-13",
+  "gbif": {
+    "key": 5099473,
+    "scientificName": "Acrida cinerea (Thunberg, 1815)",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Arthropoda"
+      },
+      {
+        "rank": "class",
+        "name": "Insecta"
+      },
+      {
+        "rank": "order",
+        "name": "Orthoptera"
+      },
+      {
+        "rank": "family",
+        "name": "Acrididae"
+      },
+      {
+        "rank": "genus",
+        "name": "Acrida"
+      },
+      {
+        "rank": "species",
+        "name": "Acrida cinerea"
+      }
+    ]
+  },
+  "inat": {
+    "id": 358062,
+    "name": "Acrida cinerea",
+    "commonName": "中华剑角蝗",
+    "url": "https://www.inaturalist.org/taxa/358062"
+  },
+  "wiki": {
+    "title": "中华剑角蝗",
+    "extract": "中华剑角蝗，是剑角蝗科的成员。像剑角蝗属的其他成员一样，中华剑角蝗的腿上没有发音器官，因此它们平时不会发出声音。但成虫跳跃飞行时，翅和跳跃肢会产生一串拍击声，因此在华北地区俗称“呱嗒扁儿”（短额负蝗亦有此俗名）。",
+    "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E5%89%91%E8%A7%92%E8%9D%97"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 2,
+      "5": 2,
+      "6": 18,
+      "7": 97,
+      "8": 101,
+      "9": 43,
+      "10": 31,
+      "11": 5,
+      "12": 2
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=358062&place_id=6903&quality_grade=research"
+  }
+}

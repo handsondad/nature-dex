@@ -1,0 +1,98 @@
+{
+  "cover": {
+    "src": "photos/wang-wen-ma-bo/cover.webp",
+    "thumb": "photos/wang-wen-ma-bo/cover.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Michael Nerrie",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/458636958",
+      "source": "iNaturalist"
+    }
+  },
+  "look-ap": {
+    "src": "photos/wang-wen-ma-bo/look-ap.webp",
+    "thumb": "photos/wang-wen-ma-bo/look-ap.thumb.webp",
+    "w": 1024,
+    "h": 1004,
+    "credit": {
+      "author": "Ken Kneidel",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/28973028",
+      "source": "iNaturalist"
+    }
+  },
+  "look-sc": {
+    "src": "photos/wang-wen-ma-bo/look-sc.webp",
+    "thumb": "photos/wang-wen-ma-bo/look-sc.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Malte Krömer",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/442605448",
+      "source": "iNaturalist"
+    }
+  },
+  "look-wwmb": {
+    "src": "photos/wang-wen-ma-bo/look-wwmb.webp",
+    "thumb": "photos/wang-wen-ma-bo/look-wwmb.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "TERRI MEWBORN",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/160354543",
+      "source": "iNaturalist"
+    }
+  },
+  "pear-body": {
+    "src": "photos/wang-wen-ma-bo/pear-body.webp",
+    "thumb": "photos/wang-wen-ma-bo/pear-body.thumb.webp",
+    "w": 771,
+    "h": 1024,
+    "credit": {
+      "author": "Timothy McNitt",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/578309910",
+      "source": "iNaturalist"
+    }
+  },
+  "step-net": {
+    "src": "photos/wang-wen-ma-bo/step-net.webp",
+    "thumb": "photos/wang-wen-ma-bo/step-net.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Kieran Roy Powell",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/444217185",
+      "source": "iNaturalist"
+    }
+  },
+  "step-pore": {
+    "src": "photos/wang-wen-ma-bo/step-pore.webp",
+    "thumb": "photos/wang-wen-ma-bo/step-pore.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Kieran Roy Powell",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/444217209",
+      "source": "iNaturalist"
+    }
+  },
+  "step-spiny": {
+    "src": "photos/wang-wen-ma-bo/step-spiny.webp",
+    "thumb": "photos/wang-wen-ma-bo/step-spiny.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Kate Manning",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/335810071",
+      "source": "iNaturalist"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "query": "Plantago asiatica",
+  "fetchedAt": "2026-11-13",
+  "gbif": {
+    "key": 9118978,
+    "scientificName": "Plantago asiatica L.",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Lamiales"
+      },
+      {
+        "rank": "family",
+        "name": "Plantaginaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Plantago"
+      },
+      {
+        "rank": "species",
+        "name": "Plantago asiatica"
+      }
+    ]
+  },
+  "inat": {
+    "id": 501675,
+    "name": "Plantago asiatica",
+    "commonName": "车前草",
+    "url": "https://www.inaturalist.org/taxa/501675",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/车前"
+  },
+  "wiki": {
+    "title": "车前",
+    "extract": "车前草 为车前草科车前草属的物种，是一种多年生草本植物，又名蕮（音同“夕”)、荙（音同“达”)、车轮菜子、猪耳朵棵子、五更草、田灌草、牛舌草子、马舄、车轱辘草子，诗经中称之为芣苢， 另有诗称之为蘼芜。车前子即是其成熟种子。它是从7月到8月开花。",
+    "url": "https://zh.wikipedia.org/wiki/%E8%BD%A6%E5%89%8D"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 4,
+      "2": 9,
+      "3": 14,
+      "4": 26,
+      "5": 24,
+      "6": 18,
+      "7": 8,
+      "8": 35,
+      "9": 11,
+      "10": 18,
+      "11": 11,
+      "12": 2
+    },
+    "flowering": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 5,
+      "6": 0,
+      "7": 2,
+      "8": 3,
+      "9": 2,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1,
+      "6": 0,
+      "7": 1,
+      "8": 2,
+      "9": 2,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=501675&place_id=6903&quality_grade=research"
+  }
+}

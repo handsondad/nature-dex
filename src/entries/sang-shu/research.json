@@ -1,0 +1,92 @@
+{
+  "query": "Morus alba",
+  "fetchedAt": "2026-11-13",
+  "gbif": {
+    "key": 5361889,
+    "scientificName": "Morus alba L.",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Rosales"
+      },
+      {
+        "rank": "family",
+        "name": "Moraceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Morus"
+      },
+      {
+        "rank": "species",
+        "name": "Morus alba"
+      }
+    ]
+  },
+  "inat": {
+    "id": 56090,
+    "name": "Morus alba",
+    "commonName": "桑",
+    "url": "https://www.inaturalist.org/taxa/56090",
+    "wikipediaUrl": "http://zh.wikipedia.org/wiki/白桑"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 1,
+      "2": 0,
+      "3": 6,
+      "4": 21,
+      "5": 74,
+      "6": 35,
+      "7": 22,
+      "8": 34,
+      "9": 27,
+      "10": 25,
+      "11": 8,
+      "12": 3
+    },
+    "flowering": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 3,
+      "5": 1,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 2,
+      "5": 14,
+      "6": 5,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=56090&place_id=6903&quality_grade=research"
+  }
+}

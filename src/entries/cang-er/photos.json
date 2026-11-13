@@ -1,0 +1,86 @@
+{
+  "cover": {
+    "src": "photos/cang-er/cover.webp",
+    "thumb": "photos/cang-er/cover.thumb.webp",
+    "w": 1024,
+    "h": 685,
+    "credit": {
+      "author": "Colin Meurk",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/1116267",
+      "source": "iNaturalist"
+    }
+  },
+  "hook-macro": {
+    "src": "photos/cang-er/hook-macro.webp",
+    "thumb": "photos/cang-er/hook-macro.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Corey Koala",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/482251914",
+      "source": "iNaturalist"
+    }
+  },
+  "leaf-bur": {
+    "src": "photos/cang-er/leaf-bur.webp",
+    "thumb": "photos/cang-er/leaf-bur.thumb.webp",
+    "w": 1024,
+    "h": 678,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/162821466",
+      "source": "iNaturalist"
+    }
+  },
+  "look-ce": {
+    "src": "photos/cang-er/look-ce.webp",
+    "thumb": "photos/cang-er/look-ce.thumb.webp",
+    "w": 575,
+    "h": 791,
+    "credit": {
+      "author": "Wynand Uys",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/203143374",
+      "source": "iNaturalist"
+    }
+  },
+  "look-nb": {
+    "src": "photos/cang-er/look-nb.webp",
+    "thumb": "photos/cang-er/look-nb.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Navin Sasikumar",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/20277177",
+      "source": "iNaturalist"
+    }
+  },
+  "step-brown": {
+    "src": "photos/cang-er/step-brown.webp",
+    "thumb": "photos/cang-er/step-brown.thumb.webp",
+    "w": 760,
+    "h": 800,
+    "credit": {
+      "author": "Andre Hosper",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/23375283",
+      "source": "iNaturalist"
+    }
+  },
+  "step-green": {
+    "src": "photos/cang-er/step-green.webp",
+    "thumb": "photos/cang-er/step-green.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Brandon McCracken",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/164586800",
+      "source": "iNaturalist"
+    }
+  }
+}

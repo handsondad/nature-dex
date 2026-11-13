@@ -1,0 +1,68 @@
+{
+  "query": "Teleogryllus emma",
+  "fetchedAt": "2026-11-13",
+  "gbif": {
+    "key": 1723508,
+    "scientificName": "Teleogryllus emma (Ohmachi & Matsuura, 1951)",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Arthropoda"
+      },
+      {
+        "rank": "class",
+        "name": "Insecta"
+      },
+      {
+        "rank": "order",
+        "name": "Orthoptera"
+      },
+      {
+        "rank": "family",
+        "name": "Gryllidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Teleogryllus"
+      },
+      {
+        "rank": "species",
+        "name": "Teleogryllus emma"
+      }
+    ]
+  },
+  "inat": {
+    "id": 415442,
+    "name": "Teleogryllus emma",
+    "commonName": "黄脸油葫芦",
+    "url": "https://www.inaturalist.org/taxa/415442"
+  },
+  "wiki": {
+    "title": "黃臉油葫蘆",
+    "extract": "黄脸油葫芦 是一种蟋蟀，分布于中国和日本，栖息在草原和稻田附近。",
+    "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E8%87%89%E6%B2%B9%E8%91%AB%E8%98%86"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1,
+      "6": 34,
+      "7": 63,
+      "8": 183,
+      "9": 103,
+      "10": 25,
+      "11": 1,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=415442&place_id=6903&quality_grade=research"
+  }
+}

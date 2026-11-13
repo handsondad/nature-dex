@@ -34,6 +34,33 @@ const entry: Entry = {
       cite: ["bj-list"],
     },
     {
+      type: "lookalike",
+      title: "红盾牌还是白盾牌？",
+      quiz: true,
+      items: [
+        {
+          name: "白骨顶",
+          scientific: "Fulica atra",
+          shot: { photo: "look-bai-gu-ding", caption: "白骨顶" },
+          tells: [
+            "额甲和嘴巴都是雪白色的，全身石板黑",
+            "脚趾两侧长着荷叶边一样的瓣蹼，很会游水和潜水",
+          ],
+        },
+        {
+          name: "黑水鸡",
+          scientific: "Gallinula chloropus",
+          self: true,
+          shot: { photo: "look-hei-shui-ji", caption: "黑水鸡" },
+          tells: [
+            "红红的额甲配黄嘴尖，身子侧面有一道白纹",
+            "黄绿色的脚趾细长，两侧没有瓣蹼",
+          ],
+        },
+      ],
+      cite: ["wiki-en", "wiki-coot"],
+    },
+    {
       type: "facts",
       title: "你知道吗",
       cards: [
@@ -49,6 +76,7 @@ const entry: Entry = {
   nextTime: "下次看它走路：尾巴是不是一翘一翘，露出下面的白？",
   sources: [
     { id: "wiki-en", title: "Common moorhen", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Common_moorhen" },
+    { id: "wiki-coot", title: "Eurasian coot", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Eurasian_coot" },
     { id: "bj-list", title: "北京陆生野生动物名录—鸟类", by: "北京市园林绿化局", url: "https://yllhj.beijing.gov.cn/ztxx/ysdw/ml/202504/t20250422_4071634.shtml" },
   ],
   by: ["kid", "dad"],

@@ -1,0 +1,69 @@
+{
+  "query": "Eisenia fetida",
+  "fetchedAt": "2026-11-13",
+  "gbif": {
+    "key": 5815560,
+    "scientificName": "Eisenia fetida (Savigny, 1826)",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Annelida"
+      },
+      {
+        "rank": "class",
+        "name": "Clitellata"
+      },
+      {
+        "rank": "order",
+        "name": "Crassiclitellata"
+      },
+      {
+        "rank": "family",
+        "name": "Lumbricidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Eisenia"
+      },
+      {
+        "rank": "species",
+        "name": "Eisenia fetida"
+      }
+    ]
+  },
+  "inat": {
+    "id": 127409,
+    "name": "Eisenia fetida",
+    "commonName": "赤子爱胜蚓",
+    "url": "https://www.inaturalist.org/taxa/127409",
+    "wikipediaUrl": "https://zh.wikipedia.org/zh-cn/赤子愛勝蚓"
+  },
+  "wiki": {
+    "title": "赤子愛勝蚓",
+    "extract": "赤子爱胜蚓，俗称“欧洲红蚯蚓”、太平二号、肥土爱氏蚓，欧洲原生种，属于环节动物门寡毛纲类动物（通称“蚯蚓”）。英语俗称“red wiggler”，意为“红色扭动的虫”。和安卓爱胜蚓亲缘、外观、习性很近，上世纪末才通过分子方式完全区分。两者甚至可以杂交。",
+    "url": "https://zh.wikipedia.org/wiki/%E8%B5%A4%E5%AD%90%E6%84%9B%E5%8B%9D%E8%9A%93"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=127409&place_id=6903&quality_grade=research"
+  }
+}

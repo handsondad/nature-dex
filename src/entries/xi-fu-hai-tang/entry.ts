@@ -1,12 +1,13 @@
 import type { Entry } from "../../entry/types.ts";
 
 // 草稿：知识部分都有出处；我们自己的照片和遇见记录还空着，等真的遇见它再补。
+// GBIF 与 iNaturalist 接受名为 Malus × kaido；Flora of China 写作异名 Malus × micromalus。
 const entry: Entry = {
   id: "xi-fu-hai-tang",
   name: "西府海棠",
-  scientific: "Malus micromalus",
+  scientific: "Malus × kaido",
   kind: "plant",
-  // FOC 作 Malus × micromalus，可能是杂交；华北常见海棠还有海棠花、垂丝海棠，拍到花序和果再确认
+  // 华北常见海棠还有海棠花、垂丝海棠，拍到花序和果再确认
   certainty: "likely",
   taxonomy: ["植物界", "维管植物门", "木兰纲", "蔷薇目", "蔷薇科", "苹果属"],
   when: { date: "2026-11-11", label: "待遇见" },

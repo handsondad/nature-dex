@@ -1,0 +1,79 @@
+{
+  "query": "Coprinus comatus",
+  "fetchedAt": "2026-11-14",
+  "gbif": {
+    "key": 7987658,
+    "scientificName": "Coprinus comatus (O.F.Müll.) Pers.",
+    "rank": "SPECIES",
+    "status": "ACCEPTED",
+    "matchType": "EXACT",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Fungi"
+      },
+      {
+        "rank": "phylum",
+        "name": "Basidiomycota"
+      },
+      {
+        "rank": "class",
+        "name": "Agaricomycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Agaricales"
+      },
+      {
+        "rank": "family",
+        "name": "Agaricaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Coprinus"
+      },
+      {
+        "rank": "species",
+        "name": "Coprinus comatus"
+      }
+    ]
+  },
+  "zhTaxonomy": [
+    "真菌界",
+    "担子菌门",
+    "伞菌纲",
+    "伞菌目",
+    "鬼伞科",
+    "鬼伞属"
+  ],
+  "inat": {
+    "id": 47392,
+    "name": "Coprinus comatus",
+    "commonName": "毛头鬼伞",
+    "url": "https://www.inaturalist.org/taxa/47392",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/鸡腿菇"
+  },
+  "wiki": {
+    "title": "鸡腿菇",
+    "extract": "鸡腿菇，亦作鸡腿蘑菇，在中国北方俗称毛头鬼伞，在旧分类发中与其他品种的鬼伞菇同属鬼伞属（Coprinellus），但在新分类法中被分入Coprinus属。鸡腿菇是一种野生食用菌，于欧洲、亚洲及北美洲都有发现，依地区气候不同，可能在春末、夏季或秋季雨后发出来。鸡腿蘑菇属中高温型菇类，为草腐土生菌。",
+    "url": "https://zh.wikipedia.org/wiki/%E9%B8%A1%E8%85%BF%E8%8F%87"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 0,
+      "2": 0,
+      "3": 6,
+      "4": 35,
+      "5": 36,
+      "6": 23,
+      "7": 13,
+      "8": 9,
+      "9": 26,
+      "10": 53,
+      "11": 38,
+      "12": 9
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=47392&place_id=6903&quality_grade=research"
+  }
+}

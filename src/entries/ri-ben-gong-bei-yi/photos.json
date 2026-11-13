@@ -1,0 +1,62 @@
+{
+  "cover": {
+    "src": "photos/ri-ben-gong-bei-yi/cover.webp",
+    "thumb": "photos/ri-ben-gong-bei-yi/cover.thumb.webp",
+    "w": 1024,
+    "h": 640,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/483447664",
+      "source": "iNaturalist"
+    }
+  },
+  "head-macro": {
+    "src": "photos/ri-ben-gong-bei-yi/head-macro.webp",
+    "thumb": "photos/ri-ben-gong-bei-yi/head-macro.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Saryu Mae 前 朝琉",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/658430612",
+      "source": "iNaturalist"
+    }
+  },
+  "look-fj": {
+    "src": "photos/ri-ben-gong-bei-yi/look-fj.webp",
+    "thumb": "photos/ri-ben-gong-bei-yi/look-fj.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Jonghyun Park",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/319030353",
+      "source": "iNaturalist"
+    }
+  },
+  "look-rbgby": {
+    "src": "photos/ri-ben-gong-bei-yi/look-rbgby.webp",
+    "thumb": "photos/ri-ben-gong-bei-yi/look-rbgby.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Jonghyun Park",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/319030356",
+      "source": "iNaturalist"
+    }
+  },
+  "worker-side": {
+    "src": "photos/ri-ben-gong-bei-yi/worker-side.webp",
+    "thumb": "photos/ri-ben-gong-bei-yi/worker-side.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "ippanjin",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/700895646",
+      "source": "iNaturalist"
+    }
+  }
+}

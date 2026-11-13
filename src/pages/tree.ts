@@ -29,10 +29,15 @@ export const GROUP_LOOK: Record<string, { readonly icon: string; readonly latin:
   哺乳纲: { icon: "🐿️", latin: "Mammalia", note: "身上有毛，小时候喝妈妈的奶。" },
   两栖纲: { icon: "🐸", latin: "Amphibia", note: "小时候在水里，长大后多数到岸上生活。" },
   爬行纲: { icon: "🦎", latin: "Reptilia", note: "皮肤干干的，身上有鳞片。" },
+  软甲纲: { icon: "🦐", latin: "Malacostraca", note: "虾、蟹和西瓜虫是一家人，身上披着一节一节的硬壳。" },
+  腹足纲: { icon: "🐌", latin: "Gastropoda", note: "用肚子下面宽宽的「脚」慢慢爬，很多背着螺旋形的小壳。" },
+  环带纲: { icon: "🪱", latin: "Clitellata", note: "身体细长柔软、分成许多小节，长大后身上有一圈环带。" },
   木兰纲: { icon: "🌸", latin: "Magnoliopsida", note: "会开花结果，种子大多有两片子叶。" },
   百合纲: { icon: "🌾", latin: "Liliopsida", note: "会开花结果，种子只有一片子叶，叶脉多是平行的。" },
   银杏纲: { icon: "🍂", latin: "Ginkgoopsida", note: "不开花，种子露在外面，没有果皮包着。" },
   松柏纲: { icon: "🌲", latin: "Pinopsida", note: "不开花，种子长在球果里，叶子像针或鳞片。" },
+  伞菌纲: { icon: "🍄", latin: "Agaricomycetes", note: "我们见到的伞形蘑菇、木耳、马勃大多在这一纲。" },
+  银耳纲: { icon: "🟡", latin: "Tremellomycetes", note: "下过雨后像软软的果冻，天干了又会缩成一小片。" },
 };
 
 export type Group = {

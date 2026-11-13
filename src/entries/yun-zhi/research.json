@@ -1,0 +1,64 @@
+{
+  "query": "Trametes versicolor",
+  "fetchedAt": "2026-11-13",
+  "gbif": {
+    "key": 2548311,
+    "scientificName": "Trametes versicolor (L.) Lloyd",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Fungi"
+      },
+      {
+        "rank": "phylum",
+        "name": "Basidiomycota"
+      },
+      {
+        "rank": "class",
+        "name": "Agaricomycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Polyporales"
+      },
+      {
+        "rank": "family",
+        "name": "Polyporaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Trametes"
+      },
+      {
+        "rank": "species",
+        "name": "Trametes versicolor"
+      }
+    ]
+  },
+  "inat": {
+    "id": 54134,
+    "name": "Trametes versicolor",
+    "commonName": "变色栓菌",
+    "url": "https://www.inaturalist.org/taxa/54134",
+    "wikipediaUrl": "http://zh.wikipedia.org/wiki/雲芝"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 8,
+      "2": 10,
+      "3": 8,
+      "4": 7,
+      "5": 5,
+      "6": 1,
+      "7": 6,
+      "8": 7,
+      "9": 9,
+      "10": 12,
+      "11": 6,
+      "12": 8
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=54134&place_id=6903&quality_grade=research"
+  }
+}

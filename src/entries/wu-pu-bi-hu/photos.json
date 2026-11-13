@@ -11,6 +11,30 @@
       "source": "iNaturalist"
     }
   },
+  "look-bi-hu": {
+    "src": "photos/wu-pu-bi-hu/look-bi-hu.webp",
+    "thumb": "photos/wu-pu-bi-hu/look-bi-hu.thumb.webp",
+    "w": 1024,
+    "h": 665,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/162849586",
+      "source": "iNaturalist"
+    }
+  },
+  "look-ma-xi": {
+    "src": "photos/wu-pu-bi-hu/look-ma-xi.webp",
+    "thumb": "photos/wu-pu-bi-hu/look-ma-xi.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Ryan van Huyssteen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/738744033",
+      "source": "iNaturalist"
+    }
+  },
   "on-wall": {
     "src": "photos/wu-pu-bi-hu/on-wall.webp",
     "thumb": "photos/wu-pu-bi-hu/on-wall.thumb.webp",

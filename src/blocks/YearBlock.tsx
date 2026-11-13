@@ -84,7 +84,9 @@ export function YearBlock({ text, cite }: { text: string; cite?: readonly string
             </p>
           ) : (
             <p className="year-pick">
-              它在公园和路边多是人工栽种的，iNaturalist 上还没有中国境内的野生研究级记录。等我们遇见它，就把那个月钉在环上！
+              {entry.kind === "plant"
+                ? "它在公园和路边多是人工栽种的，iNaturalist 上还没有中国境内的野生研究级记录。等我们遇见它，就把那个月钉在环上！"
+                : "iNaturalist 上目前还没有中国境内的研究级观察记录。等我们遇见它，就把那个月钉在环上！"}
             </p>
           )
         ) : (

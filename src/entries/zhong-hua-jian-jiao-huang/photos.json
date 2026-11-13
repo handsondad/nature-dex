@@ -1,0 +1,74 @@
+{
+  "adult-side": {
+    "src": "photos/zhong-hua-jian-jiao-huang/adult-side.webp",
+    "thumb": "photos/zhong-hua-jian-jiao-huang/adult-side.thumb.webp",
+    "w": 1024,
+    "h": 680,
+    "credit": {
+      "author": "Weiting Liu",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/587759409",
+      "source": "iNaturalist"
+    }
+  },
+  "cover": {
+    "src": "photos/zhong-hua-jian-jiao-huang/cover.webp",
+    "thumb": "photos/zhong-hua-jian-jiao-huang/cover.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "rachelandjun",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/13229964",
+      "source": "iNaturalist"
+    }
+  },
+  "look-defh": {
+    "src": "photos/zhong-hua-jian-jiao-huang/look-defh.webp",
+    "thumb": "photos/zhong-hua-jian-jiao-huang/look-defh.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "りなべる",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/437186066",
+      "source": "iNaturalist"
+    }
+  },
+  "look-zhjjh": {
+    "src": "photos/zhong-hua-jian-jiao-huang/look-zhjjh.webp",
+    "thumb": "photos/zhong-hua-jian-jiao-huang/look-zhjjh.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "heikindai_87",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/124471053",
+      "source": "iNaturalist"
+    }
+  },
+  "morph-brown": {
+    "src": "photos/zhong-hua-jian-jiao-huang/morph-brown.webp",
+    "thumb": "photos/zhong-hua-jian-jiao-huang/morph-brown.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "夏仲归",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/144409950",
+      "source": "iNaturalist"
+    }
+  },
+  "morph-green": {
+    "src": "photos/zhong-hua-jian-jiao-huang/morph-green.webp",
+    "thumb": "photos/zhong-hua-jian-jiao-huang/morph-green.thumb.webp",
+    "w": 733,
+    "h": 587,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/26077859",
+      "source": "iNaturalist"
+    }
+  }
+}

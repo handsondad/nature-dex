@@ -11,6 +11,30 @@
       "source": "iNaturalist"
     }
   },
+  "look-da-zui": {
+    "src": "photos/da-zui-wu-ya/look-da-zui.webp",
+    "thumb": "photos/da-zui-wu-ya/look-da-zui.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Yuan Zhuang",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/59829941",
+      "source": "iNaturalist"
+    }
+  },
+  "look-tu-bi": {
+    "src": "photos/da-zui-wu-ya/look-tu-bi.webp",
+    "thumb": "photos/da-zui-wu-ya/look-tu-bi.thumb.webp",
+    "w": 1024,
+    "h": 668,
+    "credit": {
+      "author": "Victor Heng",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/196366939",
+      "source": "iNaturalist"
+    }
+  },
   "side-head": {
     "src": "photos/da-zui-wu-ya/side-head.webp",
     "thumb": "photos/da-zui-wu-ya/side-head.thumb.webp",

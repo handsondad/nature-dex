@@ -22,5 +22,29 @@
       "url": "https://www.inaturalist.org/photos/742932371",
       "source": "iNaturalist"
     }
+  },
+  "look-mei-gui": {
+    "src": "photos/yue-ji/look-mei-gui.webp",
+    "thumb": "photos/yue-ji/look-mei-gui.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Nathan Piechocki",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/301944249",
+      "source": "iNaturalist"
+    }
+  },
+  "look-yue-ji": {
+    "src": "photos/yue-ji/look-yue-ji.webp",
+    "thumb": "photos/yue-ji/look-yue-ji.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Lihai Song",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/752695679",
+      "source": "iNaturalist"
+    }
   }
 }

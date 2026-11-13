@@ -33,6 +33,33 @@ const entry: Entry = {
       cite: ["bj-list"],
     },
     {
+      type: "lookalike",
+      title: "白头鹎还是红耳鹎？",
+      quiz: true,
+      items: [
+        {
+          name: "红耳鹎",
+          scientific: "Pycnonotus jocosus",
+          shot: { photo: "look-hong-er-bei", caption: "红耳鹎" },
+          tells: [
+            "头顶竖着高高的尖黑色羽冠",
+            "眼睛后面有一小块鲜红斑，尾巴下面也是红色的",
+          ],
+        },
+        {
+          name: "白头鹎",
+          scientific: "Pycnonotus sinensis",
+          self: true,
+          shot: { photo: "look-bai-tou-bei", caption: "白头鹎" },
+          tells: [
+            "头顶没有高尖冠，后脑勺有一大片雪白",
+            "背上和翅膀的羽毛偏黄绿色（橄榄绿）",
+          ],
+        },
+      ],
+      cite: ["wiki-en", "wiki-rwb"],
+    },
+    {
       type: "facts",
       title: "你知道吗",
       cards: [
@@ -48,6 +75,7 @@ const entry: Entry = {
   nextTime: "下次数一数：一棵树上同时能停几只白头鹎？它们会不会互相追？",
   sources: [
     { id: "wiki-en", title: "Light-vented bulbul", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Light-vented_bulbul" },
+    { id: "wiki-rwb", title: "Red-whiskered bulbul", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Red-whiskered_bulbul" },
     { id: "bj-list", title: "北京陆生野生动物名录—鸟类", by: "北京市园林绿化局", url: "https://yllhj.beijing.gov.cn/ztxx/ysdw/ml/202504/t20250422_4071634.shtml" },
   ],
   by: ["kid", "dad"],

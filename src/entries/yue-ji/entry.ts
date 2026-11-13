@@ -33,6 +33,33 @@ const entry: Entry = {
       cite: ["foc-yj", "bj-yueji"],
     },
     {
+      type: "lookalike",
+      title: "月季还是玫瑰？",
+      quiz: true,
+      items: [
+        {
+          name: "玫瑰",
+          scientific: "Rosa rugosa",
+          shot: { photo: "look-mei-gui", caption: "玫瑰的皱叶和密刺" },
+          tells: [
+            "小叶 5～7 片（偶尔 9 片），表面叶脉深深凹陷，皱巴巴像皱纸",
+            "枝条上密密麻麻全是细直刺，花期多在 5～6 月",
+          ],
+        },
+        {
+          name: "月季",
+          scientific: "Rosa chinensis",
+          self: true,
+          shot: { photo: "look-yue-ji", caption: "月季的花和枝叶" },
+          tells: [
+            "小叶通常 3～5 片，叶面平整有光泽",
+            "枝上多是稀疏的扁弯刺，从春到秋一茬接一茬地开",
+          ],
+        },
+      ],
+      cite: ["foc-yj", "foc-mg"],
+    },
+    {
       type: "facts",
       title: "你知道吗",
       cards: [
@@ -47,6 +74,7 @@ const entry: Entry = {
   nextTime: "过两周再来同一丛：是不是又开出新花了？数一数这一次有几朵。",
   sources: [
     { id: "foc-yj", title: "Rosa chinensis 月季花", by: "Flora of China", url: "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200011233" },
+    { id: "foc-mg", title: "Rosa rugosa 玫瑰", by: "Flora of China", url: "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200011310" },
     { id: "wiki-zh", title: "月季 (物种)", by: "维基百科", url: "https://zh.wikipedia.org/wiki/%E6%9C%88%E5%AD%A3_(%E7%89%A9%E7%A7%8D)" },
     { id: "bj-trees", title: "穿越时空，说说30年前的市花市树评选", by: "北京市园林绿化局", url: "https://yllhj.beijing.gov.cn/ztxx/bjhx/hsdt/202106/t20210621_2417197.shtml" },
     { id: "bj-yueji", title: "花开锦绣映京城（一朵花读懂一座城）", by: "北京市园林绿化局", url: "https://yllhj.beijing.gov.cn/ztxx/jcyyshj/djsh/202506/t20250603_4104755.shtml" },

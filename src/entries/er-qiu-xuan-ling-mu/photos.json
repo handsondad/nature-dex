@@ -1,0 +1,62 @@
+{
+  "bark-macro": {
+    "src": "photos/er-qiu-xuan-ling-mu/bark-macro.webp",
+    "thumb": "photos/er-qiu-xuan-ling-mu/bark-macro.thumb.webp",
+    "w": 730,
+    "h": 973,
+    "credit": {
+      "author": "Nart Barileva",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/111448285",
+      "source": "iNaturalist"
+    }
+  },
+  "cover": {
+    "src": "photos/er-qiu-xuan-ling-mu/cover.webp",
+    "thumb": "photos/er-qiu-xuan-ling-mu/cover.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Kian Hayles-Cotton",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/441378495",
+      "source": "iNaturalist"
+    }
+  },
+  "leaf-ball": {
+    "src": "photos/er-qiu-xuan-ling-mu/leaf-ball.webp",
+    "thumb": "photos/er-qiu-xuan-ling-mu/leaf-ball.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Ametsak",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/437544983",
+      "source": "iNaturalist"
+    }
+  },
+  "look-eqxlm": {
+    "src": "photos/er-qiu-xuan-ling-mu/look-eqxlm.webp",
+    "thumb": "photos/er-qiu-xuan-ling-mu/look-eqxlm.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "gerardbertrand",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/386411344",
+      "source": "iNaturalist"
+    }
+  },
+  "look-wt": {
+    "src": "photos/er-qiu-xuan-ling-mu/look-wt.webp",
+    "thumb": "photos/er-qiu-xuan-ling-mu/look-wt.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "葉子",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/316346577",
+      "source": "iNaturalist"
+    }
+  }
+}

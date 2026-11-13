@@ -22,5 +22,29 @@
       "url": "https://www.inaturalist.org/photos/672705285",
       "source": "iNaturalist"
     }
+  },
+  "look-ce-zhou-wa": {
+    "src": "photos/hei-ban-ce-zhou-wa/look-ce-zhou-wa.webp",
+    "thumb": "photos/hei-ban-ce-zhou-wa/look-ce-zhou-wa.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Se Lena",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/288524802",
+      "source": "iNaturalist"
+    }
+  },
+  "look-chan-chu": {
+    "src": "photos/hei-ban-ce-zhou-wa/look-chan-chu.webp",
+    "thumb": "photos/hei-ban-ce-zhou-wa/look-chan-chu.thumb.webp",
+    "w": 1024,
+    "h": 767,
+    "credit": {
+      "author": "卢江离",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/518646506",
+      "source": "iNaturalist"
+    }
   }
 }

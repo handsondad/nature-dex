@@ -1,0 +1,74 @@
+{
+  "cover": {
+    "src": "photos/sang-shu/cover.webp",
+    "thumb": "photos/sang-shu/cover.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "capacoscar",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/509078668",
+      "source": "iNaturalist"
+    }
+  },
+  "fruit-macro": {
+    "src": "photos/sang-shu/fruit-macro.webp",
+    "thumb": "photos/sang-shu/fruit-macro.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Dmitriy Bochkov",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/212736140",
+      "source": "iNaturalist"
+    }
+  },
+  "leaf-shapes": {
+    "src": "photos/sang-shu/leaf-shapes.webp",
+    "thumb": "photos/sang-shu/leaf-shapes.thumb.webp",
+    "w": 576,
+    "h": 1024,
+    "credit": {
+      "author": "dinomariobob",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/527163388",
+      "source": "iNaturalist"
+    }
+  },
+  "step-pale": {
+    "src": "photos/sang-shu/step-pale.webp",
+    "thumb": "photos/sang-shu/step-pale.thumb.webp",
+    "w": 823,
+    "h": 1024,
+    "credit": {
+      "author": "CatherineK",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/18047131",
+      "source": "iNaturalist"
+    }
+  },
+  "step-purple": {
+    "src": "photos/sang-shu/step-purple.webp",
+    "thumb": "photos/sang-shu/step-purple.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "SteveM4560",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/287876304",
+      "source": "iNaturalist"
+    }
+  },
+  "step-red": {
+    "src": "photos/sang-shu/step-red.webp",
+    "thumb": "photos/sang-shu/step-red.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Guy Taseski",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/42664930",
+      "source": "iNaturalist"
+    }
+  }
+}

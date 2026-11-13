@@ -1,0 +1,68 @@
+{
+  "query": "Schizophyllum commune",
+  "fetchedAt": "2026-11-13",
+  "gbif": {
+    "key": 5241128,
+    "scientificName": "Schizophyllum commune Fr.",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Fungi"
+      },
+      {
+        "rank": "phylum",
+        "name": "Basidiomycota"
+      },
+      {
+        "rank": "class",
+        "name": "Agaricomycetes"
+      },
+      {
+        "rank": "order",
+        "name": "Agaricales"
+      },
+      {
+        "rank": "family",
+        "name": "Schizophyllaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Schizophyllum"
+      },
+      {
+        "rank": "species",
+        "name": "Schizophyllum commune"
+      }
+    ]
+  },
+  "inat": {
+    "id": 54573,
+    "name": "Schizophyllum commune",
+    "commonName": "裂褶菌",
+    "url": "https://www.inaturalist.org/taxa/54573"
+  },
+  "wiki": {
+    "title": "裂褶菌",
+    "extract": "裂褶菌 是裂褶菌属的一种真菌，为该属的模式种，在世界各地均有分布，常生长于腐木上，可能是造成木材腐烂的一种木腐真菌。本种的蕈伞较小，直径为1—4公分，带有白色或灰色的小毛，呈叠状生长，不具有蕈柄；蕈褶外形为本种名称来源，自中央呈辐射状分割，颜色为白色至奶黄色，在干燥时会破裂。疏水蛋白最早即为自裂褶菌中分离。",
+    "url": "https://zh.wikipedia.org/wiki/%E8%A3%82%E8%A4%B6%E8%8F%8C"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 25,
+      "2": 32,
+      "3": 26,
+      "4": 34,
+      "5": 24,
+      "6": 12,
+      "7": 15,
+      "8": 15,
+      "9": 21,
+      "10": 30,
+      "11": 17,
+      "12": 19
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=54573&place_id=6903&quality_grade=research"
+  }
+}

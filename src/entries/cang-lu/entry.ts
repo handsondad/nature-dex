@@ -34,6 +34,33 @@ const entry: Entry = {
       cite: ["bj-list"],
     },
     {
+      type: "lookalike",
+      title: "灰色的苍鹭，还是白色的大白鹭？",
+      quiz: true,
+      items: [
+        {
+          name: "大白鹭",
+          scientific: "Ardea alba",
+          shot: { photo: "look-da-bai-lu", caption: "大白鹭" },
+          tells: [
+            "全身羽毛雪白，个头和苍鹭差不多高",
+            "头上没有黑眉纹，也没有细长的黑羽冠",
+          ],
+        },
+        {
+          name: "苍鹭",
+          scientific: "Ardea cinerea",
+          self: true,
+          shot: { photo: "look-cang-lu", caption: "苍鹭" },
+          tells: [
+            "背上和翅膀是烟灰色的",
+            "白头上有一道黑眉纹，向后拖成细细的黑羽冠",
+          ],
+        },
+      ],
+      cite: ["wiki-en", "wiki-egret"],
+    },
+    {
       type: "facts",
       title: "你知道吗",
       cards: [
@@ -49,6 +76,7 @@ const entry: Entry = {
   nextTime: "下次看它站着：是两条腿都站着，还是常常单脚站？",
   sources: [
     { id: "wiki-en", title: "Grey heron", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Grey_heron" },
+    { id: "wiki-egret", title: "Great egret", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Great_egret" },
     { id: "bj-list", title: "北京陆生野生动物名录—鸟类", by: "北京市园林绿化局", url: "https://yllhj.beijing.gov.cn/ztxx/ysdw/ml/202504/t20250422_4071634.shtml" },
   ],
   by: ["kid", "dad"],

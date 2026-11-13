@@ -2,6 +2,7 @@
 // errors 必须改；warnings 值得看一眼；todo 是草稿里还没拍的照片。
 
 export const CREATORS = ["kid", "dad", "mom"];
+export const KINDS = { plant: "植物界", animal: "动物界", fungus: "真菌界", other: null };
 export const LICENSES = ["cc0", "cc-by", "cc-by-sa"];
 export const LIMITS = { hello: 40, care: 60, nextTime: 60, detail: 70, fact: 90, said: 120 };
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
@@ -61,7 +62,25 @@ export function checkEntry({ entry, dir, manifest, research, fileExists, today }
 
   if (entry.id !== dir) err(`id「${entry.id}」要和目录名「${dir}」一样`);
   for (const k of ["name", "scientific", "hello", "care", "nextTime"]) if (!entry[k]?.trim()) err(`${k} 不能空着`);
+  if (!(entry.kind in KINDS)) err(`kind 只能是 ${Object.keys(KINDS).join(" / ")}：${entry.kind}`);
   if (!["sure", "likely", "unsure"].includes(entry.certainty)) err("certainty 只能是 sure / likely / unsure");
+  if (entry.taxonomy !== undefined) {
+    if (!Array.isArray(entry.taxonomy) || entry.taxonomy.length !== 6 || entry.taxonomy.some((t) => !t?.trim())) {
+      err("taxonomy 要写齐 6 级中文分类链：[界, 门, 纲, 目, 科, 属]（由 npm run taxon 生成）");
+    } else if (KINDS[entry.kind] && entry.taxonomy[0] !== KINDS[entry.kind]) {
+      err(`kind 是「${entry.kind}」，但 taxonomy[0] 是「${entry.taxonomy[0]}」（应为「${KINDS[entry.kind]}」）`);
+    }
+  }
+  if (research?.gbif && entry.scientific && !/\bsp\.?$/i.test(entry.scientific.trim())) {
+    if (research.gbif.status && research.gbif.status !== "ACCEPTED") {
+      warn(`research.json 里 GBIF 状态是 ${research.gbif.status}，请核对是否应改用接受学名`);
+    }
+    const normSci = (s) => (s ?? "").replace(/\s*×\s*/g, " ").replace(/\s+/g, " ").trim();
+    const gbifSpecies = research.gbif.path?.find((p) => p.rank === "species")?.name;
+    if (gbifSpecies && !normSci(entry.scientific).startsWith(normSci(gbifSpecies))) {
+      warn(`学名「${entry.scientific}」与 GBIF 接受种名「${gbifSpecies}」不一致（若为植物志异名请在注释注明）`);
+    }
+  }
   if (!validDate(entry.when?.date)) err(`when.date 要写成 YYYY-MM-DD：${entry.when?.date}`);
   else if (entry.when.date > today) err(`when.date 在未来：${entry.when.date}`);
   if (entry.when?.label && len(entry.when.label) > 8) warn("when.label 最好不超过 8 个字");

@@ -1,0 +1,69 @@
+{
+  "query": "Bradybaena similaris",
+  "fetchedAt": "2026-11-13",
+  "gbif": {
+    "key": 2297154,
+    "scientificName": "Bradybaena similaris (A.Férussac, 1822)",
+    "rank": "SPECIES",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Mollusca"
+      },
+      {
+        "rank": "class",
+        "name": "Gastropoda"
+      },
+      {
+        "rank": "order",
+        "name": "Stylommatophora"
+      },
+      {
+        "rank": "family",
+        "name": "Camaenidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Bradybaena"
+      },
+      {
+        "rank": "species",
+        "name": "Bradybaena similaris"
+      }
+    ]
+  },
+  "inat": {
+    "id": 215409,
+    "name": "Bradybaena similaris",
+    "commonName": "同型巴蜗牛",
+    "url": "https://www.inaturalist.org/taxa/215409",
+    "wikipediaUrl": "http://zh.wikipedia.org/wiki/同型巴蜗牛"
+  },
+  "wiki": {
+    "title": "同型巴蜗牛",
+    "extract": "同型巴蜗牛，又名扁蜗牛，属于坚齿螺科巴蜗牛亚科巴蜗牛族的巴蜗牛属，是一种小型的、会呼吸空气的蜗牛。它们是一种陆生的有肺类腹足纲软体动物。",
+    "url": "https://zh.wikipedia.org/wiki/%E5%90%8C%E5%9E%8B%E5%B7%B4%E8%9C%97%E7%89%9B"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 18,
+      "2": 21,
+      "3": 37,
+      "4": 95,
+      "5": 123,
+      "6": 106,
+      "7": 70,
+      "8": 103,
+      "9": 62,
+      "10": 49,
+      "11": 54,
+      "12": 10
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=215409&place_id=6903&quality_grade=research"
+  }
+}

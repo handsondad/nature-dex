@@ -28,6 +28,14 @@ const entry: Entry = {
       ],
     },
     {
+      type: "compare",
+      title: "夏天和冬天，脖子变了色",
+      before: { photo: "plumage-summer", label: "夏羽", caption: "红棕脖子配亮黄嘴角" },
+      after: { photo: "plumage-winter", label: "冬羽", caption: "脖子换成浅浅的灰褐色" },
+      text: "小鸊鷉冬天和夏天像换了一件衣服：夏天繁殖期，脸颊和脖子两侧是鲜亮的红棕色，嘴角有一块亮黄；到了冬天，红棕色褪成浅浅的灰褐色，但蓬松的“小粉扑”屁股还在。",
+      cite: ["wiki-en"],
+    },
+    {
       type: "year",
       title: "什么时候能见到它",
       text: "在中国，每个月都有人拍到它，1、2 月更多一些，8 月相对少。北京名录里它是「夏候鸟 / 旅鸟 / 留鸟」，还是市重点保护。我们是哪个月遇见它的？",

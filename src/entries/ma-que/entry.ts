@@ -34,6 +34,33 @@ const entry: Entry = {
       text: "在中国，每个月都有很多人拍到它，5 月最多。我们是哪个月遇见它的？",
     },
     {
+      type: "lookalike",
+      title: "树麻雀还是家麻雀？",
+      quiz: true,
+      items: [
+        {
+          name: "家麻雀",
+          scientific: "Passer domesticus",
+          shot: { photo: "look-jia-ma-que", caption: "雄性家麻雀" },
+          tells: [
+            "雄鸟头顶是灰色的，白脸蛋上没有黑斑",
+            "公鸟和母鸟羽毛差别很大，母鸟全身朴素的灰褐色",
+          ],
+        },
+        {
+          name: "麻雀（树麻雀）",
+          scientific: "Passer montanus",
+          self: true,
+          shot: { photo: "look-ma-que", caption: "树麻雀" },
+          tells: [
+            "栗棕色的头顶，白脸蛋上有一块醒目的黑斑",
+            "雌雄同色，麻雀爸爸和麻雀妈妈长得一样",
+          ],
+        },
+      ],
+      cite: ["wiki-en", "wiki-hs", "cern-mq"],
+    },
+    {
       type: "facts",
       title: "你知道吗",
       cards: [
@@ -50,6 +77,7 @@ const entry: Entry = {
   sources: [
     { id: "cern-mq", title: "麻雀", by: "生物多样性知识平台", url: "https://wiki.biodiversity.cern.ac.cn/index.php/%E9%BA%BB%E9%9B%80" },
     { id: "wiki-en", title: "Eurasian tree sparrow", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Eurasian_tree_sparrow" },
+    { id: "wiki-hs", title: "House sparrow", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/House_sparrow" },
     { id: "bj-list", title: "北京陆生野生动物名录—鸟类", by: "北京市园林绿化局", url: "https://yllhj.beijing.gov.cn/ztxx/ysdw/ml/202504/t20250422_4071634.shtml" },
   ],
   by: ["kid", "dad"],

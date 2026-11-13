@@ -170,8 +170,12 @@ export type Research = {
     readonly key: number;
     readonly scientificName: string;
     readonly rank: string;
+    readonly status?: string;
+    readonly matchType?: string;
     readonly path: readonly { readonly rank: string; readonly name: string }[];
   };
+  /** iNaturalist 查出的 6 级中文分类链：界、门、纲、目、科、属 */
+  readonly zhTaxonomy?: readonly string[];
   readonly inat?: {
     readonly id: number;
     readonly name: string;

@@ -1,0 +1,86 @@
+{
+  "cover": {
+    "src": "photos/bai-che-zhou-cao/cover.webp",
+    "thumb": "photos/bai-che-zhou-cao/cover.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Tom Norton",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/392307181",
+      "source": "iNaturalist"
+    }
+  },
+  "flower-macro": {
+    "src": "photos/bai-che-zhou-cao/flower-macro.webp",
+    "thumb": "photos/bai-che-zhou-cao/flower-macro.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jade Fortnash",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/178725362",
+      "source": "iNaturalist"
+    }
+  },
+  "look-bczc": {
+    "src": "photos/bai-che-zhou-cao/look-bczc.webp",
+    "thumb": "photos/bai-che-zhou-cao/look-bczc.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Leila Dasher",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/35104390",
+      "source": "iNaturalist"
+    }
+  },
+  "look-cjc": {
+    "src": "photos/bai-che-zhou-cao/look-cjc.webp",
+    "thumb": "photos/bai-che-zhou-cao/look-cjc.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Trilius Ngian",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/94764034",
+      "source": "iNaturalist"
+    }
+  },
+  "plant-leaf": {
+    "src": "photos/bai-che-zhou-cao/plant-leaf.webp",
+    "thumb": "photos/bai-che-zhou-cao/plant-leaf.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Sandy Wolkenberg",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/77103478",
+      "source": "iNaturalist"
+    }
+  },
+  "step-fade": {
+    "src": "photos/bai-che-zhou-cao/step-fade.webp",
+    "thumb": "photos/bai-che-zhou-cao/step-fade.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Lihai Song",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/623572217",
+      "source": "iNaturalist"
+    }
+  },
+  "step-open": {
+    "src": "photos/bai-che-zhou-cao/step-open.webp",
+    "thumb": "photos/bai-che-zhou-cao/step-open.thumb.webp",
+    "w": 1024,
+    "h": 678,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/165552863",
+      "source": "iNaturalist"
+    }
+  }
+}

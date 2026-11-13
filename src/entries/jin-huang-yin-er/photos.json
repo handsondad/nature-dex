@@ -1,0 +1,86 @@
+{
+  "cover": {
+    "src": "photos/jin-huang-yin-er/cover.webp",
+    "thumb": "photos/jin-huang-yin-er/cover.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "joergmlpts",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/60159411",
+      "source": "iNaturalist"
+    }
+  },
+  "dry-crust": {
+    "src": "photos/jin-huang-yin-er/dry-crust.webp",
+    "thumb": "photos/jin-huang-yin-er/dry-crust.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Michael J. Papay",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/341267654",
+      "source": "iNaturalist"
+    }
+  },
+  "jelly-branch": {
+    "src": "photos/jin-huang-yin-er/jelly-branch.webp",
+    "thumb": "photos/jin-huang-yin-er/jelly-branch.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Dr. Alan Inman",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/355665539",
+      "source": "iNaturalist"
+    }
+  },
+  "look-dc": {
+    "src": "photos/jin-huang-yin-er/look-dc.webp",
+    "thumb": "photos/jin-huang-yin-er/look-dc.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Randy A Nonenmacher",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/107106742",
+      "source": "iNaturalist"
+    }
+  },
+  "look-jhy": {
+    "src": "photos/jin-huang-yin-er/look-jhy.webp",
+    "thumb": "photos/jin-huang-yin-er/look-jhy.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Thomas Mesaglio",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/181030407",
+      "source": "iNaturalist"
+    }
+  },
+  "look-na": {
+    "src": "photos/jin-huang-yin-er/look-na.webp",
+    "thumb": "photos/jin-huang-yin-er/look-na.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Katrina Mccollough",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/347073851",
+      "source": "iNaturalist"
+    }
+  },
+  "wet-jelly": {
+    "src": "photos/jin-huang-yin-er/wet-jelly.webp",
+    "thumb": "photos/jin-huang-yin-er/wet-jelly.thumb.webp",
+    "w": 1024,
+    "h": 836,
+    "credit": {
+      "author": "Shirley Zundell",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/8092030",
+      "source": "iNaturalist"
+    }
+  }
+}
