@@ -1,0 +1,86 @@
+{
+  "cover": {
+    "src": "photos/feng-tou-pi-ti/cover.webp",
+    "thumb": "photos/feng-tou-pi-ti/cover.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "卢江离",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/265254758",
+      "source": "iNaturalist"
+    }
+  },
+  "head-crest": {
+    "src": "photos/feng-tou-pi-ti/head-crest.webp",
+    "thumb": "photos/feng-tou-pi-ti/head-crest.thumb.webp",
+    "w": 1024,
+    "h": 682,
+    "credit": {
+      "author": "Diego González Dopico",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/488841127",
+      "source": "iNaturalist"
+    }
+  },
+  "look-feng-tou": {
+    "src": "photos/feng-tou-pi-ti/look-feng-tou.webp",
+    "thumb": "photos/feng-tou-pi-ti/look-feng-tou.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Vsevolod Rudyi",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/29512850",
+      "source": "iNaturalist"
+    }
+  },
+  "look-xiao-pi-ti": {
+    "src": "photos/feng-tou-pi-ti/look-xiao-pi-ti.webp",
+    "thumb": "photos/feng-tou-pi-ti/look-xiao-pi-ti.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Marco Mussita",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/447859827",
+      "source": "iNaturalist"
+    }
+  },
+  "step-chick": {
+    "src": "photos/feng-tou-pi-ti/step-chick.webp",
+    "thumb": "photos/feng-tou-pi-ti/step-chick.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Сергей Неклюдов",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/208760357",
+      "source": "iNaturalist"
+    }
+  },
+  "step-dance": {
+    "src": "photos/feng-tou-pi-ti/step-dance.webp",
+    "thumb": "photos/feng-tou-pi-ti/step-dance.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Safina Rezeda",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/192304354",
+      "source": "iNaturalist"
+    }
+  },
+  "step-nest": {
+    "src": "photos/feng-tou-pi-ti/step-nest.webp",
+    "thumb": "photos/feng-tou-pi-ti/step-nest.thumb.webp",
+    "w": 1024,
+    "h": 640,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/489689267",
+      "source": "iNaturalist"
+    }
+  }
+}

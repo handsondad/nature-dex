@@ -1,0 +1,79 @@
+{
+  "query": "Motacilla alba",
+  "fetchedAt": "2026-11-14",
+  "gbif": {
+    "key": 9687165,
+    "scientificName": "Motacilla alba Linnaeus, 1758",
+    "rank": "SPECIES",
+    "status": "ACCEPTED",
+    "matchType": "EXACT",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Aves"
+      },
+      {
+        "rank": "order",
+        "name": "Passeriformes"
+      },
+      {
+        "rank": "family",
+        "name": "Motacillidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Motacilla"
+      },
+      {
+        "rank": "species",
+        "name": "Motacilla alba"
+      }
+    ]
+  },
+  "zhTaxonomy": [
+    "动物界",
+    "脊索动物门",
+    "鸟纲",
+    "雀形目",
+    "鹡鸰科",
+    "鹡鸰属"
+  ],
+  "inat": {
+    "id": 13695,
+    "name": "Motacilla alba",
+    "commonName": "白鹡鸰",
+    "url": "https://www.inaturalist.org/taxa/13695",
+    "wikipediaUrl": "http://zh.wikipedia.org/wiki/白鹡鸰"
+  },
+  "wiki": {
+    "title": "白鹡鸰",
+    "extract": "白鹡鸰，是一种鹡鸰科鹡鸰属的一种小型鸟类，该物种主要分布于古北界的大部分欧洲、亚洲地区以及部分北非地区；在阿拉斯加西部也有少量繁殖。它在栖息范围内的温暖地区定居，但在其他地方会迁徙至非洲。总共有9至11个M. alba的亚种；在爱尔兰与大不列颠，黑背的亚种被称为斑鹡鸰 \"pied wagtail\"。",
+    "url": "https://zh.wikipedia.org/wiki/%E7%99%BD%E9%B9%A1%E9%B8%B0"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 660,
+      "2": 632,
+      "3": 645,
+      "4": 628,
+      "5": 580,
+      "6": 457,
+      "7": 430,
+      "8": 384,
+      "9": 435,
+      "10": 588,
+      "11": 532,
+      "12": 603
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=13695&place_id=6903&quality_grade=research"
+  }
+}

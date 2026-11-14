@@ -1,0 +1,50 @@
+{
+  "cover": {
+    "src": "photos/meng-gu-tu/cover.webp",
+    "thumb": "photos/meng-gu-tu/cover.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Suhas Saya",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/726179346",
+      "source": "iNaturalist"
+    }
+  },
+  "look-meng-gu-tu": {
+    "src": "photos/meng-gu-tu/look-meng-gu-tu.webp",
+    "thumb": "photos/meng-gu-tu/look-meng-gu-tu.thumb.webp",
+    "w": 1024,
+    "h": 684,
+    "credit": {
+      "author": "Kudaibergen Amirekul",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/208430838",
+      "source": "iNaturalist"
+    }
+  },
+  "look-xue-tu": {
+    "src": "photos/meng-gu-tu/look-xue-tu.webp",
+    "thumb": "photos/meng-gu-tu/look-xue-tu.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Yves Bas",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/214613218",
+      "source": "iNaturalist"
+    }
+  },
+  "side-view": {
+    "src": "photos/meng-gu-tu/side-view.webp",
+    "thumb": "photos/meng-gu-tu/side-view.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Andrew Bazdyrev",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/109835506",
+      "source": "iNaturalist"
+    }
+  }
+}

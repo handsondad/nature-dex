@@ -1,0 +1,79 @@
+{
+  "query": "Pinus bungeana",
+  "fetchedAt": "2026-11-14",
+  "gbif": {
+    "key": 5285775,
+    "scientificName": "Pinus bungeana Zucc. ex Endl.",
+    "rank": "SPECIES",
+    "status": "ACCEPTED",
+    "matchType": "EXACT",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Pinopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Pinales"
+      },
+      {
+        "rank": "family",
+        "name": "Pinaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Pinus"
+      },
+      {
+        "rank": "species",
+        "name": "Pinus bungeana"
+      }
+    ]
+  },
+  "zhTaxonomy": [
+    "植物界",
+    "维管植物门",
+    "松柏纲",
+    "松柏目",
+    "松科",
+    "松属"
+  ],
+  "inat": {
+    "id": 135808,
+    "name": "Pinus bungeana",
+    "commonName": "白皮松",
+    "url": "https://www.inaturalist.org/taxa/135808",
+    "wikipediaUrl": "https://zh.wikipedia.org/zh-cn/白皮松"
+  },
+  "wiki": {
+    "title": "白皮松",
+    "extract": "白皮松，别名白骨松，三针松，白果松，虎皮松，蟠龙松等，是一种原产于中国的松树。白皮松是生长缓慢的乔木，树高可达15到25米。白皮松光滑，灰绿色的树皮逐渐呈圆形脱落，显示出浅黄色的斑块，随着日照会变成黄褐色，红色，或紫色。1831年，德裔俄国人亚历山大·冯·本格博士 在北京附近的寺庙的树林里发现了白皮松，并其命名。",
+    "url": "https://zh.wikipedia.org/wiki/%E7%99%BD%E7%9A%AE%E6%9D%BE"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 2,
+      "2": 3,
+      "3": 1,
+      "4": 0,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 0,
+      "9": 0,
+      "10": 3,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=135808&place_id=6903&quality_grade=research"
+  }
+}

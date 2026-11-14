@@ -1,0 +1,62 @@
+{
+  "cover": {
+    "src": "photos/yu-ye-mei/cover.webp",
+    "thumb": "photos/yu-ye-mei/cover.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/368901118",
+      "source": "iNaturalist"
+    }
+  },
+  "leaf-fruit": {
+    "src": "photos/yu-ye-mei/leaf-fruit.webp",
+    "thumb": "photos/yu-ye-mei/leaf-fruit.thumb.webp",
+    "w": 1024,
+    "h": 771,
+    "credit": {
+      "author": "木村龍之介",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/402330041",
+      "source": "iNaturalist"
+    }
+  },
+  "leaf-macro": {
+    "src": "photos/yu-ye-mei/leaf-macro.webp",
+    "thumb": "photos/yu-ye-mei/leaf-macro.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Urgamal Magsar",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/400989809",
+      "source": "iNaturalist"
+    }
+  },
+  "look-bt": {
+    "src": "photos/yu-ye-mei/look-bt.webp",
+    "thumb": "photos/yu-ye-mei/look-bt.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "capacoscar",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/506372328",
+      "source": "iNaturalist"
+    }
+  },
+  "look-yym": {
+    "src": "photos/yu-ye-mei/look-yym.webp",
+    "thumb": "photos/yu-ye-mei/look-yym.thumb.webp",
+    "w": 498,
+    "h": 1024,
+    "credit": {
+      "author": "Urgamal Magsar",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/213532825",
+      "source": "iNaturalist"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "query": "Fulica atra",
+  "fetchedAt": "2026-11-14",
+  "gbif": {
+    "key": 2474377,
+    "scientificName": "Fulica atra Linnaeus, 1758",
+    "rank": "SPECIES",
+    "status": "ACCEPTED",
+    "matchType": "EXACT",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Aves"
+      },
+      {
+        "rank": "order",
+        "name": "Gruiformes"
+      },
+      {
+        "rank": "family",
+        "name": "Rallidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Fulica"
+      },
+      {
+        "rank": "species",
+        "name": "Fulica atra"
+      }
+    ]
+  },
+  "zhTaxonomy": [
+    "动物界",
+    "脊索动物门",
+    "鸟纲",
+    "鹤形目",
+    "秧鸡科",
+    "骨顶属"
+  ],
+  "inat": {
+    "id": 482,
+    "name": "Fulica atra",
+    "commonName": "白骨顶",
+    "url": "https://www.inaturalist.org/taxa/482",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/骨顶鸡"
+  },
+  "wiki": {
+    "title": "骨顶鸡",
+    "extract": "骨顶鸡，又名白冠鸡、白骨顶或白冠水鸡，为秧鸡科骨顶鸡属的鸟类。分布于欧洲、亚洲、澳大利亚、新西兰及北非部分地区。 它有着深灰黑色的身体、光滑的黑色头部以及白色的喙和白色的额盾。雌雄相似。在世界各地都有类似外观的骨顶鸡，而种类最多的骨顶鸡则生活在南美洲。",
+    "url": "https://zh.wikipedia.org/wiki/%E9%AA%A8%E9%A1%B6%E9%B8%A1"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 662,
+      "2": 632,
+      "3": 385,
+      "4": 224,
+      "5": 190,
+      "6": 166,
+      "7": 162,
+      "8": 116,
+      "9": 90,
+      "10": 223,
+      "11": 272,
+      "12": 426
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=482&place_id=6903&quality_grade=research"
+  }
+}

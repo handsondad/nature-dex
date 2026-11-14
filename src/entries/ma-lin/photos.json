@@ -1,0 +1,62 @@
+{
+  "cover": {
+    "src": "photos/ma-lin/cover.webp",
+    "thumb": "photos/ma-lin/cover.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Oleg Kosterin",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/239725459",
+      "source": "iNaturalist"
+    }
+  },
+  "flower-leaf": {
+    "src": "photos/ma-lin/flower-leaf.webp",
+    "thumb": "photos/ma-lin/flower-leaf.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Молдир Сейсенбек",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/388088522",
+      "source": "iNaturalist"
+    }
+  },
+  "flower-macro": {
+    "src": "photos/ma-lin/flower-macro.webp",
+    "thumb": "photos/ma-lin/flower-macro.thumb.webp",
+    "w": 683,
+    "h": 1024,
+    "credit": {
+      "author": "Oleg Kosterin",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/314561242",
+      "source": "iNaturalist"
+    }
+  },
+  "look-hcp": {
+    "src": "photos/ma-lin/look-hcp.webp",
+    "thumb": "photos/ma-lin/look-hcp.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Rob John",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/118512810",
+      "source": "iNaturalist"
+    }
+  },
+  "look-ml": {
+    "src": "photos/ma-lin/look-ml.webp",
+    "thumb": "photos/ma-lin/look-ml.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Анна Васильченко",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/681425235",
+      "source": "iNaturalist"
+    }
+  }
+}

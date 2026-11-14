@@ -1,0 +1,107 @@
+{
+  "query": "Prunus triloba",
+  "fetchedAt": "2026-11-14",
+  "gbif": {
+    "key": 3023130,
+    "scientificName": "Prunus triloba Lindl.",
+    "rank": "SPECIES",
+    "status": "ACCEPTED",
+    "matchType": "EXACT",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Rosales"
+      },
+      {
+        "rank": "family",
+        "name": "Rosaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Prunus"
+      },
+      {
+        "rank": "species",
+        "name": "Prunus triloba"
+      }
+    ]
+  },
+  "zhTaxonomy": [
+    "植物界",
+    "维管植物门",
+    "木兰纲",
+    "蔷薇目",
+    "蔷薇科",
+    "李属"
+  ],
+  "inat": {
+    "id": 167473,
+    "name": "Prunus triloba",
+    "commonName": "榆叶梅",
+    "url": "https://www.inaturalist.org/taxa/167473",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/榆叶梅"
+  },
+  "wiki": {
+    "title": "榆叶梅",
+    "extract": "榆叶梅 又称鸾枝，为蔷薇科李属的植物。",
+    "url": "https://zh.wikipedia.org/wiki/%E6%A6%86%E5%8F%B6%E6%A2%85"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 0,
+      "2": 0,
+      "3": 10,
+      "4": 53,
+      "5": 13,
+      "6": 15,
+      "7": 11,
+      "8": 3,
+      "9": 2,
+      "10": 1,
+      "11": 0,
+      "12": 0
+    },
+    "flowering": {
+      "1": 0,
+      "2": 0,
+      "3": 2,
+      "4": 7,
+      "5": 1,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 1,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 3,
+      "6": 0,
+      "7": 3,
+      "8": 1,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=167473&place_id=6903&quality_grade=research"
+  }
+}

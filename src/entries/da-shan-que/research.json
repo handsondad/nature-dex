@@ -1,0 +1,74 @@
+{
+  "query": "Parus minor",
+  "fetchedAt": "2026-11-14",
+  "gbif": {
+    "key": 6101070,
+    "scientificName": "Parus cinereus Vieillot, 1818",
+    "rank": "SPECIES",
+    "status": "ACCEPTED",
+    "matchType": "EXACT",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Aves"
+      },
+      {
+        "rank": "order",
+        "name": "Passeriformes"
+      },
+      {
+        "rank": "family",
+        "name": "Paridae"
+      },
+      {
+        "rank": "genus",
+        "name": "Parus"
+      },
+      {
+        "rank": "species",
+        "name": "Parus cinereus"
+      }
+    ]
+  },
+  "zhTaxonomy": [
+    "动物界",
+    "脊索动物门",
+    "鸟纲",
+    "雀形目",
+    "山雀科",
+    "山雀属"
+  ],
+  "inat": {
+    "id": 339691,
+    "name": "Parus cinereus",
+    "commonName": "大山雀",
+    "url": "https://www.inaturalist.org/taxa/339691",
+    "wikipediaUrl": "https://zh.wikipedia.org/zh-cn/苍背山雀"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 499,
+      "2": 524,
+      "3": 509,
+      "4": 406,
+      "5": 371,
+      "6": 215,
+      "7": 179,
+      "8": 124,
+      "9": 215,
+      "10": 303,
+      "11": 325,
+      "12": 387
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=339691&place_id=6903&quality_grade=research"
+  }
+}

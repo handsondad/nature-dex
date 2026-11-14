@@ -1,0 +1,74 @@
+{
+  "cover": {
+    "src": "photos/pu-tong-cui-niao/cover.webp",
+    "thumb": "photos/pu-tong-cui-niao/cover.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Marco Mussita",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/451680598",
+      "source": "iNaturalist"
+    }
+  },
+  "female-bill": {
+    "src": "photos/pu-tong-cui-niao/female-bill.webp",
+    "thumb": "photos/pu-tong-cui-niao/female-bill.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Dave",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/369269348",
+      "source": "iNaturalist"
+    }
+  },
+  "look-bai-xiong-fei-cui": {
+    "src": "photos/pu-tong-cui-niao/look-bai-xiong-fei-cui.webp",
+    "thumb": "photos/pu-tong-cui-niao/look-bai-xiong-fei-cui.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Jiao Sun (孙娇)",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/626022577",
+      "source": "iNaturalist"
+    }
+  },
+  "look-cui-niao": {
+    "src": "photos/pu-tong-cui-niao/look-cui-niao.webp",
+    "thumb": "photos/pu-tong-cui-niao/look-cui-niao.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "SteveM4560",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/319013669",
+      "source": "iNaturalist"
+    }
+  },
+  "male-bill": {
+    "src": "photos/pu-tong-cui-niao/male-bill.webp",
+    "thumb": "photos/pu-tong-cui-niao/male-bill.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Codrin Bucur",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/552918356",
+      "source": "iNaturalist"
+    }
+  },
+  "perch-side": {
+    "src": "photos/pu-tong-cui-niao/perch-side.webp",
+    "thumb": "photos/pu-tong-cui-niao/perch-side.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Toby Y",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/600720048",
+      "source": "iNaturalist"
+    }
+  }
+}

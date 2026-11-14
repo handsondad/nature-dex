@@ -1,0 +1,79 @@
+{
+  "query": "Falco tinnunculus",
+  "fetchedAt": "2026-11-14",
+  "gbif": {
+    "key": 9616058,
+    "scientificName": "Falco tinnunculus Linnaeus, 1758",
+    "rank": "SPECIES",
+    "status": "ACCEPTED",
+    "matchType": "EXACT",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Aves"
+      },
+      {
+        "rank": "order",
+        "name": "Falconiformes"
+      },
+      {
+        "rank": "family",
+        "name": "Falconidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Falco"
+      },
+      {
+        "rank": "species",
+        "name": "Falco tinnunculus"
+      }
+    ]
+  },
+  "zhTaxonomy": [
+    "动物界",
+    "脊索动物门",
+    "鸟纲",
+    "隼形目",
+    "隼科",
+    "隼属"
+  ],
+  "inat": {
+    "id": 472766,
+    "name": "Falco tinnunculus",
+    "commonName": "红隼",
+    "url": "https://www.inaturalist.org/taxa/472766",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/紅隼"
+  },
+  "wiki": {
+    "title": "紅隼",
+    "extract": "红隼 为隼科隼属的鸟类。又名茶隼、红鹰、黄鹰、红鹞子。\n这种鸟类分布广泛，原生范围遍及欧洲、亚洲和非洲，偶尔也会到达北美洲东海岸。 它已经在一些海洋岛屿上定居，但流浪个体通常很罕见；例如，在整个密克罗尼西亚，该物种仅在关岛和塞班岛的马里亚纳群岛中分别被记录过两次。",
+    "url": "https://zh.wikipedia.org/wiki/%E7%B4%85%E9%9A%BC"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 208,
+      "2": 130,
+      "3": 163,
+      "4": 123,
+      "5": 114,
+      "6": 119,
+      "7": 99,
+      "8": 100,
+      "9": 180,
+      "10": 353,
+      "11": 218,
+      "12": 168
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=472766&place_id=6903&quality_grade=research"
+  }
+}

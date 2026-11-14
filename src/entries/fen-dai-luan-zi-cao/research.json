@@ -1,0 +1,106 @@
+{
+  "query": "Muhlenbergia capillaris",
+  "fetchedAt": "2026-11-14",
+  "gbif": {
+    "key": 2704016,
+    "scientificName": "Muhlenbergia capillaris (Lam.) Trin.",
+    "rank": "SPECIES",
+    "status": "ACCEPTED",
+    "matchType": "EXACT",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Liliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Poales"
+      },
+      {
+        "rank": "family",
+        "name": "Poaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Muhlenbergia"
+      },
+      {
+        "rank": "species",
+        "name": "Muhlenbergia capillaris"
+      }
+    ]
+  },
+  "zhTaxonomy": [
+    "植物界",
+    "维管植物门",
+    "百合纲",
+    "禾本目",
+    "禾本科",
+    "乱子草属"
+  ],
+  "inat": {
+    "id": 165543,
+    "name": "Muhlenbergia capillaris",
+    "commonName": "粉黛乱子草",
+    "url": "https://www.inaturalist.org/taxa/165543"
+  },
+  "wiki": {
+    "title": "粉黛乱子草",
+    "extract": "粉黛乱子草，又称毛芒乱子草，是禾本科乱子草属的一种多年生草本植物。外形类似莎草。原产于北美。",
+    "url": "https://zh.wikipedia.org/wiki/%E7%B2%89%E9%BB%9B%E4%B9%B1%E5%AD%90%E8%8D%89"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 1,
+      "12": 0
+    },
+    "flowering": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=165543&place_id=6903&quality_grade=research"
+  }
+}

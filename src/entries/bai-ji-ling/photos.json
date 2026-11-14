@@ -1,0 +1,62 @@
+{
+  "cover": {
+    "src": "photos/bai-ji-ling/cover.webp",
+    "thumb": "photos/bai-ji-ling/cover.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Steve Martin",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/616594066",
+      "source": "iNaturalist"
+    }
+  },
+  "look-bai-ji-ling": {
+    "src": "photos/bai-ji-ling/look-bai-ji-ling.webp",
+    "thumb": "photos/bai-ji-ling/look-bai-ji-ling.thumb.webp",
+    "w": 1024,
+    "h": 684,
+    "credit": {
+      "author": "Steve Martin",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/467586418",
+      "source": "iNaturalist"
+    }
+  },
+  "look-hui-ji-ling": {
+    "src": "photos/bai-ji-ling/look-hui-ji-ling.webp",
+    "thumb": "photos/bai-ji-ling/look-hui-ji-ling.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Jiao Sun (孙娇)",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/398887244",
+      "source": "iNaturalist"
+    }
+  },
+  "look-xi-que": {
+    "src": "photos/bai-ji-ling/look-xi-que.webp",
+    "thumb": "photos/bai-ji-ling/look-xi-que.thumb.webp",
+    "w": 1024,
+    "h": 807,
+    "credit": {
+      "author": "Seig",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/55343670",
+      "source": "iNaturalist"
+    }
+  },
+  "side-view": {
+    "src": "photos/bai-ji-ling/side-view.webp",
+    "thumb": "photos/bai-ji-ling/side-view.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Marco Mussita",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/40725533",
+      "source": "iNaturalist"
+    }
+  }
+}

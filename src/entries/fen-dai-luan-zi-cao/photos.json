@@ -1,0 +1,62 @@
+{
+  "clump-mist": {
+    "src": "photos/fen-dai-luan-zi-cao/clump-mist.webp",
+    "thumb": "photos/fen-dai-luan-zi-cao/clump-mist.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jay Horn",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/157044134",
+      "source": "iNaturalist"
+    }
+  },
+  "cover": {
+    "src": "photos/fen-dai-luan-zi-cao/cover.webp",
+    "thumb": "photos/fen-dai-luan-zi-cao/cover.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "allan Reid",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/241490484",
+      "source": "iNaturalist"
+    }
+  },
+  "look-fdlzc": {
+    "src": "photos/fen-dai-luan-zi-cao/look-fdlzc.webp",
+    "thumb": "photos/fen-dai-luan-zi-cao/look-fdlzc.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Adam Pitcher",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/53620219",
+      "source": "iNaturalist"
+    }
+  },
+  "look-gwc": {
+    "src": "photos/fen-dai-luan-zi-cao/look-gwc.webp",
+    "thumb": "photos/fen-dai-luan-zi-cao/look-gwc.thumb.webp",
+    "w": 1024,
+    "h": 703,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/151124788",
+      "source": "iNaturalist"
+    }
+  },
+  "panicle-macro": {
+    "src": "photos/fen-dai-luan-zi-cao/panicle-macro.webp",
+    "thumb": "photos/fen-dai-luan-zi-cao/panicle-macro.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Becky Dill",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/241656398",
+      "source": "iNaturalist"
+    }
+  }
+}

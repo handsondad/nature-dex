@@ -1,0 +1,78 @@
+{
+  "query": "Lepus tolai",
+  "fetchedAt": "2026-11-14",
+  "gbif": {
+    "key": 2436778,
+    "scientificName": "Lepus tolai Pallas, 1778",
+    "rank": "SPECIES",
+    "status": "ACCEPTED",
+    "matchType": "EXACT",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Mammalia"
+      },
+      {
+        "rank": "order",
+        "name": "Lagomorpha"
+      },
+      {
+        "rank": "family",
+        "name": "Leporidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Lepus"
+      },
+      {
+        "rank": "species",
+        "name": "Lepus tolai"
+      }
+    ]
+  },
+  "zhTaxonomy": [
+    "动物界",
+    "脊索动物门",
+    "哺乳纲",
+    "兔形目",
+    "兔科",
+    "兔属"
+  ],
+  "inat": {
+    "id": 43138,
+    "name": "Lepus tolai",
+    "commonName": "蒙古兔",
+    "url": "https://www.inaturalist.org/taxa/43138"
+  },
+  "wiki": {
+    "title": "蒙古兔",
+    "extract": "蒙古兔 是一种分布于伊朗、阿富汗、中亚各国、蒙古国、俄罗斯、中国大陆等地区的哺乳动物，隶属于兔科兔属。",
+    "url": "https://zh.wikipedia.org/wiki/%E8%92%99%E5%8F%A4%E5%85%94"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 5,
+      "2": 6,
+      "3": 7,
+      "4": 14,
+      "5": 26,
+      "6": 45,
+      "7": 34,
+      "8": 22,
+      "9": 9,
+      "10": 5,
+      "11": 1,
+      "12": 4
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=43138&place_id=6903&quality_grade=research"
+  }
+}

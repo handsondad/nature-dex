@@ -1,0 +1,107 @@
+{
+  "query": "Rosa xanthina",
+  "fetchedAt": "2026-11-14",
+  "gbif": {
+    "key": 3002481,
+    "scientificName": "Rosa xanthina Lindl.",
+    "rank": "SPECIES",
+    "status": "ACCEPTED",
+    "matchType": "EXACT",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Rosales"
+      },
+      {
+        "rank": "family",
+        "name": "Rosaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Rosa"
+      },
+      {
+        "rank": "species",
+        "name": "Rosa xanthina"
+      }
+    ]
+  },
+  "zhTaxonomy": [
+    "植物界",
+    "维管植物门",
+    "木兰纲",
+    "蔷薇目",
+    "蔷薇科",
+    "蔷薇属"
+  ],
+  "inat": {
+    "id": 339970,
+    "name": "Rosa xanthina",
+    "commonName": "黄刺玫",
+    "url": "https://www.inaturalist.org/taxa/339970",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/黄刺玫"
+  },
+  "wiki": {
+    "title": "黄刺玫",
+    "extract": "黄刺玫 为蔷薇科蔷薇属下的一个种。",
+    "url": "https://zh.wikipedia.org/wiki/%E9%BB%84%E5%88%BA%E7%8E%AB"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 6,
+      "5": 11,
+      "6": 4,
+      "7": 2,
+      "8": 0,
+      "9": 0,
+      "10": 2,
+      "11": 0,
+      "12": 0
+    },
+    "flowering": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 6,
+      "5": 2,
+      "6": 1,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1,
+      "6": 1,
+      "7": 2,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=339970&place_id=6903&quality_grade=research"
+  }
+}

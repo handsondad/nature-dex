@@ -1,0 +1,79 @@
+{
+  "query": "Podiceps cristatus",
+  "fetchedAt": "2026-11-14",
+  "gbif": {
+    "key": 2482054,
+    "scientificName": "Podiceps cristatus (Linnaeus, 1758)",
+    "rank": "SPECIES",
+    "status": "ACCEPTED",
+    "matchType": "EXACT",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Aves"
+      },
+      {
+        "rank": "order",
+        "name": "Podicipediformes"
+      },
+      {
+        "rank": "family",
+        "name": "Podicipedidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Podiceps"
+      },
+      {
+        "rank": "species",
+        "name": "Podiceps cristatus"
+      }
+    ]
+  },
+  "zhTaxonomy": [
+    "动物界",
+    "脊索动物门",
+    "鸟纲",
+    "䴙䴘目",
+    "䴙䴘科",
+    "䴙䴘属"
+  ],
+  "inat": {
+    "id": 4208,
+    "name": "Podiceps cristatus",
+    "commonName": "凤头䴙䴘",
+    "url": "https://www.inaturalist.org/taxa/4208",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/鳳頭鷿鷈"
+  },
+  "wiki": {
+    "title": "鳳頭鷿鷈",
+    "extract": "凤头䴙䴘，亦称冠䴙䴘或㥽䴙䴘，俗称浪里白，是䴙䴘科䴙䴘属下的一种鸟类。",
+    "url": "https://zh.wikipedia.org/wiki/%E9%B3%B3%E9%A0%AD%E9%B7%BF%E9%B7%88"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 232,
+      "2": 209,
+      "3": 271,
+      "4": 212,
+      "5": 160,
+      "6": 128,
+      "7": 126,
+      "8": 140,
+      "9": 129,
+      "10": 131,
+      "11": 184,
+      "12": 240
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=4208&place_id=6903&quality_grade=research"
+  }
+}

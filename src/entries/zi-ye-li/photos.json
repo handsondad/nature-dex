@@ -1,0 +1,86 @@
+{
+  "cover": {
+    "src": "photos/zi-ye-li/cover.webp",
+    "thumb": "photos/zi-ye-li/cover.thumb.webp",
+    "w": 684,
+    "h": 1024,
+    "credit": {
+      "author": "Robert H. Wardell",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/310699736",
+      "source": "iNaturalist"
+    }
+  },
+  "flower-leaf": {
+    "src": "photos/zi-ye-li/flower-leaf.webp",
+    "thumb": "photos/zi-ye-li/flower-leaf.thumb.webp",
+    "w": 1024,
+    "h": 796,
+    "credit": {
+      "author": "Jon Mortin",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/626106012",
+      "source": "iNaturalist"
+    }
+  },
+  "look-st": {
+    "src": "photos/zi-ye-li/look-st.webp",
+    "thumb": "photos/zi-ye-li/look-st.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "shizhao",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/119078076",
+      "source": "iNaturalist"
+    }
+  },
+  "look-zyl": {
+    "src": "photos/zi-ye-li/look-zyl.webp",
+    "thumb": "photos/zi-ye-li/look-zyl.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Daniel Cahen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/182100262",
+      "source": "iNaturalist"
+    }
+  },
+  "step-flower": {
+    "src": "photos/zi-ye-li/step-flower.webp",
+    "thumb": "photos/zi-ye-li/step-flower.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Henry Miller",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/474366329",
+      "source": "iNaturalist"
+    }
+  },
+  "step-fruit": {
+    "src": "photos/zi-ye-li/step-fruit.webp",
+    "thumb": "photos/zi-ye-li/step-fruit.thumb.webp",
+    "w": 1024,
+    "h": 577,
+    "credit": {
+      "author": "Patrick Le Mao",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/641419918",
+      "source": "iNaturalist"
+    }
+  },
+  "step-leaf": {
+    "src": "photos/zi-ye-li/step-leaf.webp",
+    "thumb": "photos/zi-ye-li/step-leaf.thumb.webp",
+    "w": 684,
+    "h": 1024,
+    "credit": {
+      "author": "Robert H. Wardell",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/389013974",
+      "source": "iNaturalist"
+    }
+  }
+}

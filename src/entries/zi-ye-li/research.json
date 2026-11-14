@@ -1,0 +1,107 @@
+{
+  "query": "Prunus cerasifera",
+  "fetchedAt": "2026-11-14",
+  "gbif": {
+    "key": 3021730,
+    "scientificName": "Prunus cerasifera Ehrh.",
+    "rank": "SPECIES",
+    "status": "ACCEPTED",
+    "matchType": "EXACT",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Plantae"
+      },
+      {
+        "rank": "phylum",
+        "name": "Tracheophyta"
+      },
+      {
+        "rank": "class",
+        "name": "Magnoliopsida"
+      },
+      {
+        "rank": "order",
+        "name": "Rosales"
+      },
+      {
+        "rank": "family",
+        "name": "Rosaceae"
+      },
+      {
+        "rank": "genus",
+        "name": "Prunus"
+      },
+      {
+        "rank": "species",
+        "name": "Prunus cerasifera"
+      }
+    ]
+  },
+  "zhTaxonomy": [
+    "植物界",
+    "维管植物门",
+    "木兰纲",
+    "蔷薇目",
+    "蔷薇科",
+    "李属"
+  ],
+  "inat": {
+    "id": 55837,
+    "name": "Prunus cerasifera",
+    "commonName": "樱桃李",
+    "url": "https://www.inaturalist.org/taxa/55837",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/樱桃李"
+  },
+  "wiki": {
+    "title": "樱桃李",
+    "extract": "樱桃李 为蔷薇科李属的植物。分布在巴尔干半岛、小亚细亚、天山、中亚、伊朗以及新疆等地，生长于海拔800米至2,000米的地区，见于山坡林中、多石砾的坡地及峡谷水边。Pissardii、Nigra、Woodii等品种叶片呈红紫色，俗称紫叶李、红叶李，是常见的观赏树木。紫叶李品种Atropurpurea与沙樱桃的杂交品种紫叶矮樱叶子也呈紫色。此外，樱桃李还有花叶品种Hessei、粉花品种Lindsayae。",
+    "url": "https://zh.wikipedia.org/wiki/%E6%A8%B1%E6%A1%83%E6%9D%8E"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 0,
+      "2": 0,
+      "3": 4,
+      "4": 1,
+      "5": 3,
+      "6": 0,
+      "7": 1,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "flowering": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "fruiting": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=55837&place_id=6903&quality_grade=research"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "cover": {
+    "src": "photos/zi-wei/cover.webp",
+    "thumb": "photos/zi-wei/cover.thumb.webp",
+    "w": 1024,
+    "h": 765,
+    "credit": {
+      "author": "Michael Meiring",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/144113203",
+      "source": "iNaturalist"
+    }
+  },
+  "flower-branch": {
+    "src": "photos/zi-wei/flower-branch.webp",
+    "thumb": "photos/zi-wei/flower-branch.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "TonyT",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/293603185",
+      "source": "iNaturalist"
+    }
+  },
+  "look-qqc": {
+    "src": "photos/zi-wei/look-qqc.webp",
+    "thumb": "photos/zi-wei/look-qqc.thumb.webp",
+    "w": 686,
+    "h": 1024,
+    "credit": {
+      "author": "Brian Finzel",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/250894884",
+      "source": "iNaturalist"
+    }
+  },
+  "look-zw": {
+    "src": "photos/zi-wei/look-zw.webp",
+    "thumb": "photos/zi-wei/look-zw.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Nonbinary-Naturalist",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/555795617",
+      "source": "iNaturalist"
+    }
+  },
+  "petal-macro": {
+    "src": "photos/zi-wei/petal-macro.webp",
+    "thumb": "photos/zi-wei/petal-macro.thumb.webp",
+    "w": 1024,
+    "h": 672,
+    "credit": {
+      "author": "Rafael Rosa",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/635399832",
+      "source": "iNaturalist"
+    }
+  }
+}

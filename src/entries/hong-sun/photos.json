@@ -1,0 +1,50 @@
+{
+  "cover": {
+    "src": "photos/hong-sun/cover.webp",
+    "thumb": "photos/hong-sun/cover.thumb.webp",
+    "w": 1024,
+    "h": 787,
+    "credit": {
+      "author": "Luis Ferreira",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/255957127",
+      "source": "iNaturalist"
+    }
+  },
+  "female": {
+    "src": "photos/hong-sun/female.webp",
+    "thumb": "photos/hong-sun/female.thumb.webp",
+    "w": 1024,
+    "h": 674,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/439716170",
+      "source": "iNaturalist"
+    }
+  },
+  "hover-sky": {
+    "src": "photos/hong-sun/hover-sky.webp",
+    "thumb": "photos/hong-sun/hover-sky.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Andrew Bazdyrev",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/186582253",
+      "source": "iNaturalist"
+    }
+  },
+  "male": {
+    "src": "photos/hong-sun/male.webp",
+    "thumb": "photos/hong-sun/male.thumb.webp",
+    "w": 1024,
+    "h": 860,
+    "credit": {
+      "author": "Thorsten Hackbarth",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/176132490",
+      "source": "iNaturalist"
+    }
+  }
+}

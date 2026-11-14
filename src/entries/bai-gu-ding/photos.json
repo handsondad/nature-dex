@@ -1,0 +1,86 @@
+{
+  "cover": {
+    "src": "photos/bai-gu-ding/cover.webp",
+    "thumb": "photos/bai-gu-ding/cover.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Валерия Ковалева",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/449106850",
+      "source": "iNaturalist"
+    }
+  },
+  "look-bai-gu-ding": {
+    "src": "photos/bai-gu-ding/look-bai-gu-ding.webp",
+    "thumb": "photos/bai-gu-ding/look-bai-gu-ding.thumb.webp",
+    "w": 1024,
+    "h": 684,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/461617035",
+      "source": "iNaturalist"
+    }
+  },
+  "look-hei-shui-ji": {
+    "src": "photos/bai-gu-ding/look-hei-shui-ji.webp",
+    "thumb": "photos/bai-gu-ding/look-hei-shui-ji.thumb.webp",
+    "w": 1024,
+    "h": 663,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/354977190",
+      "source": "iNaturalist"
+    }
+  },
+  "mag-feet": {
+    "src": "photos/bai-gu-ding/mag-feet.webp",
+    "thumb": "photos/bai-gu-ding/mag-feet.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Liem Malarney",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/612939550",
+      "source": "iNaturalist"
+    }
+  },
+  "paddling-feet": {
+    "src": "photos/bai-gu-ding/paddling-feet.webp",
+    "thumb": "photos/bai-gu-ding/paddling-feet.thumb.webp",
+    "w": 1024,
+    "h": 708,
+    "credit": {
+      "author": "William Harland",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/391046884",
+      "source": "iNaturalist"
+    }
+  },
+  "step-adult": {
+    "src": "photos/bai-gu-ding/step-adult.webp",
+    "thumb": "photos/bai-gu-ding/step-adult.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Jiro Iguchi",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/608790736",
+      "source": "iNaturalist"
+    }
+  },
+  "step-chick": {
+    "src": "photos/bai-gu-ding/step-chick.webp",
+    "thumb": "photos/bai-gu-ding/step-chick.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Diego González Dopico",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/367976669",
+      "source": "iNaturalist"
+    }
+  }
+}

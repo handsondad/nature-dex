@@ -1,0 +1,74 @@
+{
+  "cover": {
+    "src": "photos/ri-ben-hong-feng/cover.webp",
+    "thumb": "photos/ri-ben-hong-feng/cover.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Jenny Saito",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/248194967",
+      "source": "iNaturalist"
+    }
+  },
+  "green-leaf": {
+    "src": "photos/ri-ben-hong-feng/green-leaf.webp",
+    "thumb": "photos/ri-ben-hong-feng/green-leaf.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Marco Mussita",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/74693544",
+      "source": "iNaturalist"
+    }
+  },
+  "leaf-samara": {
+    "src": "photos/ri-ben-hong-feng/leaf-samara.webp",
+    "thumb": "photos/ri-ben-hong-feng/leaf-samara.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "りなべる",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/501327876",
+      "source": "iNaturalist"
+    }
+  },
+  "look-rbhf": {
+    "src": "photos/ri-ben-hong-feng/look-rbhf.webp",
+    "thumb": "photos/ri-ben-hong-feng/look-rbhf.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Tom Norton",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/385454008",
+      "source": "iNaturalist"
+    }
+  },
+  "look-ybf": {
+    "src": "photos/ri-ben-hong-feng/look-ybf.webp",
+    "thumb": "photos/ri-ben-hong-feng/look-ybf.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/410853147",
+      "source": "iNaturalist"
+    }
+  },
+  "red-leaf": {
+    "src": "photos/ri-ben-hong-feng/red-leaf.webp",
+    "thumb": "photos/ri-ben-hong-feng/red-leaf.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Katja Schulz",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/111390382",
+      "source": "iNaturalist"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "cover": {
+    "src": "photos/huang-ci-mei/cover.webp",
+    "thumb": "photos/huang-ci-mei/cover.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Urgamal Magsar",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/693090926",
+      "source": "iNaturalist"
+    }
+  },
+  "flower-thorn": {
+    "src": "photos/huang-ci-mei/flower-thorn.webp",
+    "thumb": "photos/huang-ci-mei/flower-thorn.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "observe-syz",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/744625404",
+      "source": "iNaturalist"
+    }
+  },
+  "look-hcm": {
+    "src": "photos/huang-ci-mei/look-hcm.webp",
+    "thumb": "photos/huang-ci-mei/look-hcm.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Urgamal Magsar",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/693092001",
+      "source": "iNaturalist"
+    }
+  },
+  "look-lq": {
+    "src": "photos/huang-ci-mei/look-lq.webp",
+    "thumb": "photos/huang-ci-mei/look-lq.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jay Pruett",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/260060959",
+      "source": "iNaturalist"
+    }
+  },
+  "thorn-macro": {
+    "src": "photos/huang-ci-mei/thorn-macro.webp",
+    "thumb": "photos/huang-ci-mei/thorn-macro.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Urgamal Magsar",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/693084324",
+      "source": "iNaturalist"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "query": "Alcedo atthis",
+  "fetchedAt": "2026-11-14",
+  "gbif": {
+    "key": 2475532,
+    "scientificName": "Alcedo atthis (Linnaeus, 1758)",
+    "rank": "SPECIES",
+    "status": "ACCEPTED",
+    "matchType": "EXACT",
+    "path": [
+      {
+        "rank": "kingdom",
+        "name": "Animalia"
+      },
+      {
+        "rank": "phylum",
+        "name": "Chordata"
+      },
+      {
+        "rank": "class",
+        "name": "Aves"
+      },
+      {
+        "rank": "order",
+        "name": "Coraciiformes"
+      },
+      {
+        "rank": "family",
+        "name": "Alcedinidae"
+      },
+      {
+        "rank": "genus",
+        "name": "Alcedo"
+      },
+      {
+        "rank": "species",
+        "name": "Alcedo atthis"
+      }
+    ]
+  },
+  "zhTaxonomy": [
+    "动物界",
+    "脊索动物门",
+    "鸟纲",
+    "佛法僧目",
+    "翠鸟科",
+    "翠鸟属"
+  ],
+  "inat": {
+    "id": 2599,
+    "name": "Alcedo atthis",
+    "commonName": "普通翠鸟",
+    "url": "https://www.inaturalist.org/taxa/2599",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/普通翠鸟"
+  },
+  "wiki": {
+    "title": "普通翠鸟",
+    "extract": "普通翠鸟，又称𫁡、鱼狗、鱼狮、鱼虎、翡翠鸟、钓鱼翁，是佛法僧目翠鸟科翠鸟属下的其中一种鸟类。这个物种由瑞典博物学家卡尔·林奈于1758年命名，分布于欧亚非三块大陆上的水域边，主要以鱼类为食。目前普通翠鸟共有7个亚种，是世界上最小，也是最为人所知的翠鸟科成员之一。",
+    "url": "https://zh.wikipedia.org/wiki/%E6%99%AE%E9%80%9A%E7%BF%A0%E9%B8%9F"
+  },
+  "months": {
+    "place": "中国境内",
+    "all": {
+      "1": 407,
+      "2": 256,
+      "3": 194,
+      "4": 256,
+      "5": 191,
+      "6": 160,
+      "7": 205,
+      "8": 228,
+      "9": 297,
+      "10": 311,
+      "11": 262,
+      "12": 297
+    },
+    "url": "https://www.inaturalist.org/observations?taxon_id=2599&place_id=6903&quality_grade=research"
+  }
+}
