@@ -56,7 +56,7 @@ export function YearBlock({ text, cite }: { text: string; cite?: readonly string
             const [lx, ly] = point(angleOf(m), R_SEASON + 18);
             return (
               <g key={m} className={m === pick ? "month on" : "month"} onClick={() => setPick(m)} onMouseEnter={() => setPick(m)}
-                role="button" tabIndex={0} aria-label={`${m}月`} onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") setPick(m); }}>
+                role="button" tabIndex={0} aria-label={`${m}月`} onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setPick(m); } }}>
                 <path className="hit" d={arc(m, R_IN - 6, R_SEASON + 30)} />
                 <path className="season" d={arc(m, R_BAR + 10, R_SEASON)} fill={SEASONS[MONTH_SEASON[i]].color} />
                 <g className={seen ? "bars grown" : "bars"} style={{ transitionDelay: `${i * 70}ms` }}>

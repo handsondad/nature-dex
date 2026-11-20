@@ -13,6 +13,16 @@ const CERTAINTY: Record<Certainty, string> = {
   unsure: "还不确定是谁",
 };
 
+/** 滚到第 n 块：还没进场的块带着 translateY，offsetTop 不受它影响；再让出吸顶目录的高度 */
+function jumpToBlock(n: number) {
+  const block = document.getElementById(`block-${n}`)?.closest<HTMLElement>(".block");
+  if (!block) return;
+  let top = 0;
+  for (let el: HTMLElement | null = block; el; el = el.offsetParent as HTMLElement | null) top += el.offsetTop;
+  const toc = document.querySelector(".toc")?.getBoundingClientRect().height ?? 0;
+  scrollTo({ top: Math.max(0, top - toc - 12), behavior: "smooth" });
+}
+
 export function EntryPage({ entry }: { entry: Entry }) {
   const photos = photosOf(entry.id);
   const research = researchOf(entry.id);
@@ -53,7 +63,7 @@ export function EntryPage({ entry }: { entry: Entry }) {
         <header className="entry-hero">
           <div className="hero-photo">
             <span className="tape" aria-hidden="true" />
-            <Photo shot={coverShot} photos={photos} />
+            <Photo shot={coverShot} photos={photos} eager />
           </div>
           <div className="hero-text">
             {entry.draft && <p className="draft-flag">草稿 · 还缺我们自己的照片和记录</p>}
@@ -78,7 +88,7 @@ export function EntryPage({ entry }: { entry: Entry }) {
         <nav className="toc no-snap" aria-label="这篇图鉴有">
           {entry.blocks.map((b, n) => (
             <button key={n} type="button" className={n === activeBlock ? "on" : undefined} aria-current={n === activeBlock ? "true" : undefined}
-              onClick={() => { setActiveBlock(n); document.getElementById(`block-${n}`)?.scrollIntoView({ behavior: "smooth", block: "start" }); }}>
+              onClick={() => { setActiveBlock(n); jumpToBlock(n); }}>
               {BLOCK_META[b.type].icon} {("title" in b && b.title) || BLOCK_META[b.type].name}
             </button>
           ))}
