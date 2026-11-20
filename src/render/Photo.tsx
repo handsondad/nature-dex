@@ -11,15 +11,17 @@ type Props = {
   /** 照片下面要不要写说明和署名 */
   caption?: boolean;
   className?: string;
+  /** 一进页面就看得见的大图（图鉴封面），不要等懒加载 */
+  eager?: boolean;
 };
 
-export function Photo({ shot, photos, thumb, overlay, caption = true, className = "" }: Props) {
+export function Photo({ shot, photos, thumb, overlay, caption = true, className = "", eager }: Props) {
   const info = photos[shot.photo];
   return (
     <figure className={`photo ${className}`}>
       {info ? (
         <div className="photo-frame" style={{ aspectRatio: `${info.w} / ${info.h}`, maxWidth: `calc(78vh * ${(info.w / info.h).toFixed(3)})` }}>
-          <img src={thumb ? info.thumb : info.src} alt={shot.caption} loading={SNAP ? "eager" : "lazy"} draggable={false} />
+          <img src={thumb ? info.thumb : info.src} alt={shot.caption} loading={SNAP || eager ? "eager" : "lazy"} decoding="async" draggable={false} />
           {overlay}
         </div>
       ) : (

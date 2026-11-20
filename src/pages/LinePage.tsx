@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useMemo, useRef, useState, type CSSProperties, type KeyboardEvent, type RefObject } from "react";
+import { Fragment, useEffect, useMemo, useRef, useState, type CSSProperties, type KeyboardEvent, type MouseEvent as ReactMouseEvent, type RefObject } from "react";
 import { ENTRIES, photosOf, researchOf } from "../entry/index.ts";
 import { byLine } from "../entry/people.ts";
 import type { Entry } from "../entry/types.ts";
@@ -25,13 +25,19 @@ const groupOfKey = (k: string | null) => (k?.startsWith("g:") ? findGroup(TREE, 
 const entryOfKey = (k: string | null) => (k?.startsWith("e:") ? ENTRIES.find((e) => e.id === k.slice(2)) : undefined);
 
 /** 翻开一篇图鉴再回来，绳子还是原来展开的样子 */
-function useSaved<T>(name: string, fallback: T) {
+function useSaved<T>(name: string, fallback: T, valid: (v: unknown) => v is T) {
   const [value, setValue] = useState<T>(() => {
-    try { return JSON.parse(sessionStorage.getItem(name) ?? "") as T; } catch { return fallback; }
+    try {
+      const saved: unknown = JSON.parse(sessionStorage.getItem(name) ?? "");
+      return valid(saved) ? saved : fallback;
+    } catch { return fallback; }
   });
-  useEffect(() => { sessionStorage.setItem(name, JSON.stringify(value)); }, [name, value]);
+  // 隐私模式、禁用存储时存不进去，只是回来时绳子不记得原样，不要让页面崩掉
+  useEffect(() => { try { sessionStorage.setItem(name, JSON.stringify(value)); } catch { /* 不记也行 */ } }, [name, value]);
   return [value, setValue] as const;
 }
+const isMode = (v: unknown): v is Mode => v === "tree" || v === "time";
+const isKeys = (v: unknown): v is string[] => Array.isArray(v) && v.every((k) => typeof k === "string");
 
 /** 按住鼠标左右拖绳子；拖过再松手不算点击。手指在触屏上本来就能滑 */
 function useDragScroll(ref: RefObject<HTMLDivElement>) {
@@ -90,8 +96,8 @@ export function LinePage() {
   }, []);
   useDragScroll(scroller);
 
-  const [mode, setMode] = useSaved<Mode>("line-mode", "tree");
-  const [savedOpen, setOpen] = useSaved<string[]>("line-open", []);
+  const [mode, setMode] = useSaved<Mode>("line-mode", "tree", isMode);
+  const [savedOpen, setOpen] = useSaved<string[]>("line-open", [], isKeys);
   const open = useMemo(() => savedOpen.filter((k) => findGroup(TREE, k)), [savedOpen]);
 
   const tree = useMemo(() => layoutTree(visibleSlots(TREE, open), room), [open, room]);
@@ -140,11 +146,15 @@ export function LinePage() {
     if (!next) return;
     e.preventDefault();
     setPicked(next);
+    setPeek(null);
     document.getElementById(`slot-${next}`)?.focus();
   };
 
-  const pickOrOpen = (key: string, entry: Entry) => {
-    if (chosen === key) location.hash = `#/entry/${entry.id}`;
+  // 按下鼠标或手指时按钮先拿到焦点、onFocus 就把它选中了，所以要看按下之前它是不是已经选中
+  const pressed = useRef<string | null>(null);
+  const pickOrOpen = (key: string, entry: Entry, e: ReactMouseEvent) => {
+    const wasChosen = e.detail === 0 ? chosen === key : pressed.current === key;
+    if (wasChosen) location.hash = `#/entry/${entry.id}`;
     else setPicked(key);
   };
 
@@ -154,6 +164,7 @@ export function LinePage() {
     "aria-selected": key === chosen,
     tabIndex: key === chosen ? 0 : -1,
     onMouseEnter: () => setPeek(key),
+    onPointerDown: () => { pressed.current = key === chosen ? key : null; },
     onFocus: () => setPicked(key),
     "data-on": key === shown || undefined,
   });
@@ -208,7 +219,7 @@ export function LinePage() {
                 const top = LINE.top + y;
                 if (slot.kind === "card") {
                   return <Card key={key} {...slotProps(key)} style={at(x, LINE.cardW, top - 12)} tilt={tilt}
-                    entry={slot.entry} sub={cardTaxa(slot.entry, slot.parent)} onClick={() => pickOrOpen(key, slot.entry)} />;
+                    entry={slot.entry} sub={cardTaxa(slot.entry, slot.parent)} onClick={(e) => pickOrOpen(key, slot.entry, e)} />;
                 }
                 const g = slot.group;
                 if (slot.kind === "bundle") return (
@@ -249,7 +260,7 @@ export function LinePage() {
               ) : (
                 <Card key={`e:${it.entry.id}`} {...slotProps(`e:${it.entry.id}`)} style={at(it.x, LINE.cardW, LINE.top + it.y - 12)} tilt={it.tilt}
                   entry={it.entry} sub={it.entry.draft ? `${it.entry.taxonomy?.[4] ?? monthDay(it.entry.when.date)} · 待遇见` : monthDay(it.entry.when.date)}
-                  onClick={() => pickOrOpen(`e:${it.entry.id}`, it.entry)} />
+                  onClick={(e) => pickOrOpen(`e:${it.entry.id}`, it.entry, e)} />
               ))}
             </div>
           </div>
@@ -270,7 +281,7 @@ export function LinePage() {
 
 type CardProps = {
   id: string; role: string; "aria-selected": boolean; tabIndex: number; "data-on"?: true;
-  onMouseEnter: () => void; onFocus: () => void; onClick: () => void;
+  onMouseEnter: () => void; onPointerDown: () => void; onFocus: () => void; onClick: (e: ReactMouseEvent) => void;
   style: CSSProperties; tilt: number; entry: Entry; sub: string;
 };
 
@@ -291,7 +302,7 @@ function Card({ tilt, entry, sub, ...rest }: CardProps) {
 function Thumb({ entry }: { entry: Entry }) {
   const info = photosOf(entry.id)[entry.cover.photo];
   return info
-    ? <img className="thumb" src={info.thumb} alt="" draggable={false} />
+    ? <img className="thumb" src={info.thumb} alt="" loading={SNAP ? "eager" : "lazy"} decoding="async" draggable={false} />
     : <span className="thumb todo" aria-hidden="true">📷</span>;
 }
 
@@ -299,7 +310,7 @@ function Thumb({ entry }: { entry: Entry }) {
 function Mini({ entry }: { entry: Entry }) {
   const info = photosOf(entry.id)[entry.cover.photo];
   return info
-    ? <img className="mini" src={info.thumb} alt="" draggable={false} />
+    ? <img className="mini" src={info.thumb} alt="" loading={SNAP ? "eager" : "lazy"} decoding="async" draggable={false} />
     : <span className="mini todo">{entry.name.slice(0, 1)}</span>;
 }
 
