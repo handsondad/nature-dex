@@ -203,6 +203,10 @@ a { color: var(--leaf-deep); }
   background: #fffaf0; color: var(--muted);
 }
 .mini.todo { border: 2px dashed #d8c8a4; }
+.mini.letter {
+  background: color-mix(in srgb, var(--c, #8d6a45) 16%, #fffaf0);
+  color: color-mix(in srgb, var(--c, #8d6a45) 85%, #000);
+}
 
 /* 绳子上方：按分类 / 按日子，和现在打开到哪一层 */
 .line-bar {
@@ -228,6 +232,7 @@ a { color: var(--leaf-deep); }
   background: color-mix(in srgb, var(--c) 12%, #fffaf0); border: 2px dashed color-mix(in srgb, var(--c) 35%, transparent);
 }
 .group-preview .mosaic .mini { width: 100%; height: auto; aspect-ratio: 1; font-size: clamp(20px, 3vw, 30px); }
+.group-preview .mosaic-hint { grid-column: 1 / -1; text-align: center; font-size: 14px; color: var(--muted); }
 .group-preview .kids { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
 .group-preview .kid {
   padding: 4px 12px; border-radius: 999px; font: inherit; font-size: 16px; text-decoration: none; cursor: pointer;

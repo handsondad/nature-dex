@@ -233,7 +233,7 @@ export function LinePage() {
                       <span className="tag-name">{g.name}</span>
                       {g.latin && <i className="tag-latin">{g.latin}</i>}
                       <span className="tag-stack" aria-hidden="true">
-                        {g.entries.slice(0, 4).map((e) => <Mini key={e.id} entry={e} />)}
+                        {g.entries.slice(0, 4).map((e) => <Mini key={e.id} entry={e} photo={false} />)}
                       </span>
                       <span className="tag-count">{g.entries.length} 种 · 点开</span>
                     </span>
@@ -306,9 +306,13 @@ function Thumb({ entry }: { entry: Entry }) {
     : <span className="thumb todo" aria-hidden="true">📷</span>;
 }
 
-/** 分类牌和分类卡片上的小圆片：有封面用封面，没拍到就写名字的第一个字 */
-function Mini({ entry }: { entry: Entry }) {
+/**
+ * 分类牌和分类卡片上的小圆片：有封面用封面，没拍到就写名字的第一个字。
+ * 收起的分类不读照片（photo=false），只写字：首页一打开不用先下一堆图，点开哪一类再加载哪一类。
+ */
+function Mini({ entry, photo = true }: { entry: Entry; photo?: boolean }) {
   const info = photosOf(entry.id)[entry.cover.photo];
+  if (!photo) return <span className="mini letter">{entry.name.slice(0, 1)}</span>;
   return info
     ? <img className="mini" src={info.thumb} alt="" loading={SNAP ? "eager" : "lazy"} decoding="async" draggable={false} />
     : <span className="mini todo">{entry.name.slice(0, 1)}</span>;
@@ -320,7 +324,8 @@ function GroupPreview({ group, isOpen, onToggle, onChild }: { group: Group; isOp
   return (
     <article className="preview group-preview" key={group.key} style={tint(group.key, 0)} aria-live="polite">
       <div className="mosaic" aria-hidden="true">
-        {group.entries.slice(0, 9).map((e) => <Mini key={e.id} entry={e} />)}
+        {group.entries.slice(0, 9).map((e) => <Mini key={e.id} entry={e} photo={isOpen} />)}
+        {!isOpen && <span className="mosaic-hint">打开这一类，照片才挂上来</span>}
       </div>
       <div className="preview-info">
         <p className="lineage">{lineageOf(group).join(" › ")}</p>
