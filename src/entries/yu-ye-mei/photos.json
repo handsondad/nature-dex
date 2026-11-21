@@ -11,6 +11,18 @@
       "source": "iNaturalist"
     }
   },
+  "flower-branch": {
+    "src": "photos/yu-ye-mei/flower-branch.webp",
+    "thumb": "photos/yu-ye-mei/flower-branch.thumb.webp",
+    "w": 900,
+    "h": 1200,
+    "credit": {
+      "author": "Cathy G Chen",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:%E6%A6%86%E5%8F%B6%E6%A2%85-2.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
   "leaf-fruit": {
     "src": "photos/yu-ye-mei/leaf-fruit.webp",
     "thumb": "photos/yu-ye-mei/leaf-fruit.thumb.webp",
@@ -38,25 +50,61 @@
   "look-bt": {
     "src": "photos/yu-ye-mei/look-bt.webp",
     "thumb": "photos/yu-ye-mei/look-bt.thumb.webp",
+    "w": 1200,
+    "h": 900,
+    "credit": {
+      "author": "Fanghong",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:PrunusPersica4.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "look-mrm": {
+    "src": "photos/yu-ye-mei/look-mrm.webp",
+    "thumb": "photos/yu-ye-mei/look-mrm.thumb.webp",
     "w": 768,
     "h": 1024,
     "credit": {
-      "author": "capacoscar",
+      "author": "Jane Charlen",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/506372328",
+      "url": "https://www.inaturalist.org/photos/683804139",
       "source": "iNaturalist"
     }
   },
   "look-yym": {
     "src": "photos/yu-ye-mei/look-yym.webp",
     "thumb": "photos/yu-ye-mei/look-yym.thumb.webp",
-    "w": 498,
+    "w": 1200,
+    "h": 900,
+    "credit": {
+      "author": "Cathy G Chen",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:%E6%A6%86%E5%8F%B6%E6%A2%85_a.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-bloom": {
+    "src": "photos/yu-ye-mei/step-bloom.webp",
+    "thumb": "photos/yu-ye-mei/step-bloom.thumb.webp",
+    "w": 576,
     "h": 1024,
     "credit": {
-      "author": "Urgamal Magsar",
+      "author": "Isabella Paleari",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/213532825",
+      "url": "https://www.inaturalist.org/photos/480704113",
       "source": "iNaturalist"
+    }
+  },
+  "step-bud": {
+    "src": "photos/yu-ye-mei/step-bud.webp",
+    "thumb": "photos/yu-ye-mei/step-bud.thumb.webp",
+    "w": 900,
+    "h": 1200,
+    "credit": {
+      "author": "Kor!An (Андрей Корзун)",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Prunus_triloba_flower.jpg",
+      "source": "Wikimedia Commons"
     }
   }
 }

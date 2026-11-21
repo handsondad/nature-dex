@@ -11,15 +11,15 @@
       "source": "iNaturalist"
     }
   },
-  "flower-stem": {
-    "src": "photos/yue-ji/flower-stem.webp",
-    "thumb": "photos/yue-ji/flower-stem.thumb.webp",
+  "id-shot": {
+    "src": "photos/yue-ji/id-shot.webp",
+    "thumb": "photos/yue-ji/id-shot.thumb.webp",
     "w": 1024,
-    "h": 683,
+    "h": 1024,
     "credit": {
-      "author": "Wallace Carneiro Almeida",
+      "author": "🪶🐾☘️Nandan Sreejith🦌🍄🌍",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/742932371",
+      "url": "https://www.inaturalist.org/photos/760303815",
       "source": "iNaturalist"
     }
   },
@@ -35,6 +35,18 @@
       "source": "iNaturalist"
     }
   },
+  "look-yqw": {
+    "src": "photos/yue-ji/look-yqw.webp",
+    "thumb": "photos/yue-ji/look-yqw.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "sunshineandgreen",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/518664989",
+      "source": "iNaturalist"
+    }
+  },
   "look-yue-ji": {
     "src": "photos/yue-ji/look-yue-ji.webp",
     "thumb": "photos/yue-ji/look-yue-ji.thumb.webp",
@@ -44,6 +56,54 @@
       "author": "Lihai Song",
       "license": "cc0",
       "url": "https://www.inaturalist.org/photos/752695679",
+      "source": "iNaturalist"
+    }
+  },
+  "sepal-macro": {
+    "src": "photos/yue-ji/sepal-macro.webp",
+    "thumb": "photos/yue-ji/sepal-macro.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Wallace Carneiro Almeida",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/742932421",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bloom": {
+    "src": "photos/yue-ji/step-bloom.webp",
+    "thumb": "photos/yue-ji/step-bloom.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Lihai Song",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/680088554",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bud": {
+    "src": "photos/yue-ji/step-bud.webp",
+    "thumb": "photos/yue-ji/step-bud.thumb.webp",
+    "w": 1024,
+    "h": 461,
+    "credit": {
+      "author": "Julien Lepage",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/257591189",
+      "source": "iNaturalist"
+    }
+  },
+  "step-open": {
+    "src": "photos/yue-ji/step-open.webp",
+    "thumb": "photos/yue-ji/step-open.thumb.webp",
+    "w": 771,
+    "h": 1024,
+    "credit": {
+      "author": "余世文",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/744090387",
       "source": "iNaturalist"
     }
   }

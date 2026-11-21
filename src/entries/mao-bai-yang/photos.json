@@ -1,4 +1,16 @@
 {
+  "bark": {
+    "src": "photos/mao-bai-yang/bark.webp",
+    "thumb": "photos/mao-bai-yang/bark.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/185204698",
+      "source": "iNaturalist"
+    }
+  },
   "cover": {
     "src": "photos/mao-bai-yang/cover.webp",
     "thumb": "photos/mao-bai-yang/cover.thumb.webp",
@@ -11,6 +23,18 @@
       "source": "iNaturalist"
     }
   },
+  "fallen-catkins": {
+    "src": "photos/mao-bai-yang/fallen-catkins.webp",
+    "thumb": "photos/mao-bai-yang/fallen-catkins.thumb.webp",
+    "w": 1200,
+    "h": 1200,
+    "credit": {
+      "author": "FlyingBatt",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:A_%22hairy_poplar%22_(%E6%AF%9B%E7%99%BD%E6%9D%A8%EF%BC%8CPopulus_tomentosa)_and_its_fallings_in_spring_in_the_Yuanmingyuan.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
   "leaf": {
     "src": "photos/mao-bai-yang/leaf.webp",
     "thumb": "photos/mao-bai-yang/leaf.thumb.webp",
@@ -20,6 +44,30 @@
       "author": "snail_hiker",
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/236128862",
+      "source": "iNaturalist"
+    }
+  },
+  "look-jia-yang": {
+    "src": "photos/mao-bai-yang/look-jia-yang.webp",
+    "thumb": "photos/mao-bai-yang/look-jia-yang.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Markus Lampinen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/385393467",
+      "source": "iNaturalist"
+    }
+  },
+  "look-yin-bai-yang": {
+    "src": "photos/mao-bai-yang/look-yin-bai-yang.webp",
+    "thumb": "photos/mao-bai-yang/look-yin-bai-yang.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Greg Tasney",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/341905662",
       "source": "iNaturalist"
     }
   },
@@ -44,6 +92,18 @@
       "author": "Yi CHEN",
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/185204712",
+      "source": "iNaturalist"
+    }
+  },
+  "summer-tree": {
+    "src": "photos/mao-bai-yang/summer-tree.webp",
+    "thumb": "photos/mao-bai-yang/summer-tree.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Marc Riera",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/532397926",
       "source": "iNaturalist"
     }
   }

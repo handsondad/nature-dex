@@ -11,27 +11,99 @@
       "source": "iNaturalist"
     }
   },
+  "female": {
+    "src": "photos/bang-luo-xin-fu/female.webp",
+    "thumb": "photos/bang-luo-xin-fu/female.thumb.webp",
+    "w": 683,
+    "h": 1024,
+    "credit": {
+      "author": "Shiqi Zhou",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/334299262",
+      "source": "iNaturalist"
+    }
+  },
   "female-web": {
     "src": "photos/bang-luo-xin-fu/female-web.webp",
     "thumb": "photos/bang-luo-xin-fu/female-web.thumb.webp",
     "w": 1024,
-    "h": 682,
+    "h": 884,
     "credit": {
-      "author": "Wang.QG",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/226590849",
+      "author": "Micha Baum",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/64339014",
       "source": "iNaturalist"
     }
   },
-  "web-gold": {
-    "src": "photos/bang-luo-xin-fu/web-gold.webp",
-    "thumb": "photos/bang-luo-xin-fu/web-gold.thumb.webp",
-    "w": 1005,
-    "h": 670,
+  "look-dfyz": {
+    "src": "photos/bang-luo-xin-fu/look-dfyz.webp",
+    "thumb": "photos/bang-luo-xin-fu/look-dfyz.thumb.webp",
+    "w": 580,
+    "h": 390,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/25966109",
+      "source": "iNaturalist"
+    }
+  },
+  "look-hwjz": {
+    "src": "photos/bang-luo-xin-fu/look-hwjz.webp",
+    "thumb": "photos/bang-luo-xin-fu/look-hwjz.thumb.webp",
+    "w": 1024,
+    "h": 733,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/27777477",
+      "source": "iNaturalist"
+    }
+  },
+  "male": {
+    "src": "photos/bang-luo-xin-fu/male.webp",
+    "thumb": "photos/bang-luo-xin-fu/male.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Grace Merkert",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/581811347",
+      "source": "iNaturalist"
+    }
+  },
+  "step-adult": {
+    "src": "photos/bang-luo-xin-fu/step-adult.webp",
+    "thumb": "photos/bang-luo-xin-fu/step-adult.thumb.webp",
+    "w": 1024,
+    "h": 683,
     "credit": {
       "author": "Wang.QG",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/226590858",
+      "url": "https://www.inaturalist.org/photos/120576334",
+      "source": "iNaturalist"
+    }
+  },
+  "step-egg": {
+    "src": "photos/bang-luo-xin-fu/step-egg.webp",
+    "thumb": "photos/bang-luo-xin-fu/step-egg.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "northerly",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/587240472",
+      "source": "iNaturalist"
+    }
+  },
+  "step-young": {
+    "src": "photos/bang-luo-xin-fu/step-young.webp",
+    "thumb": "photos/bang-luo-xin-fu/step-young.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "TonyT",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/565292958",
       "source": "iNaturalist"
     }
   }

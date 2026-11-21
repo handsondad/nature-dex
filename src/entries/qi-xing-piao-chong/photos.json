@@ -2,13 +2,13 @@
   "adult-top": {
     "src": "photos/qi-xing-piao-chong/adult-top.webp",
     "thumb": "photos/qi-xing-piao-chong/adult-top.thumb.webp",
-    "w": 1024,
-    "h": 707,
+    "w": 1200,
+    "h": 1200,
     "credit": {
-      "author": "Zinogre",
+      "author": "Photographer: Dominik Stodulski Graphic Processing: User:MathKnight",
       "license": "cc-by-sa",
-      "url": "https://www.inaturalist.org/photos/192775121",
-      "source": "iNaturalist"
+      "url": "https://commons.wikimedia.org/wiki/File:7-Spotted-Ladybug-Coccinella-septempunctata-sq1.jpg",
+      "source": "Wikimedia Commons"
     }
   },
   "cover": {
@@ -23,27 +23,111 @@
       "source": "iNaturalist"
     }
   },
+  "fly": {
+    "src": "photos/qi-xing-piao-chong/fly.webp",
+    "thumb": "photos/qi-xing-piao-chong/fly.thumb.webp",
+    "w": 1200,
+    "h": 800,
+    "credit": {
+      "author": "Herwig Winter",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Siebenpunkt-Marienk%C3%A4fer_im_Flug_im_Geo-Naturpark_Bergstra%C3%9Fe-Odenwald.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "head": {
+    "src": "photos/qi-xing-piao-chong/head.webp",
+    "thumb": "photos/qi-xing-piao-chong/head.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Wang.QG",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/155057887",
+      "source": "iNaturalist"
+    }
+  },
   "look-qxpc": {
     "src": "photos/qi-xing-piao-chong/look-qxpc.webp",
     "thumb": "photos/qi-xing-piao-chong/look-qxpc.thumb.webp",
-    "w": 768,
-    "h": 1024,
+    "w": 1024,
+    "h": 683,
     "credit": {
-      "author": "Niklas Wahlberg",
-      "license": "cc0",
-      "url": "https://www.inaturalist.org/photos/361519954",
+      "author": "rashidchan",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/438225453",
       "source": "iNaturalist"
     }
   },
   "look-yspc": {
     "src": "photos/qi-xing-piao-chong/look-yspc.webp",
     "thumb": "photos/qi-xing-piao-chong/look-yspc.thumb.webp",
+    "w": 895,
+    "h": 597,
+    "credit": {
+      "author": "Yuan Zhuang",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/66643457",
+      "source": "iNaturalist"
+    }
+  },
+  "rest": {
+    "src": "photos/qi-xing-piao-chong/rest.webp",
+    "thumb": "photos/qi-xing-piao-chong/rest.thumb.webp",
     "w": 1024,
-    "h": 663,
+    "h": 683,
+    "credit": {
+      "author": "rashidchan",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/499194400",
+      "source": "iNaturalist"
+    }
+  },
+  "step-adult": {
+    "src": "photos/qi-xing-piao-chong/step-adult.webp",
+    "thumb": "photos/qi-xing-piao-chong/step-adult.thumb.webp",
+    "w": 1024,
+    "h": 686,
     "credit": {
       "author": "Zinogre",
       "license": "cc-by-sa",
-      "url": "https://www.inaturalist.org/photos/224148009",
+      "url": "https://www.inaturalist.org/photos/131675805",
+      "source": "iNaturalist"
+    }
+  },
+  "step-egg": {
+    "src": "photos/qi-xing-piao-chong/step-egg.webp",
+    "thumb": "photos/qi-xing-piao-chong/step-egg.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Zachary Wimberly",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/482931715",
+      "source": "iNaturalist"
+    }
+  },
+  "step-larva": {
+    "src": "photos/qi-xing-piao-chong/step-larva.webp",
+    "thumb": "photos/qi-xing-piao-chong/step-larva.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Alexis Tinker-Tsavalas",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/146827757",
+      "source": "iNaturalist"
+    }
+  },
+  "step-pupa": {
+    "src": "photos/qi-xing-piao-chong/step-pupa.webp",
+    "thumb": "photos/qi-xing-piao-chong/step-pupa.thumb.webp",
+    "w": 1024,
+    "h": 968,
+    "credit": {
+      "author": "Jean-Paul Boerekamps",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/107976532",
       "source": "iNaturalist"
     }
   }

@@ -11,6 +11,54 @@
       "source": "iNaturalist"
     }
   },
+  "look-dxc": {
+    "src": "photos/ji-cai/look-dxc.webp",
+    "thumb": "photos/ji-cai/look-dxc.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Dinesh Valke",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/175125587",
+      "source": "iNaturalist"
+    }
+  },
+  "look-jc": {
+    "src": "photos/ji-cai/look-jc.webp",
+    "thumb": "photos/ji-cai/look-jc.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Javier Sánchez Álvarez",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/175497435",
+      "source": "iNaturalist"
+    }
+  },
+  "look-xm": {
+    "src": "photos/ji-cai/look-xm.webp",
+    "thumb": "photos/ji-cai/look-xm.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Jamie O'Neill",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/608627044",
+      "source": "iNaturalist"
+    }
+  },
+  "plant-side": {
+    "src": "photos/ji-cai/plant-side.webp",
+    "thumb": "photos/ji-cai/plant-side.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/112860846",
+      "source": "iNaturalist"
+    }
+  },
   "pod-macro": {
     "src": "photos/ji-cai/pod-macro.webp",
     "thumb": "photos/ji-cai/pod-macro.thumb.webp",
@@ -20,6 +68,18 @@
       "author": "Zinogre",
       "license": "cc-by-sa",
       "url": "https://www.inaturalist.org/photos/280015764",
+      "source": "iNaturalist"
+    }
+  },
+  "step-rosette": {
+    "src": "photos/ji-cai/step-rosette.webp",
+    "thumb": "photos/ji-cai/step-rosette.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "lanechaffin",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/111252282",
       "source": "iNaturalist"
     }
   },

@@ -2,13 +2,13 @@
   "body-full": {
     "src": "photos/chi-zi-ai-sheng-yin/body-full.webp",
     "thumb": "photos/chi-zi-ai-sheng-yin/body-full.thumb.webp",
-    "w": 1024,
-    "h": 859,
+    "w": 1200,
+    "h": 900,
     "credit": {
-      "author": "Jonas V.",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/602110162",
-      "source": "iNaturalist"
+      "author": "Rob Hille",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Eisenia_foetida_R.H._(8).JPG",
+      "source": "Wikimedia Commons"
     }
   },
   "cover": {
@@ -35,6 +35,18 @@
       "source": "iNaturalist"
     }
   },
+  "look-jzwc": {
+    "src": "photos/chi-zi-ai-sheng-yin/look-jzwc.webp",
+    "thumb": "photos/chi-zi-ai-sheng-yin/look-jzwc.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Vítor Jorge",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/598609392",
+      "source": "iNaturalist"
+    }
+  },
   "look-malu": {
     "src": "photos/chi-zi-ai-sheng-yin/look-malu.webp",
     "thumb": "photos/chi-zi-ai-sheng-yin/look-malu.thumb.webp",
@@ -56,6 +68,42 @@
       "author": "Mark Richman",
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/362398634",
+      "source": "iNaturalist"
+    }
+  },
+  "step-cocoon": {
+    "src": "photos/chi-zi-ai-sheng-yin/step-cocoon.webp",
+    "thumb": "photos/chi-zi-ai-sheng-yin/step-cocoon.thumb.webp",
+    "w": 1200,
+    "h": 900,
+    "credit": {
+      "author": "Andreas th Andreas Thomsen",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Eisenia_fetida_%2B_cocon.JPG",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-hatch": {
+    "src": "photos/chi-zi-ai-sheng-yin/step-hatch.webp",
+    "thumb": "photos/chi-zi-ai-sheng-yin/step-hatch.thumb.webp",
+    "w": 1024,
+    "h": 789,
+    "credit": {
+      "author": "Thomas",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/338576287",
+      "source": "iNaturalist"
+    }
+  },
+  "step-young": {
+    "src": "photos/chi-zi-ai-sheng-yin/step-young.webp",
+    "thumb": "photos/chi-zi-ai-sheng-yin/step-young.thumb.webp",
+    "w": 1003,
+    "h": 1024,
+    "credit": {
+      "author": "Ben Keen",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/60339264",
       "source": "iNaturalist"
     }
   }

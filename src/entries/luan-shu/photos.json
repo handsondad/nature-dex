@@ -1,16 +1,4 @@
 {
-  "branch-fruit": {
-    "src": "photos/luan-shu/branch-fruit.webp",
-    "thumb": "photos/luan-shu/branch-fruit.thumb.webp",
-    "w": 768,
-    "h": 1024,
-    "credit": {
-      "author": "Jane Charlen",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/411304511",
-      "source": "iNaturalist"
-    }
-  },
   "cover": {
     "src": "photos/luan-shu/cover.webp",
     "thumb": "photos/luan-shu/cover.thumb.webp",
@@ -23,39 +11,147 @@
       "source": "iNaturalist"
     }
   },
-  "flower-macro": {
-    "src": "photos/luan-shu/flower-macro.webp",
-    "thumb": "photos/luan-shu/flower-macro.thumb.webp",
+  "flower-close": {
+    "src": "photos/luan-shu/flower-close.webp",
+    "thumb": "photos/luan-shu/flower-close.thumb.webp",
+    "w": 1024,
+    "h": 676,
+    "credit": {
+      "author": "aberkov",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/20244486",
+      "source": "iNaturalist"
+    }
+  },
+  "leaf-fruit": {
+    "src": "photos/luan-shu/leaf-fruit.webp",
+    "thumb": "photos/luan-shu/leaf-fruit.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Andrew Conboy",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/542866754",
+      "source": "iNaturalist"
+    }
+  },
+  "look-dao-di-ling": {
+    "src": "photos/luan-shu/look-dao-di-ling.webp",
+    "thumb": "photos/luan-shu/look-dao-di-ling.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Anne Parker",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/583109632",
+      "source": "iNaturalist"
+    }
+  },
+  "look-fu-yu-ye": {
+    "src": "photos/luan-shu/look-fu-yu-ye.webp",
+    "thumb": "photos/luan-shu/look-fu-yu-ye.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Jiao Sun (孙娇)",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/425911037",
+      "source": "iNaturalist"
+    }
+  },
+  "look-luan-shu": {
+    "src": "photos/luan-shu/look-luan-shu.webp",
+    "thumb": "photos/luan-shu/look-luan-shu.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Josep Gesti",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/218176312",
+      "source": "iNaturalist"
+    }
+  },
+  "same-autumn": {
+    "src": "photos/luan-shu/same-autumn.webp",
+    "thumb": "photos/luan-shu/same-autumn.thumb.webp",
     "w": 768,
     "h": 1024,
     "credit": {
-      "author": "Jane Charlen",
+      "author": "Philippe Hornus",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/440287366",
+      "url": "https://www.inaturalist.org/photos/713722023",
       "source": "iNaturalist"
     }
   },
-  "same-green": {
-    "src": "photos/luan-shu/same-green.webp",
-    "thumb": "photos/luan-shu/same-green.thumb.webp",
-    "w": 1024,
-    "h": 768,
+  "same-summer": {
+    "src": "photos/luan-shu/same-summer.webp",
+    "thumb": "photos/luan-shu/same-summer.thumb.webp",
+    "w": 768,
+    "h": 1024,
     "credit": {
-      "author": "Jens-Christian Svenning",
+      "author": "Tim Johnson",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/78450802",
+      "url": "https://www.inaturalist.org/photos/289572370",
       "source": "iNaturalist"
     }
   },
-  "same-orange": {
-    "src": "photos/luan-shu/same-orange.webp",
-    "thumb": "photos/luan-shu/same-orange.thumb.webp",
+  "step-brown": {
+    "src": "photos/luan-shu/step-brown.webp",
+    "thumb": "photos/luan-shu/step-brown.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Emily Summerbell",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/232724763",
+      "source": "iNaturalist"
+    }
+  },
+  "step-flower": {
+    "src": "photos/luan-shu/step-flower.webp",
+    "thumb": "photos/luan-shu/step-flower.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "carnifex",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/20297157",
+      "source": "iNaturalist"
+    }
+  },
+  "step-green": {
+    "src": "photos/luan-shu/step-green.webp",
+    "thumb": "photos/luan-shu/step-green.thumb.webp",
     "w": 1024,
     "h": 768,
     "credit": {
-      "author": "Marc Riera",
+      "author": "Katja Schulz",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/532072004",
+      "url": "https://www.inaturalist.org/photos/476164297",
+      "source": "iNaturalist"
+    }
+  },
+  "step-pink": {
+    "src": "photos/luan-shu/step-pink.webp",
+    "thumb": "photos/luan-shu/step-pink.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Robert M Hallock",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/219795730",
+      "source": "iNaturalist"
+    }
+  },
+  "step-seed": {
+    "src": "photos/luan-shu/step-seed.webp",
+    "thumb": "photos/luan-shu/step-seed.thumb.webp",
+    "w": 679,
+    "h": 1024,
+    "credit": {
+      "author": "Gianni Del Bufalo bygdb",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/412601570",
       "source": "iNaturalist"
     }
   }

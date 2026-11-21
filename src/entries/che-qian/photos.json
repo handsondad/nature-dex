@@ -23,6 +23,18 @@
       "source": "iNaturalist"
     }
   },
+  "look-dcq": {
+    "src": "photos/che-qian/look-dcq.webp",
+    "thumb": "photos/che-qian/look-dcq.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Chris Armstrong",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/47472651",
+      "source": "iNaturalist"
+    }
+  },
   "look-pcq": {
     "src": "photos/che-qian/look-pcq.webp",
     "thumb": "photos/che-qian/look-pcq.thumb.webp",
@@ -56,6 +68,54 @@
       "author": "Lihai Song",
       "license": "cc0",
       "url": "https://www.inaturalist.org/photos/740996704",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bloom": {
+    "src": "photos/che-qian/step-bloom.webp",
+    "thumb": "photos/che-qian/step-bloom.thumb.webp",
+    "w": 683,
+    "h": 1024,
+    "credit": {
+      "author": "chiuluan",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/67056651",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bud": {
+    "src": "photos/che-qian/step-bud.webp",
+    "thumb": "photos/che-qian/step-bud.thumb.webp",
+    "w": 771,
+    "h": 1024,
+    "credit": {
+      "author": "David Anderson",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/271102276",
+      "source": "iNaturalist"
+    }
+  },
+  "step-fruit": {
+    "src": "photos/che-qian/step-fruit.webp",
+    "thumb": "photos/che-qian/step-fruit.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "chiuluan",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/59778038",
+      "source": "iNaturalist"
+    }
+  },
+  "step-seed": {
+    "src": "photos/che-qian/step-seed.webp",
+    "thumb": "photos/che-qian/step-seed.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "WATANABE Hitoshi 渡辺仁",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/450123231",
       "source": "iNaturalist"
     }
   }

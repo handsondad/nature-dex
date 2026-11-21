@@ -1,4 +1,16 @@
 {
+  "branch": {
+    "src": "photos/lian-qiao/branch.webp",
+    "thumb": "photos/lian-qiao/branch.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jay Pruett",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/260061019",
+      "source": "iNaturalist"
+    }
+  },
   "cover": {
     "src": "photos/lian-qiao/cover.webp",
     "thumb": "photos/lian-qiao/cover.thumb.webp",
@@ -11,27 +23,15 @@
       "source": "iNaturalist"
     }
   },
-  "flower-branch": {
-    "src": "photos/lian-qiao/flower-branch.webp",
-    "thumb": "photos/lian-qiao/flower-branch.thumb.webp",
+  "flower-macro": {
+    "src": "photos/lian-qiao/flower-macro.webp",
+    "thumb": "photos/lian-qiao/flower-macro.thumb.webp",
     "w": 768,
     "h": 1024,
     "credit": {
       "author": "Jay Pruett",
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/260060959",
-      "source": "iNaturalist"
-    }
-  },
-  "flower-center": {
-    "src": "photos/lian-qiao/flower-center.webp",
-    "thumb": "photos/lian-qiao/flower-center.thumb.webp",
-    "w": 768,
-    "h": 1024,
-    "credit": {
-      "author": "Jay Pruett",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/260061019",
       "source": "iNaturalist"
     }
   },
@@ -68,6 +68,54 @@
       "author": "rmjb",
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/103478831",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bloom": {
+    "src": "photos/lian-qiao/step-bloom.webp",
+    "thumb": "photos/lian-qiao/step-bloom.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "kristinpiston",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/496244533",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bud": {
+    "src": "photos/lian-qiao/step-bud.webp",
+    "thumb": "photos/lian-qiao/step-bud.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "W Rao",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/258335647",
+      "source": "iNaturalist"
+    }
+  },
+  "step-leafing": {
+    "src": "photos/lian-qiao/step-leafing.webp",
+    "thumb": "photos/lian-qiao/step-leafing.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Eliass Tāre",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/501904722",
+      "source": "iNaturalist"
+    }
+  },
+  "step-summer": {
+    "src": "photos/lian-qiao/step-summer.webp",
+    "thumb": "photos/lian-qiao/step-summer.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "andrew2285",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/428961337",
       "source": "iNaturalist"
     }
   }

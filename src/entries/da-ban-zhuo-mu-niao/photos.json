@@ -1,4 +1,16 @@
 {
+  "adult": {
+    "src": "photos/da-ban-zhuo-mu-niao/adult.webp",
+    "thumb": "photos/da-ban-zhuo-mu-niao/adult.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Diego González Dopico",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/325633275",
+      "source": "iNaturalist"
+    }
+  },
   "cover": {
     "src": "photos/da-ban-zhuo-mu-niao/cover.webp",
     "thumb": "photos/da-ban-zhuo-mu-niao/cover.thumb.webp",
@@ -8,6 +20,30 @@
       "author": "Вячеслав Юсупов",
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/28347741",
+      "source": "iNaturalist"
+    }
+  },
+  "feet": {
+    "src": "photos/da-ban-zhuo-mu-niao/feet.webp",
+    "thumb": "photos/da-ban-zhuo-mu-niao/feet.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Ксения Волянская",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/593302066",
+      "source": "iNaturalist"
+    }
+  },
+  "look-bai-bei": {
+    "src": "photos/da-ban-zhuo-mu-niao/look-bai-bei.webp",
+    "thumb": "photos/da-ban-zhuo-mu-niao/look-bai-bei.thumb.webp",
+    "w": 1024,
+    "h": 771,
+    "credit": {
+      "author": "夏仲归",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/586258035",
       "source": "iNaturalist"
     }
   },
@@ -35,15 +71,63 @@
       "source": "iNaturalist"
     }
   },
-  "on-trunk": {
-    "src": "photos/da-ban-zhuo-mu-niao/on-trunk.webp",
-    "thumb": "photos/da-ban-zhuo-mu-niao/on-trunk.thumb.webp",
+  "side": {
+    "src": "photos/da-ban-zhuo-mu-niao/side.webp",
+    "thumb": "photos/da-ban-zhuo-mu-niao/side.thumb.webp",
     "w": 1024,
-    "h": 721,
+    "h": 678,
     "credit": {
-      "author": "Zinogre",
+      "author": "E. A.",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/261865378",
+      "source": "iNaturalist"
+    }
+  },
+  "step-chick": {
+    "src": "photos/da-ban-zhuo-mu-niao/step-chick.webp",
+    "thumb": "photos/da-ban-zhuo-mu-niao/step-chick.thumb.webp",
+    "w": 1024,
+    "h": 802,
+    "credit": {
+      "author": "Gianluca Congi🪶🦆🌲",
       "license": "cc-by-sa",
-      "url": "https://www.inaturalist.org/photos/266539899",
+      "url": "https://www.inaturalist.org/photos/393796487",
+      "source": "iNaturalist"
+    }
+  },
+  "step-dig": {
+    "src": "photos/da-ban-zhuo-mu-niao/step-dig.webp",
+    "thumb": "photos/da-ban-zhuo-mu-niao/step-dig.thumb.webp",
+    "w": 1200,
+    "h": 878,
+    "credit": {
+      "author": "Beentree",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Dendrocopos_major_bialowieza_beentree.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-fledge": {
+    "src": "photos/da-ban-zhuo-mu-niao/step-fledge.webp",
+    "thumb": "photos/da-ban-zhuo-mu-niao/step-fledge.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Андрей Агафонов",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/741502860",
+      "source": "iNaturalist"
+    }
+  },
+  "young": {
+    "src": "photos/da-ban-zhuo-mu-niao/young.webp",
+    "thumb": "photos/da-ban-zhuo-mu-niao/young.thumb.webp",
+    "w": 1024,
+    "h": 682,
+    "credit": {
+      "author": "Philip Schaffer",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/239484436",
       "source": "iNaturalist"
     }
   }

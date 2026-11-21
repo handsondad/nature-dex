@@ -6,7 +6,7 @@ const entry: Entry = {
   name: "中华大刀螳",
   scientific: "Tenodera sinensis",
   kind: "animal",
-  // 大刀螳属里还有长得很像的近亲，要拍清脸板、前足基部和翅边再确认
+  // 大刀螳属里还有长得很像的近亲（狭翅大刀螳），要拍清前足之间的斑、脸板和翅边再确认
   certainty: "likely",
   taxonomy: ["动物界", "节肢动物门", "昆虫纲", "螳螂目", "螳科", "大刀螳属"],
   when: { date: "2026-11-11", label: "待遇见" },
@@ -18,29 +18,43 @@ const entry: Entry = {
     {
       type: "hotspots",
       title: "怎么认出它",
-      shot: { photo: "adult-side", caption: "从侧面看一只成虫", shoot: "8～10 月，在高草丛或灌木上找一只成虫，从侧面拍一整只，头在左边，脸、前足、翅膀边和翅膀末端都在画面里" },
+      shot: { photo: "adult-whole", caption: "从侧面看一只褐色的成虫", shoot: "8～10 月，在高草丛或灌木上找一只成虫，从侧面拍一整只：头、前足、细长的前胸、翅膀边和翅膀末端都在画面里" },
       points: [
-        { x: 0.1, y: 0.28, label: "会转的三角头", detail: "头是三角形的，能左右转。它不用挪身子，就能盯着虫子看。", cite: ["mdc-ts"] },
-        { x: 0.13, y: 0.4, label: "方方的脸板", detail: "两眼之间、触角下面那块“脸板”方方的，上面有竖条纹。", cite: ["mdc-ts", "ncsu-ts"] },
-        { x: 0.24, y: 0.58, label: "折起来的“大刀”", detail: "前足平时折在胸前，虫子一靠近就飞快伸出去抓住。", cite: ["mdc-ts", "ncsu-ts"] },
-        { x: 0.58, y: 0.42, label: "翅边一条绿线", detail: "身体多是黄褐色，前翅前边有一条绿线；也有全身偏绿的。", cite: ["mdc-ts", "ncsu-ts"] },
-        { x: 0.88, y: 0.5, label: "翅膀盖到尾巴", detail: "成虫的翅膀一直盖到肚子末端。", cite: ["ncsu-ts"] },
+        { x: 0.51, y: 0.3, label: "会转的三角头", detail: "头是三角形的，能左右转。它不用挪身子，就能盯着虫子看。", cite: ["mdc-ts"] },
+        { x: 0.4, y: 0.35, label: "带刺的“大刀”", detail: "一对前足上长满尖刺。平时折在胸前，虫子一靠近就飞快伸出去抓住。", cite: ["mdc-ts", "wiki-mantis"] },
+        { x: 0.61, y: 0.37, label: "细长的“脖子”", detail: "头后面那一长段是前胸，又细又长。属名 Tenodera 的意思就是“细脖子”。", cite: ["wiki-xc"] },
+        { x: 0.77, y: 0.52, label: "翅边一条绿线", detail: "身体多是黄褐色，前翅前边有一条绿线；也有全身偏绿的。", cite: ["mdc-ts", "ncsu-ts"] },
+        { x: 0.89, y: 0.63, label: "翅膀盖到尾巴", detail: "成虫的翅膀一直盖到肚子末端。", cite: ["ncsu-ts"] },
       ],
+    },
+    {
+      type: "magnifier",
+      title: "凑近看“大刀”",
+      shot: { photo: "foreleg", caption: "正面看一对折起来的前足", shoot: "一只成虫的正面或斜侧面微距：能看清前足内侧一排排的刺，只拍不碰" },
+      text: "前足内侧有两排尖尖的刺。前足一合上，两排刺就把虫子夹住，虫子很难挣脱。",
+      zoom: 2.5,
+      start: [0.45, 0.52],
+      cite: ["wiki-mantis", "ncsu-ts"],
     },
     {
       type: "steps",
       title: "从卵鞘到大螳螂",
       steps: [
-        { photo: "step-ootheca", label: "卵鞘", text: "夏末秋初，雌螳螂把卵产在树枝上，裹在一团泡沫里。泡沫变硬后像一块烤过的棉花糖，乒乓球那么大。", caption: "树枝上的卵鞘", shoot: "秋冬在灌木和小树的细枝上找一个黄褐色、圆鼓鼓的卵鞘，拍清楚，不掰不摘" },
-        { photo: "step-hatch", label: "孵化", text: "卵鞘护着卵过冬。到了春天，小螳螂几乎同时从卵鞘里钻出来。", caption: "刚钻出来的小螳螂", shoot: "春天回去看同一个卵鞘，拍刚钻出来的一群小若虫（不一定碰得上，多去几次）" },
-        { photo: "step-nymph", label: "若虫", text: "若虫长得很像成虫，只是翅膀还没长好；很小的若虫常把肚子尖翘起来。它边吃边长，一次次蜕皮。", caption: "还没长翅膀的若虫", shoot: "5～7 月在草丛里找翘着肚子尖的小若虫，微距拍，只拍不碰" },
+        { photo: "step-ootheca", label: "卵鞘", text: "夏末秋初，雌螳螂把卵产在树枝上，裹在一团泡沫里。泡沫变硬后像一块烤过的棉花糖，乒乓球那么大。", caption: "细枝上的卵鞘", shoot: "秋冬在灌木和小树的细枝上找一个黄褐色、圆鼓鼓的卵鞘，拍清楚，不掰不摘" },
+        { photo: "step-hatch", label: "孵化", text: "卵鞘护着卵过冬。到了春天，小螳螂几乎同时从卵鞘里钻出来。", caption: "小螳螂从卵鞘里钻出来", shoot: "春天回去看同一个卵鞘，拍刚钻出来的一群小若虫（不一定碰得上，多去几次）" },
+        { photo: "step-nymph", label: "若虫", text: "若虫长得很像成虫，只是还没有翅膀。它边吃边长，要蜕好几次皮。", caption: "还没长翅膀的若虫", shoot: "5～7 月在草丛里找还没长翅膀的小若虫，微距拍，只拍不碰" },
         { photo: "step-adult", label: "成虫", text: "最后一次蜕皮后长出翅膀。卵、若虫、成虫，它没有蛹，是不完全变态的昆虫。", caption: "长出翅膀的成虫", shoot: "8～10 月一只长好翅膀的成虫，从侧面拍一整只" },
       ],
       cite: ["mdc-ts", "wiki-mantis"],
     },
     {
+      type: "year",
+      title: "什么时候能见到它",
+      text: "在中国，大家 7～10 月拍到它最多，8 月是高峰；12 月到第二年 5 月都很少。我们是哪个月遇见它的？",
+    },
+    {
       type: "lookalike",
-      title: "两种大螳螂，别认错",
+      title: "三种大螳螂，别认错",
       quiz: true,
       items: [
         {
@@ -51,15 +65,15 @@ const entry: Entry = {
         {
           name: "中华大刀螳", scientific: "Tenodera sinensis", self: true,
           shot: { photo: "look-zhddt", caption: "中华大刀螳" },
-          tells: ["前足基部没有大黑点", "前翅只有前边一条是绿的", "个子大，能长到 11 厘米多"],
+          tells: ["前足基部没有大黑点", "两条前足中间的小斑是淡黄色的", "个子大，能长到 11 厘米多"],
+        },
+        {
+          name: "狭翅大刀螳", scientific: "Tenodera angustipennis",
+          shot: { photo: "look-xcddt", caption: "狭翅大刀螳" },
+          tells: ["两条前足中间的小斑是橙色的", "身子更细，翅膀更窄"],
         },
       ],
-      cite: ["mdc-ts", "ncsu-ts", "wiki-en"],
-    },
-    {
-      type: "year",
-      title: "什么时候能见到它",
-      text: "在中国，大家 7～10 月拍到它最多，8 月是高峰；12 月到第二年 5 月都很少。我们是哪个月遇见它的？",
+      cite: ["mdc-ts", "ncsu-ts", "wiki-en", "wiki-xc"],
     },
     {
       type: "facts",
@@ -67,8 +81,10 @@ const entry: Entry = {
       cards: [
         { q: "一个卵鞘里有多少颗卵？", a: "最多能有约 300 颗。卵裹在泡沫里，泡沫变硬后摸起来像干硬的泡沫塑料，能护着卵过冬。", cite: ["wiki-en", "mdc-ts"] },
         { q: "螳螂吃什么？", a: "各种昆虫和蜘蛛都吃。它一动不动地等，虫子到了跟前才出手。很少的时候，大个子雌螳螂还抓到过小蜥蜴和蜂鸟。", cite: ["mdc-ts"] },
+        { q: "螳螂能看出远近吗？", a: "能！科学家给螳螂戴上小小的 3D 眼镜看“3D 电影”，屏幕里的“虫子”好像近在眼前时，它就伸出前足去抓。", cite: ["nityananda-2016"] },
+        { q: "雌螳螂真的会吃掉雄螳螂吗？", a: "有时会。科学家研究中华大刀螳发现，被吃掉的雄螳螂身体里的养分会进到卵里，雌螳螂之后产的卵也更多。", cite: ["brown-2016", "mdc-ts"] },
         { q: "螳螂能活多久？", a: "大多只活一年左右：春天孵出来，夏天边吃边长，夏末产卵，天冷结冰时就死了。只有卵鞘里的卵熬过冬天。", cite: ["mdc-ts", "wiki-mantis"] },
-        { q: "它的名字里为什么有“中华”？", a: "学名 sinensis 的意思就是“中华的”。它原本生活在中国、日本、朝鲜半岛一带，1896 年被不小心带到了美国。", cite: ["wiki-zh", "wiki-en"] },
+        { q: "它的名字里为什么有“中华”？", a: "学名 sinensis 的意思就是“中华的”。它原本生活在中国、日本、朝鲜半岛一带，1896 年被带到了美国。", cite: ["wiki-zh", "mdc-ts"] },
       ],
     },
   ],
@@ -77,7 +93,10 @@ const entry: Entry = {
   sources: [
     { id: "mdc-ts", title: "Chinese Mantis", by: "Missouri Department of Conservation", url: "https://mdc.mo.gov/discover-nature/field-guide/chinese-mantis" },
     { id: "ncsu-ts", title: "Chinese Mantid", by: "NC State Extension", url: "https://entomology.ces.ncsu.edu/biological-control-information-center/beneficial-predators/chinese-mantid/" },
-    { id: "wiki-en", title: "Tenodera sinensis", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Tenodera_sinensis" },
+    { id: "nityananda-2016", title: "Insect stereopsis demonstrated using a 3D insect cinema", by: "Scientific Reports, 2016", url: "https://doi.org/10.1038/srep18718" },
+    { id: "brown-2016", title: "Sexual cannibalism increases male material investment in offspring: quantifying terminal reproductive effort in a praying mantis", by: "Proceedings of the Royal Society B, 2016", url: "https://doi.org/10.1098/rspb.2016.0656" },
+    { id: "wiki-en", title: "Chinese mantis", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Chinese_mantis" },
+    { id: "wiki-xc", title: "Tenodera angustipennis", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Tenodera_angustipennis" },
     { id: "wiki-mantis", title: "Mantis", by: "Wikipedia", url: "https://en.wikipedia.org/wiki/Mantis" },
     { id: "wiki-zh", title: "中华大刀螳", by: "维基百科", url: "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E5%A4%A7%E5%88%80%E8%9E%B3" },
   ],

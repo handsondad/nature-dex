@@ -1,4 +1,28 @@
 {
+  "adult": {
+    "src": "photos/bai-ji-ling/adult.webp",
+    "thumb": "photos/bai-ji-ling/adult.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Lihai Song",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/754983422",
+      "source": "iNaturalist"
+    }
+  },
+  "back": {
+    "src": "photos/bai-ji-ling/back.webp",
+    "thumb": "photos/bai-ji-ling/back.thumb.webp",
+    "w": 1024,
+    "h": 640,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/725134164",
+      "source": "iNaturalist"
+    }
+  },
   "cover": {
     "src": "photos/bai-ji-ling/cover.webp",
     "thumb": "photos/bai-ji-ling/cover.thumb.webp",
@@ -8,6 +32,18 @@
       "author": "Steve Martin",
       "license": "cc0",
       "url": "https://www.inaturalist.org/photos/616594066",
+      "source": "iNaturalist"
+    }
+  },
+  "juvenile": {
+    "src": "photos/bai-ji-ling/juvenile.webp",
+    "thumb": "photos/bai-ji-ling/juvenile.thumb.webp",
+    "w": 1024,
+    "h": 676,
+    "credit": {
+      "author": "Se Lena",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/285824127",
       "source": "iNaturalist"
     }
   },
@@ -51,12 +87,60 @@
     "src": "photos/bai-ji-ling/side-view.webp",
     "thumb": "photos/bai-ji-ling/side-view.thumb.webp",
     "w": 1024,
+    "h": 685,
+    "credit": {
+      "author": "wilmotsenaratne",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/664686577",
+      "source": "iNaturalist"
+    }
+  },
+  "step-chick": {
+    "src": "photos/bai-ji-ling/step-chick.webp",
+    "thumb": "photos/bai-ji-ling/step-chick.thumb.webp",
+    "w": 1200,
+    "h": 894,
+    "credit": {
+      "author": "Walcoford",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Motacilla_alba_juveniles_2.JPG",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-egg": {
+    "src": "photos/bai-ji-ling/step-egg.webp",
+    "thumb": "photos/bai-ji-ling/step-egg.thumb.webp",
+    "w": 1200,
+    "h": 962,
+    "credit": {
+      "author": "Walcoford",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Motacilla_alba_eggs_full_shot.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-feed": {
+    "src": "photos/bai-ji-ling/step-feed.webp",
+    "thumb": "photos/bai-ji-ling/step-feed.thumb.webp",
+    "w": 1024,
     "h": 768,
     "credit": {
       "author": "Marco Mussita",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/40725533",
+      "url": "https://www.inaturalist.org/photos/524332570",
       "source": "iNaturalist"
+    }
+  },
+  "step-grow": {
+    "src": "photos/bai-ji-ling/step-grow.webp",
+    "thumb": "photos/bai-ji-ling/step-grow.thumb.webp",
+    "w": 1200,
+    "h": 902,
+    "credit": {
+      "author": "Walcoford",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Motacilla_alba_juveniles_3.JPG",
+      "source": "Wikimedia Commons"
     }
   }
 }

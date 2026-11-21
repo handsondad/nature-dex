@@ -1,4 +1,16 @@
 {
+  "adult-male": {
+    "src": "photos/wu-dong/adult-male.webp",
+    "thumb": "photos/wu-dong/adult-male.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Marco Mussita",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/597630911",
+      "source": "iNaturalist"
+    }
+  },
   "cover": {
     "src": "photos/wu-dong/cover.webp",
     "thumb": "photos/wu-dong/cover.thumb.webp",
@@ -11,6 +23,30 @@
       "source": "iNaturalist"
     }
   },
+  "head": {
+    "src": "photos/wu-dong/head.webp",
+    "thumb": "photos/wu-dong/head.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Marco Mussita",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/607095542",
+      "source": "iNaturalist"
+    }
+  },
+  "juvenile": {
+    "src": "photos/wu-dong/juvenile.webp",
+    "thumb": "photos/wu-dong/juvenile.thumb.webp",
+    "w": 1024,
+    "h": 653,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/398020622",
+      "source": "iNaturalist"
+    }
+  },
   "look-da-zui-wu-ya": {
     "src": "photos/wu-dong/look-da-zui-wu-ya.webp",
     "thumb": "photos/wu-dong/look-da-zui-wu-ya.thumb.webp",
@@ -20,6 +56,18 @@
       "author": "Yves Bas",
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/108226129",
+      "source": "iNaturalist"
+    }
+  },
+  "look-hui-liang-niao": {
+    "src": "photos/wu-dong/look-hui-liang-niao.webp",
+    "thumb": "photos/wu-dong/look-hui-liang-niao.thumb.webp",
+    "w": 1024,
+    "h": 689,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/365000232",
       "source": "iNaturalist"
     }
   },
@@ -45,6 +93,66 @@
       "license": "cc-by-sa",
       "url": "https://www.inaturalist.org/photos/132862018",
       "source": "iNaturalist"
+    }
+  },
+  "step-build": {
+    "src": "photos/wu-dong/step-build.webp",
+    "thumb": "photos/wu-dong/step-build.thumb.webp",
+    "w": 1024,
+    "h": 575,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/510319199",
+      "source": "iNaturalist"
+    }
+  },
+  "step-chick": {
+    "src": "photos/wu-dong/step-chick.webp",
+    "thumb": "photos/wu-dong/step-chick.thumb.webp",
+    "w": 1200,
+    "h": 800,
+    "credit": {
+      "author": "Sun Jiao (Interaccoonale)",
+      "license": "cc-by",
+      "url": "https://commons.wikimedia.org/wiki/File:Turdus_mandarinus_04.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-leave": {
+    "src": "photos/wu-dong/step-leave.webp",
+    "thumb": "photos/wu-dong/step-leave.thumb.webp",
+    "w": 1024,
+    "h": 837,
+    "credit": {
+      "author": "bloodlesshunting",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/197250625",
+      "source": "iNaturalist"
+    }
+  },
+  "step-nest": {
+    "src": "photos/wu-dong/step-nest.webp",
+    "thumb": "photos/wu-dong/step-nest.thumb.webp",
+    "w": 1024,
+    "h": 575,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/510300540",
+      "source": "iNaturalist"
+    }
+  },
+  "step-sit": {
+    "src": "photos/wu-dong/step-sit.webp",
+    "thumb": "photos/wu-dong/step-sit.thumb.webp",
+    "w": 1200,
+    "h": 774,
+    "credit": {
+      "author": "zinogre",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Chinese_Blackbird,_Zhengzhou,_Henan,_China_23.jpg",
+      "source": "Wikimedia Commons"
     }
   }
 }

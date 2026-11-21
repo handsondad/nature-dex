@@ -17,9 +17,9 @@
     "w": 1024,
     "h": 768,
     "credit": {
-      "author": "Michael J. Papay",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/341267654",
+      "author": "pinonbistro",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/24550691",
       "source": "iNaturalist"
     }
   },
@@ -68,6 +68,54 @@
       "author": "Katrina Mccollough",
       "license": "cc0",
       "url": "https://www.inaturalist.org/photos/347073851",
+      "source": "iNaturalist"
+    }
+  },
+  "step-fade": {
+    "src": "photos/jin-huang-yin-er/step-fade.webp",
+    "thumb": "photos/jin-huang-yin-er/step-fade.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Ross Krisztina",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/456375592",
+      "source": "iNaturalist"
+    }
+  },
+  "step-grow": {
+    "src": "photos/jin-huang-yin-er/step-grow.webp",
+    "thumb": "photos/jin-huang-yin-er/step-grow.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Emily Summerbell",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/209172299",
+      "source": "iNaturalist"
+    }
+  },
+  "step-pop": {
+    "src": "photos/jin-huang-yin-er/step-pop.webp",
+    "thumb": "photos/jin-huang-yin-er/step-pop.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Dr. Sven Gippner",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/306490194",
+      "source": "iNaturalist"
+    }
+  },
+  "wet-again": {
+    "src": "photos/jin-huang-yin-er/wet-again.webp",
+    "thumb": "photos/jin-huang-yin-er/wet-again.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "pinonbistro",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/24550687",
       "source": "iNaturalist"
     }
   },

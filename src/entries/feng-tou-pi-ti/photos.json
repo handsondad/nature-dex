@@ -35,6 +35,30 @@
       "source": "iNaturalist"
     }
   },
+  "look-hjpt": {
+    "src": "photos/feng-tou-pi-ti/look-hjpt.webp",
+    "thumb": "photos/feng-tou-pi-ti/look-hjpt.thumb.webp",
+    "w": 1024,
+    "h": 696,
+    "credit": {
+      "author": "Юрий Носков",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/241724727",
+      "source": "iNaturalist"
+    }
+  },
+  "look-self": {
+    "src": "photos/feng-tou-pi-ti/look-self.webp",
+    "thumb": "photos/feng-tou-pi-ti/look-self.thumb.webp",
+    "w": 1200,
+    "h": 800,
+    "credit": {
+      "author": "Andrey Gulivanov",
+      "license": "cc-by",
+      "url": "https://commons.wikimedia.org/wiki/File:Great_crested_grebe_with_chick_riding_on_back_(52277923362).jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
   "look-xiao-pi-ti": {
     "src": "photos/feng-tou-pi-ti/look-xiao-pi-ti.webp",
     "thumb": "photos/feng-tou-pi-ti/look-xiao-pi-ti.thumb.webp",
@@ -45,6 +69,54 @@
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/447859827",
       "source": "iNaturalist"
+    }
+  },
+  "plumage-summer": {
+    "src": "photos/feng-tou-pi-ti/plumage-summer.webp",
+    "thumb": "photos/feng-tou-pi-ti/plumage-summer.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Toby Y",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/483411986",
+      "source": "iNaturalist"
+    }
+  },
+  "plumage-winter": {
+    "src": "photos/feng-tou-pi-ti/plumage-winter.webp",
+    "thumb": "photos/feng-tou-pi-ti/plumage-winter.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Lihai Song",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/757945606",
+      "source": "iNaturalist"
+    }
+  },
+  "ruff": {
+    "src": "photos/feng-tou-pi-ti/ruff.webp",
+    "thumb": "photos/feng-tou-pi-ti/ruff.thumb.webp",
+    "w": 1024,
+    "h": 640,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/489689066",
+      "source": "iNaturalist"
+    }
+  },
+  "step-back": {
+    "src": "photos/feng-tou-pi-ti/step-back.webp",
+    "thumb": "photos/feng-tou-pi-ti/step-back.thumb.webp",
+    "w": 1200,
+    "h": 800,
+    "credit": {
+      "author": "Andrey Gulivanov",
+      "license": "cc-by",
+      "url": "https://commons.wikimedia.org/wiki/File:Great_crested_grebe_with_chick_riding_on_back_(52278903291).jpg",
+      "source": "Wikimedia Commons"
     }
   },
   "step-chick": {

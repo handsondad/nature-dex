@@ -11,21 +11,21 @@
       "source": "iNaturalist"
     }
   },
-  "leaf-veins": {
-    "src": "photos/yin-xing/leaf-veins.webp",
-    "thumb": "photos/yin-xing/leaf-veins.thumb.webp",
-    "w": 768,
-    "h": 1024,
+  "fallen-leaves": {
+    "src": "photos/yin-xing/fallen-leaves.webp",
+    "thumb": "photos/yin-xing/fallen-leaves.thumb.webp",
+    "w": 1200,
+    "h": 800,
     "credit": {
-      "author": "Summit Metro Parks",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/27163508",
-      "source": "iNaturalist"
+      "author": "Franz van Duns",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Ginkgo_biloba_leaves_in_radial_arrangement_-_2019-10-25_focus_stack.jpg",
+      "source": "Wikimedia Commons"
     }
   },
-  "same-green": {
-    "src": "photos/yin-xing/same-green.webp",
-    "thumb": "photos/yin-xing/same-green.thumb.webp",
+  "green-leaves": {
+    "src": "photos/yin-xing/green-leaves.webp",
+    "thumb": "photos/yin-xing/green-leaves.thumb.webp",
     "w": 768,
     "h": 1024,
     "credit": {
@@ -35,27 +35,111 @@
       "source": "iNaturalist"
     }
   },
-  "same-yellow": {
-    "src": "photos/yin-xing/same-yellow.webp",
-    "thumb": "photos/yin-xing/same-yellow.thumb.webp",
+  "look-e-zhang-qiu": {
+    "src": "photos/yin-xing/look-e-zhang-qiu.webp",
+    "thumb": "photos/yin-xing/look-e-zhang-qiu.thumb.webp",
+    "w": 577,
+    "h": 1024,
+    "credit": {
+      "author": "Étienne Lacroix-Carignan",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/758432039",
+      "source": "iNaturalist"
+    }
+  },
+  "look-tie-xian-jue": {
+    "src": "photos/yin-xing/look-tie-xian-jue.webp",
+    "thumb": "photos/yin-xing/look-tie-xian-jue.thumb.webp",
     "w": 768,
     "h": 1024,
     "credit": {
-      "author": "jonsense",
+      "author": "Melanie Link-Perez",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/449232164",
+      "url": "https://www.inaturalist.org/photos/10176456",
       "source": "iNaturalist"
+    }
+  },
+  "male-cones": {
+    "src": "photos/yin-xing/male-cones.webp",
+    "thumb": "photos/yin-xing/male-cones.thumb.webp",
+    "w": 1200,
+    "h": 1092,
+    "credit": {
+      "author": "Marcin Kolasiński",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Ginkgo_biloba_-_male_flower.JPG",
+      "source": "Wikimedia Commons"
     }
   },
   "short-shoot": {
     "src": "photos/yin-xing/short-shoot.webp",
     "thumb": "photos/yin-xing/short-shoot.thumb.webp",
+    "w": 1200,
+    "h": 800,
+    "credit": {
+      "author": "Nefronus",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Ginkgo_biloba_seeds_Prague_botanical_garden_2.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-green-seed": {
+    "src": "photos/yin-xing/step-green-seed.webp",
+    "thumb": "photos/yin-xing/step-green-seed.thumb.webp",
+    "w": 1200,
+    "h": 800,
+    "credit": {
+      "author": "さかおり",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Ginkgo_biloba_seeds_of_Hongokuji_no_Ohatsuki_Icho.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-ovule": {
+    "src": "photos/yin-xing/step-ovule.webp",
+    "thumb": "photos/yin-xing/step-ovule.thumb.webp",
+    "w": 1200,
+    "h": 800,
+    "credit": {
+      "author": "Marcin Kolasiński",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Ginkgo_biloba_-_female_flower.JPG",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-seed": {
+    "src": "photos/yin-xing/step-seed.webp",
+    "thumb": "photos/yin-xing/step-seed.thumb.webp",
+    "w": 900,
+    "h": 1200,
+    "credit": {
+      "author": "H. Zell",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Ginkgo_biloba_007.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-seedling": {
+    "src": "photos/yin-xing/step-seedling.webp",
+    "thumb": "photos/yin-xing/step-seedling.thumb.webp",
     "w": 686,
     "h": 1024,
     "credit": {
       "author": "Douglas Goldman",
       "license": "cc-by-sa",
       "url": "https://www.inaturalist.org/photos/343546021",
+      "source": "iNaturalist"
+    }
+  },
+  "step-sprout": {
+    "src": "photos/yin-xing/step-sprout.webp",
+    "thumb": "photos/yin-xing/step-sprout.thumb.webp",
+    "w": 1024,
+    "h": 686,
+    "credit": {
+      "author": "Douglas Goldman",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/343545534",
       "source": "iNaturalist"
     }
   }

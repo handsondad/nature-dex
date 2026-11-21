@@ -34,5 +34,65 @@
       "url": "https://www.inaturalist.org/photos/515388435",
       "source": "iNaturalist"
     }
+  },
+  "look-bmdx": {
+    "src": "photos/zi-ding-xiang/look-bmdx.webp",
+    "thumb": "photos/zi-ding-xiang/look-bmdx.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Jens-Christian Svenning",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/152911346",
+      "source": "iNaturalist"
+    }
+  },
+  "look-odx": {
+    "src": "photos/zi-ding-xiang/look-odx.webp",
+    "thumb": "photos/zi-ding-xiang/look-odx.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "eb50",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/193101542",
+      "source": "iNaturalist"
+    }
+  },
+  "step-autumn": {
+    "src": "photos/zi-ding-xiang/step-autumn.webp",
+    "thumb": "photos/zi-ding-xiang/step-autumn.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Kim",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/55941083",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bloom": {
+    "src": "photos/zi-ding-xiang/step-bloom.webp",
+    "thumb": "photos/zi-ding-xiang/step-bloom.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jiao Sun (孙娇)",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/581005354",
+      "source": "iNaturalist"
+    }
+  },
+  "step-summer": {
+    "src": "photos/zi-ding-xiang/step-summer.webp",
+    "thumb": "photos/zi-ding-xiang/step-summer.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Lewis",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/456661564",
+      "source": "iNaturalist"
+    }
   }
 }

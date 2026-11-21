@@ -5,9 +5,9 @@
     "w": 768,
     "h": 1024,
     "credit": {
-      "author": "Mark Clarke",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/758637107",
+      "author": "Ametsak",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/419279096",
       "source": "iNaturalist"
     }
   },
@@ -20,6 +20,30 @@
       "author": "jbsaborido",
       "license": "cc-by-sa",
       "url": "https://www.inaturalist.org/photos/758283215",
+      "source": "iNaturalist"
+    }
+  },
+  "early-spring": {
+    "src": "photos/chui-liu/early-spring.webp",
+    "thumb": "photos/chui-liu/early-spring.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/61427083",
+      "source": "iNaturalist"
+    }
+  },
+  "full-tree": {
+    "src": "photos/chui-liu/full-tree.webp",
+    "thumb": "photos/chui-liu/full-tree.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Mark Clarke",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/758637107",
       "source": "iNaturalist"
     }
   },
@@ -38,12 +62,60 @@
   "look-han-liu": {
     "src": "photos/chui-liu/look-han-liu.webp",
     "thumb": "photos/chui-liu/look-han-liu.thumb.webp",
+    "w": 1200,
+    "h": 800,
+    "credit": {
+      "author": "Liuxingy",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:%E6%A6%86%E7%A4%BE_%E9%83%8A%E5%8F%A3%E6%9D%91%E9%99%84%E8%BF%91%E7%9A%84%E6%97%B1%E6%9F%B3.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-flower": {
+    "src": "photos/chui-liu/step-flower.webp",
+    "thumb": "photos/chui-liu/step-flower.thumb.webp",
+    "w": 461,
+    "h": 1024,
+    "credit": {
+      "author": "Darío De la Fuente",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/160589509",
+      "source": "iNaturalist"
+    }
+  },
+  "step-green-fruit": {
+    "src": "photos/chui-liu/step-green-fruit.webp",
+    "thumb": "photos/chui-liu/step-green-fruit.thumb.webp",
     "w": 768,
     "h": 1024,
     "credit": {
-      "author": "Jane Charlen",
+      "author": "Karim Haddad",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/493919712",
+      "url": "https://www.inaturalist.org/photos/190628886",
+      "source": "iNaturalist"
+    }
+  },
+  "step-sprout": {
+    "src": "photos/chui-liu/step-sprout.webp",
+    "thumb": "photos/chui-liu/step-sprout.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/61427087",
+      "source": "iNaturalist"
+    }
+  },
+  "twig": {
+    "src": "photos/chui-liu/twig.webp",
+    "thumb": "photos/chui-liu/twig.thumb.webp",
+    "w": 683,
+    "h": 1024,
+    "credit": {
+      "author": "olmagon",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/738423890",
       "source": "iNaturalist"
     }
   }

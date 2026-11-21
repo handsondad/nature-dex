@@ -47,6 +47,18 @@
       "source": "iNaturalist"
     }
   },
+  "look-hcz": {
+    "src": "photos/bai-che-zhou-cao/look-hcz.webp",
+    "thumb": "photos/bai-che-zhou-cao/look-hcz.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Sandy Wolkenberg",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/18838569",
+      "source": "iNaturalist"
+    }
+  },
   "plant-leaf": {
     "src": "photos/bai-che-zhou-cao/plant-leaf.webp",
     "thumb": "photos/bai-che-zhou-cao/plant-leaf.thumb.webp",
@@ -59,15 +71,27 @@
       "source": "iNaturalist"
     }
   },
-  "step-fade": {
-    "src": "photos/bai-che-zhou-cao/step-fade.webp",
-    "thumb": "photos/bai-che-zhou-cao/step-fade.thumb.webp",
+  "step-bud": {
+    "src": "photos/bai-che-zhou-cao/step-bud.webp",
+    "thumb": "photos/bai-che-zhou-cao/step-bud.thumb.webp",
     "w": 1024,
-    "h": 683,
+    "h": 1024,
     "credit": {
-      "author": "Lihai Song",
+      "author": "wilderbombyx",
       "license": "cc0",
-      "url": "https://www.inaturalist.org/photos/623572217",
+      "url": "https://www.inaturalist.org/photos/357231853",
+      "source": "iNaturalist"
+    }
+  },
+  "step-half": {
+    "src": "photos/bai-che-zhou-cao/step-half.webp",
+    "thumb": "photos/bai-che-zhou-cao/step-half.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Darius Regnier",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/301166399",
       "source": "iNaturalist"
     }
   },
@@ -80,6 +104,18 @@
       "author": "Zinogre",
       "license": "cc-by-sa",
       "url": "https://www.inaturalist.org/photos/165552863",
+      "source": "iNaturalist"
+    }
+  },
+  "step-pods": {
+    "src": "photos/bai-che-zhou-cao/step-pods.webp",
+    "thumb": "photos/bai-che-zhou-cao/step-pods.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Darius Regnier",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/416918209",
       "source": "iNaturalist"
     }
   }

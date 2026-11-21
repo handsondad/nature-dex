@@ -23,6 +23,18 @@
       "source": "iNaturalist"
     }
   },
+  "look-egg": {
+    "src": "photos/wang-wen-ma-bo/look-egg.webp",
+    "thumb": "photos/wang-wen-ma-bo/look-egg.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Sigrid Jakob",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/230494787",
+      "source": "iNaturalist"
+    }
+  },
   "look-sc": {
     "src": "photos/wang-wen-ma-bo/look-sc.webp",
     "thumb": "photos/wang-wen-ma-bo/look-sc.thumb.webp",
@@ -71,15 +83,15 @@
       "source": "iNaturalist"
     }
   },
-  "step-pore": {
-    "src": "photos/wang-wen-ma-bo/step-pore.webp",
-    "thumb": "photos/wang-wen-ma-bo/step-pore.thumb.webp",
-    "w": 1024,
-    "h": 768,
+  "step-old": {
+    "src": "photos/wang-wen-ma-bo/step-old.webp",
+    "thumb": "photos/wang-wen-ma-bo/step-old.thumb.webp",
+    "w": 461,
+    "h": 1024,
     "credit": {
-      "author": "Kieran Roy Powell",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/444217209",
+      "author": "Kevin",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/347656168",
       "source": "iNaturalist"
     }
   },
@@ -92,6 +104,18 @@
       "author": "Kate Manning",
       "license": "cc0",
       "url": "https://www.inaturalist.org/photos/335810071",
+      "source": "iNaturalist"
+    }
+  },
+  "zoom-pore": {
+    "src": "photos/wang-wen-ma-bo/zoom-pore.webp",
+    "thumb": "photos/wang-wen-ma-bo/zoom-pore.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Mark Wagner",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/59822269",
       "source": "iNaturalist"
     }
   }

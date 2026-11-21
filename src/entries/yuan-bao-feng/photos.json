@@ -11,33 +11,9 @@
       "source": "iNaturalist"
     }
   },
-  "fruit-macro": {
-    "src": "photos/yuan-bao-feng/fruit-macro.webp",
-    "thumb": "photos/yuan-bao-feng/fruit-macro.thumb.webp",
-    "w": 768,
-    "h": 1024,
-    "credit": {
-      "author": "Jane Charlen",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/409530325",
-      "source": "iNaturalist"
-    }
-  },
-  "leaf-fruit": {
-    "src": "photos/yuan-bao-feng/leaf-fruit.webp",
-    "thumb": "photos/yuan-bao-feng/leaf-fruit.thumb.webp",
-    "w": 768,
-    "h": 1024,
-    "credit": {
-      "author": "Jane Charlen",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/409530284",
-      "source": "iNaturalist"
-    }
-  },
-  "same-green": {
-    "src": "photos/yuan-bao-feng/same-green.webp",
-    "thumb": "photos/yuan-bao-feng/same-green.thumb.webp",
+  "fruit-green": {
+    "src": "photos/yuan-bao-feng/fruit-green.webp",
+    "thumb": "photos/yuan-bao-feng/fruit-green.thumb.webp",
     "w": 1024,
     "h": 683,
     "credit": {
@@ -47,15 +23,123 @@
       "source": "iNaturalist"
     }
   },
-  "same-red": {
-    "src": "photos/yuan-bao-feng/same-red.webp",
-    "thumb": "photos/yuan-bao-feng/same-red.thumb.webp",
-    "w": 1024,
-    "h": 727,
+  "fruit-pair": {
+    "src": "photos/yuan-bao-feng/fruit-pair.webp",
+    "thumb": "photos/yuan-bao-feng/fruit-pair.thumb.webp",
+    "w": 768,
+    "h": 1024,
     "credit": {
-      "author": "nebrooks",
+      "author": "Andrew Conboy",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/627555085",
+      "url": "https://www.inaturalist.org/photos/167458898",
+      "source": "iNaturalist"
+    }
+  },
+  "leaf": {
+    "src": "photos/yuan-bao-feng/leaf.webp",
+    "thumb": "photos/yuan-bao-feng/leaf.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Rose Zappa",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/326192001",
+      "source": "iNaturalist"
+    }
+  },
+  "leaf-fruit": {
+    "src": "photos/yuan-bao-feng/leaf-fruit.webp",
+    "thumb": "photos/yuan-bao-feng/leaf-fruit.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Jiao Sun (孙娇)",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/399676451",
+      "source": "iNaturalist"
+    }
+  },
+  "look-jzq": {
+    "src": "photos/yuan-bao-feng/look-jzq.webp",
+    "thumb": "photos/yuan-bao-feng/look-jzq.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Marco Mussita",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/74693544",
+      "source": "iNaturalist"
+    }
+  },
+  "look-wjf": {
+    "src": "photos/yuan-bao-feng/look-wjf.webp",
+    "thumb": "photos/yuan-bao-feng/look-wjf.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Marco Mussita",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/228352527",
+      "source": "iNaturalist"
+    }
+  },
+  "same-autumn": {
+    "src": "photos/yuan-bao-feng/same-autumn.webp",
+    "thumb": "photos/yuan-bao-feng/same-autumn.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/61426271",
+      "source": "iNaturalist"
+    }
+  },
+  "same-summer": {
+    "src": "photos/yuan-bao-feng/same-summer.webp",
+    "thumb": "photos/yuan-bao-feng/same-summer.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Jens-Christian Svenning",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/152914700",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bud": {
+    "src": "photos/yuan-bao-feng/step-bud.webp",
+    "thumb": "photos/yuan-bao-feng/step-bud.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/363882648",
+      "source": "iNaturalist"
+    }
+  },
+  "step-flower": {
+    "src": "photos/yuan-bao-feng/step-flower.webp",
+    "thumb": "photos/yuan-bao-feng/step-flower.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "振远 王",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/485110749",
+      "source": "iNaturalist"
+    }
+  },
+  "step-ripe": {
+    "src": "photos/yuan-bao-feng/step-ripe.webp",
+    "thumb": "photos/yuan-bao-feng/step-ripe.thumb.webp",
+    "w": 576,
+    "h": 1024,
+    "credit": {
+      "author": "andrew2285",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/324824954",
       "source": "iNaturalist"
     }
   }

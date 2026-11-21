@@ -11,6 +11,18 @@
       "source": "iNaturalist"
     }
   },
+  "drone": {
+    "src": "photos/xi-fang-mi-feng/drone.webp",
+    "thumb": "photos/xi-fang-mi-feng/drone.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Ben",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/706186591",
+      "source": "iNaturalist"
+    }
+  },
   "look-cwgyy": {
     "src": "photos/xi-fang-mi-feng/look-cwgyy.webp",
     "thumb": "photos/xi-fang-mi-feng/look-cwgyy.thumb.webp",
@@ -56,6 +68,78 @@
       "author": "Zinogre",
       "license": "cc-by-sa",
       "url": "https://www.inaturalist.org/photos/279697593",
+      "source": "iNaturalist"
+    }
+  },
+  "pollen-basket": {
+    "src": "photos/xi-fang-mi-feng/pollen-basket.webp",
+    "thumb": "photos/xi-fang-mi-feng/pollen-basket.thumb.webp",
+    "w": 1024,
+    "h": 640,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/489682390",
+      "source": "iNaturalist"
+    }
+  },
+  "step-egg": {
+    "src": "photos/xi-fang-mi-feng/step-egg.webp",
+    "thumb": "photos/xi-fang-mi-feng/step-egg.thumb.webp",
+    "w": 576,
+    "h": 1024,
+    "credit": {
+      "author": "Emad Tahaei",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/272458904",
+      "source": "iNaturalist"
+    }
+  },
+  "step-emerge": {
+    "src": "photos/xi-fang-mi-feng/step-emerge.webp",
+    "thumb": "photos/xi-fang-mi-feng/step-emerge.thumb.webp",
+    "w": 1200,
+    "h": 897,
+    "credit": {
+      "author": "Waugsberg",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Schluepfende_Biene.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-larva": {
+    "src": "photos/xi-fang-mi-feng/step-larva.webp",
+    "thumb": "photos/xi-fang-mi-feng/step-larva.thumb.webp",
+    "w": 1200,
+    "h": 900,
+    "credit": {
+      "author": "Waugsberg (talk · contribs)",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Bienenwabe_mit_Eiern_und_Brut_5.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-pupa": {
+    "src": "photos/xi-fang-mi-feng/step-pupa.webp",
+    "thumb": "photos/xi-fang-mi-feng/step-pupa.thumb.webp",
+    "w": 1200,
+    "h": 800,
+    "credit": {
+      "author": "Waugsberg",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Drohnenpuppen_79d.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "worker": {
+    "src": "photos/xi-fang-mi-feng/worker.webp",
+    "thumb": "photos/xi-fang-mi-feng/worker.thumb.webp",
+    "w": 968,
+    "h": 648,
+    "credit": {
+      "author": "Douglas Goldman",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/82354387",
       "source": "iNaturalist"
     }
   }

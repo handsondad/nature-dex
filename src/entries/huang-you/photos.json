@@ -11,6 +11,54 @@
       "source": "iNaturalist"
     }
   },
+  "look-hhd": {
+    "src": "photos/huang-you/look-hhd.webp",
+    "thumb": "photos/huang-you/look-hhd.thumb.webp",
+    "w": 1024,
+    "h": 681,
+    "credit": {
+      "author": "Omar Haroon",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/577929870",
+      "source": "iNaturalist"
+    }
+  },
+  "look-ly": {
+    "src": "photos/huang-you/look-ly.webp",
+    "thumb": "photos/huang-you/look-ly.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Ged Tranter",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/334101026",
+      "source": "iNaturalist"
+    }
+  },
+  "look-self": {
+    "src": "photos/huang-you/look-self.webp",
+    "thumb": "photos/huang-you/look-self.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Lihai Song",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/743604252",
+      "source": "iNaturalist"
+    }
+  },
+  "look-xy": {
+    "src": "photos/huang-you/look-xy.webp",
+    "thumb": "photos/huang-you/look-xy.thumb.webp",
+    "w": 1024,
+    "h": 706,
+    "credit": {
+      "author": "Simon Tonge",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/580272911",
+      "source": "iNaturalist"
+    }
+  },
   "side-view": {
     "src": "photos/huang-you/side-view.webp",
     "thumb": "photos/huang-you/side-view.thumb.webp",
@@ -20,6 +68,42 @@
       "author": "Wang.QG",
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/203783677",
+      "source": "iNaturalist"
+    }
+  },
+  "step-run": {
+    "src": "photos/huang-you/step-run.webp",
+    "thumb": "photos/huang-you/step-run.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "夏仲归",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/695773882",
+      "source": "iNaturalist"
+    }
+  },
+  "step-stand": {
+    "src": "photos/huang-you/step-stand.webp",
+    "thumb": "photos/huang-you/step-stand.thumb.webp",
+    "w": 1024,
+    "h": 729,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/322969648",
+      "source": "iNaturalist"
+    }
+  },
+  "step-tree": {
+    "src": "photos/huang-you/step-tree.webp",
+    "thumb": "photos/huang-you/step-tree.thumb.webp",
+    "w": 1024,
+    "h": 975,
+    "credit": {
+      "author": "Theo Busschau",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/547892404",
       "source": "iNaturalist"
     }
   }

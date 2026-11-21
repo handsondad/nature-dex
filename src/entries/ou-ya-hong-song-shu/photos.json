@@ -1,4 +1,16 @@
 {
+  "cone": {
+    "src": "photos/ou-ya-hong-song-shu/cone.webp",
+    "thumb": "photos/ou-ya-hong-song-shu/cone.thumb.webp",
+    "w": 1200,
+    "h": 802,
+    "credit": {
+      "author": "Sillerkiil",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Orava_n%C3%A4ritud_k%C3%A4bid_K%C3%B5rvemaal,_2015._aastal.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
   "cover": {
     "src": "photos/ou-ya-hong-song-shu/cover.webp",
     "thumb": "photos/ou-ya-hong-song-shu/cover.thumb.webp",
@@ -8,6 +20,18 @@
       "author": "Sunny Zhang 张迎新",
       "license": "cc0",
       "url": "https://www.inaturalist.org/photos/634071875",
+      "source": "iNaturalist"
+    }
+  },
+  "look-cf": {
+    "src": "photos/ou-ya-hong-song-shu/look-cf.webp",
+    "thumb": "photos/ou-ya-hong-song-shu/look-cf.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Ludovic Trochadero",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/431127366",
       "source": "iNaturalist"
     }
   },
@@ -56,6 +80,66 @@
       "author": "bloodlesshunting",
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/398080265",
+      "source": "iNaturalist"
+    }
+  },
+  "step-core": {
+    "src": "photos/ou-ya-hong-song-shu/step-core.webp",
+    "thumb": "photos/ou-ya-hong-song-shu/step-core.thumb.webp",
+    "w": 1200,
+    "h": 900,
+    "credit": {
+      "author": "Natalka Ukraine",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Pine_cones_chewed_by_a_squirrel_near_the_canal_in_Kamenskyi_district_Dnipro_by_baby-bear.org.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-ground": {
+    "src": "photos/ou-ya-hong-song-shu/step-ground.webp",
+    "thumb": "photos/ou-ya-hong-song-shu/step-ground.thumb.webp",
+    "w": 1200,
+    "h": 800,
+    "credit": {
+      "author": "Egorkuz211",
+      "license": "cc-by",
+      "url": "https://commons.wikimedia.org/wiki/File:Squirrel_eating_a_Siberian_Pine_cone,_Russia.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-tree": {
+    "src": "photos/ou-ya-hong-song-shu/step-tree.webp",
+    "thumb": "photos/ou-ya-hong-song-shu/step-tree.thumb.webp",
+    "w": 1200,
+    "h": 800,
+    "credit": {
+      "author": "Egorkuz211",
+      "license": "cc-by",
+      "url": "https://commons.wikimedia.org/wiki/File:Squirrel_eating_Siberian_Pine_cone_on_a_tree,_Russia.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "winter": {
+    "src": "photos/ou-ya-hong-song-shu/winter.webp",
+    "thumb": "photos/ou-ya-hong-song-shu/winter.thumb.webp",
+    "w": 1024,
+    "h": 677,
+    "credit": {
+      "author": "Yuan Zhuang",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/59759623",
+      "source": "iNaturalist"
+    }
+  },
+  "winter-coat": {
+    "src": "photos/ou-ya-hong-song-shu/winter-coat.webp",
+    "thumb": "photos/ou-ya-hong-song-shu/winter-coat.thumb.webp",
+    "w": 683,
+    "h": 1024,
+    "credit": {
+      "author": "Radu Teodoreanu",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/611843246",
       "source": "iNaturalist"
     }
   }

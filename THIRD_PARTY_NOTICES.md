@@ -7,7 +7,7 @@
 ## 照片
 
 - 我们自己拍的照片：`photos.json` 里 `credit` 为 `"ours"`。
-- 转载照片：来自 [iNaturalist](https://www.inaturalist.org/)，只收 CC0、CC BY、CC BY-SA。作者、协议和原图链接记在各篇的 `src/entries/<id>/photos.json`，并显示在页面上照片下方。转载时只做了缩放和格式转换。
+- 转载照片：来自 [iNaturalist](https://www.inaturalist.org/)，iNaturalist 上缺少某个生长阶段时也取自 [维基共享资源](https://commons.wikimedia.org/)（Wikimedia Commons），只收 CC0、CC BY、CC BY-SA。作者、协议和原图链接记在各篇的 `src/entries/<id>/photos.json`，并显示在页面上照片下方。转载时只做了缩放和格式转换。
 
 ## 数据
 

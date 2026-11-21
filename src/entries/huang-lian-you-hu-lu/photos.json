@@ -2,12 +2,12 @@
   "cover": {
     "src": "photos/huang-lian-you-hu-lu/cover.webp",
     "thumb": "photos/huang-lian-you-hu-lu/cover.thumb.webp",
-    "w": 768,
-    "h": 1024,
+    "w": 1024,
+    "h": 768,
     "credit": {
-      "author": "Yoshihiro Tokue",
+      "author": "Timur Kalininsky",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/218376293",
+      "url": "https://www.inaturalist.org/photos/347263865",
       "source": "iNaturalist"
     }
   },
@@ -23,6 +23,18 @@
       "source": "iNaturalist"
     }
   },
+  "look-dyg": {
+    "src": "photos/huang-lian-you-hu-lu/look-dyg.webp",
+    "thumb": "photos/huang-lian-you-hu-lu/look-dyg.thumb.webp",
+    "w": 1024,
+    "h": 693,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/158807711",
+      "source": "iNaturalist"
+    }
+  },
   "look-hlyhl": {
     "src": "photos/huang-lian-you-hu-lu/look-hlyhl.webp",
     "thumb": "photos/huang-lian-you-hu-lu/look-hlyhl.thumb.webp",
@@ -35,15 +47,15 @@
       "source": "iNaturalist"
     }
   },
-  "look-zhjjh": {
-    "src": "photos/huang-lian-you-hu-lu/look-zhjjh.webp",
-    "thumb": "photos/huang-lian-you-hu-lu/look-zhjjh.thumb.webp",
+  "look-mkdx": {
+    "src": "photos/huang-lian-you-hu-lu/look-mkdx.webp",
+    "thumb": "photos/huang-lian-you-hu-lu/look-mkdx.thumb.webp",
     "w": 1024,
-    "h": 679,
+    "h": 707,
     "credit": {
       "author": "Zinogre",
       "license": "cc-by-sa",
-      "url": "https://www.inaturalist.org/photos/147759316",
+      "url": "https://www.inaturalist.org/photos/156889817",
       "source": "iNaturalist"
     }
   },
@@ -68,6 +80,54 @@
       "author": "Zinogre",
       "license": "cc-by-sa",
       "url": "https://www.inaturalist.org/photos/156892627",
+      "source": "iNaturalist"
+    }
+  },
+  "step-adult": {
+    "src": "photos/huang-lian-you-hu-lu/step-adult.webp",
+    "thumb": "photos/huang-lian-you-hu-lu/step-adult.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Timur Kalininsky",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/729267255",
+      "source": "iNaturalist"
+    }
+  },
+  "step-late": {
+    "src": "photos/huang-lian-you-hu-lu/step-late.webp",
+    "thumb": "photos/huang-lian-you-hu-lu/step-late.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Timur Kalininsky",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/421519865",
+      "source": "iNaturalist"
+    }
+  },
+  "step-molt": {
+    "src": "photos/huang-lian-you-hu-lu/step-molt.webp",
+    "thumb": "photos/huang-lian-you-hu-lu/step-molt.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Timur Kalininsky",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/548356568",
+      "source": "iNaturalist"
+    }
+  },
+  "step-nymph": {
+    "src": "photos/huang-lian-you-hu-lu/step-nymph.webp",
+    "thumb": "photos/huang-lian-you-hu-lu/step-nymph.thumb.webp",
+    "w": 1024,
+    "h": 680,
+    "credit": {
+      "author": "Daankal Eastolany",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/413287401",
       "source": "iNaturalist"
     }
   }

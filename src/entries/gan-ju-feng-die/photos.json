@@ -3,11 +3,11 @@
     "src": "photos/gan-ju-feng-die/adult-open.webp",
     "thumb": "photos/gan-ju-feng-die/adult-open.thumb.webp",
     "w": 1024,
-    "h": 678,
+    "h": 768,
     "credit": {
-      "author": "Zinogre",
-      "license": "cc-by-sa",
-      "url": "https://www.inaturalist.org/photos/25201630",
+      "author": "Jiao Sun (孙娇)",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/398187800",
       "source": "iNaturalist"
     }
   },
@@ -20,6 +20,54 @@
       "author": "Yi CHEN",
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/61383824",
+      "source": "iNaturalist"
+    }
+  },
+  "larva-old": {
+    "src": "photos/gan-ju-feng-die/larva-old.webp",
+    "thumb": "photos/gan-ju-feng-die/larva-old.thumb.webp",
+    "w": 1024,
+    "h": 678,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/25201630",
+      "source": "iNaturalist"
+    }
+  },
+  "larva-young": {
+    "src": "photos/gan-ju-feng-die/larva-young.webp",
+    "thumb": "photos/gan-ju-feng-die/larva-young.thumb.webp",
+    "w": 577,
+    "h": 1024,
+    "credit": {
+      "author": "karliatje",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/528621452",
+      "source": "iNaturalist"
+    }
+  },
+  "look-jfd": {
+    "src": "photos/gan-ju-feng-die/look-jfd.webp",
+    "thumb": "photos/gan-ju-feng-die/look-jfd.thumb.webp",
+    "w": 1024,
+    "h": 640,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/570993378",
+      "source": "iNaturalist"
+    }
+  },
+  "osmeterium": {
+    "src": "photos/gan-ju-feng-die/osmeterium.webp",
+    "thumb": "photos/gan-ju-feng-die/osmeterium.thumb.webp",
+    "w": 1024,
+    "h": 725,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/25201715",
       "source": "iNaturalist"
     }
   },
@@ -38,36 +86,24 @@
   "step-egg": {
     "src": "photos/gan-ju-feng-die/step-egg.webp",
     "thumb": "photos/gan-ju-feng-die/step-egg.thumb.webp",
-    "w": 1024,
-    "h": 725,
+    "w": 666,
+    "h": 666,
     "credit": {
-      "author": "Zinogre",
-      "license": "cc-by-sa",
-      "url": "https://www.inaturalist.org/photos/25201715",
-      "source": "iNaturalist"
-    }
-  },
-  "step-larva": {
-    "src": "photos/gan-ju-feng-die/step-larva.webp",
-    "thumb": "photos/gan-ju-feng-die/step-larva.thumb.webp",
-    "w": 1024,
-    "h": 768,
-    "credit": {
-      "author": "Jiao Sun (孙娇)",
+      "author": "Jacob She",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/398187800",
+      "url": "https://www.inaturalist.org/photos/561764382",
       "source": "iNaturalist"
     }
   },
   "step-pupa": {
     "src": "photos/gan-ju-feng-die/step-pupa.webp",
     "thumb": "photos/gan-ju-feng-die/step-pupa.thumb.webp",
-    "w": 1024,
-    "h": 576,
+    "w": 768,
+    "h": 1024,
     "credit": {
-      "author": "林孫鋒(Lin Sun Fong)",
+      "author": "Norio Nomura",
       "license": "cc-by-sa",
-      "url": "https://www.inaturalist.org/photos/500511958",
+      "url": "https://www.inaturalist.org/photos/250521456",
       "source": "iNaturalist"
     }
   }

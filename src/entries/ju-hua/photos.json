@@ -23,15 +23,39 @@
       "source": "iNaturalist"
     }
   },
+  "flower-macro": {
+    "src": "photos/ju-hua/flower-macro.webp",
+    "thumb": "photos/ju-hua/flower-macro.thumb.webp",
+    "w": 1200,
+    "h": 795,
+    "credit": {
+      "author": "Costel Slincu from Iasi, Romania",
+      "license": "cc-by",
+      "url": "https://commons.wikimedia.org/wiki/File:Purple_Chrysanthemum_-_Flickr_-_Cost3l.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
   "look-ju-hua": {
     "src": "photos/ju-hua/look-ju-hua.webp",
     "thumb": "photos/ju-hua/look-ju-hua.thumb.webp",
-    "w": 1024,
-    "h": 768,
+    "w": 1200,
+    "h": 799,
     "credit": {
-      "author": "ringedinlaurel",
+      "author": "Jebulon",
       "license": "cc0",
-      "url": "https://www.inaturalist.org/photos/659799003",
+      "url": "https://commons.wikimedia.org/wiki/File:Chrysanthemum_%C3%97_morifolium_Dompierre_1.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "look-wsj": {
+    "src": "photos/ju-hua/look-wsj.webp",
+    "thumb": "photos/ju-hua/look-wsj.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Colin Meurk",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/461084375",
       "source": "iNaturalist"
     }
   },
@@ -45,6 +69,42 @@
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/452628626",
       "source": "iNaturalist"
+    }
+  },
+  "step-bloom": {
+    "src": "photos/ju-hua/step-bloom.webp",
+    "thumb": "photos/ju-hua/step-bloom.thumb.webp",
+    "w": 1200,
+    "h": 1200,
+    "credit": {
+      "author": "Agbarto",
+      "license": "cc0",
+      "url": "https://commons.wikimedia.org/wiki/File:2026.10.17_Chrysanthemum_%C3%97_Morifolium_Multiflora.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-bud": {
+    "src": "photos/ju-hua/step-bud.webp",
+    "thumb": "photos/ju-hua/step-bud.thumb.webp",
+    "w": 800,
+    "h": 1200,
+    "credit": {
+      "author": "Lucia Condac",
+      "license": "cc-by",
+      "url": "https://commons.wikimedia.org/wiki/File:Chrysanthemum_Buds_(177131709).jpeg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-half": {
+    "src": "photos/ju-hua/step-half.webp",
+    "thumb": "photos/ju-hua/step-half.thumb.webp",
+    "w": 900,
+    "h": 1200,
+    "credit": {
+      "author": "Zyrahila",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Blooming_Pink_Chrysanthemum.jpg",
+      "source": "Wikimedia Commons"
     }
   }
 }

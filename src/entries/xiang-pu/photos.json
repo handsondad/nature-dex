@@ -3,11 +3,11 @@
     "src": "photos/xiang-pu/cover.webp",
     "thumb": "photos/xiang-pu/cover.thumb.webp",
     "w": 1024,
-    "h": 576,
+    "h": 768,
     "credit": {
-      "author": "Halema J",
+      "author": "John Tann",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/271945722",
+      "url": "https://www.inaturalist.org/photos/540623027",
       "source": "iNaturalist"
     }
   },
@@ -23,27 +23,87 @@
       "source": "iNaturalist"
     }
   },
-  "look-xiang-pu": {
-    "src": "photos/xiang-pu/look-xiang-pu.webp",
-    "thumb": "photos/xiang-pu/look-xiang-pu.thumb.webp",
+  "look-sz": {
+    "src": "photos/xiang-pu/look-sz.webp",
+    "thumb": "photos/xiang-pu/look-sz.thumb.webp",
     "w": 1024,
-    "h": 683,
+    "h": 575,
     "credit": {
-      "author": "Christopher Stephens",
-      "license": "cc-by-sa",
-      "url": "https://www.inaturalist.org/photos/686423153",
+      "author": "Jason Swanson",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/140763035",
+      "source": "iNaturalist"
+    }
+  },
+  "look-xp": {
+    "src": "photos/xiang-pu/look-xp.webp",
+    "thumb": "photos/xiang-pu/look-xp.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "chiuluan",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/75333654",
       "source": "iNaturalist"
     }
   },
   "spike": {
     "src": "photos/xiang-pu/spike.webp",
     "thumb": "photos/xiang-pu/spike.thumb.webp",
-    "w": 576,
+    "w": 685,
     "h": 1024,
     "credit": {
-      "author": "Halema J",
+      "author": "WATANABE Hitoshi 渡辺仁",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/271945803",
+      "url": "https://www.inaturalist.org/photos/447124409",
+      "source": "iNaturalist"
+    }
+  },
+  "spike-macro": {
+    "src": "photos/xiang-pu/spike-macro.webp",
+    "thumb": "photos/xiang-pu/spike-macro.thumb.webp",
+    "w": 575,
+    "h": 1024,
+    "credit": {
+      "author": "chiuluan",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/197287803",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bloom": {
+    "src": "photos/xiang-pu/step-bloom.webp",
+    "thumb": "photos/xiang-pu/step-bloom.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "chiuluan",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/199388907",
+      "source": "iNaturalist"
+    }
+  },
+  "step-fluff": {
+    "src": "photos/xiang-pu/step-fluff.webp",
+    "thumb": "photos/xiang-pu/step-fluff.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Tom Field",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/355981486",
+      "source": "iNaturalist"
+    }
+  },
+  "step-shoot": {
+    "src": "photos/xiang-pu/step-shoot.webp",
+    "thumb": "photos/xiang-pu/step-shoot.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Arnim Littek",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/249591603",
       "source": "iNaturalist"
     }
   }

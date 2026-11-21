@@ -46,5 +46,65 @@
       "url": "https://www.inaturalist.org/photos/103478831",
       "source": "iNaturalist"
     }
+  },
+  "look-yhsx": {
+    "src": "photos/ying-chun-hua/look-yhsx.webp",
+    "thumb": "photos/ying-chun-hua/look-yhsx.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Sophia K",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/60657466",
+      "source": "iNaturalist"
+    }
+  },
+  "stem-macro": {
+    "src": "photos/ying-chun-hua/stem-macro.webp",
+    "thumb": "photos/ying-chun-hua/stem-macro.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Mark Richman",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/106502712",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bloom": {
+    "src": "photos/ying-chun-hua/step-bloom.webp",
+    "thumb": "photos/ying-chun-hua/step-bloom.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Louis Aureglia",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/478781941",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bud": {
+    "src": "photos/ying-chun-hua/step-bud.webp",
+    "thumb": "photos/ying-chun-hua/step-bud.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Louis Aureglia",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/478781926",
+      "source": "iNaturalist"
+    }
+  },
+  "step-leaves": {
+    "src": "photos/ying-chun-hua/step-leaves.webp",
+    "thumb": "photos/ying-chun-hua/step-leaves.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Peter Burka",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/534147245",
+      "source": "iNaturalist"
+    }
   }
 }

@@ -59,6 +59,30 @@
       "source": "iNaturalist"
     }
   },
+  "same-dry": {
+    "src": "photos/lie-zhe-jun/same-dry.webp",
+    "thumb": "photos/lie-zhe-jun/same-dry.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Irina Mitine",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/470896769",
+      "source": "iNaturalist"
+    }
+  },
+  "same-wet": {
+    "src": "photos/lie-zhe-jun/same-wet.webp",
+    "thumb": "photos/lie-zhe-jun/same-wet.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Yves Bas",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/107743483",
+      "source": "iNaturalist"
+    }
+  },
   "split-gills": {
     "src": "photos/lie-zhe-jun/split-gills.webp",
     "thumb": "photos/lie-zhe-jun/split-gills.thumb.webp",
@@ -68,6 +92,42 @@
       "author": "卢江离",
       "license": "cc0",
       "url": "https://www.inaturalist.org/photos/242162919",
+      "source": "iNaturalist"
+    }
+  },
+  "step-cup": {
+    "src": "photos/lie-zhe-jun/step-cup.webp",
+    "thumb": "photos/lie-zhe-jun/step-cup.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Mario Bassini",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/304422514",
+      "source": "iNaturalist"
+    }
+  },
+  "step-fan": {
+    "src": "photos/lie-zhe-jun/step-fan.webp",
+    "thumb": "photos/lie-zhe-jun/step-fan.thumb.webp",
+    "w": 484,
+    "h": 1024,
+    "credit": {
+      "author": "Andrey Loria",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/109775460",
+      "source": "iNaturalist"
+    }
+  },
+  "step-young": {
+    "src": "photos/lie-zhe-jun/step-young.webp",
+    "thumb": "photos/lie-zhe-jun/step-young.thumb.webp",
+    "w": 1024,
+    "h": 576,
+    "credit": {
+      "author": "Atsushi Nakajima",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/470418241",
       "source": "iNaturalist"
     }
   }

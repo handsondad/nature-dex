@@ -22,5 +22,65 @@
       "url": "https://www.inaturalist.org/photos/2801165",
       "source": "iNaturalist"
     }
+  },
+  "look-shan-di": {
+    "src": "photos/li-ban-ma-xi/look-shan-di.webp",
+    "thumb": "photos/li-ban-ma-xi/look-shan-di.thumb.webp",
+    "w": 1024,
+    "h": 684,
+    "credit": {
+      "author": "James Hardcastle",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/15885326",
+      "source": "iNaturalist"
+    }
+  },
+  "look-shi-long-zi": {
+    "src": "photos/li-ban-ma-xi/look-shi-long-zi.webp",
+    "thumb": "photos/li-ban-ma-xi/look-shi-long-zi.thumb.webp",
+    "w": 619,
+    "h": 925,
+    "credit": {
+      "author": "Roberto",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/84605907",
+      "source": "iNaturalist"
+    }
+  },
+  "skin": {
+    "src": "photos/li-ban-ma-xi/skin.webp",
+    "thumb": "photos/li-ban-ma-xi/skin.thumb.webp",
+    "w": 800,
+    "h": 534,
+    "credit": {
+      "author": "Kim",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/2786779",
+      "source": "iNaturalist"
+    }
+  },
+  "spots": {
+    "src": "photos/li-ban-ma-xi/spots.webp",
+    "thumb": "photos/li-ban-ma-xi/spots.thumb.webp",
+    "w": 900,
+    "h": 506,
+    "credit": {
+      "author": "Kim",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/2870087",
+      "source": "iNaturalist"
+    }
+  },
+  "stripes": {
+    "src": "photos/li-ban-ma-xi/stripes.webp",
+    "thumb": "photos/li-ban-ma-xi/stripes.thumb.webp",
+    "w": 1024,
+    "h": 666,
+    "credit": {
+      "author": "Ryan van Huyssteen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/738747682",
+      "source": "iNaturalist"
+    }
   }
 }

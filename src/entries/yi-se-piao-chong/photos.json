@@ -3,11 +3,11 @@
     "src": "photos/yi-se-piao-chong/adult-top.webp",
     "thumb": "photos/yi-se-piao-chong/adult-top.thumb.webp",
     "w": 1024,
-    "h": 663,
+    "h": 1024,
     "credit": {
-      "author": "Zinogre",
-      "license": "cc-by-sa",
-      "url": "https://www.inaturalist.org/photos/224148009",
+      "author": "Piotr Lukasik",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/436473338",
       "source": "iNaturalist"
     }
   },
@@ -20,6 +20,18 @@
       "author": "Zinogre",
       "license": "cc-by-sa",
       "url": "https://www.inaturalist.org/photos/126661890",
+      "source": "iNaturalist"
+    }
+  },
+  "head": {
+    "src": "photos/yi-se-piao-chong/head.webp",
+    "thumb": "photos/yi-se-piao-chong/head.thumb.webp",
+    "w": 1024,
+    "h": 686,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/126661845",
       "source": "iNaturalist"
     }
   },
@@ -62,12 +74,12 @@
   "step-egg": {
     "src": "photos/yi-se-piao-chong/step-egg.webp",
     "thumb": "photos/yi-se-piao-chong/step-egg.thumb.webp",
-    "w": 1024,
-    "h": 680,
+    "w": 768,
+    "h": 1024,
     "credit": {
-      "author": "Zinogre",
-      "license": "cc-by-sa",
-      "url": "https://www.inaturalist.org/photos/224147947",
+      "author": "Mark Richman",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/198482986",
       "source": "iNaturalist"
     }
   },
@@ -75,23 +87,35 @@
     "src": "photos/yi-se-piao-chong/step-larva.webp",
     "thumb": "photos/yi-se-piao-chong/step-larva.thumb.webp",
     "w": 1024,
-    "h": 768,
+    "h": 664,
     "credit": {
       "author": "Zinogre",
       "license": "cc-by-sa",
-      "url": "https://www.inaturalist.org/photos/244495231",
+      "url": "https://www.inaturalist.org/photos/381360974",
       "source": "iNaturalist"
+    }
+  },
+  "step-new": {
+    "src": "photos/yi-se-piao-chong/step-new.webp",
+    "thumb": "photos/yi-se-piao-chong/step-new.thumb.webp",
+    "w": 1103,
+    "h": 1200,
+    "credit": {
+      "author": "JonRichfield",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Coccinellidae_Teneral_after_ecdysis_6440s.jpg",
+      "source": "Wikimedia Commons"
     }
   },
   "step-pupa": {
     "src": "photos/yi-se-piao-chong/step-pupa.webp",
     "thumb": "photos/yi-se-piao-chong/step-pupa.thumb.webp",
-    "w": 768,
-    "h": 1024,
+    "w": 1024,
+    "h": 819,
     "credit": {
-      "author": "Zinogre",
-      "license": "cc-by-sa",
-      "url": "https://www.inaturalist.org/photos/240960293",
+      "author": "bloodlesshunting",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/201577158",
       "source": "iNaturalist"
     }
   }

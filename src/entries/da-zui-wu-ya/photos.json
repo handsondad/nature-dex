@@ -11,6 +11,30 @@
       "source": "iNaturalist"
     }
   },
+  "head": {
+    "src": "photos/da-zui-wu-ya/head.webp",
+    "thumb": "photos/da-zui-wu-ya/head.thumb.webp",
+    "w": 1024,
+    "h": 628,
+    "credit": {
+      "author": "Se Lena",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/386468869",
+      "source": "iNaturalist"
+    }
+  },
+  "juv-eye": {
+    "src": "photos/da-zui-wu-ya/juv-eye.webp",
+    "thumb": "photos/da-zui-wu-ya/juv-eye.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Timur Kalininsky",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/518992593",
+      "source": "iNaturalist"
+    }
+  },
   "look-da-zui": {
     "src": "photos/da-zui-wu-ya/look-da-zui.webp",
     "thumb": "photos/da-zui-wu-ya/look-da-zui.thumb.webp",
@@ -35,15 +59,39 @@
       "source": "iNaturalist"
     }
   },
-  "side-head": {
-    "src": "photos/da-zui-wu-ya/side-head.webp",
-    "thumb": "photos/da-zui-wu-ya/side-head.thumb.webp",
+  "look-xiao-zui": {
+    "src": "photos/da-zui-wu-ya/look-xiao-zui.webp",
+    "thumb": "photos/da-zui-wu-ya/look-xiao-zui.thumb.webp",
     "w": 1024,
-    "h": 768,
+    "h": 576,
     "credit": {
-      "author": "Yves Bas",
+      "author": "林孫鋒(Lin Sun Fong)",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/454414517",
+      "source": "iNaturalist"
+    }
+  },
+  "side-view": {
+    "src": "photos/da-zui-wu-ya/side-view.webp",
+    "thumb": "photos/da-zui-wu-ya/side-view.thumb.webp",
+    "w": 1024,
+    "h": 708,
+    "credit": {
+      "author": "Tejas M",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/108226114",
+      "url": "https://www.inaturalist.org/photos/264499285",
+      "source": "iNaturalist"
+    }
+  },
+  "step-out": {
+    "src": "photos/da-zui-wu-ya/step-out.webp",
+    "thumb": "photos/da-zui-wu-ya/step-out.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "wilderbombyx",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/399078441",
       "source": "iNaturalist"
     }
   }

@@ -11,6 +11,42 @@
       "source": "iNaturalist"
     }
   },
+  "group": {
+    "src": "photos/hui-xi-que/group.webp",
+    "thumb": "photos/hui-xi-que/group.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Marco Mussita",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/264667092",
+      "source": "iNaturalist"
+    }
+  },
+  "juv-cap": {
+    "src": "photos/hui-xi-que/juv-cap.webp",
+    "thumb": "photos/hui-xi-que/juv-cap.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/673216414",
+      "source": "iNaturalist"
+    }
+  },
+  "look-hong-zui-lan-que": {
+    "src": "photos/hui-xi-que/look-hong-zui-lan-que.webp",
+    "thumb": "photos/hui-xi-que/look-hong-zui-lan-que.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Jiao Sun (孙娇)",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/626135304",
+      "source": "iNaturalist"
+    }
+  },
   "look-hui-xi-que": {
     "src": "photos/hui-xi-que/look-hui-xi-que.webp",
     "thumb": "photos/hui-xi-que/look-hui-xi-que.thumb.webp",
@@ -39,11 +75,35 @@
     "src": "photos/hui-xi-que/side-view.webp",
     "thumb": "photos/hui-xi-que/side-view.thumb.webp",
     "w": 1024,
-    "h": 764,
+    "h": 1024,
+    "credit": {
+      "author": "Huey",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/447576944",
+      "source": "iNaturalist"
+    }
+  },
+  "step-out": {
+    "src": "photos/hui-xi-que/step-out.webp",
+    "thumb": "photos/hui-xi-que/step-out.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Jiao Sun (孙娇)",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/397333526",
+      "source": "iNaturalist"
+    }
+  },
+  "step-young": {
+    "src": "photos/hui-xi-que/step-young.webp",
+    "thumb": "photos/hui-xi-que/step-young.thumb.webp",
+    "w": 1024,
+    "h": 664,
     "credit": {
       "author": "Zinogre",
       "license": "cc-by-sa",
-      "url": "https://www.inaturalist.org/photos/107880023",
+      "url": "https://www.inaturalist.org/photos/164177132",
       "source": "iNaturalist"
     }
   }

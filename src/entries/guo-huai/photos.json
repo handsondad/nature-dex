@@ -2,12 +2,12 @@
   "branch-pods": {
     "src": "photos/guo-huai/branch-pods.webp",
     "thumb": "photos/guo-huai/branch-pods.thumb.webp",
-    "w": 769,
+    "w": 768,
     "h": 1024,
     "credit": {
-      "author": "Iehllmore",
+      "author": "Michelle Campbell",
       "license": "cc0",
-      "url": "https://www.inaturalist.org/photos/414214868",
+      "url": "https://www.inaturalist.org/photos/315497503",
       "source": "iNaturalist"
     }
   },
@@ -47,6 +47,18 @@
       "source": "iNaturalist"
     }
   },
+  "pods-macro": {
+    "src": "photos/guo-huai/pods-macro.webp",
+    "thumb": "photos/guo-huai/pods-macro.thumb.webp",
+    "w": 1004,
+    "h": 1024,
+    "credit": {
+      "author": "Carrie Seltzer",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/184266133",
+      "source": "iNaturalist"
+    }
+  },
   "same-flower": {
     "src": "photos/guo-huai/same-flower.webp",
     "thumb": "photos/guo-huai/same-flower.thumb.webp",
@@ -65,9 +77,57 @@
     "w": 768,
     "h": 1024,
     "credit": {
-      "author": "Douglas Mainhart",
+      "author": "chrischalfant",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/513378563",
+      "url": "https://www.inaturalist.org/photos/572535127",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bloom": {
+    "src": "photos/guo-huai/step-bloom.webp",
+    "thumb": "photos/guo-huai/step-bloom.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "jonsense",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/544488459",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bud": {
+    "src": "photos/guo-huai/step-bud.webp",
+    "thumb": "photos/guo-huai/step-bud.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Michael Ellis",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/21952058",
+      "source": "iNaturalist"
+    }
+  },
+  "step-green": {
+    "src": "photos/guo-huai/step-green.webp",
+    "thumb": "photos/guo-huai/step-green.thumb.webp",
+    "w": 771,
+    "h": 1024,
+    "credit": {
+      "author": "Martin Kalfatovic",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/327763192",
+      "source": "iNaturalist"
+    }
+  },
+  "step-winter": {
+    "src": "photos/guo-huai/step-winter.webp",
+    "thumb": "photos/guo-huai/step-winter.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "jonsense",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/620029672",
       "source": "iNaturalist"
     }
   }

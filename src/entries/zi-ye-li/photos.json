@@ -23,6 +23,30 @@
       "source": "iNaturalist"
     }
   },
+  "flower-macro": {
+    "src": "photos/zi-ye-li/flower-macro.webp",
+    "thumb": "photos/zi-ye-li/flower-macro.thumb.webp",
+    "w": 1200,
+    "h": 900,
+    "credit": {
+      "author": "Fernando Losada Rodríguez",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Prunus_cerasifera_pisardii.003_-_La_Virgen_del_Camino_(Leon).jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "look-mrm": {
+    "src": "photos/zi-ye-li/look-mrm.webp",
+    "thumb": "photos/zi-ye-li/look-mrm.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/683805314",
+      "source": "iNaturalist"
+    }
+  },
   "look-st": {
     "src": "photos/zi-ye-li/look-st.webp",
     "thumb": "photos/zi-ye-li/look-st.thumb.webp",
@@ -38,13 +62,37 @@
   "look-zyl": {
     "src": "photos/zi-ye-li/look-zyl.webp",
     "thumb": "photos/zi-ye-li/look-zyl.thumb.webp",
-    "w": 1024,
-    "h": 768,
+    "w": 900,
+    "h": 1200,
     "credit": {
-      "author": "Daniel Cahen",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/182100262",
-      "source": "iNaturalist"
+      "author": "Cathy G Chen",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:IMG_20180423_173305R.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "same-spring": {
+    "src": "photos/zi-ye-li/same-spring.webp",
+    "thumb": "photos/zi-ye-li/same-spring.thumb.webp",
+    "w": 1200,
+    "h": 900,
+    "credit": {
+      "author": "AnRo0002",
+      "license": "cc0",
+      "url": "https://commons.wikimedia.org/wiki/File:20140316Prunus_cerasifera_Hockenheim3.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "same-summer": {
+    "src": "photos/zi-ye-li/same-summer.webp",
+    "thumb": "photos/zi-ye-li/same-summer.thumb.webp",
+    "w": 800,
+    "h": 1200,
+    "credit": {
+      "author": "Acabashi",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Cherry_plum_Prunus_cerasifera_%27Pissardii%27_at_Woods_Mill,_Sussex_Wildlife_Trust,_England.jpg",
+      "source": "Wikimedia Commons"
     }
   },
   "step-flower": {

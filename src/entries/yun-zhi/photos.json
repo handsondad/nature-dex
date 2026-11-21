@@ -23,6 +23,18 @@
       "source": "iNaturalist"
     }
   },
+  "look-lb": {
+    "src": "photos/yun-zhi/look-lb.webp",
+    "thumb": "photos/yun-zhi/look-lb.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Alex",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/174236765",
+      "source": "iNaturalist"
+    }
+  },
   "look-so": {
     "src": "photos/yun-zhi/look-so.webp",
     "thumb": "photos/yun-zhi/look-so.thumb.webp",
@@ -68,6 +80,54 @@
       "author": "Christine Young",
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/160332042",
+      "source": "iNaturalist"
+    }
+  },
+  "step-layers": {
+    "src": "photos/yun-zhi/step-layers.webp",
+    "thumb": "photos/yun-zhi/step-layers.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Juli Mallett",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/34077564",
+      "source": "iNaturalist"
+    }
+  },
+  "step-margin": {
+    "src": "photos/yun-zhi/step-margin.webp",
+    "thumb": "photos/yun-zhi/step-margin.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "River Ahlquist",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/171680130",
+      "source": "iNaturalist"
+    }
+  },
+  "step-old": {
+    "src": "photos/yun-zhi/step-old.webp",
+    "thumb": "photos/yun-zhi/step-old.thumb.webp",
+    "w": 647,
+    "h": 1024,
+    "credit": {
+      "author": "Adam J. Searcy",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/31790414",
+      "source": "iNaturalist"
+    }
+  },
+  "step-young": {
+    "src": "photos/yun-zhi/step-young.webp",
+    "thumb": "photos/yun-zhi/step-young.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Diego Blanco",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/104125747",
       "source": "iNaturalist"
     }
   }

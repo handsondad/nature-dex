@@ -11,6 +11,18 @@
       "source": "iNaturalist"
     }
   },
+  "fruit-smoke": {
+    "src": "photos/huang-lu/fruit-smoke.webp",
+    "thumb": "photos/huang-lu/fruit-smoke.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Diogo Matias",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/680754706",
+      "source": "iNaturalist"
+    }
+  },
   "leaf": {
     "src": "photos/huang-lu/leaf.webp",
     "thumb": "photos/huang-lu/leaf.thumb.webp",
@@ -23,9 +35,81 @@
       "source": "iNaturalist"
     }
   },
-  "same-green": {
-    "src": "photos/huang-lu/same-green.webp",
-    "thumb": "photos/huang-lu/same-green.thumb.webp",
+  "look-huang-lu": {
+    "src": "photos/huang-lu/look-huang-lu.webp",
+    "thumb": "photos/huang-lu/look-huang-lu.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Pantazi Katerina",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/748877453",
+      "source": "iNaturalist"
+    }
+  },
+  "look-huo-ju-shu": {
+    "src": "photos/huang-lu/look-huo-ju-shu.webp",
+    "thumb": "photos/huang-lu/look-huo-ju-shu.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "David Rankin",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/137045776",
+      "source": "iNaturalist"
+    }
+  },
+  "look-yuan-bao-feng": {
+    "src": "photos/huang-lu/look-yuan-bao-feng.webp",
+    "thumb": "photos/huang-lu/look-yuan-bao-feng.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/101305651",
+      "source": "iNaturalist"
+    }
+  },
+  "same-autumn": {
+    "src": "photos/huang-lu/same-autumn.webp",
+    "thumb": "photos/huang-lu/same-autumn.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Pantazi Katerina",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/748877207",
+      "source": "iNaturalist"
+    }
+  },
+  "same-summer": {
+    "src": "photos/huang-lu/same-summer.webp",
+    "thumb": "photos/huang-lu/same-summer.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Michael Andresek",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/671753575",
+      "source": "iNaturalist"
+    }
+  },
+  "smoke": {
+    "src": "photos/huang-lu/smoke.webp",
+    "thumb": "photos/huang-lu/smoke.thumb.webp",
+    "w": 1024,
+    "h": 678,
+    "credit": {
+      "author": "Jay Pruett",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/346952640",
+      "source": "iNaturalist"
+    }
+  },
+  "smoke-branch": {
+    "src": "photos/huang-lu/smoke-branch.webp",
+    "thumb": "photos/huang-lu/smoke-branch.thumb.webp",
     "w": 1024,
     "h": 683,
     "credit": {
@@ -35,15 +119,39 @@
       "source": "iNaturalist"
     }
   },
-  "same-red": {
-    "src": "photos/huang-lu/same-red.webp",
-    "thumb": "photos/huang-lu/same-red.thumb.webp",
-    "w": 1024,
-    "h": 678,
+  "smoke-close": {
+    "src": "photos/huang-lu/smoke-close.webp",
+    "thumb": "photos/huang-lu/smoke-close.thumb.webp",
+    "w": 768,
+    "h": 1024,
     "credit": {
-      "author": "Jay Pruett",
+      "author": "Nikita Gerasin",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/346952640",
+      "url": "https://www.inaturalist.org/photos/213373630",
+      "source": "iNaturalist"
+    }
+  },
+  "step-flower": {
+    "src": "photos/huang-lu/step-flower.webp",
+    "thumb": "photos/huang-lu/step-flower.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "paulchallinor",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/667088974",
+      "source": "iNaturalist"
+    }
+  },
+  "step-fruit": {
+    "src": "photos/huang-lu/step-fruit.webp",
+    "thumb": "photos/huang-lu/step-fruit.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Se Lena",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/709878581",
       "source": "iNaturalist"
     }
   }

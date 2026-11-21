@@ -80,7 +80,18 @@ npm run refphoto -- <id> "<学名>" --as look-xxx --list   # 下载候选，生�
 npm run refphoto -- <id> "<学名>" --as look-xxx --pick 3 # 看过拼图后选第 3 张
 ```
 
-挑能看出区别特征的那张。署名由页面自动显示。草稿阶段：封面和正文块（**除「我们的记录」**）可用 `refphoto` 占位；记录块和正式篇封面仍留给自己拍。
+挑能看出区别特征的那张。署名由页面自动显示。
+
+找「一步一步」「变化」「凑近看」要的特定样子时加筛选（`--list` 和 `--pick` 要带同样的参数）：
+
+```bash
+npm run refphoto -- <id> "<学名>" --as step-egg --stage egg --list        # egg larva pupa nymph adult juvenile / flowers fruits buds / budding green colored bare / male female / nest feather track scat molt gall
+npm run refphoto -- <id> "<学名>" --as same-winter --month 12,1,2 --list  # 按月份找季节照
+npm run refphoto -- <id> "<学名>" --as fruit --photos 3 --n 12 --list     # 每条观察多取几张（后面几张常是果实、叶背、特写）
+npm run refphoto -- <id> "<学名>" --as step-fluff --commons "Populus tomentosa seed" --list  # iNaturalist 上实在没有，再去维基共享资源搜
+```
+
+`--commons` 按文件描述的文字搜，常混进别的物种：看清文件名和照片再挑。草稿阶段：封面和正文块（**除「我们的记录」**）可用 `refphoto` 占位；记录块和正式篇封面仍留给自己拍。
 
 ### 4. 选块
 

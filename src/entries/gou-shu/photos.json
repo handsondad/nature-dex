@@ -23,15 +23,87 @@
       "source": "iNaturalist"
     }
   },
-  "fruit-macro": {
-    "src": "photos/gou-shu/fruit-macro.webp",
-    "thumb": "photos/gou-shu/fruit-macro.thumb.webp",
+  "fruit-macro2": {
+    "src": "photos/gou-shu/fruit-macro2.webp",
+    "thumb": "photos/gou-shu/fruit-macro2.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Jiao Sun (孙娇)",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/559651201",
+      "source": "iNaturalist"
+    }
+  },
+  "look-gs": {
+    "src": "photos/gou-shu/look-gs.webp",
+    "thumb": "photos/gou-shu/look-gs.thumb.webp",
     "w": 1024,
     "h": 658,
     "credit": {
       "author": "Zinogre",
       "license": "cc-by-sa",
       "url": "https://www.inaturalist.org/photos/120173792",
+      "source": "iNaturalist"
+    }
+  },
+  "look-sang": {
+    "src": "photos/gou-shu/look-sang.webp",
+    "thumb": "photos/gou-shu/look-sang.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "capacoscar",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/509078668",
+      "source": "iNaturalist"
+    }
+  },
+  "step-female": {
+    "src": "photos/gou-shu/step-female.webp",
+    "thumb": "photos/gou-shu/step-female.thumb.webp",
+    "w": 1024,
+    "h": 678,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/120401516",
+      "source": "iNaturalist"
+    }
+  },
+  "step-green": {
+    "src": "photos/gou-shu/step-green.webp",
+    "thumb": "photos/gou-shu/step-green.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Huey",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/447573905",
+      "source": "iNaturalist"
+    }
+  },
+  "step-male": {
+    "src": "photos/gou-shu/step-male.webp",
+    "thumb": "photos/gou-shu/step-male.thumb.webp",
+    "w": 1024,
+    "h": 727,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/120401497",
+      "source": "iNaturalist"
+    }
+  },
+  "step-red": {
+    "src": "photos/gou-shu/step-red.webp",
+    "thumb": "photos/gou-shu/step-red.thumb.webp",
+    "w": 1024,
+    "h": 711,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/219661248",
       "source": "iNaturalist"
     }
   }

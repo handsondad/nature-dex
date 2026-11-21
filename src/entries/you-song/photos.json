@@ -1,13 +1,37 @@
 {
-  "cone-macro": {
-    "src": "photos/you-song/cone-macro.webp",
-    "thumb": "photos/you-song/cone-macro.thumb.webp",
-    "w": 1024,
-    "h": 768,
+  "bark": {
+    "src": "photos/you-song/bark.webp",
+    "thumb": "photos/you-song/bark.thumb.webp",
+    "w": 768,
+    "h": 1024,
     "credit": {
-      "author": "Jens-Christian Svenning",
+      "author": "Manuel R Popp",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/77871815",
+      "url": "https://www.inaturalist.org/photos/531614430",
+      "source": "iNaturalist"
+    }
+  },
+  "big-tree": {
+    "src": "photos/you-song/big-tree.webp",
+    "thumb": "photos/you-song/big-tree.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Anna Venczel",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/650115221",
+      "source": "iNaturalist"
+    }
+  },
+  "cone-open": {
+    "src": "photos/you-song/cone-open.webp",
+    "thumb": "photos/you-song/cone-open.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/115936043",
       "source": "iNaturalist"
     }
   },
@@ -23,15 +47,75 @@
       "source": "iNaturalist"
     }
   },
-  "needles-cone": {
-    "src": "photos/you-song/needles-cone.webp",
-    "thumb": "photos/you-song/needles-cone.thumb.webp",
-    "w": 1024,
-    "h": 478,
+  "look-bps": {
+    "src": "photos/you-song/look-bps.webp",
+    "thumb": "photos/you-song/look-bps.thumb.webp",
+    "w": 768,
+    "h": 1024,
     "credit": {
-      "author": "froggymum",
+      "author": "振远 王",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/501779478",
+      "url": "https://www.inaturalist.org/photos/554988080",
+      "source": "iNaturalist"
+    }
+  },
+  "look-hss": {
+    "src": "photos/you-song/look-hss.webp",
+    "thumb": "photos/you-song/look-hss.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Matt Scott",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/60101038",
+      "source": "iNaturalist"
+    }
+  },
+  "look-you-song": {
+    "src": "photos/you-song/look-you-song.webp",
+    "thumb": "photos/you-song/look-you-song.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Nash Turley",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/12653165",
+      "source": "iNaturalist"
+    }
+  },
+  "step-female": {
+    "src": "photos/you-song/step-female.webp",
+    "thumb": "photos/you-song/step-female.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "shizhao",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/71105402",
+      "source": "iNaturalist"
+    }
+  },
+  "step-green-cone": {
+    "src": "photos/you-song/step-green-cone.webp",
+    "thumb": "photos/you-song/step-green-cone.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/75333863",
+      "source": "iNaturalist"
+    }
+  },
+  "young-tree": {
+    "src": "photos/you-song/young-tree.webp",
+    "thumb": "photos/you-song/young-tree.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Jens-Christian Svenning",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/77793803",
       "source": "iNaturalist"
     }
   }

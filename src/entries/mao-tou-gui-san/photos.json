@@ -11,6 +11,18 @@
       "source": "iNaturalist"
     }
   },
+  "id-lawn": {
+    "src": "photos/mao-tou-gui-san/id-lawn.webp",
+    "thumb": "photos/mao-tou-gui-san/id-lawn.thumb.webp",
+    "w": 1024,
+    "h": 677,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/163972537",
+      "source": "iNaturalist"
+    }
+  },
   "look-mjgs": {
     "src": "photos/mao-tou-gui-san/look-mjgs.webp",
     "thumb": "photos/mao-tou-gui-san/look-mjgs.thumb.webp",
@@ -59,6 +71,30 @@
       "source": "iNaturalist"
     }
   },
+  "step-bell": {
+    "src": "photos/mao-tou-gui-san/step-bell.webp",
+    "thumb": "photos/mao-tou-gui-san/step-bell.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Tom Norton",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/164366209",
+      "source": "iNaturalist"
+    }
+  },
+  "step-drip": {
+    "src": "photos/mao-tou-gui-san/step-drip.webp",
+    "thumb": "photos/mao-tou-gui-san/step-drip.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Alison Northup",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/45349949",
+      "source": "iNaturalist"
+    }
+  },
   "whole-fungus": {
     "src": "photos/mao-tou-gui-san/whole-fungus.webp",
     "thumb": "photos/mao-tou-gui-san/whole-fungus.thumb.webp",
@@ -80,6 +116,18 @@
       "author": "Zinogre",
       "license": "cc-by-sa",
       "url": "https://www.inaturalist.org/photos/240960224",
+      "source": "iNaturalist"
+    }
+  },
+  "zoom-edge": {
+    "src": "photos/mao-tou-gui-san/zoom-edge.webp",
+    "thumb": "photos/mao-tou-gui-san/zoom-edge.thumb.webp",
+    "w": 576,
+    "h": 1024,
+    "credit": {
+      "author": "Lalys",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/181639940",
       "source": "iNaturalist"
     }
   }

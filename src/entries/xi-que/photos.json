@@ -11,6 +11,18 @@
       "source": "iNaturalist"
     }
   },
+  "look-hong-zui-lan-que": {
+    "src": "photos/xi-que/look-hong-zui-lan-que.webp",
+    "thumb": "photos/xi-que/look-hong-zui-lan-que.thumb.webp",
+    "w": 1024,
+    "h": 767,
+    "credit": {
+      "author": "夏仲归",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/178183465",
+      "source": "iNaturalist"
+    }
+  },
   "look-hui-xi-que": {
     "src": "photos/xi-que/look-hui-xi-que.webp",
     "thumb": "photos/xi-que/look-hui-xi-que.thumb.webp",
@@ -35,15 +47,75 @@
       "source": "iNaturalist"
     }
   },
+  "nest-wire": {
+    "src": "photos/xi-que/nest-wire.webp",
+    "thumb": "photos/xi-que/nest-wire.thumb.webp",
+    "w": 1200,
+    "h": 900,
+    "credit": {
+      "author": "Peka",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Pica_serica_(Oriental_Magpie)_nest_uses_metal_wire_in_Chiyoda,_Saga.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
   "side-view": {
     "src": "photos/xi-que/side-view.webp",
     "thumb": "photos/xi-que/side-view.thumb.webp",
     "w": 1024,
-    "h": 716,
+    "h": 807,
     "credit": {
-      "author": "Zinogre",
+      "author": "Seig",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/55343670",
+      "source": "iNaturalist"
+    }
+  },
+  "step-build": {
+    "src": "photos/xi-que/step-build.webp",
+    "thumb": "photos/xi-que/step-build.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Jiao Sun (孙娇)",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/413447848",
+      "source": "iNaturalist"
+    }
+  },
+  "step-guard": {
+    "src": "photos/xi-que/step-guard.webp",
+    "thumb": "photos/xi-que/step-guard.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Gonzalo Ganda Álvarez",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/702462012",
+      "source": "iNaturalist"
+    }
+  },
+  "step-nest": {
+    "src": "photos/xi-que/step-nest.webp",
+    "thumb": "photos/xi-que/step-nest.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Jay Paroline",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/618741307",
+      "source": "iNaturalist"
+    }
+  },
+  "step-young": {
+    "src": "photos/xi-que/step-young.webp",
+    "thumb": "photos/xi-que/step-young.thumb.webp",
+    "w": 1024,
+    "h": 576,
+    "credit": {
+      "author": "林孫鋒(Lin Sun Fong)",
       "license": "cc-by-sa",
-      "url": "https://www.inaturalist.org/photos/456962823",
+      "url": "https://www.inaturalist.org/photos/260808909",
       "source": "iNaturalist"
     }
   }

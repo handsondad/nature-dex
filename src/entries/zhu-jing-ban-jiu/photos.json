@@ -1,4 +1,28 @@
 {
+  "adult": {
+    "src": "photos/zhu-jing-ban-jiu/adult.webp",
+    "thumb": "photos/zhu-jing-ban-jiu/adult.thumb.webp",
+    "w": 1024,
+    "h": 694,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/229944267",
+      "source": "iNaturalist"
+    }
+  },
+  "body": {
+    "src": "photos/zhu-jing-ban-jiu/body.webp",
+    "thumb": "photos/zhu-jing-ban-jiu/body.thumb.webp",
+    "w": 1024,
+    "h": 712,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/189981362",
+      "source": "iNaturalist"
+    }
+  },
   "cover": {
     "src": "photos/zhu-jing-ban-jiu/cover.webp",
     "thumb": "photos/zhu-jing-ban-jiu/cover.thumb.webp",
@@ -8,6 +32,30 @@
       "author": "Zinogre",
       "license": "cc-by-sa",
       "url": "https://www.inaturalist.org/photos/230618423",
+      "source": "iNaturalist"
+    }
+  },
+  "juvenile": {
+    "src": "photos/zhu-jing-ban-jiu/juvenile.webp",
+    "thumb": "photos/zhu-jing-ban-jiu/juvenile.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "許慶棠Ray",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/473346102",
+      "source": "iNaturalist"
+    }
+  },
+  "look-hui-ban-jiu": {
+    "src": "photos/zhu-jing-ban-jiu/look-hui-ban-jiu.webp",
+    "thumb": "photos/zhu-jing-ban-jiu/look-hui-ban-jiu.thumb.webp",
+    "w": 1024,
+    "h": 757,
+    "credit": {
+      "author": "bloodlesshunting",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/417559529",
       "source": "iNaturalist"
     }
   },
@@ -44,6 +92,42 @@
       "author": "Zinogre",
       "license": "cc-by-sa",
       "url": "https://www.inaturalist.org/photos/189562927",
+      "source": "iNaturalist"
+    }
+  },
+  "step-chick": {
+    "src": "photos/zhu-jing-ban-jiu/step-chick.webp",
+    "thumb": "photos/zhu-jing-ban-jiu/step-chick.thumb.webp",
+    "w": 1200,
+    "h": 918,
+    "credit": {
+      "author": "TheAhasan",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:A_juvenile_spotted_dove_(Spilopelia_chinensis)_resting_on_green_plants.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-egg": {
+    "src": "photos/zhu-jing-ban-jiu/step-egg.webp",
+    "thumb": "photos/zhu-jing-ban-jiu/step-egg.thumb.webp",
+    "w": 1200,
+    "h": 900,
+    "credit": {
+      "author": "Afsarnayakkan",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Spotted_dove_nest_.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-fledge": {
+    "src": "photos/zhu-jing-ban-jiu/step-fledge.webp",
+    "thumb": "photos/zhu-jing-ban-jiu/step-fledge.thumb.webp",
+    "w": 1024,
+    "h": 712,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/229940370",
       "source": "iNaturalist"
     }
   }

@@ -20,10 +20,10 @@ const entry: Entry = {
       title: "怎么认出它",
       shot: { photo: "whole-plant", caption: "一整棵蒲公英", shoot: "从斜上方拍一整棵：贴地的叶子、花茎和花头都在画面里" },
       points: [
-        { x: 0.5, y: 0.78, label: "叶子贴地围成一圈", detail: "叶子都从根上长出来，平铺在地面上，像一个绿色的盘子。", cite: ["foc-taraxacum"] },
-        { x: 0.2, y: 0.62, label: "叶边有尖尖的裂片", detail: "叶子两边裂成一个个三角形，像狮子的牙齿。", cite: ["foc-pgy", "wiki-zh"] },
-        { x: 0.52, y: 0.42, label: "花茎光溜溜", detail: "花茎上没有叶子、不分叉，里面是空心的，一根只顶一个花头。", cite: ["foc-taraxacum"] },
-        { x: 0.52, y: 0.14, label: "黄色的花头", detail: "宽 3～4 厘米，比一元硬币还大一圈。", cite: ["foc-pgy"] },
+        { x: 0.22, y: 0.8, label: "叶子贴地围成一圈", detail: "叶子都从根上长出来，平铺在地面上，像一个绿色的盘子。", cite: ["foc-taraxacum"] },
+        { x: 0.62, y: 0.75, label: "叶边有尖尖的裂片", detail: "叶子两边裂成一个个三角形，像狮子的牙齿。", cite: ["foc-pgy", "wiki-zh"] },
+        { x: 0.35, y: 0.57, label: "花茎光溜溜", detail: "花茎上没有叶子、不分叉，里面是空心的，一根只顶一个花头。", cite: ["foc-taraxacum"] },
+        { x: 0.72, y: 0.3, label: "黄色的花头", detail: "宽 3～4 厘米，比一元硬币还大一圈。", cite: ["foc-pgy"] },
       ],
     },
     {

@@ -23,6 +23,18 @@
       "source": "iNaturalist"
     }
   },
+  "look-dt": {
+    "src": "photos/huang-ci-mei/look-dt.webp",
+    "thumb": "photos/huang-ci-mei/look-dt.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "村山史世　（Fumiyo MURAYAMA)",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/636315754",
+      "source": "iNaturalist"
+    }
+  },
   "look-hcm": {
     "src": "photos/huang-ci-mei/look-hcm.webp",
     "thumb": "photos/huang-ci-mei/look-hcm.thumb.webp",
@@ -31,7 +43,7 @@
     "credit": {
       "author": "Urgamal Magsar",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/693092001",
+      "url": "https://www.inaturalist.org/photos/693084308",
       "source": "iNaturalist"
     }
   },
@@ -45,6 +57,42 @@
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/260060959",
       "source": "iNaturalist"
+    }
+  },
+  "step-bloom": {
+    "src": "photos/huang-ci-mei/step-bloom.webp",
+    "thumb": "photos/huang-ci-mei/step-bloom.thumb.webp",
+    "w": 900,
+    "h": 1200,
+    "credit": {
+      "author": "Cathy G Chen",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:%E5%8D%95%E7%93%A3%E9%BB%84%E5%88%BA%E7%8E%AB(3).jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-bud": {
+    "src": "photos/huang-ci-mei/step-bud.webp",
+    "thumb": "photos/huang-ci-mei/step-bud.thumb.webp",
+    "w": 1200,
+    "h": 900,
+    "credit": {
+      "author": "Salicyna",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Rosa_xanthina_2016-05-17_0454.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-hip": {
+    "src": "photos/huang-ci-mei/step-hip.webp",
+    "thumb": "photos/huang-ci-mei/step-hip.thumb.webp",
+    "w": 1200,
+    "h": 900,
+    "credit": {
+      "author": "Agnieszka Kwiecień, Nova",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Rosa_xanthina_R%C3%B3%C5%BCa_z%C5%82ocisto%C5%BC%C3%B3%C5%82ta_2020-08-07_03.jpg",
+      "source": "Wikimedia Commons"
     }
   },
   "thorn-macro": {

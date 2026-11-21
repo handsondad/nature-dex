@@ -11,6 +11,30 @@
       "source": "iNaturalist"
     }
   },
+  "face": {
+    "src": "photos/yan-song-shu/face.webp",
+    "thumb": "photos/yan-song-shu/face.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Jess Miller-Camp",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/33611407",
+      "source": "iNaturalist"
+    }
+  },
+  "look-hs": {
+    "src": "photos/yan-song-shu/look-hs.webp",
+    "thumb": "photos/yan-song-shu/look-hs.thumb.webp",
+    "w": 1024,
+    "h": 650,
+    "credit": {
+      "author": "Bob",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/431668573",
+      "source": "iNaturalist"
+    }
+  },
   "look-hw": {
     "src": "photos/yan-song-shu/look-hw.webp",
     "thumb": "photos/yan-song-shu/look-hw.thumb.webp",
@@ -56,6 +80,42 @@
       "author": "夏仲归",
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/611673772",
+      "source": "iNaturalist"
+    }
+  },
+  "step-hole": {
+    "src": "photos/yan-song-shu/step-hole.webp",
+    "thumb": "photos/yan-song-shu/step-hole.thumb.webp",
+    "w": 1024,
+    "h": 682,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/139486156",
+      "source": "iNaturalist"
+    }
+  },
+  "step-tree": {
+    "src": "photos/yan-song-shu/step-tree.webp",
+    "thumb": "photos/yan-song-shu/step-tree.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Jens-Christian Svenning",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/77788007",
+      "source": "iNaturalist"
+    }
+  },
+  "step-wall": {
+    "src": "photos/yan-song-shu/step-wall.webp",
+    "thumb": "photos/yan-song-shu/step-wall.thumb.webp",
+    "w": 1024,
+    "h": 576,
+    "credit": {
+      "author": "steve b",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/525958934",
       "source": "iNaturalist"
     }
   }

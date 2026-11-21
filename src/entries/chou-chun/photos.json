@@ -1,16 +1,4 @@
 {
-  "compound-leaf": {
-    "src": "photos/chou-chun/compound-leaf.webp",
-    "thumb": "photos/chou-chun/compound-leaf.thumb.webp",
-    "w": 683,
-    "h": 1024,
-    "credit": {
-      "author": "Maheva B Laursen",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/19529412",
-      "source": "iNaturalist"
-    }
-  },
   "cover": {
     "src": "photos/chou-chun/cover.webp",
     "thumb": "photos/chou-chun/cover.thumb.webp",
@@ -23,16 +11,40 @@
       "source": "iNaturalist"
     }
   },
-  "leaflet-gland": {
-    "src": "photos/chou-chun/leaflet-gland.webp",
-    "thumb": "photos/chou-chun/leaflet-gland.thumb.webp",
-    "w": 768,
-    "h": 1024,
+  "gland": {
+    "src": "photos/chou-chun/gland.webp",
+    "thumb": "photos/chou-chun/gland.thumb.webp",
+    "w": 900,
+    "h": 1200,
     "credit": {
-      "author": "Manuel R Popp",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/531143118",
-      "source": "iNaturalist"
+      "author": "KATHERINE WAGNER-REISS",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Ailanthus_altissima_-close-up_showing_glands_at_leaflet_bases.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "leaf": {
+    "src": "photos/chou-chun/leaf.webp",
+    "thumb": "photos/chou-chun/leaf.thumb.webp",
+    "w": 900,
+    "h": 1200,
+    "credit": {
+      "author": "Stefan.lefnaer",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Ailanthus_altissima_sl23.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "leaf-scar": {
+    "src": "photos/chou-chun/leaf-scar.webp",
+    "thumb": "photos/chou-chun/leaf-scar.thumb.webp",
+    "w": 873,
+    "h": 1200,
+    "credit": {
+      "author": "Schurdl",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Ailanthus_altissima_220306.jpg",
+      "source": "Wikimedia Commons"
     }
   },
   "look-chou-chun": {
@@ -47,6 +59,18 @@
       "source": "iNaturalist"
     }
   },
+  "look-huo-ju-shu": {
+    "src": "photos/chou-chun/look-huo-ju-shu.webp",
+    "thumb": "photos/chou-chun/look-huo-ju-shu.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Marco Mussita",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/288453363",
+      "source": "iNaturalist"
+    }
+  },
   "look-xiang-chun": {
     "src": "photos/chou-chun/look-xiang-chun.webp",
     "thumb": "photos/chou-chun/look-xiang-chun.thumb.webp",
@@ -56,6 +80,90 @@
       "author": "Andrew Conboy",
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/104662805",
+      "source": "iNaturalist"
+    }
+  },
+  "same-summer": {
+    "src": "photos/chou-chun/same-summer.webp",
+    "thumb": "photos/chou-chun/same-summer.thumb.webp",
+    "w": 888,
+    "h": 1200,
+    "credit": {
+      "author": "Darkone (talk · contribs)",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:G%C3%B6tterbaum_(Ailanthus_altissima).jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "same-winter": {
+    "src": "photos/chou-chun/same-winter.webp",
+    "thumb": "photos/chou-chun/same-winter.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Mike B",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/466210230",
+      "source": "iNaturalist"
+    }
+  },
+  "step-flower": {
+    "src": "photos/chou-chun/step-flower.webp",
+    "thumb": "photos/chou-chun/step-flower.thumb.webp",
+    "w": 683,
+    "h": 1024,
+    "credit": {
+      "author": "Maheva B Laursen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/19529412",
+      "source": "iNaturalist"
+    }
+  },
+  "step-green": {
+    "src": "photos/chou-chun/step-green.webp",
+    "thumb": "photos/chou-chun/step-green.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Manuel R Popp",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/531143118",
+      "source": "iNaturalist"
+    }
+  },
+  "step-red": {
+    "src": "photos/chou-chun/step-red.webp",
+    "thumb": "photos/chou-chun/step-red.thumb.webp",
+    "w": 818,
+    "h": 1024,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/142254655",
+      "source": "iNaturalist"
+    }
+  },
+  "step-seed": {
+    "src": "photos/chou-chun/step-seed.webp",
+    "thumb": "photos/chou-chun/step-seed.thumb.webp",
+    "w": 1023,
+    "h": 1024,
+    "credit": {
+      "author": "Ali Campbell",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/179197729",
+      "source": "iNaturalist"
+    }
+  },
+  "step-winter": {
+    "src": "photos/chou-chun/step-winter.webp",
+    "thumb": "photos/chou-chun/step-winter.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Jiao Sun (孙娇)",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/399684124",
       "source": "iNaturalist"
     }
   }

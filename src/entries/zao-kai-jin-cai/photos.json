@@ -35,6 +35,78 @@
       "source": "iNaturalist"
     }
   },
+  "same-spring": {
+    "src": "photos/zao-kai-jin-cai/same-spring.webp",
+    "thumb": "photos/zao-kai-jin-cai/same-spring.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "振远 王",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/716018006",
+      "source": "iNaturalist"
+    }
+  },
+  "same-summer": {
+    "src": "photos/zao-kai-jin-cai/same-summer.webp",
+    "thumb": "photos/zao-kai-jin-cai/same-summer.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "carbapple",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/555541149",
+      "source": "iNaturalist"
+    }
+  },
+  "seeds": {
+    "src": "photos/zao-kai-jin-cai/seeds.webp",
+    "thumb": "photos/zao-kai-jin-cai/seeds.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Marc Riera",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/532072433",
+      "source": "iNaturalist"
+    }
+  },
+  "step-flower": {
+    "src": "photos/zao-kai-jin-cai/step-flower.webp",
+    "thumb": "photos/zao-kai-jin-cai/step-flower.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/61637726",
+      "source": "iNaturalist"
+    }
+  },
+  "step-open": {
+    "src": "photos/zao-kai-jin-cai/step-open.webp",
+    "thumb": "photos/zao-kai-jin-cai/step-open.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/166070200",
+      "source": "iNaturalist"
+    }
+  },
+  "step-summer": {
+    "src": "photos/zao-kai-jin-cai/step-summer.webp",
+    "thumb": "photos/zao-kai-jin-cai/step-summer.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "carbapple",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/555541900",
+      "source": "iNaturalist"
+    }
+  },
   "whole-plant": {
     "src": "photos/zao-kai-jin-cai/whole-plant.webp",
     "thumb": "photos/zao-kai-jin-cai/whole-plant.thumb.webp",

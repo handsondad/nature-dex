@@ -1,13 +1,13 @@
 {
-  "adult-crawl": {
-    "src": "photos/tong-xing-ba-wo-niu/adult-crawl.webp",
-    "thumb": "photos/tong-xing-ba-wo-niu/adult-crawl.thumb.webp",
+  "body": {
+    "src": "photos/tong-xing-ba-wo-niu/body.webp",
+    "thumb": "photos/tong-xing-ba-wo-niu/body.thumb.webp",
     "w": 1024,
-    "h": 768,
+    "h": 724,
     "credit": {
-      "author": "TonyT",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/299805963",
+      "author": "Rafael Rosa",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/340536804",
       "source": "iNaturalist"
     }
   },
@@ -56,6 +56,42 @@
       "author": "Thomas Mesaglio",
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/110089179",
+      "source": "iNaturalist"
+    }
+  },
+  "step-grown": {
+    "src": "photos/tong-xing-ba-wo-niu/step-grown.webp",
+    "thumb": "photos/tong-xing-ba-wo-niu/step-grown.thumb.webp",
+    "w": 1024,
+    "h": 684,
+    "credit": {
+      "author": "Nigel Main",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/255211896",
+      "source": "iNaturalist"
+    }
+  },
+  "step-hatch": {
+    "src": "photos/tong-xing-ba-wo-niu/step-hatch.webp",
+    "thumb": "photos/tong-xing-ba-wo-niu/step-hatch.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Alesha Teitzel",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/442732149",
+      "source": "iNaturalist"
+    }
+  },
+  "step-thin": {
+    "src": "photos/tong-xing-ba-wo-niu/step-thin.webp",
+    "thumb": "photos/tong-xing-ba-wo-niu/step-thin.thumb.webp",
+    "w": 1024,
+    "h": 747,
+    "credit": {
+      "author": "Lachlan Copeland",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/511093733",
       "source": "iNaturalist"
     }
   }

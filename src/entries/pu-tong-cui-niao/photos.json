@@ -11,6 +11,18 @@
       "source": "iNaturalist"
     }
   },
+  "feather": {
+    "src": "photos/pu-tong-cui-niao/feather.webp",
+    "thumb": "photos/pu-tong-cui-niao/feather.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "SteveM4560",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/347327856",
+      "source": "iNaturalist"
+    }
+  },
   "female-bill": {
     "src": "photos/pu-tong-cui-niao/female-bill.webp",
     "thumb": "photos/pu-tong-cui-niao/female-bill.thumb.webp",
@@ -47,6 +59,18 @@
       "source": "iNaturalist"
     }
   },
+  "look-lan-fei-cui": {
+    "src": "photos/pu-tong-cui-niao/look-lan-fei-cui.webp",
+    "thumb": "photos/pu-tong-cui-niao/look-lan-fei-cui.thumb.webp",
+    "w": 1024,
+    "h": 680,
+    "credit": {
+      "author": "Andrew Lai",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/447944513",
+      "source": "iNaturalist"
+    }
+  },
   "male-bill": {
     "src": "photos/pu-tong-cui-niao/male-bill.webp",
     "thumb": "photos/pu-tong-cui-niao/male-bill.thumb.webp",
@@ -59,16 +83,52 @@
       "source": "iNaturalist"
     }
   },
-  "perch-side": {
-    "src": "photos/pu-tong-cui-niao/perch-side.webp",
-    "thumb": "photos/pu-tong-cui-niao/perch-side.thumb.webp",
+  "side": {
+    "src": "photos/pu-tong-cui-niao/side.webp",
+    "thumb": "photos/pu-tong-cui-niao/side.thumb.webp",
     "w": 1024,
     "h": 768,
     "credit": {
-      "author": "Toby Y",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/600720048",
+      "author": "Sebek",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/595759123",
       "source": "iNaturalist"
+    }
+  },
+  "step-burrow": {
+    "src": "photos/pu-tong-cui-niao/step-burrow.webp",
+    "thumb": "photos/pu-tong-cui-niao/step-burrow.thumb.webp",
+    "w": 1024,
+    "h": 789,
+    "credit": {
+      "author": "Clare Edwards",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/507985648",
+      "source": "iNaturalist"
+    }
+  },
+  "step-egg": {
+    "src": "photos/pu-tong-cui-niao/step-egg.webp",
+    "thumb": "photos/pu-tong-cui-niao/step-egg.thumb.webp",
+    "w": 1200,
+    "h": 965,
+    "credit": {
+      "author": "Didier Descouens",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Alcedo_atthis_MHNT_ZOO_2010_11_160_Arcy-sur-Cure.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-fledge": {
+    "src": "photos/pu-tong-cui-niao/step-fledge.webp",
+    "thumb": "photos/pu-tong-cui-niao/step-fledge.thumb.webp",
+    "w": 1200,
+    "h": 900,
+    "credit": {
+      "author": "Zakaria Laperashvili",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Junger_Eisvogel_(Alcedo_atthis).jpg",
+      "source": "Wikimedia Commons"
     }
   }
 }

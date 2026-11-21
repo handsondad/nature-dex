@@ -1,16 +1,4 @@
 {
-  "bark": {
-    "src": "photos/shan-tao/bark.webp",
-    "thumb": "photos/shan-tao/bark.thumb.webp",
-    "w": 768,
-    "h": 1024,
-    "credit": {
-      "author": "Jane Charlen",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/623854565",
-      "source": "iNaturalist"
-    }
-  },
   "cover": {
     "src": "photos/shan-tao/cover.webp",
     "thumb": "photos/shan-tao/cover.thumb.webp",
@@ -26,12 +14,36 @@
   "flower-branch": {
     "src": "photos/shan-tao/flower-branch.webp",
     "thumb": "photos/shan-tao/flower-branch.thumb.webp",
-    "w": 768,
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "James Telford",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/58364134",
+      "source": "iNaturalist"
+    }
+  },
+  "fruit-macro": {
+    "src": "photos/shan-tao/fruit-macro.webp",
+    "thumb": "photos/shan-tao/fruit-macro.thumb.webp",
+    "w": 745,
     "h": 1024,
     "credit": {
-      "author": "Jane Charlen",
+      "author": "Yi CHEN",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/390250742",
+      "url": "https://www.inaturalist.org/photos/208719889",
+      "source": "iNaturalist"
+    }
+  },
+  "look-bt": {
+    "src": "photos/shan-tao/look-bt.webp",
+    "thumb": "photos/shan-tao/look-bt.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "ks1v",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/641289924",
       "source": "iNaturalist"
     }
   },
@@ -68,6 +80,66 @@
       "author": "Jane Charlen",
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/368901118",
+      "source": "iNaturalist"
+    }
+  },
+  "same-spring": {
+    "src": "photos/shan-tao/same-spring.webp",
+    "thumb": "photos/shan-tao/same-spring.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/623854565",
+      "source": "iNaturalist"
+    }
+  },
+  "same-summer": {
+    "src": "photos/shan-tao/same-summer.webp",
+    "thumb": "photos/shan-tao/same-summer.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/390250742",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bloom": {
+    "src": "photos/shan-tao/step-bloom.webp",
+    "thumb": "photos/shan-tao/step-bloom.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/623854589",
+      "source": "iNaturalist"
+    }
+  },
+  "step-fruit": {
+    "src": "photos/shan-tao/step-fruit.webp",
+    "thumb": "photos/shan-tao/step-fruit.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/208719217",
+      "source": "iNaturalist"
+    }
+  },
+  "step-leaf": {
+    "src": "photos/shan-tao/step-leaf.webp",
+    "thumb": "photos/shan-tao/step-leaf.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/208721024",
       "source": "iNaturalist"
     }
   }

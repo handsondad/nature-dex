@@ -14,13 +14,13 @@
   "hook-macro": {
     "src": "photos/cang-er/hook-macro.webp",
     "thumb": "photos/cang-er/hook-macro.thumb.webp",
-    "w": 768,
-    "h": 1024,
+    "w": 1200,
+    "h": 779,
     "credit": {
-      "author": "Corey Koala",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/482251914",
-      "source": "iNaturalist"
+      "author": "Roger Culos",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Xanthium_strumarium_MHNT.BOT.2004.0.213.jpg",
+      "source": "Wikimedia Commons"
     }
   },
   "leaf-bur": {
@@ -38,12 +38,12 @@
   "look-ce": {
     "src": "photos/cang-er/look-ce.webp",
     "thumb": "photos/cang-er/look-ce.thumb.webp",
-    "w": 575,
-    "h": 791,
+    "w": 1024,
+    "h": 768,
     "credit": {
-      "author": "Wynand Uys",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/203143374",
+      "author": "Anne Parsons",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/456017522",
       "source": "iNaturalist"
     }
   },
@@ -59,6 +59,18 @@
       "source": "iNaturalist"
     }
   },
+  "look-ppz": {
+    "src": "photos/cang-er/look-ppz.webp",
+    "thumb": "photos/cang-er/look-ppz.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Becky Dill",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/158662530",
+      "source": "iNaturalist"
+    }
+  },
   "step-brown": {
     "src": "photos/cang-er/step-brown.webp",
     "thumb": "photos/cang-er/step-brown.thumb.webp",
@@ -68,6 +80,18 @@
       "author": "Andre Hosper",
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/23375283",
+      "source": "iNaturalist"
+    }
+  },
+  "step-flower": {
+    "src": "photos/cang-er/step-flower.webp",
+    "thumb": "photos/cang-er/step-flower.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Anne Parsons",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/23806674",
       "source": "iNaturalist"
     }
   },
@@ -81,6 +105,18 @@
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/164586800",
       "source": "iNaturalist"
+    }
+  },
+  "step-sprout": {
+    "src": "photos/cang-er/step-sprout.webp",
+    "thumb": "photos/cang-er/step-sprout.thumb.webp",
+    "w": 1200,
+    "h": 1021,
+    "credit": {
+      "author": "Leaflet",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Cocklebur_Seedling_West_Texas_2003.jpg",
+      "source": "Wikimedia Commons"
     }
   }
 }

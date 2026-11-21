@@ -47,6 +47,66 @@
       "source": "iNaturalist"
     }
   },
+  "male": {
+    "src": "photos/ri-ben-gong-bei-yi/male.webp",
+    "thumb": "photos/ri-ben-gong-bei-yi/male.thumb.webp",
+    "w": 1024,
+    "h": 771,
+    "credit": {
+      "author": "Ken Puliafico",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/509460421",
+      "source": "iNaturalist"
+    }
+  },
+  "new-queen": {
+    "src": "photos/ri-ben-gong-bei-yi/new-queen.webp",
+    "thumb": "photos/ri-ben-gong-bei-yi/new-queen.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Jonghyun Park",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/102949194",
+      "source": "iNaturalist"
+    }
+  },
+  "step-brood": {
+    "src": "photos/ri-ben-gong-bei-yi/step-brood.webp",
+    "thumb": "photos/ri-ben-gong-bei-yi/step-brood.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Jonghyun Park",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/640889106",
+      "source": "iNaturalist"
+    }
+  },
+  "step-dealate": {
+    "src": "photos/ri-ben-gong-bei-yi/step-dealate.webp",
+    "thumb": "photos/ri-ben-gong-bei-yi/step-dealate.thumb.webp",
+    "w": 767,
+    "h": 1024,
+    "credit": {
+      "author": "Jonghyun Park",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/72728487",
+      "source": "iNaturalist"
+    }
+  },
+  "step-nest": {
+    "src": "photos/ri-ben-gong-bei-yi/step-nest.webp",
+    "thumb": "photos/ri-ben-gong-bei-yi/step-nest.thumb.webp",
+    "w": 1024,
+    "h": 997,
+    "credit": {
+      "author": "Yaron Budowski",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/7983445",
+      "source": "iNaturalist"
+    }
+  },
   "worker-side": {
     "src": "photos/ri-ben-gong-bei-yi/worker-side.webp",
     "thumb": "photos/ri-ben-gong-bei-yi/worker-side.thumb.webp",

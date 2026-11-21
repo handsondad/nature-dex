@@ -11,6 +11,18 @@
       "source": "iNaturalist"
     }
   },
+  "look-di": {
+    "src": "photos/lu-wei/look-di.webp",
+    "thumb": "photos/lu-wei/look-di.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "ITÔ",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/583860513",
+      "source": "iNaturalist"
+    }
+  },
   "look-lu-wei": {
     "src": "photos/lu-wei/look-lu-wei.webp",
     "thumb": "photos/lu-wei/look-lu-wei.thumb.webp",
@@ -27,12 +39,84 @@
     "src": "photos/lu-wei/look-xiang-pu.webp",
     "thumb": "photos/lu-wei/look-xiang-pu.thumb.webp",
     "w": 1024,
-    "h": 576,
+    "h": 768,
     "credit": {
-      "author": "Halema J",
+      "author": "Jacqui Geux",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/271945722",
+      "url": "https://www.inaturalist.org/photos/68655923",
       "source": "iNaturalist"
+    }
+  },
+  "reed-plant": {
+    "src": "photos/lu-wei/reed-plant.webp",
+    "thumb": "photos/lu-wei/reed-plant.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Matt Lavin",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/159013744",
+      "source": "iNaturalist"
+    }
+  },
+  "same-summer": {
+    "src": "photos/lu-wei/same-summer.webp",
+    "thumb": "photos/lu-wei/same-summer.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Duarte Frade",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/670152316",
+      "source": "iNaturalist"
+    }
+  },
+  "spikelet-macro": {
+    "src": "photos/lu-wei/spikelet-macro.webp",
+    "thumb": "photos/lu-wei/spikelet-macro.thumb.webp",
+    "w": 1200,
+    "h": 958,
+    "credit": {
+      "author": "JMK",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Phragmites_australis,_blompakkies,_Palalarivier,_a.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-bloom": {
+    "src": "photos/lu-wei/step-bloom.webp",
+    "thumb": "photos/lu-wei/step-bloom.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Stephen James McWilliam",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/93109444",
+      "source": "iNaturalist"
+    }
+  },
+  "step-seed": {
+    "src": "photos/lu-wei/step-seed.webp",
+    "thumb": "photos/lu-wei/step-seed.thumb.webp",
+    "w": 1024,
+    "h": 678,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/107570806",
+      "source": "iNaturalist"
+    }
+  },
+  "step-sprout": {
+    "src": "photos/lu-wei/step-sprout.webp",
+    "thumb": "photos/lu-wei/step-sprout.thumb.webp",
+    "w": 1200,
+    "h": 800,
+    "credit": {
+      "author": "Krzysztof Ziarnek, Kenraiz",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Phragmites_australis_kz05.jpg",
+      "source": "Wikimedia Commons"
     }
   },
   "whole-plant": {

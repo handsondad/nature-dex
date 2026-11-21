@@ -5,9 +5,9 @@
     "w": 1024,
     "h": 768,
     "credit": {
-      "author": "Kim",
+      "author": "Marco Mussita",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/4549057",
+      "url": "https://www.inaturalist.org/photos/25692449",
       "source": "iNaturalist"
     }
   },
@@ -23,27 +23,111 @@
       "source": "iNaturalist"
     }
   },
+  "flower-macro": {
+    "src": "photos/shi-shu/flower-macro.webp",
+    "thumb": "photos/shi-shu/flower-macro.thumb.webp",
+    "w": 1024,
+    "h": 680,
+    "credit": {
+      "author": "Florent",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/515281513",
+      "source": "iNaturalist"
+    }
+  },
+  "look-jqz": {
+    "src": "photos/shi-shu/look-jqz.webp",
+    "thumb": "photos/shi-shu/look-jqz.thumb.webp",
+    "w": 1024,
+    "h": 684,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/237861835",
+      "source": "iNaturalist"
+    }
+  },
+  "look-shi": {
+    "src": "photos/shi-shu/look-shi.webp",
+    "thumb": "photos/shi-shu/look-shi.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "harum.koh",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/2562954",
+      "source": "iNaturalist"
+    }
+  },
   "same-green": {
     "src": "photos/shi-shu/same-green.webp",
     "thumb": "photos/shi-shu/same-green.thumb.webp",
-    "w": 768,
-    "h": 1024,
+    "w": 1024,
+    "h": 768,
     "credit": {
-      "author": "張家瑜",
+      "author": "Kim",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/327395811",
+      "url": "https://www.inaturalist.org/photos/4683092",
       "source": "iNaturalist"
     }
   },
   "same-orange": {
     "src": "photos/shi-shu/same-orange.webp",
     "thumb": "photos/shi-shu/same-orange.thumb.webp",
-    "w": 768,
-    "h": 1024,
+    "w": 1024,
+    "h": 683,
     "credit": {
-      "author": "張家瑜",
+      "author": "WATANABE Hitoshi 渡辺仁",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/327395832",
+      "url": "https://www.inaturalist.org/photos/450324441",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bare": {
+    "src": "photos/shi-shu/step-bare.webp",
+    "thumb": "photos/shi-shu/step-bare.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "mami_t_t",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/443941810",
+      "source": "iNaturalist"
+    }
+  },
+  "step-flower": {
+    "src": "photos/shi-shu/step-flower.webp",
+    "thumb": "photos/shi-shu/step-flower.thumb.webp",
+    "w": 1024,
+    "h": 988,
+    "credit": {
+      "author": "Brad Barker",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/505541436",
+      "source": "iNaturalist"
+    }
+  },
+  "step-green": {
+    "src": "photos/shi-shu/step-green.webp",
+    "thumb": "photos/shi-shu/step-green.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Kim",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/4538424",
+      "source": "iNaturalist"
+    }
+  },
+  "step-yellow": {
+    "src": "photos/shi-shu/step-yellow.webp",
+    "thumb": "photos/shi-shu/step-yellow.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Peter Chen 2.0",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/334562927",
       "source": "iNaturalist"
     }
   }

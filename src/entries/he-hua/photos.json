@@ -11,6 +11,18 @@
       "source": "iNaturalist"
     }
   },
+  "leaf-drop": {
+    "src": "photos/he-hua/leaf-drop.webp",
+    "thumb": "photos/he-hua/leaf-drop.thumb.webp",
+    "w": 1200,
+    "h": 900,
+    "credit": {
+      "author": "Daichungus",
+      "license": "cc-by",
+      "url": "https://commons.wikimedia.org/wiki/File:Lotus_Drop.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
   "leaf-flower": {
     "src": "photos/he-hua/leaf-flower.webp",
     "thumb": "photos/he-hua/leaf-flower.thumb.webp",
@@ -21,6 +33,54 @@
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/49037163",
       "source": "iNaturalist"
+    }
+  },
+  "look-sl": {
+    "src": "photos/he-hua/look-sl.webp",
+    "thumb": "photos/he-hua/look-sl.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "tuirnee",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/714903005",
+      "source": "iNaturalist"
+    }
+  },
+  "look-xc": {
+    "src": "photos/he-hua/look-xc.webp",
+    "thumb": "photos/he-hua/look-xc.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Piotr Lukasik",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/437472423",
+      "source": "iNaturalist"
+    }
+  },
+  "same-summer": {
+    "src": "photos/he-hua/same-summer.webp",
+    "thumb": "photos/he-hua/same-summer.thumb.webp",
+    "w": 1200,
+    "h": 900,
+    "credit": {
+      "author": "User:Vmenkov",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:VM_Yuanmingyuan_Lotus_pond_4451.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "same-winter": {
+    "src": "photos/he-hua/same-winter.webp",
+    "thumb": "photos/he-hua/same-winter.thumb.webp",
+    "w": 1200,
+    "h": 795,
+    "credit": {
+      "author": "Dr. Hans-Günter Wagner",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Lotus_pond_in_winter_(30008841085).jpg",
+      "source": "Wikimedia Commons"
     }
   },
   "step-bloom": {
@@ -38,12 +98,12 @@
   "step-bud": {
     "src": "photos/he-hua/step-bud.webp",
     "thumb": "photos/he-hua/step-bud.thumb.webp",
-    "w": 1024,
-    "h": 471,
+    "w": 768,
+    "h": 1024,
     "credit": {
-      "author": "Ong Jyh Seng",
-      "license": "cc-by-sa",
-      "url": "https://www.inaturalist.org/photos/52131355",
+      "author": "Md. Tayhid Hasan",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/749898294",
       "source": "iNaturalist"
     }
   },
@@ -53,9 +113,9 @@
     "w": 1024,
     "h": 683,
     "credit": {
-      "author": "Jiao Sun (孙娇)",
+      "author": "Aditya Rao",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/399434655",
+      "url": "https://www.inaturalist.org/photos/492155160",
       "source": "iNaturalist"
     }
   },
@@ -63,11 +123,11 @@
     "src": "photos/he-hua/step-seed.webp",
     "thumb": "photos/he-hua/step-seed.thumb.webp",
     "w": 1024,
-    "h": 768,
+    "h": 683,
     "credit": {
-      "author": "TonyT",
+      "author": "WATANABE Hitoshi 渡辺仁",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/295507588",
+      "url": "https://www.inaturalist.org/photos/317666647",
       "source": "iNaturalist"
     }
   }

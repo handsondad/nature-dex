@@ -11,6 +11,42 @@
       "source": "iNaturalist"
     }
   },
+  "flower-macro": {
+    "src": "photos/ye-ju/flower-macro.webp",
+    "thumb": "photos/ye-ju/flower-macro.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Toby Y",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/109824496",
+      "source": "iNaturalist"
+    }
+  },
+  "leaves": {
+    "src": "photos/ye-ju/leaves.webp",
+    "thumb": "photos/ye-ju/leaves.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "葉子",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/599780785",
+      "source": "iNaturalist"
+    }
+  },
+  "look-gj": {
+    "src": "photos/ye-ju/look-gj.webp",
+    "thumb": "photos/ye-ju/look-gj.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "黃美滿",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/64207791",
+      "source": "iNaturalist"
+    }
+  },
   "look-ju-hua": {
     "src": "photos/ye-ju/look-ju-hua.webp",
     "thumb": "photos/ye-ju/look-ju-hua.thumb.webp",
@@ -32,6 +68,30 @@
       "author": "黄彦豪",
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/452628626",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bud": {
+    "src": "photos/ye-ju/step-bud.webp",
+    "thumb": "photos/ye-ju/step-bud.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Marco Mussita",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/585199186",
+      "source": "iNaturalist"
+    }
+  },
+  "step-wilt": {
+    "src": "photos/ye-ju/step-wilt.webp",
+    "thumb": "photos/ye-ju/step-wilt.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Toby Y",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/248430860",
       "source": "iNaturalist"
     }
   },

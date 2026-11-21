@@ -11,6 +11,18 @@
       "source": "iNaturalist"
     }
   },
+  "flower-close": {
+    "src": "photos/ri-ben-hong-feng/flower-close.webp",
+    "thumb": "photos/ri-ben-hong-feng/flower-close.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "W Rao",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/269665577",
+      "source": "iNaturalist"
+    }
+  },
   "green-leaf": {
     "src": "photos/ri-ben-hong-feng/green-leaf.webp",
     "thumb": "photos/ri-ben-hong-feng/green-leaf.thumb.webp",
@@ -47,6 +59,18 @@
       "source": "iNaturalist"
     }
   },
+  "look-sjf": {
+    "src": "photos/ri-ben-hong-feng/look-sjf.webp",
+    "thumb": "photos/ri-ben-hong-feng/look-sjf.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Jiao Sun (孙娇)",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/397740058",
+      "source": "iNaturalist"
+    }
+  },
   "look-ybf": {
     "src": "photos/ri-ben-hong-feng/look-ybf.webp",
     "thumb": "photos/ri-ben-hong-feng/look-ybf.thumb.webp",
@@ -68,6 +92,54 @@
       "author": "Katja Schulz",
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/111390382",
+      "source": "iNaturalist"
+    }
+  },
+  "samara": {
+    "src": "photos/ri-ben-hong-feng/samara.webp",
+    "thumb": "photos/ri-ben-hong-feng/samara.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "harum.koh",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/3648844",
+      "source": "iNaturalist"
+    }
+  },
+  "step-autumn": {
+    "src": "photos/ri-ben-hong-feng/step-autumn.webp",
+    "thumb": "photos/ri-ben-hong-feng/step-autumn.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Samuele Papeschi",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/250083625",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bud": {
+    "src": "photos/ri-ben-hong-feng/step-bud.webp",
+    "thumb": "photos/ri-ben-hong-feng/step-bud.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "harum.koh",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/1645671",
+      "source": "iNaturalist"
+    }
+  },
+  "step-flower": {
+    "src": "photos/ri-ben-hong-feng/step-flower.webp",
+    "thumb": "photos/ri-ben-hong-feng/step-flower.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "WATANABE Hitoshi 渡辺仁",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/363643663",
       "source": "iNaturalist"
     }
   }

@@ -14,30 +14,90 @@
   "flower-branch": {
     "src": "photos/xi-fu-hai-tang/flower-branch.webp",
     "thumb": "photos/xi-fu-hai-tang/flower-branch.thumb.webp",
+    "w": 1200,
+    "h": 900,
+    "credit": {
+      "author": "Salicyna",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Malus_micromalus_2019-04-16_0664.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "flower-macro": {
+    "src": "photos/xi-fu-hai-tang/flower-macro.webp",
+    "thumb": "photos/xi-fu-hai-tang/flower-macro.thumb.webp",
+    "w": 1200,
+    "h": 900,
+    "credit": {
+      "author": "Salicyna",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Malus_micromalus_2019-04-16_0669.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "look-cs": {
+    "src": "photos/xi-fu-hai-tang/look-cs.webp",
+    "thumb": "photos/xi-fu-hai-tang/look-cs.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "WATANABE Hitoshi 渡辺仁",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/363644897",
+      "source": "iNaturalist"
+    }
+  },
+  "look-htm": {
+    "src": "photos/xi-fu-hai-tang/look-htm.webp",
+    "thumb": "photos/xi-fu-hai-tang/look-htm.thumb.webp",
     "w": 1024,
     "h": 683,
     "credit": {
       "author": "Yi CHEN",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/61384899",
+      "url": "https://www.inaturalist.org/photos/69939139",
       "source": "iNaturalist"
     }
   },
-  "same-flower": {
-    "src": "photos/xi-fu-hai-tang/same-flower.webp",
-    "thumb": "photos/xi-fu-hai-tang/same-flower.thumb.webp",
-    "w": 1024,
-    "h": 768,
+  "look-xfht": {
+    "src": "photos/xi-fu-hai-tang/look-xfht.webp",
+    "thumb": "photos/xi-fu-hai-tang/look-xfht.thumb.webp",
+    "w": 1200,
+    "h": 900,
     "credit": {
-      "author": "Jiao Sun (孙娇)",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/397974679",
-      "source": "iNaturalist"
+      "author": "Salicyna",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Malus_micromalus_2019-04-16_0667.jpg",
+      "source": "Wikimedia Commons"
     }
   },
-  "same-fruit": {
-    "src": "photos/xi-fu-hai-tang/same-fruit.webp",
-    "thumb": "photos/xi-fu-hai-tang/same-fruit.thumb.webp",
+  "step-bloom": {
+    "src": "photos/xi-fu-hai-tang/step-bloom.webp",
+    "thumb": "photos/xi-fu-hai-tang/step-bloom.thumb.webp",
+    "w": 1200,
+    "h": 900,
+    "credit": {
+      "author": "Sun Jiao (Interaccoonale)",
+      "license": "cc-by",
+      "url": "https://commons.wikimedia.org/wiki/File:Malus_%C3%97_micromalus-IMG_20190327_181607.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-bud": {
+    "src": "photos/xi-fu-hai-tang/step-bud.webp",
+    "thumb": "photos/xi-fu-hai-tang/step-bud.thumb.webp",
+    "w": 1200,
+    "h": 900,
+    "credit": {
+      "author": "Sun Jiao (Interaccoonale)",
+      "license": "cc-by",
+      "url": "https://commons.wikimedia.org/wiki/File:Malus_%C3%97_micromalus-IMG_20190323_141735.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-fruit": {
+    "src": "photos/xi-fu-hai-tang/step-fruit.webp",
+    "thumb": "photos/xi-fu-hai-tang/step-fruit.thumb.webp",
     "w": 1024,
     "h": 683,
     "credit": {

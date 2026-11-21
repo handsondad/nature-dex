@@ -71,7 +71,7 @@ npm run snapshot -- pu-gong-ying --mobile
 | `npm run taxon -- <id> "<学名或中文名>"` | 查分类、中文名、每月观察数，写 `research.json` |
 | `npm run photos -- <id> <照片或文件夹> [--as 名字]` | 处理自己的照片：去 EXIF/定位、**压缩成小 webp**、缩略图，写 `photos.json` |
 | `npm run photos:recompress [-- <id>]` | 按当前规格把 `public/photos/` 再压一遍 |
-| `npm run refphoto -- <id> "<学名>" --as <名字> [--list \| --pick N]` | 找可转载的 iNaturalist 照片做对照 |
+| `npm run refphoto -- <id> "<学名>" --as <名字> [--list \| --pick N]` | 找可转载的 iNaturalist 照片做对照；`--stage egg`、`--month 12,1,2`、`--photos 3` 找特定阶段/季节，`--commons "<关键词>"` 改搜维基共享资源 |
 | `npm run check [-- <id>]` | 检查内容，列出待拍清单 |
 | `npm run snapshot -- <id\|line> [--mobile]` | 截长图并切段，放 `snapshots/` |
 | `npm run typecheck` / `npm test` / `npm run build` | 类型检查 / 测试 / 生产构建 |

@@ -11,6 +11,42 @@
       "source": "iNaturalist"
     }
   },
+  "look-hs": {
+    "src": "photos/yin-wen-hua-song-shu/look-hs.webp",
+    "thumb": "photos/yin-wen-hua-song-shu/look-hs.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "rashidchan",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/705153646",
+      "source": "iNaturalist"
+    }
+  },
+  "look-self": {
+    "src": "photos/yin-wen-hua-song-shu/look-self.webp",
+    "thumb": "photos/yin-wen-hua-song-shu/look-self.thumb.webp",
+    "w": 1024,
+    "h": 684,
+    "credit": {
+      "author": "Henggang Cui",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/7633027",
+      "source": "iNaturalist"
+    }
+  },
+  "look-ys": {
+    "src": "photos/yin-wen-hua-song-shu/look-ys.webp",
+    "thumb": "photos/yin-wen-hua-song-shu/look-ys.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "夏仲归",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/611673759",
+      "source": "iNaturalist"
+    }
+  },
   "side-branch": {
     "src": "photos/yin-wen-hua-song-shu/side-branch.webp",
     "thumb": "photos/yin-wen-hua-song-shu/side-branch.thumb.webp",
@@ -20,6 +56,54 @@
       "author": "Wang.QG",
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/119802642",
+      "source": "iNaturalist"
+    }
+  },
+  "step-climb": {
+    "src": "photos/yin-wen-hua-song-shu/step-climb.webp",
+    "thumb": "photos/yin-wen-hua-song-shu/step-climb.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "夏仲归",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/706212797",
+      "source": "iNaturalist"
+    }
+  },
+  "step-down": {
+    "src": "photos/yin-wen-hua-song-shu/step-down.webp",
+    "thumb": "photos/yin-wen-hua-song-shu/step-down.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "zhangshen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/117761534",
+      "source": "iNaturalist"
+    }
+  },
+  "step-eat": {
+    "src": "photos/yin-wen-hua-song-shu/step-eat.webp",
+    "thumb": "photos/yin-wen-hua-song-shu/step-eat.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "rashidchan",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/701817758",
+      "source": "iNaturalist"
+    }
+  },
+  "stripes": {
+    "src": "photos/yin-wen-hua-song-shu/stripes.webp",
+    "thumb": "photos/yin-wen-hua-song-shu/stripes.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "tuirnee",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/504983771",
       "source": "iNaturalist"
     }
   }

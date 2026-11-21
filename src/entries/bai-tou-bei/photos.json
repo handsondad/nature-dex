@@ -1,4 +1,16 @@
 {
+  "adult": {
+    "src": "photos/bai-tou-bei/adult.webp",
+    "thumb": "photos/bai-tou-bei/adult.thumb.webp",
+    "w": 1024,
+    "h": 608,
+    "credit": {
+      "author": "Se Lena",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/287845709",
+      "source": "iNaturalist"
+    }
+  },
   "cover": {
     "src": "photos/bai-tou-bei/cover.webp",
     "thumb": "photos/bai-tou-bei/cover.thumb.webp",
@@ -8,6 +20,30 @@
       "author": "Jiao Sun (孙娇)",
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/426347288",
+      "source": "iNaturalist"
+    }
+  },
+  "head": {
+    "src": "photos/bai-tou-bei/head.webp",
+    "thumb": "photos/bai-tou-bei/head.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Marco Mussita",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/489629063",
+      "source": "iNaturalist"
+    }
+  },
+  "juvenile": {
+    "src": "photos/bai-tou-bei/juvenile.webp",
+    "thumb": "photos/bai-tou-bei/juvenile.thumb.webp",
+    "w": 1024,
+    "h": 668,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/208974049",
       "source": "iNaturalist"
     }
   },
@@ -23,6 +59,18 @@
       "source": "iNaturalist"
     }
   },
+  "look-da-shan-que": {
+    "src": "photos/bai-tou-bei/look-da-shan-que.webp",
+    "thumb": "photos/bai-tou-bei/look-da-shan-que.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Marco Mussita",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/30651009",
+      "source": "iNaturalist"
+    }
+  },
   "look-hong-er-bei": {
     "src": "photos/bai-tou-bei/look-hong-er-bei.webp",
     "thumb": "photos/bai-tou-bei/look-hong-er-bei.thumb.webp",
@@ -35,15 +83,63 @@
       "source": "iNaturalist"
     }
   },
-  "side-head": {
-    "src": "photos/bai-tou-bei/side-head.webp",
-    "thumb": "photos/bai-tou-bei/side-head.thumb.webp",
+  "side-view": {
+    "src": "photos/bai-tou-bei/side-view.webp",
+    "thumb": "photos/bai-tou-bei/side-view.thumb.webp",
     "w": 1024,
-    "h": 696,
+    "h": 672,
     "credit": {
       "author": "Zinogre",
       "license": "cc-by-sa",
-      "url": "https://www.inaturalist.org/photos/169847162",
+      "url": "https://www.inaturalist.org/photos/182961456",
+      "source": "iNaturalist"
+    }
+  },
+  "step-chick": {
+    "src": "photos/bai-tou-bei/step-chick.webp",
+    "thumb": "photos/bai-tou-bei/step-chick.thumb.webp",
+    "w": 1200,
+    "h": 801,
+    "credit": {
+      "author": "Tolok Matzari",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Light-vented_bulbul_chicks_in_nest_05.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-egg": {
+    "src": "photos/bai-tou-bei/step-egg.webp",
+    "thumb": "photos/bai-tou-bei/step-egg.thumb.webp",
+    "w": 683,
+    "h": 1024,
+    "credit": {
+      "author": "如此甚好",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/659532007",
+      "source": "iNaturalist"
+    }
+  },
+  "step-fledge": {
+    "src": "photos/bai-tou-bei/step-fledge.webp",
+    "thumb": "photos/bai-tou-bei/step-fledge.thumb.webp",
+    "w": 1200,
+    "h": 801,
+    "credit": {
+      "author": "Tolok Matzari",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Two_juvenile_Pycnonotus_sinensis_formosaes_around_their_nest.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-sit": {
+    "src": "photos/bai-tou-bei/step-sit.webp",
+    "thumb": "photos/bai-tou-bei/step-sit.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "MIMI",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/635538462",
       "source": "iNaturalist"
     }
   }

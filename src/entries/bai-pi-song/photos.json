@@ -35,6 +35,18 @@
       "source": "iNaturalist"
     }
   },
+  "look-hss": {
+    "src": "photos/bai-pi-song/look-hss.webp",
+    "thumb": "photos/bai-pi-song/look-hss.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Matt Scott",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/60101038",
+      "source": "iNaturalist"
+    }
+  },
   "look-ys": {
     "src": "photos/bai-pi-song/look-ys.webp",
     "thumb": "photos/bai-pi-song/look-ys.thumb.webp",
@@ -56,6 +68,66 @@
       "author": "harum.koh",
       "license": "cc-by-sa",
       "url": "https://www.inaturalist.org/photos/1777716",
+      "source": "iNaturalist"
+    }
+  },
+  "step-cone": {
+    "src": "photos/bai-pi-song/step-cone.webp",
+    "thumb": "photos/bai-pi-song/step-cone.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Sandy Wolkenberg",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/592707698",
+      "source": "iNaturalist"
+    }
+  },
+  "step-cone-green": {
+    "src": "photos/bai-pi-song/step-cone-green.webp",
+    "thumb": "photos/bai-pi-song/step-cone-green.thumb.webp",
+    "w": 1200,
+    "h": 675,
+    "credit": {
+      "author": "Tom Christian",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Pinus_bungeana_seed_cone_(04).jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-pollen": {
+    "src": "photos/bai-pi-song/step-pollen.webp",
+    "thumb": "photos/bai-pi-song/step-pollen.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "harum.koh",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/1777717",
+      "source": "iNaturalist"
+    }
+  },
+  "trunk-old": {
+    "src": "photos/bai-pi-song/trunk-old.webp",
+    "thumb": "photos/bai-pi-song/trunk-old.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Carrie Seltzer",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/4123303",
+      "source": "iNaturalist"
+    }
+  },
+  "trunk-young": {
+    "src": "photos/bai-pi-song/trunk-young.webp",
+    "thumb": "photos/bai-pi-song/trunk-young.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/61424728",
       "source": "iNaturalist"
     }
   }

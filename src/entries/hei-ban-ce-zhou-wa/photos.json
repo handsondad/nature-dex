@@ -1,4 +1,28 @@
 {
+  "back": {
+    "src": "photos/hei-ban-ce-zhou-wa/back.webp",
+    "thumb": "photos/hei-ban-ce-zhou-wa/back.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Se Lena",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/288526180",
+      "source": "iNaturalist"
+    }
+  },
+  "calling": {
+    "src": "photos/hei-ban-ce-zhou-wa/calling.webp",
+    "thumb": "photos/hei-ban-ce-zhou-wa/calling.thumb.webp",
+    "w": 1024,
+    "h": 714,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/266539960",
+      "source": "iNaturalist"
+    }
+  },
   "cover": {
     "src": "photos/hei-ban-ce-zhou-wa/cover.webp",
     "thumb": "photos/hei-ban-ce-zhou-wa/cover.thumb.webp",
@@ -23,6 +47,18 @@
       "source": "iNaturalist"
     }
   },
+  "face": {
+    "src": "photos/hei-ban-ce-zhou-wa/face.webp",
+    "thumb": "photos/hei-ban-ce-zhou-wa/face.thumb.webp",
+    "w": 1024,
+    "h": 640,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/518280072",
+      "source": "iNaturalist"
+    }
+  },
   "look-ce-zhou-wa": {
     "src": "photos/hei-ban-ce-zhou-wa/look-ce-zhou-wa.webp",
     "thumb": "photos/hei-ban-ce-zhou-wa/look-ce-zhou-wa.thumb.webp",
@@ -44,6 +80,30 @@
       "author": "卢江离",
       "license": "cc0",
       "url": "https://www.inaturalist.org/photos/518646506",
+      "source": "iNaturalist"
+    }
+  },
+  "look-jin-xian": {
+    "src": "photos/hei-ban-ce-zhou-wa/look-jin-xian.webp",
+    "thumb": "photos/hei-ban-ce-zhou-wa/look-jin-xian.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Jiao Sun (孙娇)",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/626139443",
+      "source": "iNaturalist"
+    }
+  },
+  "step-tadpole": {
+    "src": "photos/hei-ban-ce-zhou-wa/step-tadpole.webp",
+    "thumb": "photos/hei-ban-ce-zhou-wa/step-tadpole.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Wang.QG",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/512717533",
       "source": "iNaturalist"
     }
   }

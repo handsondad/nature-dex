@@ -11,6 +11,18 @@
       "source": "iNaturalist"
     }
   },
+  "flower-macro": {
+    "src": "photos/zi-hua-di-ding/flower-macro.webp",
+    "thumb": "photos/zi-hua-di-ding/flower-macro.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/65156975",
+      "source": "iNaturalist"
+    }
+  },
   "look-zhdd": {
     "src": "photos/zi-hua-di-ding/look-zhdd.webp",
     "thumb": "photos/zi-hua-di-ding/look-zhdd.thumb.webp",
@@ -32,6 +44,66 @@
       "author": "Yi CHEN",
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/61639593",
+      "source": "iNaturalist"
+    }
+  },
+  "same-spring": {
+    "src": "photos/zi-hua-di-ding/same-spring.webp",
+    "thumb": "photos/zi-hua-di-ding/same-spring.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Jane Charlen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/633053680",
+      "source": "iNaturalist"
+    }
+  },
+  "same-summer": {
+    "src": "photos/zi-hua-di-ding/same-summer.webp",
+    "thumb": "photos/zi-hua-di-ding/same-summer.thumb.webp",
+    "w": 576,
+    "h": 1024,
+    "credit": {
+      "author": "Étienne Lacroix-Carignan",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/669489002",
+      "source": "iNaturalist"
+    }
+  },
+  "step-flower": {
+    "src": "photos/zi-hua-di-ding/step-flower.webp",
+    "thumb": "photos/zi-hua-di-ding/step-flower.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Yoshimasa Uchiyama",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/64199854",
+      "source": "iNaturalist"
+    }
+  },
+  "step-fruit": {
+    "src": "photos/zi-hua-di-ding/step-fruit.webp",
+    "thumb": "photos/zi-hua-di-ding/step-fruit.thumb.webp",
+    "w": 576,
+    "h": 1024,
+    "credit": {
+      "author": "Étienne Lacroix-Carignan",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/669488946",
+      "source": "iNaturalist"
+    }
+  },
+  "step-open": {
+    "src": "photos/zi-hua-di-ding/step-open.webp",
+    "thumb": "photos/zi-hua-di-ding/step-open.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Étienne Lacroix-Carignan",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/715373208",
       "source": "iNaturalist"
     }
   },

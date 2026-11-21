@@ -1,4 +1,16 @@
 {
+  "branch-cones": {
+    "src": "photos/ce-bai/branch-cones.webp",
+    "thumb": "photos/ce-bai/branch-cones.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Adrien Nouailhane",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/697991794",
+      "source": "iNaturalist"
+    }
+  },
   "cover": {
     "src": "photos/ce-bai/cover.webp",
     "thumb": "photos/ce-bai/cover.thumb.webp",
@@ -35,39 +47,75 @@
       "source": "iNaturalist"
     }
   },
-  "same-blue": {
-    "src": "photos/ce-bai/same-blue.webp",
-    "thumb": "photos/ce-bai/same-blue.thumb.webp",
+  "old-tree": {
+    "src": "photos/ce-bai/old-tree.webp",
+    "thumb": "photos/ce-bai/old-tree.thumb.webp",
     "w": 1024,
-    "h": 576,
+    "h": 768,
     "credit": {
-      "author": "Ben Sims",
-      "license": "cc0",
-      "url": "https://www.inaturalist.org/photos/521998113",
+      "author": "Wolfgang Ahlmer",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/495491061",
       "source": "iNaturalist"
     }
   },
-  "same-brown": {
-    "src": "photos/ce-bai/same-brown.webp",
-    "thumb": "photos/ce-bai/same-brown.thumb.webp",
-    "w": 1024,
-    "h": 576,
-    "credit": {
-      "author": "Ben Sims",
-      "license": "cc0",
-      "url": "https://www.inaturalist.org/photos/521998694",
-      "source": "iNaturalist"
-    }
-  },
-  "spray": {
-    "src": "photos/ce-bai/spray.webp",
-    "thumb": "photos/ce-bai/spray.thumb.webp",
-    "w": 617,
+  "scale-leaves": {
+    "src": "photos/ce-bai/scale-leaves.webp",
+    "thumb": "photos/ce-bai/scale-leaves.thumb.webp",
+    "w": 781,
     "h": 1024,
     "credit": {
-      "author": "nebrooks",
+      "author": "Patrick Hacker",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/627550085",
+      "url": "https://www.inaturalist.org/photos/148308049",
+      "source": "iNaturalist"
+    }
+  },
+  "step-green-cone": {
+    "src": "photos/ce-bai/step-green-cone.webp",
+    "thumb": "photos/ce-bai/step-green-cone.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Kudaibergen Amirekul",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/245416983",
+      "source": "iNaturalist"
+    }
+  },
+  "step-open-cone": {
+    "src": "photos/ce-bai/step-open-cone.webp",
+    "thumb": "photos/ce-bai/step-open-cone.thumb.webp",
+    "w": 1024,
+    "h": 577,
+    "credit": {
+      "author": "Вячеслав Юсупов",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/324043265",
+      "source": "iNaturalist"
+    }
+  },
+  "step-spring": {
+    "src": "photos/ce-bai/step-spring.webp",
+    "thumb": "photos/ce-bai/step-spring.thumb.webp",
+    "w": 1024,
+    "h": 946,
+    "credit": {
+      "author": "Patrick Hacker",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/114662945",
+      "source": "iNaturalist"
+    }
+  },
+  "young-tree": {
+    "src": "photos/ce-bai/young-tree.webp",
+    "thumb": "photos/ce-bai/young-tree.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Pavel Kacl",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/67945004",
       "source": "iNaturalist"
     }
   }

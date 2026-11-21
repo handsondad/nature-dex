@@ -1,4 +1,16 @@
 {
+  "capsule": {
+    "src": "photos/yuan-ye-qian-niu/capsule.webp",
+    "thumb": "photos/yuan-ye-qian-niu/capsule.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Sandy Wolkenberg",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/233015427",
+      "source": "iNaturalist"
+    }
+  },
   "cover": {
     "src": "photos/yuan-ye-qian-niu/cover.webp",
     "thumb": "photos/yuan-ye-qian-niu/cover.thumb.webp",
@@ -41,9 +53,45 @@
     "w": 1024,
     "h": 768,
     "credit": {
-      "author": "Marco Mussita",
+      "author": "振远 王",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/569808260",
+      "url": "https://www.inaturalist.org/photos/716104788",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bloom": {
+    "src": "photos/yuan-ye-qian-niu/step-bloom.webp",
+    "thumb": "photos/yuan-ye-qian-niu/step-bloom.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Jiao Sun (孙娇)",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/398595385",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bud": {
+    "src": "photos/yuan-ye-qian-niu/step-bud.webp",
+    "thumb": "photos/yuan-ye-qian-niu/step-bud.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "振远 王",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/553615683",
+      "source": "iNaturalist"
+    }
+  },
+  "step-climb": {
+    "src": "photos/yuan-ye-qian-niu/step-climb.webp",
+    "thumb": "photos/yuan-ye-qian-niu/step-climb.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Tom Lazar",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/161598352",
       "source": "iNaturalist"
     }
   },
@@ -53,9 +101,9 @@
     "w": 768,
     "h": 1024,
     "credit": {
-      "author": "TonyT",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/567646575",
+      "author": "Scott Edmunds",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/327584851",
       "source": "iNaturalist"
     }
   }

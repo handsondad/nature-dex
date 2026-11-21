@@ -11,9 +11,9 @@
       "source": "iNaturalist"
     }
   },
-  "step-flower": {
-    "src": "photos/luo-mo/step-flower.webp",
-    "thumb": "photos/luo-mo/step-flower.thumb.webp",
+  "flower-hairy": {
+    "src": "photos/luo-mo/flower-hairy.webp",
+    "thumb": "photos/luo-mo/flower-hairy.thumb.webp",
     "w": 768,
     "h": 1024,
     "credit": {
@@ -23,52 +23,100 @@
       "source": "iNaturalist"
     }
   },
+  "look-ert": {
+    "src": "photos/luo-mo/look-ert.webp",
+    "thumb": "photos/luo-mo/look-ert.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Marco Mussita",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/315653400",
+      "source": "iNaturalist"
+    }
+  },
+  "look-gl": {
+    "src": "photos/luo-mo/look-gl.webp",
+    "thumb": "photos/luo-mo/look-gl.thumb.webp",
+    "w": 1024,
+    "h": 679,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/136427146",
+      "source": "iNaturalist"
+    }
+  },
+  "look-luo-mo": {
+    "src": "photos/luo-mo/look-luo-mo.webp",
+    "thumb": "photos/luo-mo/look-luo-mo.thumb.webp",
+    "w": 1200,
+    "h": 900,
+    "credit": {
+      "author": "Sufangxi",
+      "license": "cc0",
+      "url": "https://commons.wikimedia.org/wiki/File:Metaplexis_japonica_3.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-flower": {
+    "src": "photos/luo-mo/step-flower.webp",
+    "thumb": "photos/luo-mo/step-flower.thumb.webp",
+    "w": 576,
+    "h": 1024,
+    "credit": {
+      "author": "avephill",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/541128310",
+      "source": "iNaturalist"
+    }
+  },
   "step-fruit": {
     "src": "photos/luo-mo/step-fruit.webp",
     "thumb": "photos/luo-mo/step-fruit.thumb.webp",
-    "w": 768,
-    "h": 1024,
+    "w": 1024,
+    "h": 768,
     "credit": {
-      "author": "賴碧珠",
+      "author": "Yoshihiro Tokue",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/699248495",
+      "url": "https://www.inaturalist.org/photos/343438921",
       "source": "iNaturalist"
     }
   },
   "step-open": {
     "src": "photos/luo-mo/step-open.webp",
     "thumb": "photos/luo-mo/step-open.thumb.webp",
-    "w": 768,
-    "h": 1024,
+    "w": 900,
+    "h": 1200,
     "credit": {
-      "author": "Alex Abair",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/305999027",
-      "source": "iNaturalist"
+      "author": "Qwert1234",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Metaplexis_japonica_0811.jpg",
+      "source": "Wikimedia Commons"
     }
   },
   "step-seed": {
     "src": "photos/luo-mo/step-seed.webp",
     "thumb": "photos/luo-mo/step-seed.thumb.webp",
-    "w": 768,
-    "h": 1024,
+    "w": 1200,
+    "h": 900,
     "credit": {
-      "author": "Alex Abair",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/305999172",
-      "source": "iNaturalist"
+      "author": "Qwert1234",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Metaplexis_japonica_0812.JPG",
+      "source": "Wikimedia Commons"
     }
   },
   "vine-flower": {
     "src": "photos/luo-mo/vine-flower.webp",
     "thumb": "photos/luo-mo/vine-flower.thumb.webp",
-    "w": 768,
-    "h": 1024,
+    "w": 1200,
+    "h": 900,
     "credit": {
-      "author": "Jane Charlen",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/410847922",
-      "source": "iNaturalist"
+      "author": "Qwert1234",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:%E3%82%AC%E3%82%AC%E3%82%A4%E3%83%A200_Metaplexis_japonica.JPG",
+      "source": "Wikimedia Commons"
     }
   }
 }

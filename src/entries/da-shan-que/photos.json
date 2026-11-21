@@ -1,4 +1,16 @@
 {
+  "adult": {
+    "src": "photos/da-shan-que/adult.webp",
+    "thumb": "photos/da-shan-que/adult.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Timur Kalininsky",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/203808441",
+      "source": "iNaturalist"
+    }
+  },
   "cover": {
     "src": "photos/da-shan-que/cover.webp",
     "thumb": "photos/da-shan-que/cover.thumb.webp",
@@ -8,6 +20,30 @@
       "author": "夏仲归",
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/586909688",
+      "source": "iNaturalist"
+    }
+  },
+  "front": {
+    "src": "photos/da-shan-que/front.webp",
+    "thumb": "photos/da-shan-que/front.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Marco Mussita",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/458374396",
+      "source": "iNaturalist"
+    }
+  },
+  "juvenile": {
+    "src": "photos/da-shan-que/juvenile.webp",
+    "thumb": "photos/da-shan-que/juvenile.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "egorbirder",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/144292340",
       "source": "iNaturalist"
     }
   },
@@ -35,15 +71,63 @@
       "source": "iNaturalist"
     }
   },
-  "upside-down": {
-    "src": "photos/da-shan-que/upside-down.webp",
-    "thumb": "photos/da-shan-que/upside-down.thumb.webp",
-    "w": 1024,
-    "h": 683,
+  "look-mei-shan-que": {
+    "src": "photos/da-shan-que/look-mei-shan-que.webp",
+    "thumb": "photos/da-shan-que/look-mei-shan-que.thumb.webp",
+    "w": 1000,
+    "h": 750,
     "credit": {
-      "author": "Licheng Shih",
+      "author": "Andrew Simon",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/336627843",
+      "url": "https://www.inaturalist.org/photos/243900317",
+      "source": "iNaturalist"
+    }
+  },
+  "step-chick": {
+    "src": "photos/da-shan-que/step-chick.webp",
+    "thumb": "photos/da-shan-que/step-chick.thumb.webp",
+    "w": 1200,
+    "h": 835,
+    "credit": {
+      "author": "Kazu kappa",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:13_0609_shijuukara8.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-fledge": {
+    "src": "photos/da-shan-que/step-fledge.webp",
+    "thumb": "photos/da-shan-que/step-fledge.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Timur Kalininsky",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/432834101",
+      "source": "iNaturalist"
+    }
+  },
+  "step-nest": {
+    "src": "photos/da-shan-que/step-nest.webp",
+    "thumb": "photos/da-shan-que/step-nest.thumb.webp",
+    "w": 1200,
+    "h": 800,
+    "credit": {
+      "author": "Alpsdake",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Parus_minor_making_nest.JPG",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "tie": {
+    "src": "photos/da-shan-que/tie.webp",
+    "thumb": "photos/da-shan-que/tie.thumb.webp",
+    "w": 1024,
+    "h": 576,
+    "credit": {
+      "author": "りなべる",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/112096449",
       "source": "iNaturalist"
     }
   }

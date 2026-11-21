@@ -11,6 +11,18 @@
       "source": "iNaturalist"
     }
   },
+  "foot": {
+    "src": "photos/bei-jing-yu-yan/foot.webp",
+    "thumb": "photos/bei-jing-yu-yan/foot.thumb.webp",
+    "w": 1200,
+    "h": 900,
+    "credit": {
+      "author": "Klaus Roggel",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:ApusApusKlausRoggel02.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
   "in-flight": {
     "src": "photos/bei-jing-yu-yan/in-flight.webp",
     "thumb": "photos/bei-jing-yu-yan/in-flight.thumb.webp",
@@ -20,6 +32,18 @@
       "author": "Kudaibergen Amirekul",
       "license": "cc-by-sa",
       "url": "https://www.inaturalist.org/photos/262827806",
+      "source": "iNaturalist"
+    }
+  },
+  "look-bai-yao": {
+    "src": "photos/bei-jing-yu-yan/look-bai-yao.webp",
+    "thumb": "photos/bei-jing-yu-yan/look-bai-yao.thumb.webp",
+    "w": 1024,
+    "h": 682,
+    "credit": {
+      "author": "Wang.QG",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/508284821",
       "source": "iNaturalist"
     }
   },
@@ -45,6 +69,42 @@
       "license": "cc-by-sa",
       "url": "https://www.inaturalist.org/photos/262827790",
       "source": "iNaturalist"
+    }
+  },
+  "step-chick": {
+    "src": "photos/bei-jing-yu-yan/step-chick.webp",
+    "thumb": "photos/bei-jing-yu-yan/step-chick.thumb.webp",
+    "w": 1200,
+    "h": 900,
+    "credit": {
+      "author": "Klaus Roggel, Berlin",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:ApusApusKlausRoggel07.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-egg": {
+    "src": "photos/bei-jing-yu-yan/step-egg.webp",
+    "thumb": "photos/bei-jing-yu-yan/step-egg.thumb.webp",
+    "w": 1200,
+    "h": 900,
+    "credit": {
+      "author": "Klaus Roggel, Berlin",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:ApusApusKlausRoggel06.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-nest": {
+    "src": "photos/bei-jing-yu-yan/step-nest.webp",
+    "thumb": "photos/bei-jing-yu-yan/step-nest.thumb.webp",
+    "w": 910,
+    "h": 1200,
+    "credit": {
+      "author": "Klaus Roggel, Berlin",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:ApusApusKlausRoggel01.jpg",
+      "source": "Wikimedia Commons"
     }
   }
 }

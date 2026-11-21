@@ -11,9 +11,33 @@
       "source": "iNaturalist"
     }
   },
-  "male-side": {
-    "src": "photos/yuan-yang/male-side.webp",
-    "thumb": "photos/yuan-yang/male-side.thumb.webp",
+  "look-bzy": {
+    "src": "photos/yuan-yang/look-bzy.webp",
+    "thumb": "photos/yuan-yang/look-bzy.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Wang.QG",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/118908024",
+      "source": "iNaturalist"
+    }
+  },
+  "look-lty": {
+    "src": "photos/yuan-yang/look-lty.webp",
+    "thumb": "photos/yuan-yang/look-lty.thumb.webp",
+    "w": 1024,
+    "h": 640,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/599447768",
+      "source": "iNaturalist"
+    }
+  },
+  "look-self": {
+    "src": "photos/yuan-yang/look-self.webp",
+    "thumb": "photos/yuan-yang/look-self.thumb.webp",
     "w": 1024,
     "h": 683,
     "credit": {
@@ -23,15 +47,39 @@
       "source": "iNaturalist"
     }
   },
+  "male-side": {
+    "src": "photos/yuan-yang/male-side.webp",
+    "thumb": "photos/yuan-yang/male-side.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Mayela y Ramón",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/640395801",
+      "source": "iNaturalist"
+    }
+  },
+  "sail": {
+    "src": "photos/yuan-yang/sail.webp",
+    "thumb": "photos/yuan-yang/sail.thumb.webp",
+    "w": 1024,
+    "h": 651,
+    "credit": {
+      "author": "Anuj Ghimire",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/751412515",
+      "source": "iNaturalist"
+    }
+  },
   "same-female": {
     "src": "photos/yuan-yang/same-female.webp",
     "thumb": "photos/yuan-yang/same-female.thumb.webp",
     "w": 1024,
-    "h": 679,
+    "h": 683,
     "credit": {
-      "author": "Jay Pruett",
+      "author": "Huey",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/347259493",
+      "url": "https://www.inaturalist.org/photos/447501013",
       "source": "iNaturalist"
     }
   },
@@ -41,9 +89,57 @@
     "w": 1024,
     "h": 683,
     "credit": {
-      "author": "Diego González Dopico",
+      "author": "Jiao Sun (孙娇)",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/361382505",
+      "url": "https://www.inaturalist.org/photos/635926050",
+      "source": "iNaturalist"
+    }
+  },
+  "step-duckling": {
+    "src": "photos/yuan-yang/step-duckling.webp",
+    "thumb": "photos/yuan-yang/step-duckling.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Alexis Tinker-Tsavalas",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/146773122",
+      "source": "iNaturalist"
+    }
+  },
+  "step-follow": {
+    "src": "photos/yuan-yang/step-follow.webp",
+    "thumb": "photos/yuan-yang/step-follow.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Rhys",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/517911088",
+      "source": "iNaturalist"
+    }
+  },
+  "step-pair": {
+    "src": "photos/yuan-yang/step-pair.webp",
+    "thumb": "photos/yuan-yang/step-pair.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Piotr Lukasik",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/450923691",
+      "source": "iNaturalist"
+    }
+  },
+  "step-young": {
+    "src": "photos/yuan-yang/step-young.webp",
+    "thumb": "photos/yuan-yang/step-young.thumb.webp",
+    "w": 1024,
+    "h": 681,
+    "credit": {
+      "author": "Michael Grundner",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/149927355",
       "source": "iNaturalist"
     }
   }

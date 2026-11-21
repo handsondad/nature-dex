@@ -34,5 +34,65 @@
       "url": "https://www.inaturalist.org/photos/107058877",
       "source": "iNaturalist"
     }
+  },
+  "look-yw": {
+    "src": "photos/er-yue-lan/look-yw.webp",
+    "thumb": "photos/er-yue-lan/look-yw.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Michael J. Papay",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/487886557",
+      "source": "iNaturalist"
+    }
+  },
+  "look-zhdd": {
+    "src": "photos/er-yue-lan/look-zhdd.webp",
+    "thumb": "photos/er-yue-lan/look-zhdd.thumb.webp",
+    "w": 1024,
+    "h": 683,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/65156975",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bud": {
+    "src": "photos/er-yue-lan/step-bud.webp",
+    "thumb": "photos/er-yue-lan/step-bud.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Marco Mussita",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/265589105",
+      "source": "iNaturalist"
+    }
+  },
+  "step-pod": {
+    "src": "photos/er-yue-lan/step-pod.webp",
+    "thumb": "photos/er-yue-lan/step-pod.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Yi CHEN",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/75328773",
+      "source": "iNaturalist"
+    }
+  },
+  "whole-plant": {
+    "src": "photos/er-yue-lan/whole-plant.webp",
+    "thumb": "photos/er-yue-lan/whole-plant.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "振远 王",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/716023565",
+      "source": "iNaturalist"
+    }
   }
 }

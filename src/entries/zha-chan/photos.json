@@ -1,43 +1,31 @@
 {
-  "back-view": {
-    "src": "photos/zha-chan/back-view.webp",
-    "thumb": "photos/zha-chan/back-view.thumb.webp",
-    "w": 1024,
-    "h": 694,
+  "adult-back": {
+    "src": "photos/zha-chan/adult-back.webp",
+    "thumb": "photos/zha-chan/adult-back.thumb.webp",
+    "w": 768,
+    "h": 1024,
     "credit": {
-      "author": "Zinogre",
-      "license": "cc-by-sa",
-      "url": "https://www.inaturalist.org/photos/319062667",
+      "author": "carbapple",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/549573105",
       "source": "iNaturalist"
     }
   },
   "cover": {
     "src": "photos/zha-chan/cover.webp",
     "thumb": "photos/zha-chan/cover.thumb.webp",
-    "w": 1024,
-    "h": 768,
+    "w": 768,
+    "h": 1024,
     "credit": {
-      "author": "chiuluan",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/134585922",
+      "author": "Ross Mounce",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/313093666",
       "source": "iNaturalist"
     }
   },
-  "step-climb": {
-    "src": "photos/zha-chan/step-climb.webp",
-    "thumb": "photos/zha-chan/step-climb.thumb.webp",
-    "w": 1024,
-    "h": 768,
-    "credit": {
-      "author": "Modest_Reindeer",
-      "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/709455606",
-      "source": "iNaturalist"
-    }
-  },
-  "step-eggs": {
-    "src": "photos/zha-chan/step-eggs.webp",
-    "thumb": "photos/zha-chan/step-eggs.thumb.webp",
+  "fresh-pale": {
+    "src": "photos/zha-chan/fresh-pale.webp",
+    "thumb": "photos/zha-chan/fresh-pale.thumb.webp",
     "w": 1024,
     "h": 658,
     "credit": {
@@ -47,15 +35,39 @@
       "source": "iNaturalist"
     }
   },
-  "step-hole": {
-    "src": "photos/zha-chan/step-hole.webp",
-    "thumb": "photos/zha-chan/step-hole.thumb.webp",
-    "w": 768,
+  "head": {
+    "src": "photos/zha-chan/head.webp",
+    "thumb": "photos/zha-chan/head.thumb.webp",
+    "w": 771,
     "h": 1024,
+    "credit": {
+      "author": "木村龍之介",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/700205418",
+      "source": "iNaturalist"
+    }
+  },
+  "look-hg": {
+    "src": "photos/zha-chan/look-hg.webp",
+    "thumb": "photos/zha-chan/look-hg.thumb.webp",
+    "w": 580,
+    "h": 381,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/24954911",
+      "source": "iNaturalist"
+    }
+  },
+  "look-mmc": {
+    "src": "photos/zha-chan/look-mmc.webp",
+    "thumb": "photos/zha-chan/look-mmc.thumb.webp",
+    "w": 1024,
+    "h": 683,
     "credit": {
       "author": "Wang.QG",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/213020872",
+      "url": "https://www.inaturalist.org/photos/149096823",
       "source": "iNaturalist"
     }
   },
@@ -65,21 +77,33 @@
     "w": 768,
     "h": 1024,
     "credit": {
-      "author": "PampaSorro",
+      "author": "chiuluan",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/680138182",
+      "url": "https://www.inaturalist.org/photos/134639281",
+      "source": "iNaturalist"
+    }
+  },
+  "step-nymph": {
+    "src": "photos/zha-chan/step-nymph.webp",
+    "thumb": "photos/zha-chan/step-nymph.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "夏仲归",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/112594751",
       "source": "iNaturalist"
     }
   },
   "step-shell": {
     "src": "photos/zha-chan/step-shell.webp",
     "thumb": "photos/zha-chan/step-shell.thumb.webp",
-    "w": 768,
+    "w": 578,
     "h": 1024,
     "credit": {
-      "author": "carbapple",
+      "author": "Martin Kalfatovic",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/549573105",
+      "url": "https://www.inaturalist.org/photos/707580697",
       "source": "iNaturalist"
     }
   }

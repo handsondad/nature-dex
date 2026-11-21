@@ -2,12 +2,12 @@
   "bark-macro": {
     "src": "photos/er-qiu-xuan-ling-mu/bark-macro.webp",
     "thumb": "photos/er-qiu-xuan-ling-mu/bark-macro.thumb.webp",
-    "w": 730,
-    "h": 973,
+    "w": 768,
+    "h": 1024,
     "credit": {
-      "author": "Nart Barileva",
-      "license": "cc0",
-      "url": "https://www.inaturalist.org/photos/111448285",
+      "author": "IsabelleFB",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/614818643",
       "source": "iNaturalist"
     }
   },
@@ -29,9 +29,9 @@
     "w": 768,
     "h": 1024,
     "credit": {
-      "author": "Ametsak",
-      "license": "cc0",
-      "url": "https://www.inaturalist.org/photos/437544983",
+      "author": "Tessa Kathleen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/94032617",
       "source": "iNaturalist"
     }
   },
@@ -47,6 +47,18 @@
       "source": "iNaturalist"
     }
   },
+  "look-sqxlm": {
+    "src": "photos/er-qiu-xuan-ling-mu/look-sqxlm.webp",
+    "thumb": "photos/er-qiu-xuan-ling-mu/look-sqxlm.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Daniel Cahen",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/28278929",
+      "source": "iNaturalist"
+    }
+  },
   "look-wt": {
     "src": "photos/er-qiu-xuan-ling-mu/look-wt.webp",
     "thumb": "photos/er-qiu-xuan-ling-mu/look-wt.thumb.webp",
@@ -56,6 +68,78 @@
       "author": "葉子",
       "license": "cc0",
       "url": "https://www.inaturalist.org/photos/316346577",
+      "source": "iNaturalist"
+    }
+  },
+  "same-summer": {
+    "src": "photos/er-qiu-xuan-ling-mu/same-summer.webp",
+    "thumb": "photos/er-qiu-xuan-ling-mu/same-summer.thumb.webp",
+    "w": 1200,
+    "h": 1174,
+    "credit": {
+      "author": "Jules Verne Times Two",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:London_plane_tree_(Platanus_%C3%97_hispanica)_seen_from_below,_Jardim_Marqu%C3%AAs_de_Marialva,_Lisbon,_Portugal_julesvernex2.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "same-winter": {
+    "src": "photos/er-qiu-xuan-ling-mu/same-winter.webp",
+    "thumb": "photos/er-qiu-xuan-ling-mu/same-winter.thumb.webp",
+    "w": 1200,
+    "h": 820,
+    "credit": {
+      "author": "Jules Verne Times Two",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Bare_London_planetree_(Platanus_%C3%97_hispanica)_in_winter,_Campo_dos_M%C3%A1rtires_da_P%C3%A1tria,_Lisbon,_Portugal_julesvernex2.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-break": {
+    "src": "photos/er-qiu-xuan-ling-mu/step-break.webp",
+    "thumb": "photos/er-qiu-xuan-ling-mu/step-break.thumb.webp",
+    "w": 1024,
+    "h": 1022,
+    "credit": {
+      "author": "Andrew Cunnington",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/598809869",
+      "source": "iNaturalist"
+    }
+  },
+  "step-brown": {
+    "src": "photos/er-qiu-xuan-ling-mu/step-brown.webp",
+    "thumb": "photos/er-qiu-xuan-ling-mu/step-brown.thumb.webp",
+    "w": 1024,
+    "h": 680,
+    "credit": {
+      "author": "Josep Gesti",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/109133873",
+      "source": "iNaturalist"
+    }
+  },
+  "step-flower": {
+    "src": "photos/er-qiu-xuan-ling-mu/step-flower.webp",
+    "thumb": "photos/er-qiu-xuan-ling-mu/step-flower.thumb.webp",
+    "w": 1024,
+    "h": 1024,
+    "credit": {
+      "author": "Marcello Manara",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/633880926",
+      "source": "iNaturalist"
+    }
+  },
+  "step-green": {
+    "src": "photos/er-qiu-xuan-ling-mu/step-green.webp",
+    "thumb": "photos/er-qiu-xuan-ling-mu/step-green.thumb.webp",
+    "w": 771,
+    "h": 1024,
+    "credit": {
+      "author": "Sarah Adamson",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/504325616",
       "source": "iNaturalist"
     }
   }

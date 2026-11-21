@@ -3,35 +3,71 @@
     "src": "photos/gou-wei-cao/cover.webp",
     "thumb": "photos/gou-wei-cao/cover.thumb.webp",
     "w": 1024,
-    "h": 691,
+    "h": 682,
     "credit": {
-      "author": "Zinogre",
-      "license": "cc-by-sa",
-      "url": "https://www.inaturalist.org/photos/133080774",
+      "author": "Cheng-Tao Lin",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/20934268",
       "source": "iNaturalist"
     }
   },
-  "look-gwc": {
-    "src": "photos/gou-wei-cao/look-gwc.webp",
-    "thumb": "photos/gou-wei-cao/look-gwc.thumb.webp",
+  "look-dgwc": {
+    "src": "photos/gou-wei-cao/look-dgwc.webp",
+    "thumb": "photos/gou-wei-cao/look-dgwc.thumb.webp",
     "w": 1024,
-    "h": 691,
+    "h": 471,
     "credit": {
-      "author": "Zinogre",
+      "author": "Ong Jyh Seng",
       "license": "cc-by-sa",
-      "url": "https://www.inaturalist.org/photos/133080774",
+      "url": "https://www.inaturalist.org/photos/50271566",
+      "source": "iNaturalist"
+    }
+  },
+  "look-gwc2": {
+    "src": "photos/gou-wei-cao/look-gwc2.webp",
+    "thumb": "photos/gou-wei-cao/look-gwc2.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Евгений Маринкин",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/699626386",
       "source": "iNaturalist"
     }
   },
   "look-jsgwc": {
     "src": "photos/gou-wei-cao/look-jsgwc.webp",
     "thumb": "photos/gou-wei-cao/look-jsgwc.thumb.webp",
-    "w": 1024,
+    "w": 771,
     "h": 1024,
     "credit": {
-      "author": "Lihai Song",
+      "author": "Gianni Del Bufalo bygdb",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/239200587",
+      "source": "iNaturalist"
+    }
+  },
+  "same-autumn": {
+    "src": "photos/gou-wei-cao/same-autumn.webp",
+    "thumb": "photos/gou-wei-cao/same-autumn.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Richard Fuller",
       "license": "cc0",
-      "url": "https://www.inaturalist.org/photos/733018557",
+      "url": "https://www.inaturalist.org/photos/330285172",
+      "source": "iNaturalist"
+    }
+  },
+  "same-summer": {
+    "src": "photos/gou-wei-cao/same-summer.webp",
+    "thumb": "photos/gou-wei-cao/same-summer.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "Силаева Татьяна Борисовна",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/537653515",
       "source": "iNaturalist"
     }
   },
@@ -39,11 +75,59 @@
     "src": "photos/gou-wei-cao/spike-macro.webp",
     "thumb": "photos/gou-wei-cao/spike-macro.thumb.webp",
     "w": 1024,
-    "h": 685,
+    "h": 967,
     "credit": {
-      "author": "Colin Meurk",
+      "author": "Patrick Hacker",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/151778851",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bloom": {
+    "src": "photos/gou-wei-cao/step-bloom.webp",
+    "thumb": "photos/gou-wei-cao/step-bloom.thumb.webp",
+    "w": 1024,
+    "h": 691,
+    "credit": {
+      "author": "Zinogre",
       "license": "cc-by-sa",
-      "url": "https://www.inaturalist.org/photos/1123742",
+      "url": "https://www.inaturalist.org/photos/133080774",
+      "source": "iNaturalist"
+    }
+  },
+  "step-seed": {
+    "src": "photos/gou-wei-cao/step-seed.webp",
+    "thumb": "photos/gou-wei-cao/step-seed.thumb.webp",
+    "w": 561,
+    "h": 1024,
+    "credit": {
+      "author": "Nicola van Berkel",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/339250015",
+      "source": "iNaturalist"
+    }
+  },
+  "step-sprout": {
+    "src": "photos/gou-wei-cao/step-sprout.webp",
+    "thumb": "photos/gou-wei-cao/step-sprout.thumb.webp",
+    "w": 1200,
+    "h": 900,
+    "credit": {
+      "author": "Ayotte, Gilles, 1948-",
+      "license": "cc-by-sa",
+      "url": "https://commons.wikimedia.org/wiki/File:Setaria_viridis_15-p.bot-seta.viridi-11.jpg",
+      "source": "Wikimedia Commons"
+    }
+  },
+  "step-young": {
+    "src": "photos/gou-wei-cao/step-young.webp",
+    "thumb": "photos/gou-wei-cao/step-young.thumb.webp",
+    "w": 1024,
+    "h": 680,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/309905787",
       "source": "iNaturalist"
     }
   },

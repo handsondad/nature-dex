@@ -2,12 +2,12 @@
   "clump-mist": {
     "src": "photos/fen-dai-luan-zi-cao/clump-mist.webp",
     "thumb": "photos/fen-dai-luan-zi-cao/clump-mist.thumb.webp",
-    "w": 768,
-    "h": 1024,
+    "w": 1024,
+    "h": 945,
     "credit": {
-      "author": "Jay Horn",
+      "author": "James Rogers",
       "license": "cc-by",
-      "url": "https://www.inaturalist.org/photos/157044134",
+      "url": "https://www.inaturalist.org/photos/753350031",
       "source": "iNaturalist"
     }
   },
@@ -29,9 +29,9 @@
     "w": 768,
     "h": 1024,
     "credit": {
-      "author": "Adam Pitcher",
+      "author": "arkansasbuzzardgirl",
       "license": "cc0",
-      "url": "https://www.inaturalist.org/photos/53620219",
+      "url": "https://www.inaturalist.org/photos/440627162",
       "source": "iNaturalist"
     }
   },
@@ -47,6 +47,18 @@
       "source": "iNaturalist"
     }
   },
+  "look-lwc": {
+    "src": "photos/fen-dai-luan-zi-cao/look-lwc.webp",
+    "thumb": "photos/fen-dai-luan-zi-cao/look-lwc.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "G. Edward Johnson",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/160736752",
+      "source": "iNaturalist"
+    }
+  },
   "panicle-macro": {
     "src": "photos/fen-dai-luan-zi-cao/panicle-macro.webp",
     "thumb": "photos/fen-dai-luan-zi-cao/panicle-macro.thumb.webp",
@@ -56,6 +68,66 @@
       "author": "Becky Dill",
       "license": "cc0",
       "url": "https://www.inaturalist.org/photos/241656398",
+      "source": "iNaturalist"
+    }
+  },
+  "same-autumn": {
+    "src": "photos/fen-dai-luan-zi-cao/same-autumn.webp",
+    "thumb": "photos/fen-dai-luan-zi-cao/same-autumn.thumb.webp",
+    "w": 576,
+    "h": 1024,
+    "credit": {
+      "author": "Michelle Sevcovas",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/66055681",
+      "source": "iNaturalist"
+    }
+  },
+  "same-summer": {
+    "src": "photos/fen-dai-luan-zi-cao/same-summer.webp",
+    "thumb": "photos/fen-dai-luan-zi-cao/same-summer.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "John Kees",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/206736570",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bloom": {
+    "src": "photos/fen-dai-luan-zi-cao/step-bloom.webp",
+    "thumb": "photos/fen-dai-luan-zi-cao/step-bloom.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Nathan Aaron",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/323331987",
+      "source": "iNaturalist"
+    }
+  },
+  "step-heading": {
+    "src": "photos/fen-dai-luan-zi-cao/step-heading.webp",
+    "thumb": "photos/fen-dai-luan-zi-cao/step-heading.thumb.webp",
+    "w": 1024,
+    "h": 768,
+    "credit": {
+      "author": "Arturo Santos",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/232643661",
+      "source": "iNaturalist"
+    }
+  },
+  "step-seed": {
+    "src": "photos/fen-dai-luan-zi-cao/step-seed.webp",
+    "thumb": "photos/fen-dai-luan-zi-cao/step-seed.thumb.webp",
+    "w": 1024,
+    "h": 899,
+    "credit": {
+      "author": "Chris Sulots",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/455212681",
       "source": "iNaturalist"
     }
   }

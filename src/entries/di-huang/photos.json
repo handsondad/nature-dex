@@ -15,23 +15,95 @@
     "src": "photos/di-huang/hair-macro.webp",
     "thumb": "photos/di-huang/hair-macro.thumb.webp",
     "w": 1024,
-    "h": 684,
+    "h": 686,
     "credit": {
       "author": "Zinogre",
       "license": "cc-by-sa",
-      "url": "https://www.inaturalist.org/photos/266542111",
+      "url": "https://www.inaturalist.org/photos/265475448",
       "source": "iNaturalist"
     }
   },
-  "whole-plant": {
-    "src": "photos/di-huang/whole-plant.webp",
-    "thumb": "photos/di-huang/whole-plant.thumb.webp",
+  "look-bgc": {
+    "src": "photos/di-huang/look-bgc.webp",
+    "thumb": "photos/di-huang/look-bgc.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "kent ozment",
+      "license": "cc0",
+      "url": "https://www.inaturalist.org/photos/364749382",
+      "source": "iNaturalist"
+    }
+  },
+  "look-pt": {
+    "src": "photos/di-huang/look-pt.webp",
+    "thumb": "photos/di-huang/look-pt.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "naturalist charlie",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/196567845",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bloom": {
+    "src": "photos/di-huang/step-bloom.webp",
+    "thumb": "photos/di-huang/step-bloom.thumb.webp",
     "w": 768,
     "h": 1024,
     "credit": {
       "author": "Yi CHEN",
       "license": "cc-by",
       "url": "https://www.inaturalist.org/photos/188952978",
+      "source": "iNaturalist"
+    }
+  },
+  "step-bud": {
+    "src": "photos/di-huang/step-bud.webp",
+    "thumb": "photos/di-huang/step-bud.thumb.webp",
+    "w": 1024,
+    "h": 640,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/640689906",
+      "source": "iNaturalist"
+    }
+  },
+  "step-fruit": {
+    "src": "photos/di-huang/step-fruit.webp",
+    "thumb": "photos/di-huang/step-fruit.thumb.webp",
+    "w": 1024,
+    "h": 737,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/288816025",
+      "source": "iNaturalist"
+    }
+  },
+  "step-leaves": {
+    "src": "photos/di-huang/step-leaves.webp",
+    "thumb": "photos/di-huang/step-leaves.thumb.webp",
+    "w": 768,
+    "h": 1024,
+    "credit": {
+      "author": "振远 王",
+      "license": "cc-by",
+      "url": "https://www.inaturalist.org/photos/716018094",
+      "source": "iNaturalist"
+    }
+  },
+  "whole-plant": {
+    "src": "photos/di-huang/whole-plant.webp",
+    "thumb": "photos/di-huang/whole-plant.thumb.webp",
+    "w": 1024,
+    "h": 678,
+    "credit": {
+      "author": "Zinogre",
+      "license": "cc-by-sa",
+      "url": "https://www.inaturalist.org/photos/186389967",
       "source": "iNaturalist"
     }
   }
