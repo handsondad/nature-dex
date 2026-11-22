@@ -1,9 +1,10 @@
-import { Fragment, useEffect, useMemo, useRef, useState, type CSSProperties, type KeyboardEvent, type MouseEvent as ReactMouseEvent, type RefObject } from "react";
+import { Fragment, useEffect, useMemo, useRef, useState, type CSSProperties, type KeyboardEvent, type MouseEvent as ReactMouseEvent } from "react";
 import { ENTRIES, photosOf, researchOf } from "../entry/index.ts";
 import { byLine } from "../entry/people.ts";
 import type { Entry } from "../entry/types.ts";
 import { SNAP } from "../render/context.ts";
 import { Photo } from "../render/Photo.tsx";
+import { useDragScroll } from "../render/useDragScroll.ts";
 import { ago, fullDate, layoutLine, LINE, monthDay, SEASONS } from "./line.ts";
 import {
   buildTree, cardTaxa, findGroup, GROUP_LOOK, layoutTree, lineageOf, pathTo, RANK_NAME, toggleOpen, visibleSlots,
@@ -38,50 +39,6 @@ function useSaved<T>(name: string, fallback: T, valid: (v: unknown) => v is T) {
 }
 const isMode = (v: unknown): v is Mode => v === "tree" || v === "time";
 const isKeys = (v: unknown): v is string[] => Array.isArray(v) && v.every((k) => typeof k === "string");
-
-/** 按住鼠标左右拖绳子；拖过再松手不算点击。手指在触屏上本来就能滑 */
-function useDragScroll(ref: RefObject<HTMLDivElement>) {
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    let start: { x: number; left: number; id: number } | null = null;
-    let dragged = false;
-    const down = (e: PointerEvent) => {
-      if (e.pointerType !== "mouse" || e.button !== 0) return;
-      start = { x: e.clientX, left: el.scrollLeft, id: e.pointerId };
-      dragged = false;
-    };
-    const move = (e: PointerEvent) => {
-      if (!start) return;
-      const dx = e.clientX - start.x;
-      if (!dragged && Math.abs(dx) > 6) {
-        dragged = true;
-        el.setPointerCapture(start.id);
-        el.classList.add("dragging");
-      }
-      if (dragged) el.scrollLeft = start.left - dx;
-    };
-    const up = () => { start = null; el.classList.remove("dragging"); };
-    const click = (e: MouseEvent) => {
-      if (!dragged) return;
-      e.preventDefault();
-      e.stopPropagation();
-      dragged = false;
-    };
-    el.addEventListener("pointerdown", down);
-    el.addEventListener("pointermove", move);
-    el.addEventListener("pointerup", up);
-    el.addEventListener("pointercancel", up);
-    el.addEventListener("click", click, true);
-    return () => {
-      el.removeEventListener("pointerdown", down);
-      el.removeEventListener("pointermove", move);
-      el.removeEventListener("pointerup", up);
-      el.removeEventListener("pointercancel", up);
-      el.removeEventListener("click", click, true);
-    };
-  }, [ref]);
-}
 
 export function LinePage() {
   const scroller = useRef<HTMLDivElement>(null);

@@ -288,16 +288,37 @@ a { color: var(--leaf-deep); }
 }
 
 .toc {
-  position: sticky; top: 0; z-index: 5; display: flex; gap: 8px; overflow-x: auto; padding: 10px 4px; margin: 6px 0 4px;
-  background: color-mix(in srgb, var(--paper) 88%, transparent); backdrop-filter: blur(8px); scrollbar-width: none;
+  position: sticky; top: 0; z-index: 5; margin: 6px 0 4px;
+  background: color-mix(in srgb, var(--paper) 88%, transparent); backdrop-filter: blur(8px);
 }
-.toc::-webkit-scrollbar { display: none; }
-.toc button {
+.toc-strip {
+  --fl: 0px; --fr: 0px;
+  display: flex; gap: 8px; overflow-x: auto; padding: 10px 4px; scrollbar-width: none; overscroll-behavior-x: contain;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 var(--fl), #000 calc(100% - var(--fr)), transparent);
+  mask-image: linear-gradient(to right, transparent, #000 var(--fl), #000 calc(100% - var(--fr)), transparent);
+}
+.toc-strip.fade-left { --fl: 56px; }
+.toc-strip.fade-right { --fr: 56px; }
+.toc-strip::-webkit-scrollbar { display: none; }
+.toc-strip.dragging, .toc-strip.dragging * { cursor: grabbing !important; user-select: none; }
+.toc-strip button {
   flex: none; border: 2px solid var(--line); background: var(--card); color: var(--text);
   border-radius: 999px; padding: 4px 14px; font-size: 15px; cursor: pointer; transition: border-color 160ms, background 160ms, color 160ms;
 }
-.toc button:hover { border-color: var(--leaf); color: var(--leaf-deep); }
-.toc button.on { border-color: var(--leaf); background: var(--leaf-soft); color: var(--leaf-deep); }
+.toc-strip button:hover { border-color: var(--leaf); color: var(--leaf-deep); }
+.toc-strip button.on { border-color: var(--leaf); background: var(--leaf-soft); color: var(--leaf-deep); }
+.toc-arrow {
+  position: absolute; top: 50%; transform: translateY(-50%); width: 32px; height: 32px; padding: 0 0 3px;
+  display: grid; place-items: center; border: 2px solid var(--line); border-radius: 50%;
+  background: var(--card); color: var(--leaf-deep); font-size: 22px; line-height: 1; cursor: pointer;
+  box-shadow: 0 2px 8px rgba(80, 60, 20, 0.14); transition: border-color 160ms;
+}
+.toc-arrow:hover { border-color: var(--leaf); }
+.toc-arrow[hidden] { display: none; }
+.toc-arrow.left { left: 0; }
+.toc-arrow.right { right: 0; }
+/* 触屏手指直接滑，淡出边就够提示了，不用箭头占地方 */
+@media (hover: none) { .toc-arrow { display: none; } }
 
 .blocks { display: flex; flex-direction: column; gap: 26px; margin-top: 10px; }
 .block {
