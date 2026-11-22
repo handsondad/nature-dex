@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "ye-ju",
   name: "野菊",
+  pinyin: "yě jú",
   scientific: "Chrysanthemum indicum",
   kind: "plant",
   // 路边黄花头还有甘菊、小红菊等；和花坛里的栽培菊花对照花头大小与生长地点

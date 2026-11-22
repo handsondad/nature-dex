@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "zhong-hua-chan-chu",
   name: "中华蟾蜍",
+  pinyin: "zhōng huá chán chú",
   scientific: "Bufo gargarizans",
   kind: "animal",
   // 北京还有花背蟾蜍：个子大、满身圆疙瘩、背上没有浅色脊纹的是中华蟾蜍

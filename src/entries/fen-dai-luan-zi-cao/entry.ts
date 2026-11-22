@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "fen-dai-luan-zi-cao",
   name: "粉黛乱子草",
+  pinyin: "fěn dài luàn zǐ cǎo",
   scientific: "Muhlenbergia capillaris",
   kind: "plant",
   // 园林里偶有近似的毛芒乱子草品种或紫穗狼尾草，看清散开如雾的发丝状圆锥花序分枝即可确认

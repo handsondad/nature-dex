@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "huang-lian-you-hu-lu",
   name: "黄脸油葫芦",
+  pinyin: "huáng liǎn yóu hú lu",
   scientific: "Teleogryllus emma",
   kind: "animal",
   certainty: "likely",

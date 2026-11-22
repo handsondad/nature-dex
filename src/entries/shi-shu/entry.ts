@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "shi-shu",
   name: "柿树",
+  pinyin: "shì shù",
   scientific: "Diospyros kaki",
   kind: "plant",
   // 橙黄色的大果子顶着四瓣宿存的花萼，挂果时一看就能确认

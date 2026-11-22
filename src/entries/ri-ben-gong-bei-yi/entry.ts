@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "ri-ben-gong-bei-yi",
   name: "日本弓背蚁",
+  pinyin: "rì běn gōng bèi yǐ",
   scientific: "Camponotus japonicus",
   kind: "animal",
   certainty: "likely",

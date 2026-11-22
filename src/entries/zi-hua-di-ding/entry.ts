@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "zi-hua-di-ding",
   name: "紫花地丁",
+  pinyin: "zǐ huā dì dīng",
   scientific: "Viola philippica",
   kind: "plant",
   // 北京早春还有早开堇菜等紫色堇菜：对照叶形、叶柄长短和花期再改 sure

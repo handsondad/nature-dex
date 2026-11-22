@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "cai-fen-die",
   name: "菜粉蝶",
+  pinyin: "cài fěn dié",
   scientific: "Pieris rapae",
   kind: "animal",
   // 白色的粉蝶有好几种，拍到翅膀正面和反面再确认

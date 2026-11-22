@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "you-song",
   name: "油松",
+  pinyin: "yóu sōng",
   scientific: "Pinus tabuliformis",
   kind: "plant",
   // 北京还有白皮松、华山松：拍到两针一束、球果鳞盾鼓鼓的再改 sure

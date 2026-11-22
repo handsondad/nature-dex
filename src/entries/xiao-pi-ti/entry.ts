@@ -6,6 +6,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "xiao-pi-ti",
   name: "小鸊鷉",
+  pinyin: "xiǎo pì tī",
   scientific: "Tachybaptus ruficollis",
   kind: "animal",
   // 个子小、夏天红脖子+黄嘴角，冬天粉扑似的屁股；拍清头颈就能认

@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "chi-zi-ai-sheng-yin",
   name: "赤子爱胜蚓",
+  pinyin: "chì zǐ ài shèng yǐn",
   scientific: "Eisenia fetida",
   kind: "animal",
   certainty: "likely",

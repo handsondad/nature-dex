@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "shu-fu",
   name: "鼠妇",
+  pinyin: "shǔ fù",
   scientific: "Armadillidium vulgare",
   kind: "animal",
   certainty: "likely",

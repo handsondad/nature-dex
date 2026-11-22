@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "gou-wei-cao",
   name: "狗尾草",
+  pinyin: "gǒu wěi cǎo",
   scientific: "Setaria viridis",
   kind: "plant",
   // 金色狗尾草、大狗尾草也有毛穗子，要看刚毛颜色、小穗大小和叶鞘的毛再确认

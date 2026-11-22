@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "wang-wen-ma-bo",
   name: "网纹马勃",
+  pinyin: "wǎng wén mǎ bó",
   scientific: "Lycoperdon perlatum",
   kind: "fungus",
   // 马勃属近似种多，鹅膏菌幼体和硬皮马勃也呈球形；先标 likely，绝不切采触碰

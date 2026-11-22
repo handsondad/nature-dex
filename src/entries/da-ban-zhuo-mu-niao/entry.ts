@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "da-ban-zhuo-mu-niao",
   name: "大斑啄木鸟",
+  pinyin: "dà bān zhuó mù niǎo",
   scientific: "Dendrocopos major",
   kind: "animal",
   // 北京还有别的黑白花啄木鸟，拍到肩上的大白斑和尾巴下面的红色再改 sure

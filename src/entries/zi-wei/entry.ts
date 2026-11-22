@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "zi-wei",
   name: "紫薇",
+  pinyin: "zǐ wēi",
   scientific: "Lagerstroemia indica",
   kind: "plant",
   // 园林里还有矮生紫薇及杂交品种，看清6片皱边有长爪的花瓣、四棱小枝和光滑脱皮树干即可确认

@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "xi-fang-mi-feng",
   name: "西方蜜蜂",
+  pinyin: "xī fāng mì fēng",
   scientific: "Apis mellifera",
   kind: "animal",
   // 东方蜜蜂（中蜂）和它长得很像，拍到后看身体颜色、在哪儿遇见再确认

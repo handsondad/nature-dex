@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "tong-xing-ba-wo-niu",
   name: "同型巴蜗牛",
+  pinyin: "tóng xíng bā wō niú",
   scientific: "Bradybaena similaris",
   kind: "animal",
   certainty: "likely",

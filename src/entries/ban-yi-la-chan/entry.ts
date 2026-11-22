@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "ban-yi-la-chan",
   name: "斑衣蜡蝉",
+  pinyin: "bān yī là chán",
   scientific: "Lycorma delicatula",
   kind: "animal",
   // 成虫灰褐色前翅上的黑点、红色后翅，若虫黑底白点或红底黑白斑，对上就能确认

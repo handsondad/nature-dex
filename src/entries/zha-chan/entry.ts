@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "zha-chan",
   name: "蚱蝉",
+  pinyin: "zhà chán",
   scientific: "Cryptotympana atrata",
   kind: "animal",
   // 北京夏天叫得最响的大黑蝉多半是它；拍清背上的 X 形隆起和透明翅膀再确认

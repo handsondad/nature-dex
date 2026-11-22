@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "ou-ya-hong-song-shu",
   name: "欧亚红松鼠",
+  pinyin: "ōu yà hóng sōng shǔ",
   scientific: "Sciurus vulgaris",
   kind: "animal",
   // 冬天耳尖一簇竖起的毛、白肚皮、在高处的树上活动，对上就能和岩松鼠、花鼠分开

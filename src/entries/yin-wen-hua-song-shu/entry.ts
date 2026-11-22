@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "yin-wen-hua-song-shu",
   name: "隐纹花松鼠",
+  pinyin: "yǐn wén huā sōng shǔ",
   scientific: "Tamiops swinhoei",
   kind: "animal",
   // 鼻到颈的浅黄条、背上较淡的条纹、耳尖白毛簇；条纹不如花鼠鲜明

@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "jin-huang-yin-er",
   name: "金黄银耳",
+  pinyin: "jīn huáng yín ěr",
   scientific: "Tremella mesenterica",
   kind: "fungus",
   // 橙黄银耳（Naematelia aurantia）和花耳属（Dacrymyces）的黄色胶质菌肉眼极像，要看寄主和显微结构；标 likely

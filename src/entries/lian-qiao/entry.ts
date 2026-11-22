@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "lian-qiao",
   name: "连翘",
+  pinyin: "lián qiáo",
   scientific: "Forsythia suspensa",
   kind: "plant",
   // 城里也种金钟花和杂交连翘，要看枝条是不是空心、向外伸展或垂下来

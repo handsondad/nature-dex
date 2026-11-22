@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "yuan-ye-qian-niu",
   name: "圆叶牵牛",
+  pinyin: "yuán yè qiān niú",
   scientific: "Ipomoea purpurea",
   kind: "plant",
   // 牵牛（Ipomoea nil）的叶子也可能不裂，拍到花下面的萼片再确认是哪一种

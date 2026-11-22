@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "pu-gong-ying",
   name: "蒲公英",
+  pinyin: "pú gōng yīng",
   scientific: "Taraxacum mongolicum",
   kind: "plant",
   // 城市里也常见西洋蒲公英，拍到外层总苞片再确认是哪一种

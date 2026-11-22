@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "cang-lu",
   name: "苍鹭",
+  pinyin: "cāng lù",
   scientific: "Ardea cinerea",
   kind: "animal",
   // 灰背、白头黑眉纹拖成羽冠、粉黄长嘴，站着像一根灰柱子

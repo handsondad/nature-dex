@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "ce-bai",
   name: "侧柏",
+  pinyin: "cè bǎi",
   scientific: "Platycladus orientalis",
   kind: "plant",
   // 圆柏也常被叫作「柏树」：拍到扁平成片的小枝、带钩的球果再改 sure

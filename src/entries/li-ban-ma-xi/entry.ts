@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "li-ban-ma-xi",
   name: "丽斑麻蜥",
+  pinyin: "lì bān má xī",
   scientific: "Eremias argus",
   kind: "animal",
   // 背上眼状斑点（丽斑）；与山地麻蜥易混，确定性先标 likely

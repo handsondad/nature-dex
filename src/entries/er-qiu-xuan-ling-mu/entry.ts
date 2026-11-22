@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "er-qiu-xuan-ling-mu",
   name: "二球悬铃木",
+  pinyin: "èr qiú xuán líng mù",
   scientific: "Platanus × hispanica",
   kind: "plant",
   // 行道树里偶有一球悬铃木或三球悬铃木：多看几根果枝确认大多2球一串、中央裂片宽长相近再改 sure

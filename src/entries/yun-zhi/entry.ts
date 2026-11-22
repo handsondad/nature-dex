@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "yun-zhi",
   name: "云芝",
+  pinyin: "yún zhī",
   scientific: "Trametes versicolor",
   kind: "fungus",
   // 林间同属栓孔菌和韧革菌很多，要核对背面细密管孔和绒毛彩带；先标 likely

@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "er-yue-lan",
   name: "二月兰",
+  pinyin: "èr yuè lán",
   scientific: "Orychophragmus violaceus",
   kind: "plant",
   // 四瓣紫花、抱茎的上部叶和细长角果一起看就能确认

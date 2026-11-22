@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "yue-ji",
   name: "月季",
+  pinyin: "yuè jì",
   scientific: "Rosa chinensis",
   kind: "plant",
   // 花园里月季品种很多，还有蔷薇、玫瑰：拍到茎上的刺、小叶数目和花再确认

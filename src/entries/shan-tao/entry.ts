@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "shan-tao",
   name: "山桃",
+  pinyin: "shān táo",
   scientific: "Prunus davidiana",
   kind: "plant",
   // 早春开粉白花的还有山杏、桃、榆叶梅，拍到树皮和花萼再确认

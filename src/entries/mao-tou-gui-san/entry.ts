@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "mao-tou-gui-san",
   name: "毛头鬼伞",
+  pinyin: "máo tóu guǐ sǎn",
   scientific: "Coprinus comatus",
   kind: "fungus",
   // 草坪上也有大青褶伞等有毒伞菌；先标 likely，提醒只远看拍照

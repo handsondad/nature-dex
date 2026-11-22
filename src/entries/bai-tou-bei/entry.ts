@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "bai-tou-bei",
   name: "白头鹎",
+  pinyin: "bái tóu bēi",
   scientific: "Pycnonotus sinensis",
   kind: "animal",
   // 后脑勺大片白、黑头顶、白脸，和红耳鹎等分得开；拍清头就能确认

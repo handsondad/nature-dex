@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "ju-hua",
   name: "菊花",
+  pinyin: "jú huā",
   scientific: "Chrysanthemum × morifolium",
   kind: "plant",
   // 栽培菊花是巨大的杂交复合体，学名仍有争议；公园里的要和野菊对照叶形与花头大小

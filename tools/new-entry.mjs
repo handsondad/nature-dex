@@ -3,6 +3,7 @@
 //   npm run entry:new -- pu-gong-ying 蒲公英 "Taraxacum mongolicum"
 import { existsSync, mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
+import { pinyin } from "pinyin-pro";
 import { entryDir, fail, ID_RE, today } from "./lib.mjs";
 
 // 学名不加引号时会被拆成几段
@@ -45,6 +46,8 @@ writeFileSync(join(dir, "entry.ts"), `import type { Entry } from "../../entry/ty
 const entry: Entry = {
   id: "${id}",
   name: "${name}",
+  // 拼音是自动生成的，多音字（荠菜 jì、连翘 qiáo）要对着词典核一遍
+  pinyin: "${pinyin(name, { type: "array" }).join(" ")}",
   scientific: "${scientific}",
   kind: "plant",
   certainty: "likely",

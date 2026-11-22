@@ -5,6 +5,7 @@ const entry: Entry = {
   id: "ma-que",
   // 正式名是树麻雀；北京城里的「麻雀」就是它，用孩子熟悉的叫法
   name: "麻雀",
+  pinyin: "má què",
   scientific: "Passer montanus",
   kind: "animal",
   // 白脸蛋上一块黑斑，和山麻雀、家麻雀都分得开，拍清脸就能确认

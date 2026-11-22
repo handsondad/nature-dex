@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "chui-liu",
   name: "垂柳",
+  pinyin: "chuí liǔ",
   scientific: "Salix babylonica",
   kind: "plant",
   // 北京还有旱柳和它垂枝的品种绦柳，很难分；iNaturalist 把旱柳并进了垂柳，GBIF 仍分开。拍到叶子和花序再定

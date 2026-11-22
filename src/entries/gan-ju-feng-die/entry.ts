@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "gan-ju-feng-die",
   name: "柑橘凤蝶",
+  pinyin: "gān jú fèng dié",
   scientific: "Papilio xuthus",
   kind: "animal",
   // 黄底黑纹、后翅有尾突和蓝橙斑；幼虫吃芸香科。拍开翅成虫较易确认

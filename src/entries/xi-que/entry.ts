@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "xi-que",
   name: "喜鹊",
+  pinyin: "xǐ què",
   // 东亚的喜鹊 2018 年后从 Pica pica 拆成独立的种，GBIF 接受 Pica serica；北京市陆生野生动物名录还写作 Pica pica
   scientific: "Pica serica",
   kind: "animal",

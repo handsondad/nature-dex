@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "gou-shu",
   name: "构树",
+  pinyin: "gòu shù",
   scientific: "Broussonetia papyrifera",
   kind: "plant",
   // 叶面糙、叶背密毛、小枝密毛、橙红色毛球果，对上就能确认

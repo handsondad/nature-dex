@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "bang-luo-xin-fu",
   name: "棒络新妇",
+  pinyin: "bàng luò xīn fù",
   scientific: "Trichonephila clavata",
   kind: "animal",
   // 成熟雌蛛黄肚子上的蓝绿横带、肚子下的红斑和金色大网放在一起，没有别的蜘蛛像它

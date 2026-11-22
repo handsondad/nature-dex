@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "zi-ye-li",
   name: "紫叶李",
+  pinyin: "zǐ yè lǐ",
   scientific: "Prunus cerasifera",
   kind: "plant",
   // 北方公园还有美人梅（重瓣、紫叶）等相似的树，拍到单瓣 5 瓣长梗花和紫叶同框再改 sure

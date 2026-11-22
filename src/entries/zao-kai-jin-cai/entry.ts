@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "zao-kai-jin-cai",
   name: "早开堇菜",
+  pinyin: "zǎo kāi jǐn cài",
   scientific: "Viola prionantha",
   kind: "plant",
   // 北京还有紫花地丁等好几种紫色堇菜，要对照花期、叶形和花的大小再确认

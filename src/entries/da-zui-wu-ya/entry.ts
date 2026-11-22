@@ -6,6 +6,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "da-zui-wu-ya",
   name: "大嘴乌鸦",
+  pinyin: "dà zuǐ wū yā",
   scientific: "Corvus macrorhynchos",
   kind: "animal",
   // 又厚又拱的大嘴、全黑发亮的羽毛，和细嘴的小嘴乌鸦分得开

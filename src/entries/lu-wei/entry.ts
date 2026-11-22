@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "lu-wei",
   name: "芦苇",
+  pinyin: "lú wěi",
   scientific: "Phragmites australis",
   kind: "plant",
   certainty: "sure",

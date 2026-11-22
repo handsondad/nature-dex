@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "hei-shui-ji",
   name: "黑水鸡",
+  pinyin: "hēi shuǐ jī",
   scientific: "Gallinula chloropus",
   kind: "animal",
   // 红额甲+黄嘴尖、身侧白线、白尾下，和白骨顶分得开

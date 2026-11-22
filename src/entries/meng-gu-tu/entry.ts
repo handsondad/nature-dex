@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "meng-gu-tu",
   name: "蒙古兔",
+  pinyin: "měng gǔ tù",
   scientific: "Lepus tolai",
   kind: "animal",
   // 《北京陆生野生动物名录》里唯一一种野生兔科动物就是蒙古兔，看到耳尖带黑斑、长后腿的野兔就能确认

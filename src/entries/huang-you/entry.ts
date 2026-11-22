@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "huang-you",
   name: "黄鼬",
+  pinyin: "huáng yòu",
   scientific: "Mustela sibirica",
   kind: "animal",
   // 一身橘黄或草黄、脸上深色面罩、细长身子，北京小型鼬里最好认的一种

@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "bai-che-zhou-cao",
   name: "白车轴草",
+  pinyin: "bái chē zhóu cǎo",
   scientific: "Trifolium repens",
   kind: "plant",
   // 草坪上还有红车轴草等近缘种：确认茎贴地节上生根、圆花头白色带淡粉，再改 sure

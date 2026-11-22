@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "lv-tou-ya",
   name: "绿头鸭",
+  pinyin: "lǜ tóu yā",
   scientific: "Anas platyrhynchos",
   kind: "animal",
   // 雄鸟翠绿头+白领圈，翅膀上蓝紫色翼镜；拍到雄鸟很容易确认

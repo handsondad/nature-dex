@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "bai-wei-hui-qing",
   name: "白尾灰蜻",
+  pinyin: "bái wěi huī qīng",
   scientific: "Orthetrum albistylum",
   kind: "animal",
   // 灰蜻属里还有几种长得像的，拍清肚子末端那对白色的肛附器再确认

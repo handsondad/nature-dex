@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "yuan-bao-feng",
   name: "元宝枫",
+  pinyin: "yuán bǎo fēng",
   scientific: "Acer truncatum",
   kind: "plant",
   // 五角枫（Acer pictum）很像：拍到叶子基部是不是平的、果翅和小坚果差不多长，再改 sure

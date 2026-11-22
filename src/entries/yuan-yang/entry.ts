@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "yuan-yang",
   name: "鸳鸯",
+  pinyin: "yuān yāng",
   scientific: "Aix galericulata",
   kind: "animal",
   // 雄鸟背上的橙色帆羽没有别的鸭子有，拍到雄鸟就能确认

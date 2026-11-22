@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "ri-ben-hong-feng",
   name: "日本红枫",
+  pinyin: "rì běn hóng fēng",
   scientific: "Acer palmatum",
   kind: "plant",
   // 红叶鸡爪槭与羽毛枫等品种众多，还有五角枫、元宝枫近似，拍到深裂细重锯齿叶与钝角翅果再改 sure

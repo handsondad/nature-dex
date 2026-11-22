@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "zhu-jing-ban-jiu",
   name: "珠颈斑鸠",
+  pinyin: "zhū jǐng bān jiū",
   scientific: "Spilopelia chinensis",
   kind: "animal",
   // 山斑鸠也常在北京城里，拍清楚脖子上是白点（珠颈）还是条纹（山斑鸠）再改 sure

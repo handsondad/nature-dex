@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "hong-sun",
   name: "红隼",
+  pinyin: "hóng sǔn",
   scientific: "Falco tinnunculus",
   kind: "animal",
   // 半空迎风悬停、扇形长尾、眼下黑泪纹的小型猛禽在北京城郊最常见；远看逆光偶与阿穆尔隼等相近，拍清背羽后更稳妥

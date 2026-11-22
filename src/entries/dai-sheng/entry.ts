@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "dai-sheng",
   name: "戴胜",
+  pinyin: "dài shèng",
   scientific: "Upupa epops",
   kind: "animal",
   // 头上能立起的花冠、又长又弯的嘴，北京几乎没有第二种鸟长这样

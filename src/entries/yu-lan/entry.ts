@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "yu-lan",
   name: "玉兰",
+  pinyin: "yù lán",
   // 《中国植物志》和植物智用 Yulania denudata；GBIF 和 iNaturalist 接受的是 Magnolia denudata
   scientific: "Magnolia denudata",
   kind: "plant",

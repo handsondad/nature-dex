@@ -6,6 +6,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "zhong-hua-jian-jiao-huang",
   name: "中华剑角蝗",
+  pinyin: "zhōng huá jiàn jiǎo huáng",
   scientific: "Acrida cinerea",
   kind: "animal",
   certainty: "likely",

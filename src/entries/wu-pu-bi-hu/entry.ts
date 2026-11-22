@@ -4,6 +4,8 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "wu-pu-bi-hu",
   name: "无蹼壁虎",
+
+  pinyin: "wú pǔ bì hǔ",
   scientific: "Gekko swinhonis",
   kind: "animal",
   // 北京陆生野生动物名录里的壁虎只有这一种；再看脚趾间没有蹼就能确认

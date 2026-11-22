@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "da-shan-que",
   name: "大山雀",
+  pinyin: "dà shān què",
   scientific: "Parus cinereus minor",
   kind: "animal",
   // 北京林间黑头白脸、白肚皮正中一条黑领带的小鸟就是它，拍清脸和肚皮就能确认

@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "sang-shu",
   name: "桑",
+  pinyin: "sāng",
   scientific: "Morus alba",
   kind: "plant",
   // 北方还有蒙桑（叶边锯齿带细刺尖）和鸡桑：看清叶缘粗钝齿、雌花几乎没有花柱再改 sure

@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "huang-lu",
   name: "黄栌",
+  pinyin: "huáng lú",
   scientific: "Cotinus coggygria",
   kind: "plant",
   certainty: "sure",

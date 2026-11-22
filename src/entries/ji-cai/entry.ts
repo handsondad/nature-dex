@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "ji-cai",
   name: "荠菜",
+  pinyin: "jì cài",
   scientific: "Capsella bursa-pastoris",
   kind: "plant",
   // 倒三角形、顶上凹进去的扁果子很好认

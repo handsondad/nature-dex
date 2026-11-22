@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "bai-gu-ding",
   name: "白骨顶",
+  pinyin: "bái gǔ dǐng",
   scientific: "Fulica atra",
   kind: "animal",
   // 全身石板黑、嘴巴和额甲雪白的水鸟，拍清脑袋就能一眼和黑水鸡区分开

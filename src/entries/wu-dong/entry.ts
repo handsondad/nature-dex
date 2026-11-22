@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "wu-dong",
   name: "乌鸫",
+  pinyin: "wū dōng",
   scientific: "Turdus mandarinus",
   kind: "animal",
   // 雄鸟黑身子、橙黄嘴、黄眼圈很好认；雌鸟和小鸟偏褐色，拍到雌鸟时要和别的鸫比一比

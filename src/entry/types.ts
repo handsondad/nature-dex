@@ -124,6 +124,8 @@ export type Entry = {
   readonly id: string;
   /** 孩子叫它的名字，通常是中文正式名 */
   readonly name: string;
+  /** 名字的拼音，带声调、一字一个音节、空格隔开，标在标题字上面，比如 "pú gōng yīng" */
+  readonly pinyin: string;
   /** 学名；不确定到种时可以写到属，比如 "Taraxacum sp." */
   readonly scientific: string;
   readonly kind: Kind;

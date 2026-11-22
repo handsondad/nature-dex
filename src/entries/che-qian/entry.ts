@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "che-qian",
   name: "车前",
+  pinyin: "chē qián",
   scientific: "Plantago asiatica",
   kind: "plant",
   // 北方路边还有平车前（直根、4颗种子）和大车前：看清果穗疏密和盖果种子数再改 sure

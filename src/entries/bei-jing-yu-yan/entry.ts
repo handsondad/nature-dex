@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "bei-jing-yu-yan",
   name: "北京雨燕",
+  pinyin: "běi jīng yǔ yàn",
   // 普通雨燕 Apus apus 的亚种，GBIF 接受这个亚种名；在北京繁殖的就是它。
   // 下面引用的研究分两种：北京雨燕自己的（Zhao 2022、北京市园林绿化局）和普通雨燕的（Hedenström 2016、ADW、BOW），正文里分开写。
   scientific: "Apus apus pekinensis",

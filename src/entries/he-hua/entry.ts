@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "he-hua",
   name: "荷花",
+  pinyin: "hé huā",
   scientific: "Nelumbo nucifera",
   kind: "plant",
   certainty: "sure",

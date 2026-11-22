@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "hui-xi-que",
   name: "灰喜鹊",
+  pinyin: "huī xǐ què",
   scientific: "Cyanopica cyanus",
   kind: "animal",
   // 黑帽子、灰身子、天蓝色长尾巴，北京没有长得像的鸟，拍到就能确认

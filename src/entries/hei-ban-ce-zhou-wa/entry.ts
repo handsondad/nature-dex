@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "hei-ban-ce-zhou-wa",
   name: "黑斑侧褶蛙",
+  pinyin: "hēi bān cè zhě wā",
   scientific: "Pelophylax nigromaculatus",
   kind: "animal",
   // 背侧褶+黑斑+常有浅色脊线；北京还有金线侧褶蛙，拍清背再确认

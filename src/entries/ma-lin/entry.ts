@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "ma-lin",
   name: "马蔺",
+  pinyin: "mǎ lìn",
   scientific: "Iris lactea",
   kind: "plant",
   // 不开花时易与麦冬等细叶地被混淆，看到浅蓝紫色鸢尾花或 6 棱带喙长蒴果即可确认

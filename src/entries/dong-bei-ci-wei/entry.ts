@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "dong-bei-ci-wei",
   name: "东北刺猬",
+  pinyin: "dōng běi cì wei",
   scientific: "Erinaceus amurensis",
   kind: "animal",
   // 北京陆生野生动物名录里的刺猬只有这一种，看到背上满是刺的小兽就能确认

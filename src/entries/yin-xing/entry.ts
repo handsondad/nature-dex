@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "yin-xing",
   name: "银杏",
+  pinyin: "yín xìng",
   scientific: "Ginkgo biloba",
   kind: "plant",
   // 扇形、叶脉像扇骨一样散开的叶子没有别的树有，看到叶子就能确认

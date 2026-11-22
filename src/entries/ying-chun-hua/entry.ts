@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "ying-chun-hua",
   name: "迎春花",
+  pinyin: "yíng chūn huā",
   scientific: "Jasminum nudiflorum",
   kind: "plant",
   // 绿色四棱的枝条、5～6 片花瓣，和连翘分得开

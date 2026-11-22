@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "luo-mo",
   name: "萝藦",
+  pinyin: "luó mó",
   scientific: "Cynanchum rostellatum",
   kind: "plant",
   // 心形叶对生、基部两只圆耳朵、纺锤形的果，对上就能确认

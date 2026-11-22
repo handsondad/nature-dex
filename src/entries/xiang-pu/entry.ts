@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "xiang-pu",
   name: "香蒲",
+  pinyin: "xiāng pú",
   scientific: "Typha orientalis",
   kind: "plant",
   // FOC 中文名东方香蒲；北京水边还有水烛（狭叶香蒲）等：拍到雌雄花序是否相连再确认

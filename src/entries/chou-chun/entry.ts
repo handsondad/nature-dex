@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "chou-chun",
   name: "臭椿",
+  pinyin: "chòu chūn",
   scientific: "Ailanthus altissima",
   kind: "plant",
   // 常和香椿认错，拍到小叶基部的粗齿和腺点再确认

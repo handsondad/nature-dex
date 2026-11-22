@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "zi-ding-xiang",
   name: "紫丁香",
+  pinyin: "zǐ dīng xiāng",
   scientific: "Syringa oblata",
   kind: "plant",
   // 城里也种欧丁香等别的丁香，要看叶子是不是宽过长、基部像心形

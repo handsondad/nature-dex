@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "di-huang",
   name: "地黄",
+  pinyin: "dì huáng",
   scientific: "Rehmannia glutinosa",
   kind: "plant",
   // 浑身软毛、贴地的叶子和外紫红内黄的筒状花一起看就能确认

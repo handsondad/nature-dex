@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "feng-tou-pi-ti",
   name: "凤头䴙䴘",
+  pinyin: "fèng tóu pì tī",
   scientific: "Podiceps cristatus",
   kind: "animal",
   // 修长白脖子、头顶双簇黑羽冠和栗红镶黑大围脖，拍到就能一眼认准

@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "xi-fu-hai-tang",
   name: "西府海棠",
+  pinyin: "xī fǔ hǎi táng",
   scientific: "Malus × kaido",
   kind: "plant",
   // 华北常见海棠还有海棠花、垂丝海棠和各种北美海棠，拍到花梗、树形和果再确认

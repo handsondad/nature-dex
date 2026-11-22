@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "bi-tao",
   name: "碧桃",
+  pinyin: "bì táo",
   scientific: "Prunus persica",
   kind: "plant",
   // 碧桃是桃的观赏栽培类型（常重瓣），品种很多；拍到重瓣花、花萼有毛，并和山桃对照

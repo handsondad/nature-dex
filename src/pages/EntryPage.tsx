@@ -24,6 +24,14 @@ function jumpToBlock(n: number) {
   scrollTo({ top: Math.max(0, top - toc - 12), behavior: "smooth" });
 }
 
+/** 一字一注音；音节对不上字数时只显示字（check 会报出来） */
+function Pinyin({ name, pinyin }: { name: string; pinyin: string }) {
+  const chars = [...name];
+  const syl = pinyin.trim().split(/\s+/);
+  if (syl.length !== chars.length) return <>{name}</>;
+  return <>{chars.map((c, i) => <ruby key={i}>{c}<rt>{syl[i]}</rt></ruby>)}</>;
+}
+
 /**
  * 吸顶目录：块多了放不下就横着滚，不露滚动条。
  * 哪边还有就在哪边淡出、露一个箭头；鼠标滚轮、按住拖都能左右走；读到哪一块，那一块的按钮自己滑进来。
@@ -138,7 +146,7 @@ export function EntryPage({ entry }: { entry: Entry }) {
           </div>
           <div className="hero-text">
             {entry.draft && <p className="draft-flag">草稿 · 还缺我们自己的照片和记录</p>}
-            <h1>{entry.name}</h1>
+            <h1 aria-label={entry.name}><Pinyin name={entry.name} pinyin={entry.pinyin} /></h1>
             <p className="sci"><i>{entry.scientific}</i></p>
             <p className={`certainty ${entry.certainty}`}>{CERTAINTY[entry.certainty]}</p>
             {entry.taxonomy && (

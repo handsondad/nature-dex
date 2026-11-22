@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "cang-er",
   name: "苍耳",
+  pinyin: "cāng ěr",
   scientific: "Xanthium strumarium",
   kind: "plant",
   // 荒地还有意大利苍耳等近缘种：拍清总苞果大小、顶上两根喙的弯度再改 sure

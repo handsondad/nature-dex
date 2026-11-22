@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "yan-song-shu",
   name: "岩松鼠",
+  pinyin: "yán sōng shǔ",
   scientific: "Sciurotamias davidianus",
   kind: "animal",
   // 浅色眼圈、耳朵没有长毛簇、多在石头上跑，和红松鼠、花鼠分开

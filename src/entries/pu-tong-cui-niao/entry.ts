@@ -4,6 +4,8 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "pu-tong-cui-niao",
   name: "普通翠鸟",
+
+  pinyin: "pǔ tōng cuì niǎo",
   scientific: "Alcedo atthis",
   kind: "animal",
   // 北京唯一体型如麻雀大小、蓝绿背配橙栗肚皮的小翠鸟，拍到就能确认

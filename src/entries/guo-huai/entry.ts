@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "guo-huai",
   name: "国槐",
+  pinyin: "guó huái",
   scientific: "Styphnolobium japonicum",
   kind: "plant",
   // 刺槐也是羽状复叶、开白花，拍到小叶尖、花序或念珠状的豆荚再改 sure

@@ -6,6 +6,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "mao-bai-yang",
   name: "毛白杨",
+  pinyin: "máo bái yáng",
   scientific: "Populus × tomentosa",
   kind: "plant",
   // 叶背也发白的杨树不止一种，拍到长枝叶子的形状、波状齿和扁叶柄再确认

@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "qi-xing-piao-chong",
   name: "七星瓢虫",
+  pinyin: "qī xīng piáo chóng",
   scientific: "Coccinella septempunctata",
   kind: "animal",
   // 红底通常 7 黑点、接缝前端 1 点跨两翅、前胸前缘两侧白斑；点数不稳时先标 likely

@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "huang-ci-mei",
   name: "黄刺玫",
+  pinyin: "huáng cì méi",
   scientific: "Rosa xanthina",
   kind: "plant",
   // 北方偶见重瓣或近似的峨眉蔷薇、刺梨等，看清花梗光滑无腺毛、扁直皮刺无细刚毛再改 sure

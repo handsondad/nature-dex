@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "bai-ji-ling",
   name: "白鹡鸰",
+  pinyin: "bái jí líng",
   scientific: "Motacilla alba",
   kind: "animal",
   // 黑白灰三色、长尾巴上下点动、迈小碎步快走的小鸟，拍清脸胸和尾巴就能认准

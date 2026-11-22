@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "zhong-hua-da-dao-tang",
   name: "中华大刀螳",
+  pinyin: "zhōng huá dà dāo táng",
   scientific: "Tenodera sinensis",
   kind: "animal",
   // 大刀螳属里还有长得很像的近亲（狭翅大刀螳），要拍清前足之间的斑、脸板和翅边再确认

@@ -6,6 +6,7 @@ export const KINDS = { plant: "植物界", animal: "动物界", fungus: "真菌�
 export const LICENSES = ["cc0", "cc-by", "cc-by-sa"];
 export const LIMITS = { hello: 40, care: 60, nextTime: 60, detail: 70, fact: 90, said: 120 };
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+const PINYIN_RE = /^[a-zāáǎàēéěèīíǐìōóǒòūúǔùüǖǘǚǜ]+$/;
 /** 会把自然现象说成有意图的词：比喻可以，别说成生物「故意」「想要骗」 */
 const INTENT_WORDS = ["故意", "想要骗", "骗过", "为了让人类", "心机"];
 
@@ -63,6 +64,10 @@ export function checkEntry({ entry, dir, manifest, research, fileExists, today }
   if (entry.id !== dir) err(`id「${entry.id}」要和目录名「${dir}」一样`);
   for (const k of ["name", "scientific", "hello", "care", "nextTime"]) if (!entry[k]?.trim()) err(`${k} 不能空着`);
   if (!(entry.kind in KINDS)) err(`kind 只能是 ${Object.keys(KINDS).join(" / ")}：${entry.kind}`);
+  const syl = (entry.pinyin ?? "").trim().split(/\s+/).filter(Boolean);
+  if (!syl.length) err("pinyin 不能空着：带声调、一字一个音节、空格隔开，比如 \"pú gōng yīng\"");
+  else if (syl.length !== len(entry.name)) err(`pinyin 有 ${syl.length} 个音节，名字「${entry.name}」有 ${len(entry.name)} 个字，要一字一个`);
+  else if (syl.some((s) => !PINYIN_RE.test(s))) err(`pinyin 只写小写带声调的拼音：${entry.pinyin}`);
   if (!["sure", "likely", "unsure"].includes(entry.certainty)) err("certainty 只能是 sure / likely / unsure");
   if (entry.taxonomy !== undefined) {
     if (!Array.isArray(entry.taxonomy) || entry.taxonomy.length !== 6 || entry.taxonomy.some((t) => !t?.trim())) {

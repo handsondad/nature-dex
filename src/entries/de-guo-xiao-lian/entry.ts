@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "de-guo-xiao-lian",
   name: "德国小蠊",
+  pinyin: "dé guó xiǎo lián",
   scientific: "Blattella germanica",
   kind: "animal",
   // 前胸两条平行黑纹是关键特征；屋里若见到很大只的红褐色，先别急着定种

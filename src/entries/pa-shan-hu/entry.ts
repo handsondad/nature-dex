@@ -4,6 +4,8 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "pa-shan-hu",
   name: "爬山虎",
+
+  pinyin: "pá shān hǔ",
   scientific: "Parthenocissus tricuspidata",
   kind: "plant",
   // 墙面和立交桥柱上也常种五叶地锦（5片小叶）：看清多为3裂单叶、嫩卷须尖端膨大成球再改 sure

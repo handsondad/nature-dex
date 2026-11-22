@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "yi-se-piao-chong",
   name: "异色瓢虫",
+  pinyin: "yì sè piáo chóng",
   scientific: "Harmonia axyridis",
   kind: "animal",
   // 背上的花纹变化太多，要拍到白色前胸上的 M 形黑斑和方肩膀再确认

@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "bai-pi-song",
   name: "白皮松",
+  pinyin: "bái pí sōng",
   scientific: "Pinus bungeana",
   kind: "plant",
   // 幼树树皮偏灰绿光滑，要结合「3针一束、叶鞘早落」与斑驳白树皮同油松、华山松区分

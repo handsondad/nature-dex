@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "luan-shu",
   name: "栾树",
+  pinyin: "luán shù",
   scientific: "Koelreuteria paniculata",
   kind: "plant",
   // 复羽叶栾树很像：拍到叶子（一回还是二回羽状）和果子顶端（尖还是圆）再改 sure

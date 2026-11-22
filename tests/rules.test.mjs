@@ -8,7 +8,7 @@ const borrowed = { ...ours, credit: { author: "某人", license: "cc-by", url: "
 
 function base(over = {}) {
   return {
-    id: "x", name: "测试", scientific: "Testus testus", kind: "plant", certainty: "sure",
+    id: "x", name: "测试", pinyin: "cè shì", scientific: "Testus testus", kind: "plant", certainty: "sure",
     when: { date: "2026-04-12" },
     cover: { photo: "cover", caption: "封面" },
     hello: "一句话。",
@@ -24,6 +24,12 @@ const run = (entry, manifest = { cover: ours }, research) =>
 
 test("完整的一篇没有错误", () => {
   assert.deepEqual(run(base()).errors, []);
+});
+
+test("拼音要一字一个带声调的音节", () => {
+  assert.match(run(base({ pinyin: "" })).errors.join(), /pinyin 不能空着/);
+  assert.match(run(base({ pinyin: "cèshì" })).errors.join(), /1 个音节.*2 个字/);
+  assert.match(run(base({ pinyin: "ce4 shi4" })).errors.join(), /小写带声调/);
 });
 
 test("封面和记录只能用自己拍的照片；草稿封面可以先用可署名的对照照", () => {

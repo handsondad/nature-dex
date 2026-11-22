@@ -5,6 +5,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "yu-ye-mei",
   name: "榆叶梅",
+  pinyin: "yú yè méi",
   scientific: "Prunus triloba",
   kind: "plant",
   // 春季花期常和碧桃、美人梅混种，等花后长出宽椭圆粗糙叶、看清先端常三浅裂即可确认

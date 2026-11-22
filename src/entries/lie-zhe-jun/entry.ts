@@ -4,6 +4,7 @@ import type { Entry } from "../../entry/types.ts";
 const entry: Entry = {
   id: "lie-zhe-jun",
   name: "裂褶菌",
+  pinyin: "liè zhě jūn",
   scientific: "Schizophyllum commune",
   kind: "fungus",
   // 无柄毛绒小扇子加纵裂菌褶很好认；未拍到背面特写前先标 likely
